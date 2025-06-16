@@ -1,11 +1,30 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
+    @theme {
+        --color-stats4sd-red: #D32229;
+    }
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+.hover-effect {
+    transition: all 0.2s ease-in-out;
 }
+
+.hover-effect:hover {
+    @apply shadow-lg scale-105;
+}
+
+.dropdown-menu {
+    @apply absolute left-0 p-0 rounded-md bg-white shadow-md flex-col text-black w-full z-50;
+}
+
+.dropdown-item {
+    @apply text-black flex items-center w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-0 pl-10 py-2.5 text-sm hover:bg-gray-50 disabled:text-gray-500;
+}
+
+.we-do-dropdown-menu {
+  @apply hidden group-hover:flex absolute left-0 top-full p-0 rounded-md bg-white shadow-md flex-col text-black z-50 min-w-[270px];
+}
+
+.we-do-dropdown-item {
+    @apply text-black flex items-center pl-4 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md py-2.5 text-sm hover:bg-gray-50 disabled:text-gray-500;
+}
+

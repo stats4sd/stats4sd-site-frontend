@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stats4SD Website\n"
+"Report-Msgid-Bugs-To: contact@translation.io\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-16T08:49:00+00:00\n"
+"PO-Revision-Date: 2025-06-16 10:49+0200\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+
+#: resources\views\about.blade.php:16
+#: resources\views\about.blade.php:33
+#: resources\views\header.blade.php:49
+#: resources\views\header.blade.php:103
+#: resources\views\home.blade.php:48
+msgid "About us"
+msgstr ""
+
+#: resources\views\about.blade.php:27
+msgid "Home"
+msgstr "Inicio"
+
+#: resources\views\about.blade.php:44
+msgid "Who we are"
+msgstr ""
+
+#: resources\views\about.blade.php:45
+msgid ""
+"Stats4SD is a not-for-profit, social enterprise established in May 2016. We promote better use of statistical methods for decision\r\n"
+"                    making to benefit society and the environment."
+msgstr ""
+
+#: resources\views\about.blade.php:49
+msgid ""
+"Stats4SD was founded in 2016 by a group of applied statisticians from the University of Reading with a mission to use their skills\r\n"
+"                    for the benefit of society and the environment."
+msgstr ""
+
+#: resources\views\about.blade.php:73
+#: resources\views\components\level-2-cards.blade.php:29
+#: resources\views\components\level-2-template.blade.php:29
+#: resources\views\components\level-3-template.blade.php:29
+#: resources\views\header.blade.php:27
+#: resources\views\header.blade.php:88
+#: resources\views\home.blade.php:30
+#: resources\views\we-do\data-systems\collection-management-systems.blade.php:8
+#: resources\views\we-do\data-systems\dashboards.blade.php:8
+#: resources\views\we-do\data-systems\databases.blade.php:8
+#: resources\views\we-do\data-systems.blade.php:8
+#: resources\views\we-do\data-systems.blade.php:10
+#: resources\views\we-do\e-learning\blogs.blade.php:8
+#: resources\views\we-do\e-learning\courses.blade.php:8
+#: resources\views\we-do\e-learning\resources-library.blade.php:8
+#: resources\views\we-do\e-learning\videos.blade.php:8
+#: resources\views\we-do\e-learning\webinars.blade.php:8
+#: resources\views\we-do\e-learning.blade.php:8
+#: resources\views\we-do\e-learning.blade.php:10
+#: resources\views\we-do\food-systems\agroecology.blade.php:8
+#: resources\views\we-do\food-systems\research.blade.php:8
+#: resources\views\we-do\food-systems\transformation.blade.php:8
+#: resources\views\we-do\food-systems.blade.php:8
+#: resources\views\we-do\food-systems.blade.php:10
+#: resources\views\we-do\m-and-e.blade.php:8
+#: resources\views\we-do\research-methods\ai.blade.php:8
+#: resources\views\we-do\research-methods\design-support.blade.php:8
+#: resources\views\we-do\research-methods\ethics.blade.php:8
+#: resources\views\we-do\research-methods\indicators.blade.php:8
+#: resources\views\we-do\research-methods\qualitative-research.blade.php:8
+#: resources\views\we-do\research-methods\statistical-analysis.blade.php:8
+#: resources\views\we-do\research-methods\surveys.blade.php:8
+#: resources\views\we-do\research-methods.blade.php:8
+#: resources\views\we-do\research-methods.blade.php:10
+#: resources\views\we-do\sustainable-devlopment.blade.php:8
+#: resources\views\we-do.blade.php:17
+msgid "What we do"
+msgstr ""
+
+#: resources\views\about.blade.php:74
+msgid "We are a not-for-profit, social enterprise providing:"
+msgstr ""
+
+#: resources\views\about.blade.php:77
+msgid "Statistical and data management expertise"
+msgstr ""
+
+#: resources\views\about.blade.php:78
+msgid "Support on research designs and methodology"
+msgstr ""
+
+#: resources\views\about.blade.php:79
+msgid "Technical guidance related to collection and processing of data and information"
+msgstr ""
+
+#: resources\views\about.blade.php:82
+msgid ""
+"We work with teams across the world, providing our services to a global community of people working\r\n"
+"                    towards the UN Sustainable Developmemt Goals."
+msgstr ""
+
+#: resources\views\about.blade.php:90
+#: resources\views\components\level-2-cards.blade.php:62
+#: resources\views\home.blade.php:81
+msgid "Find Out More"
+msgstr "Para averiguar más"
+
+#: resources\views\about.blade.php:105
+msgid "Principles"
+msgstr ""
+
+#: resources\views\about.blade.php:106
+msgid ""
+"Our key values are summarised in our Principles Document, which highlights how we wish to operate. These values guide our conduct\r\n"
+"                    as a not-for-profit social enterprise, committed to supporting sustainable development, and are the basis for our efforts towards achieving our goal of \r\n"
+"                    'promoting better use of statistical methods for decision-making to benefit society and the environment'."
+msgstr ""
+
+#: resources\views\about.blade.php:115
+msgid "Download Principles Document"
+msgstr ""
+
+#: resources\views\components\level-2-template.blade.php:82
+#: resources\views\components\level-3-template.blade.php:95
+msgid "Get in Touch"
+msgstr ""
+
+#: resources\views\components\level-2-template.blade.php:83
+#: resources\views\components\level-3-template.blade.php:96
+msgid "To learn more about how we can help you, please contact us."
+msgstr ""
+
+#: resources\views\footer.blade.php:8
+msgid "Company Registered in England & Wales Number"
+msgstr ""
+
+#: resources\views\footer.blade.php:12
+msgid "Contact"
+msgstr "Contacto:"
+
+#: resources\views\footer.blade.php:13
+msgid "Tel"
+msgstr ""
+
+#: resources\views\footer.blade.php:14
+#: resources\views\team.blade.php:113
+msgid "Email"
+msgstr "Email:"
+
+#: resources\views\header.blade.php:33
+#: resources\views\header.blade.php:93
+#: resources\views\we-do\sustainable-devlopment.blade.php:9
+#: resources\views\we-do.blade.php:45
+msgid "Sustainable development"
+msgstr ""
+
+#: resources\views\header.blade.php:34
+#: resources\views\header.blade.php:94
+#: resources\views\we-do\research-methods.blade.php:9
+#: resources\views\we-do.blade.php:50
+msgid "Research methods and analysis"
+msgstr ""
+
+#: resources\views\header.blade.php:35
+#: resources\views\header.blade.php:95
+#: resources\views\we-do\food-systems\agroecology.blade.php:10
+#: resources\views\we-do\food-systems\research.blade.php:10
+#: resources\views\we-do\food-systems\transformation.blade.php:10
+#: resources\views\we-do\food-systems.blade.php:9
+#: resources\views\we-do.blade.php:55
+msgid "Agriculture and food systems"
+msgstr ""
+
+#: resources\views\header.blade.php:36
+#: resources\views\header.blade.php:96
+#: resources\views\we-do\data-systems\collection-management-systems.blade.php:10
+#: resources\views\we-do\data-systems\dashboards.blade.php:10
+#: resources\views\we-do\data-systems\databases.blade.php:10
+#: resources\views\we-do\data-systems.blade.php:9
+#: resources\views\we-do.blade.php:60
+msgid "Data systems and platforms"
+msgstr ""
+
+#: resources\views\header.blade.php:37
+#: resources\views\header.blade.php:97
+#: resources\views\we-do\m-and-e.blade.php:9
+#: resources\views\we-do.blade.php:65
+msgid "M&E and impact assessment"
+msgstr ""
+
+#: resources\views\header.blade.php:38
+#: resources\views\header.blade.php:98
+#: resources\views\we-do\e-learning\blogs.blade.php:10
+#: resources\views\we-do\e-learning\courses.blade.php:10
+#: resources\views\we-do\e-learning\resources-library.blade.php:10
+#: resources\views\we-do\e-learning\videos.blade.php:10
+#: resources\views\we-do\e-learning\webinars.blade.php:10
+#: resources\views\we-do\e-learning.blade.php:9
+#: resources\views\we-do.blade.php:70
+msgid "E-learning"
+msgstr ""
+
+#: resources\views\header.blade.php:42
+#: resources\views\header.blade.php:101
+#: resources\views\home.blade.php:36
+msgid "Our team"
+msgstr ""
+
+#: resources\views\header.blade.php:46
+#: resources\views\header.blade.php:102
+#: resources\views\home.blade.php:42
+#: resources\views\where-we-work.blade.php:17
+msgid "Where we work"
+msgstr ""
+
+#: resources\views\header.blade.php:53
+#: resources\views\header.blade.php:104
+#: resources\views\home.blade.php:54
+#: resources\views\we-do\e-learning\resources-library.blade.php:9
+msgid "Resources library"
+msgstr ""
+
+#: resources\views\header.blade.php:60
+#: resources\views\header.blade.php:107
+msgid "Change language"
+msgstr "Cambiar idioma"
+
+#: resources\views\header.blade.php:92
+msgid "Overview"
+msgstr ""
+
+#: resources\views\home.blade.php:19
+msgid "Improving research designs, data efficiency and information for decision-making"
+msgstr ""
+
+#: resources\views\home.blade.php:33
+msgid "Read about our expertise and latest projects and see how we can help you"
+msgstr ""
+
+#: resources\views\home.blade.php:39
+msgid "Meet the Stats4SD team and find the right specialist for your needs"
+msgstr ""
+
+#: resources\views\home.blade.php:45
+#: resources\views\home.blade.php:51
+msgid "Use our interactive map to see where we work around the world and the projects we support"
+msgstr ""
+
+#: resources\views\home.blade.php:57
+msgid "Search our library of resources including methods guidance and e-learning materials, browse our collections and link to other resource hubs"
+msgstr ""
+
+#: resources\views\team.blade.php:17
+msgid "Team"
+msgstr ""
+
+#: resources\views\team.blade.php:120
+msgid "LinkedIn"
+msgstr ""
+
+#: resources\views\we-do\data-systems\collection-management-systems.blade.php:9
+msgid "Data collection and management systems"
+msgstr ""
+
+#: resources\views\we-do\data-systems\dashboards.blade.php:9
+msgid "Dashboards"
+msgstr ""
+
+#: resources\views\we-do\data-systems\databases.blade.php:9
+msgid "Databases and platforms"
+msgstr ""
+
+#: resources\views\we-do\e-learning\blogs.blade.php:9
+msgid "Blogs"
+msgstr ""
+
+#: resources\views\we-do\e-learning\courses.blade.php:9
+msgid "Courses"
+msgstr ""
+
+#: resources\views\we-do\e-learning\videos.blade.php:9
+msgid "Videos and video playlists"
+msgstr ""
+
+#: resources\views\we-do\e-learning\webinars.blade.php:9
+msgid "Webinars"
+msgstr ""
+
+#: resources\views\we-do\food-systems\agroecology.blade.php:9
+msgid "Agroecology"
+msgstr ""
+
+#: resources\views\we-do\food-systems\research.blade.php:9
+msgid "Agricultural and farmer research"
+msgstr ""
+
+#: resources\views\we-do\food-systems\transformation.blade.php:9
+msgid "Food systems transformation"
+msgstr ""
+
+#: resources\views\we-do\research-methods\ai.blade.php:9
+msgid "AI for analysis"
+msgstr ""
+
+#: resources\views\we-do\research-methods\ai.blade.php:10
+#: resources\views\we-do\research-methods\design-support.blade.php:10
+#: resources\views\we-do\research-methods\ethics.blade.php:10
+#: resources\views\we-do\research-methods\indicators.blade.php:10
+#: resources\views\we-do\research-methods\qualitative-research.blade.php:10
+#: resources\views\we-do\research-methods\statistical-analysis.blade.php:10
+#: resources\views\we-do\research-methods\surveys.blade.php:10
+msgid "Research Methods"
+msgstr ""
+
+#: resources\views\we-do\research-methods\design-support.blade.php:9
+msgid "Designing and supporting research"
+msgstr ""
+
+#: resources\views\we-do\research-methods\ethics.blade.php:9
+msgid "Research ethics and responsible data handling"
+msgstr ""
+
+#: resources\views\we-do\research-methods\indicators.blade.php:9
+msgid "Indicators and data visualisations"
+msgstr ""
+
+#: resources\views\we-do\research-methods\qualitative-research.blade.php:9
+msgid "Qualitative research"
+msgstr ""
+
+#: resources\views\we-do\research-methods\statistical-analysis.blade.php:9
+msgid "Statistical analysis"
+msgstr ""
+
+#: resources\views\we-do\research-methods\surveys.blade.php:9
+msgid "Surveys"
+msgstr ""
+
+#: resources\views\we-do.blade.php:27
+msgid ""
+"Stats4SD was founded in 2016 by a group of applied statisticians, data engineers and research methods experts from the University of \r\n"
+"                Reading with a mission to use their skills for the benefit of society and the environment."
+msgstr ""
+
+#: resources\views\we-do.blade.php:31
+msgid ""
+"Since then, we have led or supported around xx projects across xx countries. Our team now includes specialists in quantitative and qualitative \r\n"
+"                research methods, complex data analysis and data systems and platforms."
+msgstr ""
+
+#: resources\views\we-do.blade.php:36
+msgid "Follow the links below to learn more about the work we do for our clients and partners."
+msgstr ""
