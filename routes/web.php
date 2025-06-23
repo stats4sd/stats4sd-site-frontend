@@ -9,7 +9,10 @@ Route::get('/', static function () {
 // Level 1 Pages
 Route::view('/home', 'home')->name('home');
 Route::view('/we-do', 'we-do')->name('we-do');
-Route::view('/team', 'team')->name('team');
+Route::get('/team', function () {
+    $teamData = json_decode(file_get_contents(base_path('resources/data/team.json')), true);
+    return view('team', ['teamData' => $teamData]);
+});
 Route::view('/where-we-work', 'where-we-work')->name('where-we-work');
 Route::view('/about', 'about')->name('about');
 
