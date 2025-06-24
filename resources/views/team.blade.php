@@ -3,7 +3,7 @@
 
     <!-- Header section -->
     <div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">
-        <div class=" max-w-screen-lg 2xl:max-w-screen-xl mx-auto">
+        <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-20  mx-auto">
             <div class="text-3xl font-bold uppercase text-stats4sd-red ">
                 {{ t("Who We Are") }}
             </div>
@@ -13,7 +13,7 @@
             </div>
         </div>
 </div>
-<div class="px-4 max-w-screen-lg 2xl:max-w-screen-xl mx-auto">
+<div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-24  mx-auto">
 
             <nav class="pt-12 text-sm text-gray-600" aria-label="Breadcrumb">
                 <ol class="flex space-x-2 text-sm text-gray-600">
@@ -29,19 +29,19 @@
                 </ol>
             </nav>
 
-            <div class="font-bold mb-6 pt-6">{{ t("Click on a team member's photo to view their bio and contact information") }}</div>
+            <div class="font-semibold mb-6 pt-6">{{ t("Click on a team member's photo to view their bio and contact information") }}</div>
         </div>
     </div>
     
     <!-- Team Cards -->
-    <div class="max-w-screen-lg 2xl:max-w-screen-xl mx-auto px-4 pb-16">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 2xl:gap-12" id="team-container">
+    <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-24  mx-auto pb-16">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 3xl:gap-12" id="team-container">
             @foreach($teamData as $teamMember)
                 <div class="relative" x-data="{ open: false }">
                     <!-- Card -->
-                    <div class="cursor-pointer rounded-3xl overflow-hidden shadow-lg hover-effect" @click="open = true">                        
+                    <div class="cursor-pointer rounded-3xl overflow-hidden  hover-effect" @click="open = true">                        
                         <div 
-                            class="h-80 bg-cover bg-center transition duration-300"
+                            class="h-80 sm:h-70 bg-cover bg-center transition duration-300"
                             style="background-image: url('{{ asset($teamMember['avatar']) }}')"
                         ></div>
                     </div>

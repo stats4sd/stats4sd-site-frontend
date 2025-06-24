@@ -1,7 +1,7 @@
 <header class="absolute top-0 left-0 w-full z-10" x-data="{ open: false }">
-    <div class="container mx-auto flex justify-between items-center py-8">
+    <div class="px-8 max-w-screen-3xl mx-auto flex justify-between items-center py-8">
         <!-- Logo -->
-        <div class="flex items-center space-x-4 min-w-[100px]">
+        <div class="flex items-center mr-8 space-x-4 min-w-[100px]">
             @if (!request()->is('/') && !request()->is('home'))
                 <a href="/home">
                     <img src="/images/Stats4SD_logo.png" alt="Stats4SD logo" class="h-4 w-auto">
@@ -11,16 +11,16 @@
 
         <!-- Hamburger Menu (visible on small screens) -->
         <button 
-            class="sm:hidden text-gray-800 focus:outline-none" 
+            class="lg:hidden text-gray-800 focus:outline-none " 
             x-on:click="open = !open">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="h-6 w-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="h-8 w-8">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
         </button>
 
         <!-- Nav Items (hidden on small screens) -->
-        <nav class="hidden sm:flex">
-            <ul class="flex space-x-10 font-medium">
+        <nav class="hidden lg:flex">
+            <ul class="flex space-x-6 xl:space-x-10 font-medium text-sm xl:text-base ">
                 <!-- What We Do Dropdown -->
                 <li class="relative nav-item group">
                     <a href="/we-do" class="nav-link uppercase font-semibold flex items-center space-x-1">
@@ -71,7 +71,7 @@
 
     <!-- Nav Items (visible on small screens) -->
     <div 
-        class="sm:hidden" 
+        class="lg:hidden" 
         x-show="open"
         x-on:click.outside="open = false" 
         style="display: none;">
