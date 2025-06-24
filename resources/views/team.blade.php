@@ -159,7 +159,7 @@
     </div>
 
     <!-- Organisational Diagram Section -->
-    <div class="bg-gray-100 py-12 mt-12">
+    <div class="bg-gray-100 pt-12 pb-28 mt-12">
         <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-24  mx-auto text-left">
         <div class="h-3 w-16 bg-stats4sd-red mb-3"></div>
             <h2 class="text-4xl font-bold text-gray-900 mb-6">Organisation Diagram</h2>
