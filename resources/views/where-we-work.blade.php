@@ -1,21 +1,31 @@
 @extends('layouts.app')
 @section('content')
 
-    <div class="relative">
-        <div class="overflow-hidden h-96">
-            <img 
-                src="{{ asset('images/front-page.webp') }}" 
-                alt="Where We Work Page" 
-                class="w-full h-full object-cover object-top"
-            >
-        </div>
-
-        <div class="absolute inset-0 flex items-center justify-start text-white px-8">
-            <div class="max-w-xl">
-                <div class="text-5xl font-bold mb-2">
-                    {{ t("Where we work") }}
-                </div>
+    <!-- Header section -->
+    <div class="px-4 pb-12 pt-20 max-w-screen-xl mx-auto">
+        <div class="max-w-xl">
+            <div class="text-3xl font-bold uppercase text-stats4sd-red pt-12">
+                {{ t("Where we work") }}
             </div>
+
+            <div class="text-5xl font-bold pt-2 mb-4">
+                {{ t("Where we work") }}
+            </div>
+
+            <nav class="pt-12 text-sm text-gray-600" aria-label="Breadcrumb">
+                <ol class="flex space-x-2 text-sm text-gray-600">
+                    <li>
+                        <a href="{{ url('/home') }}" class="hover:underline">{{ t("Home") }}</a>
+                    </li>
+                    <li>
+                        <span>&gt;</span>
+                    </li>
+                    <li>
+                        {{ t("Where we work") }}
+                    </li>
+                </ol>
+            </nav>
+
         </div>
     </div>
 

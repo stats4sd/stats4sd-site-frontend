@@ -12,6 +12,20 @@
                 {{ t("What we do") }}
             </div>
 
+            <nav class="pt-12 text-sm text-gray-600" aria-label="Breadcrumb">
+                <ol class="flex space-x-2 text-sm text-gray-600">
+                    <li>
+                        <a href="{{ url('/home') }}" class="hover:underline">{{ t("Home") }}</a>
+                    </li>
+                    <li>
+                        <span>&gt;</span>
+                    </li>
+                    <li>
+                        {{ t("What we do") }}
+                    </li>
+                </ol>
+            </nav>
+
         </div>
     </div>
 
