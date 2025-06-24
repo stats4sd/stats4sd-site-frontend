@@ -38,20 +38,20 @@
                         <a class="we-do-dropdown-item" href="/we-do/e-learning uppercase">{{ t("E-learning") }}</a>
                     </div>
                 </li>
-                <li><a href="/team" class="flex items-center uppercase">
+                <li><a href="/team" class="flex items-center nav-link uppercase">
                     {{ t("Our team") }}
                 </a></li>
-                <li><a href="/where-we-work" class="flex items-center uppercase">
+                <li><a href="/where-we-work" class="flex items-center nav-link uppercase">
                     {{ t("Where we work") }}
                 </a></li>
-                <li><a href="/about" class="flex items-center uppercase">{{ t("About us") }}
+                <li><a href="/about" class="flex items-center nav-link uppercase">{{ t("About us") }}
                 </a></li>
-                <li><a href="http://resources.stats4sdtest.online" class="flex items-center uppercase">
+                <li><a href="http://resources.stats4sdtest.online" class="flex items-center nav-link uppercase">
                     {{ t("Resources library") }}
                 </a></li>
                  <!-- Language Dropdown -->
                  <li class="relative nav-item dropdown" x-data="{ langOpen: false }">
-                    <a class="nav-link uppercase dropdown-toggle cursor-pointer flex items-center space-x-1"
+                    <a class="nav-link uppercase dropdown-toggle cursor-pointer flex items-center nav-link space-x-1"
                         role="button" aria-expanded="false" x-on:click="langOpen = !langOpen">
                         <span>{{ t("Change language") }}</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -17,18 +17,25 @@ body {
 }
 
 .dropdown-menu {
-    @apply absolute left-0 p-0 rounded-md bg-white shadow-md flex-col text-black w-full z-50;
+    @apply absolute left-0 top-7 p-0 rounded-2xl bg-white shadow-xl flex-col text-black w-full z-50;
+    background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
 }
 
 .dropdown-item {
-    @apply text-black flex items-center w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-0 pl-10 py-2.5 text-sm hover:bg-gray-50 disabled:text-gray-500;
+    @apply text-black flex items-center w-full first-of-type:rounded-t-2xl first-of-type:pt-4 last-of-type:rounded-b-2xl last-of-type:pb-4 px-0 pl-10 py-2  hover:text-stats4sd-red disabled:text-gray-500;
 }
 
 .we-do-dropdown-menu {
-  @apply hidden group-hover:flex absolute left-0 top-full p-0 rounded-md bg-white shadow-md flex-col text-black z-50 min-w-[270px];
+  @apply hidden group-hover:flex absolute -left-6 top-7 p-0 rounded-2xl shadow-xl flex-col w-full text-black z-50 min-w-[270px] xl:min-w-[300px];
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
 }
 
 .we-do-dropdown-item {
-    @apply text-black flex items-center pl-4 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md py-2.5 text-sm hover:bg-gray-50 disabled:text-gray-500;
+    @apply text-black flex items-center px-6 w-full first-of-type:rounded-t-2xl first-of-type:pt-4 last-of-type:rounded-b-2xl last-of-type:pb-4  py-2  hover:text-stats4sd-red disabled:text-gray-500;
+}
+.nav-link {
+    @apply hover:!text-stats4sd-red;
 }
 
