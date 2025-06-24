@@ -1,5 +1,5 @@
 <header class="absolute top-0 left-0 w-full z-10" x-data="{ open: false }">
-    <div class="container mx-auto flex justify-between items-center py-4">
+    <div class="container mx-auto flex justify-between items-center py-8">
         <!-- Logo -->
         <div class="flex items-center space-x-4 min-w-[100px]">
             @if (!request()->is('/') && !request()->is('home'))
@@ -20,7 +20,7 @@
 
         <!-- Nav Items (hidden on small screens) -->
         <nav class="hidden sm:flex">
-            <ul class="flex space-x-6 font-semibold">
+            <ul class="flex space-x-10 font-medium">
                 <!-- What We Do Dropdown -->
                 <li class="relative nav-item group">
                     <a href="/we-do" class="nav-link uppercase font-semibold flex items-center space-x-1">

@@ -5,6 +5,9 @@
         --color-stats4sd-grey: #4d4d4d;
     }
 
+body {
+    font-family: 'open sans', 'sans serif';
+}    
 .hover-effect {
     transition: all 0.2s ease-in-out;
 }

@@ -2,15 +2,18 @@
 @section('content')
 
     <!-- Header section -->
-    <div class="px-4 pb-12 pt-20 max-w-screen-xl mx-auto">
-        <div class="max-w-xl">
-            <div class="text-3xl font-bold uppercase text-stats4sd-red pt-12">
+    <div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">
+        <div class=" max-w-screen-lg 2xl:max-w-screen-xl mx-auto">
+            <div class="text-3xl font-bold uppercase text-stats4sd-red ">
                 {{ t("Who We Are") }}
             </div>
 
-            <div class="text-5xl font-bold pt-2 mb-8">
+            <div class="text-6xl font-bold pt-2">
                 {{ t("Our team") }}
             </div>
+        </div>
+</div>
+<div class="px-4 max-w-screen-lg 2xl:max-w-screen-xl mx-auto">
 
             <nav class="pt-12 text-sm text-gray-600" aria-label="Breadcrumb">
                 <ol class="flex space-x-2 text-sm text-gray-600">
@@ -31,12 +34,12 @@
     </div>
     
     <!-- Team Cards -->
-    <div class="max-w-screen-xl mx-auto px-4 pb-16">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="team-container">
+    <div class="max-w-screen-lg 2xl:max-w-screen-xl mx-auto px-4 pb-16">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 2xl:gap-12" id="team-container">
             @foreach($teamData as $teamMember)
                 <div class="relative" x-data="{ open: false }">
                     <!-- Card -->
-                    <div class="cursor-pointer rounded-2xl overflow-hidden shadow-lg hover-effect" @click="open = true">                        
+                    <div class="cursor-pointer rounded-3xl overflow-hidden shadow-lg hover-effect" @click="open = true">                        
                         <div 
                             class="h-80 bg-cover bg-center transition duration-300"
                             style="background-image: url('{{ asset($teamMember['avatar']) }}')"
