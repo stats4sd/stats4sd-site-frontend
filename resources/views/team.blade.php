@@ -56,23 +56,23 @@
                         x-cloak
                         class="fixed inset-0 z-50 flex items-center justify-center bg-[rgba(0,0,0,0.9)]"
                     >
-                        <div @click.away="open = false" class="bg-white shadow-xl max-w-6xl w-full mx-4 relative overflow-y-auto max-h-[90vh]">
+                        <div @click.away="open = false" class="bg-white shadow-xl max-w-6xl w-full mx-12 sm:mx-28 md:mx-12 relative overflow-y-auto max-h-[90vh]">
 
                             <!-- Modal Content -->
                             <div class="flex flex-col md:flex-row gap-6">
 
                                 <!-- Photo -->
-                                <div class="flex-shrink-0 min-h-full w-90">
+                                <div class="md:flex-shrink-0 md:min-h-full h-[50vh] md:h-auto overflow-hidden  w-full md:w-90">
                                     <img src="{{ asset($teamMember['avatar']) }}" 
                                         alt="{{ $teamMember['name'] }}" 
-                                        class="object-cover h-full rounded-none">
+                                        class="object-cover min-h-full  rounded-none">
                                 </div>
 
                                 <!-- Name, Title, Description & contact -->
-                                <div class="flex flex-col w-full py-12">
+                                <div class="flex flex-col w-full md:py-12">
                                     <!-- Name & Title with red border -->
                                     <div>
-                                        <div class="flex-1 flex flex-col  border-r-12 border-stats4sd-red ml-8">
+                                        <div class="flex-1 flex flex-col  border-r-12 border-stats4sd-red ml-8 pr-8">
                                             <h2 class="text-3xl font-bold">{{ $teamMember['name'] }}</h2>
                                             <p class="text-stats4sd-red uppercase text-xl font-semibold mt-1">
                                                 {{ $teamMember['title'] }}
@@ -80,21 +80,22 @@
                                         </div>
                                     </div>
                                     <!-- description and contact -->
-                                    <div class="flex flex-col md:flex-row gap-12 items-start mx-8 mt-8">
+                                    <div class="flex flex-col xl:flex-row gap-12 items-start mx-8 mt-8">
                                         <!-- description -->
-                                        <div class="flex-initial w-7/12">
+                                        <div class="flex-initial xl:w-7/12">
                                             <p class="text-sm " >
                                                 {{ $teamMember['long_description'] }}
                                             </p>
                                         </div>
 
                                         <!-- Contact -->
-                                        <div class="w-5/12 flex flex-col text-sm">
+                                        <div class="xl:w-5/12 flex flex-col text-sm">
+                                            <div class="h-2 w-12 bg-stats4sd-red mb-3 xl:hidden"></div>
                                             <span class="text-lg font-bold mb-4">{{ t('Contact') }}</span>
 
                                             <!-- Email -->
                                             <div class="mb-3 flex flex-row items-center">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" class="flex-shrink-0"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
                                                 <div class="ml-6">
                                                     <span class="font-semibold block">Email</span>
                                                     <a href="mailto:{{ $teamMember['email'] }}" class="text-stats4sd-red break-words">
