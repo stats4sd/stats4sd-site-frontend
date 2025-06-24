@@ -1,4 +1,4 @@
-<header class="absolute top-0 left-0 w-full z-10 text-white" x-data="{ open: false }">
+<header class="absolute top-0 left-0 w-full z-10" x-data="{ open: false }">
     <div class="container mx-auto flex justify-between items-center py-4">
         <!-- Logo -->
         <div class="flex items-center space-x-4 min-w-[100px]">
