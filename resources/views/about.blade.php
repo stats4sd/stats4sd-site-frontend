@@ -1,40 +1,21 @@
 @extends('layouts.app')
 @section('content')
 
-    <div class="relative">
-        <div class="overflow-hidden h-96">
-            <img 
-                src="{{ asset('images/front-page.webp') }}" 
-                alt="About Page" 
-                class="w-full h-full object-cover object-top"
-            >
-        </div>
-
-        <div class="absolute inset-0 flex items-center justify-start text-white px-8">
-            <div class="max-w-xl">
-                <div class="text-5xl font-bold mb-2">
-                    {{ t("About us") }}
-                </div>
+    <!-- Header section -->
+    <div class="px-4 pb-12 pt-20 max-w-screen-xl mx-auto">
+        <div class="max-w-xl">
+            <div class="text-3xl font-bold uppercase text-stats4sd-red pt-12">
+                {{ t("About us") }}
             </div>
+
+            <div class="text-5xl font-bold pt-2 mb-4">
+                {{ t("About us") }}
+            </div>
+
         </div>
     </div>
 
-    <!-- Breadcrumbs -->
-    <nav class="pt-12 text-sm text-gray-600 mb-6 px-6 md:px-20" aria-label="Breadcrumb">
-        <ol class="list-reset flex space-x-2">
-            <li>
-                <a href="{{ url('/home') }}" class="hover:underline">{{ t("Home") }}</a>
-            </li>
-            <li>
-                <span>&gt;</span>
-            </li>
-            <li>
-                {{ t("About us") }}
-            </li>
-        </ol>
-    </nav>
-
-    <!-- Who we are -->
+    <!-- About -->
     <section class="w-full flex flex-col lg:flex-row">
         <!-- Text -->
         <div class="w-full lg:w-1/2 p-10 flex items-center justify-center">
