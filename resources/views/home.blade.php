@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
 
-<div class="bg-white pt-20 pb-12 3xl:px-20 md:px-12 max-width-3xl">
+<div class="bg-white pt-20 pb-12 xl:pl-28 md:px-12 max-width-3xl">
 
     <!-- Title -->
-    <h1 class="text-6xl font-bold text-stats4sd-red mb-8 ml-10 md:ml-0"> Stats4SD </h1>
+    <h1 class="text-6xl font-bold text-stats4sd-red mb-10 mt-12 ml-10 md:ml-0"> Stats4SD </h1>
 
     <!-- Image + Red Text Block -->
     <div class="flex flex-col md:flex-row md:h-96 overflow-hidden">
