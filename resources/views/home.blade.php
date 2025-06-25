@@ -1,31 +1,30 @@
 @extends('layouts.app')
 @section('content')
 
-    <div class="bg-white pt-20 pb-12 px-20">
-        <!-- Title -->
-        <h1 class="text-6xl font-bold text-stats4sd-red mb-8">
-            Stats4SD
-        </h1>
+<div class="bg-white pt-20 pb-12 3xl:px-20 md:px-12 max-width-3xl">
 
-        <!-- Image + Red Text Block -->
-        <div class="flex flex-col md:flex-row h-96 overflow-hidden rounded-lg shadow-lg">
-            <!-- Left: Image -->
-            <div class="md:w-3/4 w-full h-96">
-                <img 
-                    src="{{ asset('images/front-page.webp') }}" 
-                    alt="Home Page" 
-                    class="w-full h-full object-cover object-top"
-                >
-            </div>
+    <!-- Title -->
+    <h1 class="text-6xl font-bold text-stats4sd-red mb-8 ml-10 md:ml-0"> Stats4SD </h1>
 
-            <!-- Right: Red Block -->
-            <div class="md:w-1/4 w-full bg-stats4sd-red border border-white relative flex items-end justify-start p-6">
-                <p class="text-white text-2xl border-t border-white pt-4">
-                    {{ t("Improving research designs, data efficiency and information for decision-making") }}
-                </p>
-            </div>
+    <!-- Image + Red Text Block -->
+    <div class="flex flex-col md:flex-row md:h-96 overflow-hidden">
+
+        <!-- Left: Image -->
+        <div class="md:w-3/4 w-full h-96">
+            <img src="{{ asset('images/front-page.webp') }}" alt="Home Page" class="w-full h-full object-cover object-top">
+        </div>
+
+        
+
+        <!-- Right: Red Block -->
+        <div class="md:w-1/4 md:min-w-92 w-full bg-stats4sd-red md:ml-4 relative flex flex-col items-start justify-end p-10">
+            <div class="bg-white w-24 h-2"></div>
+            <p class="text-white text-xl font-semibold pt-4">
+                {{ t("Improving research designs, data efficiency and information for decision-making") }}
+            </p>
         </div>
     </div>
+</div>
 
     @php
         $options = [
