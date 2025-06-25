@@ -20,7 +20,7 @@
 
         <!-- Nav Items (hidden on small screens) -->
         <nav class="hidden lg:flex">
-            <ul class="flex space-x-6 xl:space-x-10 font-medium text-sm xl:text-base ">
+            <ul class="flex space-x-6 xl:space-x-10 font-medium text-sm xl:text-base">
                 <!-- What We Do Dropdown -->
                 <li class="relative nav-item group">
                     <a href="/we-do" class="nav-link uppercase flex items-center space-x-1">
@@ -30,12 +30,12 @@
                         </svg>
                     </a>
                     <div class="we-do-dropdown-menu">
-                        <a class="we-do-dropdown-item" href="/we-do/sustainable-devlopment uppercase">{{ t("Sustainable development") }}</a>
-                        <a class="we-do-dropdown-item" href="/we-do/research-methods uppercase">{{ t("Research methods and analysis") }}</a>
-                        <a class="we-do-dropdown-item" href="/we-do/food-systems uppercase">{{ t("Agriculture and food systems") }}</a>
-                        <a class="we-do-dropdown-item" href="/we-do/data-systems uppercase">{{ t("Data systems and platforms") }}</a>
-                        <a class="we-do-dropdown-item" href="/we-do/m-and-e uppercase">{{ t("M&E and impact assessment") }}</a>
-                        <a class="we-do-dropdown-item" href="/we-do/e-learning uppercase">{{ t("E-learning") }}</a>
+                        <a class="we-do-dropdown-item" href="/we-do/sustainable-devlopment">{{ t("Sustainable development") }}</a>
+                        <a class="we-do-dropdown-item" href="/we-do/research-methods">{{ t("Research methods and analysis") }}</a>
+                        <a class="we-do-dropdown-item" href="/we-do/food-systems">{{ t("Agriculture and food systems") }}</a>
+                        <a class="we-do-dropdown-item" href="/we-do/data-systems">{{ t("Data systems and platforms") }}</a>
+                        <a class="we-do-dropdown-item" href="/we-do/m-and-e">{{ t("M&E and impact assessment") }}</a>
+                        <a class="we-do-dropdown-item" href="/we-do/e-learning">{{ t("E-learning") }}</a>
                     </div>
                 </li>
                 <li><a href="/team" class="flex items-center nav-link uppercase">
