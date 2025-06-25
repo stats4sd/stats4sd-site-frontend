@@ -30,8 +30,8 @@
                 'image' => 'images/about.webp',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
-                    <p>A survey was commissioned by UNICEF Ukraine in 2020 because of concerns about iodine deficiency among women of reproductive age. The survey was carried out by a local NGO - 
-                        the Ukrainian Institute for Social Research after Oleksandr Yaremenko - with support from Jacky Knowles, an international specialist in iodine deficiency, and from Stats4SD.
+                    <p>
+                        A survey was commissioned by UNICEF Ukraine in 2020 to provide an evidence base from which to design an appropriate strategy and programme to achieve optimal iodine status among the population in Ukraine. The national survey committee included UNICEF, the State Institution ‘Public Health Center’ of the Ministry of Health of Ukraine, the Institute of Endocrinology and Metabolism and the Ukrainian Institute for Social Research after Oleksandr Yaremenko. All aspects of the survey were supported by Jacky Knowles, an international specialist in iodine deficiency, and Stats4SD.
                     </p>
                     <p class="pt-2">We designed the survey methodology and sampling scheme, developed the data collection forms, helped train field staff, and set up a platform to receive the information, 
                         including laboratory analyses. We then analysed the data and contributed to writing up the survey results.

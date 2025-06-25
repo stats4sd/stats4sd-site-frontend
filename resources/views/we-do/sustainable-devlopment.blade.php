@@ -10,7 +10,7 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'lead_paragraph' => '
-            Stats4SD is committed to supporting sustainable development around the world using reliable data and analysis to inform policies and actions.
+            Stats4SD is committed to supporting sustainable development around the world using data and analysis to inform policies and actions.
             We help people collect and organise information to solve real-world problems for the benefit of society and the environment.
         ',
         'content' => '

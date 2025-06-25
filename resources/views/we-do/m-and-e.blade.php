@@ -17,7 +17,7 @@
             <p>On the quantitative side, it may involve advising on survey methods and efficient sampling design, development of data 
                 collection instruments, in-country and remote training and support for fieldwork teams, and quality assurance and analysis of results. 
             </p>
-            <p class="pt-2">On the qualitative side, in-depth interviews, focus groups discussions or workshops may be helpful. Our analysts are 
+            <p class="pt-2">On the qualitative side, participant observations, in-depth interviews, focus groups discussions or workshops may be helpful. Our analysts are 
                 experienced in collecting and analysing qualitative data (text, audio recordings, images etc). We also try to maximise 
                 any positive feedback loops between quantitative and qualitative data in our study designs.
             </p>
@@ -82,13 +82,13 @@
                 'title' => 'Assessing a health and empowerment project in Central Asia',
                 'description' => '
                 <p>
-                    Stats4SD is working on an endline assessment for the Aga Khan Foundation (AKF) Canada’s five-year Foundations for Health and Empowerment (F4HE) project. This project promotes equitable development and empowerment for women, girls, adolescents, their families, and communities in targeted regions of Central Asia.
+                    Stats4SD is working on an endline assessment for the Aga Khan Foundation (AKF) Canada’s five-year Foundations for Health and Empowerment (F4HE) project, funded by Global Affairs Canada and AKF Canada. This project promotes equitable development and empowerment for women, girls, adolescents, their families, and communities in targeted regions of Central Asia.
                 </p>
                 <p class="pt-2">
-                    Stats4SD is assessing the effectiveness of two components of the F4HE project that relate to health and to early childhood development. The assessment will use quantitative and qualitative methods to show how much progress has been made by the project and to make evidence-based recommendations to inform the design of future programmes. The qualitative methods will include in-depth interviews and focus group discussions.
+                    Stats4SD is assessing the effectiveness of two components of the F4HE project that relate to health and to early childhood development. The assessment will use quantitative and qualitative methods to show how much progress has been made by the project and to make evidence-based recommendations to inform the design of future programmes. The qualitative component will include key informant interviews.
                 </p>
                 <p class="pt-2">
-                    Stats4SD is supporting the AKF country teams in Afghanistan, Kyrgyzstan, Pakistan, and Tajikistan with study design and sampling; creating analysis plans to define how indicators will be produced; finalising the data collection tools (some on paper and some digital); preparing data collection guidelines; providing virtual training; creating a platform to capture and store the data; data quality assurance; conducting some statistical analysis; contributing to data interpretation workshops; and writing the endline report.
+                    Stats4SD is supporting the AKF country teams in Afghanistan, Kyrgyzstan, Pakistan, and Tajikistan with study design and sampling; finalising the data collection tools (some on paper and some digital); preparing data collection guidelines; providing virtual training; creating a platform to capture and store the data; data quality assurance; analysing data to measure selected outcome indicators; contributing to data interpretation workshops; and writing the endline report.
                 </p>',
                 'image' => 'images/about.webp',
                 'imageAlt' => 'Case Study Image',

@@ -26,7 +26,7 @@
                     The Agroecology TPP (Transformative Partnership Platform), hosted by Center for International Forestry Research and World Agroforestry (CIFOR-ICRAF), which aims to coordinate work on agroecology between institutions and add value with innovative initiatives and projects. Knowledge sharing is central to its vision. 
                 </li>
                 <li>
-                    The Agroecology Coalition, which is a ‘coalition of the willing’, comprising around 350 members committed to transforming food systems through agroecology. Research, co-creation and sharing of knowledge, advocacy and engagement are central to its approach.
+                    The Agroecology Coalition, which is a ‘coalition of the willing’, comprising around 380 members committed to transforming food systems through agroecology. Research, co-creation and sharing of knowledge, advocacy and engagement are central to its approach.
                 </li>
                 <li>
                     The Agroecology Fund, which aims to amplify agroecological solutions by providing grant funding to grassroots organisations, encouraging donors to support agroecology projects and providing a learning platform for donors, advisers and grantees.
