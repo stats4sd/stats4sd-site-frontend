@@ -1,14 +1,14 @@
 <!-- Footer -->
 <footer class="bg-stats4sd-grey py-12">
-    <div class="container mx-auto px-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-white">
-            <div>
+    <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-24  mx-auto ">
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-12 text-white text-sm">
+            <div class="md:col-span-4">
                 <p class="font-bold">© Statistics for Sustainable Development {{ date("Y") }}</p>
                 <p class="pt-4">9 Castle Street, Reading, RG1 7SB</p>
                 <p>{{ t("Company Registered in England & Wales Number") }} - 10168747</p>
 
             </div>
-            <div>
+            <div class="md:col-span-2">
                 <p class="font-bold">{{ t("Contact") }}</p>
                 <p>{{ t("Tel") }}: +44 (0)118 959 9949<br>
                     {{ t("Email") }}:
