@@ -37,14 +37,14 @@
     <div class=" py-16 ">
         <div class=" grid grid-cols-1 lg:grid-cols-2 gap-16 items-stretch w-full">
 
-            <div class="order-2 lg:order-1">
+            <div class="order-1 lg:order-1">
                 <div
                     class="2xl:max-w-[600px] w-full lg:float-right h-full mx-auto px-4 lg:px-0 lg:mx-0">
                    <img src="{{ asset('images/about.webp') }}" alt="Who we are image" class="object-cover h-full">
                 </div>
             </div>
             <!-- Right: Text and Button -->
-            <div class="flex flex-col w-full order-1 md:order-2 my-12">
+            <div class="flex flex-col w-full order-2 lg:order-2 lg:my-12">
                 <div class="flex flex-row justify-between w-full items-stretch">
                     <div class="px-8 lg:px-0">
 
@@ -54,7 +54,7 @@
                     </div>
                     <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
                 </div>
-                <div class="flex flex-col max-w-[600px] justify-center px-8 lg:pl-0 lg:pr-12 mt-4">
+                <div class="flex flex-col lg:max-w-[600px] justify-center pl-8 lg:pl-0 pr-12 mt-4">
                     <p>{{ t("Stats4SD is a not-for-profit social enterprise committed to supporting sustainable
                                      development by using quantitative and qualitative research methods, data and analysis to inform policies
                                       and actions. Our goal is to help solve real-world problems for the benefit of society and the environment.") }}
@@ -78,10 +78,10 @@
 
 
             <!-- Left: Text-->
-            <div class="flex flex-col w-full order-1 md:order-1 my-24">
+            <div class="flex flex-col w-full order-2 lg:order-1 lg:my-24">
                 <div class="flex flex-row justify-between w-full items-stretch">
                     <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
-                    <div class="pl-12 lg:px-0 w-full max-w-[600px] ">
+                    <div class=" lg:px-0 w-full ml-12 lg:max-w-[600px] ">
 
                         <div class="text-4xl font-bold ">
                             {{ t('How we run Stats4SD') }}
@@ -91,7 +91,7 @@
                 </div>
                 <div class="flex flex-row justify-between w-full items-stretch">
                     <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
-                    <div class="pl-12 lg:px-0 w-full max-w-[600px] mt-4">
+                    <div class="ml-12 pr-8 lg:px-0 w-full lg:max-w-[600px] mt-4">
 
                         <p>{{ t("Stats4SD has a flat structure with
                         a board of directors to make non-technical decisions and a Managing Director to oversee the running of the company.") }}
@@ -108,7 +108,7 @@
                 
             </div>
              <!-- Right: Picture -->
-            <div class="order-2 lg:order-2">
+            <div class="order-1 lg:order-2">
                 <div
                     class="2xl:max-w-[600px] h-full lg:float-left px-4 lg:px-0 lg:mx-0">
                    <img src="{{ asset('images/about.webp') }}" alt="Who we are image" class="object-cover h-full">
@@ -126,14 +126,14 @@
     <div class=" py-16 ">
         <div class=" grid grid-cols-1 lg:grid-cols-2 gap-16 items-center w-full">
 
-            <div class="order-2 lg:order-1">
+            <div class="order-1 lg:order-1">
                 <div
                     class="2xl:max-w-[600px] w-full lg:float-right h-full mx-auto px-4 lg:px-0 lg:mx-0">
                    <img src="{{ asset('images/about.webp') }}" alt="Who we are image" class="object-cover h-full">
                 </div>
             </div>
             <!-- Right: Text and Button -->
-            <div class="flex flex-col w-full order-1 md:order-2 my-12">
+            <div class="flex flex-col w-full order-2 lg:order-2 lg:my-12">
                 <div class="flex flex-row justify-between w-full items-stretch">
                     <div class="px-8 lg:px-0">
 
@@ -143,7 +143,7 @@
                     </div>
                     <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
                 </div>
-                <div class="flex flex-col max-w-[600px] justify-center px-8 lg:pl-0 lg:pr-12 mt-4">
+                <div class="flex flex-col lg:max-w-[600px] justify-center px-8 lg:pl-0 lg:pr-12 mt-4">
                     <p>{{ t("At Stats4SD we are committed to our work and we work hard - but we also like to relax and socialise.
                                     Our office includes a break-out area with comfortable chairs, where coffee, tea and snacks are always 
                                     available. We frequently organise social events, including our famous cheese and wine evenings, our 
@@ -156,15 +156,15 @@
     </div>
  <!-- contact -->
 
-     <div class="bg-stats4sd-lightgrey py-12 ">
+     <div class="bg-stats4sd-lightgrey lg:py-12 ">
         <div class=" grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
 
 
             <!-- Left: Text-->
-            <div class="flex flex-col w-full order-1 md:order-1 my-24">
+            <div class="flex flex-col w-full order-2 lg:order-1 lg:my-24">
                 <div class="flex flex-row justify-between w-full items-stretch">
                     <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
-                    <div class="pl-12 lg:px-0 w-full max-w-[600px] ">
+                    <div class="ml-12 lg:px-0 w-full lg:max-w-[600px] ">
 
                         <div class="text-4xl font-bold ">
                          
@@ -175,7 +175,7 @@
                 </div>
                 <div class="flex flex-row justify-between w-full items-stretch">
                     <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
-                    <div class="pl-12 lg:px-0 w-full max-w-[600px] mt-4">
+                    <div class="ml-12 pr-8 lg:px-0 w-full lg:max-w-[600px] mt-4">
 
                 <p>{{ t('Our office is in central Reading, about 10 minutes’ walk away from Reading Station:') }}
                 </p>
@@ -188,7 +188,7 @@
                 
             </div>
              <!-- Right: Picture -->
-            <div class="order-2 lg:order-2">
+            <div class="order-1 lg:order-2">
                 <div
                     class="2xl:max-w-[600px] h-full lg:float-left px-4 lg:px-0 lg:mx-0">
                    <img src="{{ asset('images/about.webp') }}" alt="Who we are image" class="object-cover h-full">
