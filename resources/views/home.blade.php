@@ -36,15 +36,15 @@
             ['label' => 'E-learning', 'url' => '/we-do/e-learning'],
         ];
     @endphp
-    <div class=" w-full flex flex-col gap-0 md:flex-row justify-between my-12">
-        <div class="flex flex-col w-2/3 xl3-w-24 my-12 pr-12 pr-36 -xl3-mr-36 ">
+    <div class=" w-full flex flex-col gap-0 lg:flex-row lg:justify-between bt-12 lg:my-12">
+        <div class="flex flex-col w-full lg:w-2/3 xl3-w-24 my-12 pr-8 lg:pr-36 -xl3-mr-36 ">
             <!-- Left Column top row-->
             <div class="flex flex-row justify-between items-start w-full">
                 <!-- left border -->
-                <div class="w-4 xl:w-6 mr-8 xl:mr-22 bg-stats4sd-red h-full flex-shrink-0"></div>
+                <div class="w-4 xl:w-6 mr-8 xl:mr-22 bg-stats4sd-red h-20 flex-shrink-0"></div>
 
                 <!-- Left main section top row-->
-                <div class="w-full max-w-[700px]">
+                <div class="w-full lg:max-w-[700px]">
                     <!-- Titles -->
                     <div class="">
                         <h2 class="text-stats4sd-red text-xl font-bold uppercase">
@@ -62,7 +62,7 @@
                 <div class="w-4 xl:w-6 mr-8 xl:mr-22 h-full bg-gray-50 flex-shrink-0"></div>
 
                 <!-- Left main section 2nd row-->
-                <div class="w-full max-w-[700px]">
+                <div class="w-full lg:max-w-[700px]">
                     <div class=" flex flex-col">
 
                         <!-- Description + Button -->
@@ -77,7 +77,7 @@
                         </div>
 
                         <!-- Options -->
-                        <div class="grid grid-flow-row grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4">
+                        <div class="grid grid-flow-row md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4">
                             @foreach ($options as $option)
                                 <a href="{{ url($option['url']) }}"
                                     class="bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-4 rounded-2xl text-base font-semibold transition">
@@ -96,10 +96,10 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row w-1/3 min-w-[26rem] justify-between xl3-w-24  ">
+        <div class="flex flex-row lg:w-1/3 min-w-[26rem] justify-between xl3-w-24  ">
             <!-- Right Column: Image -->
-            <div class="float-left -ml-24  xl3-max-500 ">
-                <img src="{{ asset('images/about.webp') }}" alt="Our Work" class="w-full h-[580px] object-cover ">
+            <div class="float-left lg:-ml-24  xl3-max-500 ">
+                <img src="{{ asset('images/about.webp') }}" alt="Our Work" class="w-full  lg:h-[580px] object-cover ">
             </div>
 
         </div>
@@ -107,7 +107,7 @@
 
 
     <div class="bg-stats4sd-lightgrey py-16 ">
-        <div class=" grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
+        <div class=" grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
 
             <!-- Left: 2 rows of 3 images -->
             @php
@@ -120,10 +120,10 @@
                     'Jane' => 'jpg',
                 ];
             @endphp
-            <div>
-                <div class="grid grid-cols-3 gap-4 max-w-[550px] float-right">
+            <div class="order-2 lg:order-1">
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 max-w-[550px] lg:float-right mx-auto px-4 lg:px-0 lg:mx-0">
                     @foreach ($teamMembers as $name => $ext)
-                        <div>
+                        <div class="">
                             <img src="{{ asset("images/team/$name.$ext") }}" alt="{{ $name }}"
                                 class="object-cover w-full h-48 md:h-56 lg:h-60">
                         </div>
@@ -131,9 +131,9 @@
                 </div>
             </div>
             <!-- Right: Text and Button -->
-            <div class="flex flex-col w-full">
+            <div class="flex flex-col w-full order-1 md:order-2 ">
                 <div class="flex flex-row justify-between w-full items-stretch">
-                    <div>
+                    <div class="px-8 lg:px-0">
                         <div class="text-stats4sd-red text-xl font-bold uppercase mb-2">
                             {{ t('Who we are') }}
                         </div>
@@ -143,7 +143,7 @@
                     </div>
                     <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
                 </div>
-                <div class="flex flex-col justify-center mt-4">
+                <div class="flex flex-col justify-center px-8 lg:px-0 mt-4">
 
                     <p class="mb-6 text-gray-700">
                         {{ t('Meet the Stats4SD team and find the right specialist for your needs.') }}
@@ -160,49 +160,49 @@
     </div>
 
     <div class="bg-white py-16 ">
-        <div class=" grid grid-cols-1 md:grid-cols-2 gap-x-24">
+        <div class=" grid grid-cols-1 lg:grid-cols-2 gap-x-24">
 
             <!-- Top row Left half: Our Work -->
-            <div class="">
-                <div class="flex flex-col w-[450px] float-right">
+            <div class="order-1 px-8 lg:px-0 ">
+                <div class="flex flex-col w-full lg:w-[450px] lg:float-right">
                     <div class="text-stats4sd-red text-xl font-bold uppercase mb-4">
                         {{ t('Our work') }}
                     </div>
                     <img src="{{ asset('images/team.jpg') }}" alt="{{ t('Our work') }}"
-                        class="mb-6 w-full max-w-md object-cover rounded" />
+                        class="mb-6 w-full lg:max-w-md object-cover h-72 lg:h-auto" />
 
                 </div>
             </div>
             <!-- Top row Right half: About Us -->
-            <div class="">
-                <div class="flex flex-col w-[450px] float-left">
+            <div class="order-4 lg:order-2 px-8 lg:px-0">
+                <div class="flex flex-col w-full lg:w-[450px] lg:float-left">
                     <div class="text-stats4sd-red text-xl font-bold uppercase mb-4">
                         {{ t('About us') }}
                     </div>
                     <img src="{{ asset('images/we-do.jpg') }}" alt="{{ t('About us') }}"
-                        class="mb-6 w-full max-w-md object-cover rounded" />
+                        class="mb-6 w-full lg:max-w-md object-cover h-72 lg:h-auto " />
                    
                     
                 </div>
             </div>
             <!-- Second row Left half: Our Work -->
-            <div class="flex flex-row justify-between">
+            <div class="flex flex-row lg:justify-between order-2 lg:order-3">
                 <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
-                <div class="w-[450px] ">
+                <div class="lg:w-[450px] px-4 lg:px-0 ">
                     <div class="font-bold text-4xl mb-2">{{ t('Where we work') }}</div>
                 </div>
             </div>
              <!-- Second row Right half: About Us -->
-            <div class="flex flex-row justify-between">               
-                <div class="w-[450px] ">
+            <div class="flex flex-row justify-between order-5 lg:order-4">               
+                <div class="w-[450px] pl-8 lg:pl-0">
                     <div class="font-bold text-4xl mb-2">{{ t('About us') }}</div>
                 </div>
-                 <div class="w-4 xl:w-6 bg-stats4sd-red md:bg-white h-auto flex-shrink-0"></div>
+                 <div class="w-4 xl:w-6 bg-stats4sd-red lg:bg-white h-auto flex-shrink-0"></div>
             </div>
             <!-- Bottom row Left half: Our Work -->
-            <div class="">
-                <div class="flex flex-col w-[450px] float-right">
-                    <p class="text-gray-700 mb-6 max-w-md md:h-12">
+            <div class=" order-3 lg:order-5  px-8 lg:px-0 mb-16 lg:mb-0">
+                <div class="flex flex-col w-[450px] lg:float-right">
+                    <p class="text-gray-700 mb-6 max-w-md lg:h-12">
                         {{ t('Use our interactive map to see where we work around the world and the projects we support.') }}
                     </p>
                     <div class="flex justify-start">
@@ -216,10 +216,10 @@
             </div>
 
             <!-- Bottom row Right half: About Us -->
-            <div class="">
-                <div class="flex flex-col max-w-[450px] float-left">
+            <div class="order-6 lg:order-6  px-8 lg:px-0 ">
+                <div class="flex flex-col max-w-[450px] lg:float-left">
                    
-                    <p class="text-gray-700 mb-6 max-w-md md:h-12">
+                    <p class="text-gray-700 mb-6 max-w-md lg:h-12">
                         {{ t('Learn more about our philosophy, and how to contact us.') }}
                     </p>
                     <div class="flex justify-start">
