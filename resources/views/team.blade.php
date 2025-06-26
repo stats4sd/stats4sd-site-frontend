@@ -167,7 +167,7 @@
                 Download the organisation diagram to see the staff and management structure at Stats4SD.
             </p>
             <a href="#" 
-                class="inline-block bg-black text-white px-6 py-2 !text-base font-semibold rounded-full hover:bg-gray-700 transition"
+                class="inline-block bg-black text-white px-6 py-2 !text-base font-semibold rounded-full hover-effect transition"
                 target="_blank">
                     DOWNLOAD PDF
             </a>
