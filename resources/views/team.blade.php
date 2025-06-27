@@ -55,7 +55,7 @@
                         x-show="open"
                         x-cloak
                         class="fixed inset-0 z-50 flex items-center justify-center bg-[rgba(0,0,0,0.9)]"
-                    >
+                        >
                         <div @click.away="open = false" class="bg-white shadow-xl max-w-6xl w-full mx-12 sm:mx-28 md:mx-12 relative overflow-y-auto max-h-[90vh]">
 
                             <!-- Modal Content -->
