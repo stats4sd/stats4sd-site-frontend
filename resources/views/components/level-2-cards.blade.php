@@ -1,50 +1,53 @@
 <!-- Header section -->
-<div class="px-4 pb-12 pt-20 max-w-screen-xl mx-auto">
-    <div class="max-w-xl">
-        <div class="text-3xl font-bold uppercase text-stats4sd-red pt-12">
+
+<div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">
+    <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-0  mx-auto">
+        <div class="text-2xl md:text-3xl font-bold uppercase text-stats4sd-red ">
             {{ $headerSubtitle }}
         </div>
 
-        <div class="text-5xl font-bold pt-2 mb-4">
+        <div class="text-5xl md:text-6xl font-bold pt-2">
             {{ $headerTitle }}
         </div>
-
-        <nav class="pt-12 text-sm text-gray-600" aria-label="Breadcrumb">
-            <ol class="flex space-x-2 text-sm text-gray-600">
-                <li>
-                    <a href="{{ url('/home') }}" class="hover:underline">{{ t("Home") }}</a>
-                </li>
-                <li>
-                    <span>&gt;</span>
-                </li>
-                <li>
-                    <a href="{{ $level1BreadcrumbUrl }}" class="hover:underline">{{ $level1Breadcrumb }}</a>
-                </li>
-                <li>
-                    <span>&gt;</span>
-                </li>
-                <li>
-                    {{ $headerTitle }}
-                </li>
-            </ol>
-        </nav>
-
     </div>
 </div>
+<div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-4  mx-auto">
 
-@if(!empty($options) && is_array($options))
-    <div class="py-8">
+        <nav class="py-12 text-sm text-gray-600" aria-label="Breadcrumb">
+        <ol class="flex space-x-2 text-sm text-gray-600 flex-col sm:flex-row">
+            <li class="hidden sm:block">
+                <a href="{{ url('/home') }}" class="hover:underline">{{ t('Home') }}</a>
+            </li>
+            <li class="hidden sm:block"><span>&gt;</span></li>
+            <li class="hidden sm:block">
+                <a href="{{ $level1BreadcrumbUrl }}" class="hover:underline">{{ $level1Breadcrumb }}</a>
+            </li>
+            <li class="block sm:hidden">
+                <a href="{{ $level1BreadcrumbUrl }}" class="hover:underline">
+                    < Back to {{ $level1Breadcrumb }}</a>
+            </li>
+            <li class="hidden sm:block"><span>&gt;</span></li>
+            <li class="hidden sm:block">{{ $headerTitle }}</li>
+        </ol>
+    </nav>
+</div>
+
+
+@if (!empty($options) && is_array($options))
+    <div class="bg-white pt-8 pb-24 px-6 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl   mx-auto">
         <div class="mx-auto max-w-7xl px-4">
             <div class="flex flex-wrap justify-center gap-6">
-                @foreach($options as $option)
-                    <a href="{{ $option['url'] }}" class="relative h-96 w-[calc(25%-1.5rem)] min-w-[240px] max-w-sm overflow-hidden shadow-md hover-effect rounded-lg">
+                @foreach ($options as $option)
+                    <a href="{{ $option['url'] }}"
+                        class="relative h-96 w-[calc(25%-1.5rem)] min-w-[240px] max-w-sm overflow-hidden shadow-md hover-effect rounded-lg">
                         <!-- Background Image -->
                         <div class="absolute inset-0 bg-cover bg-center"
-                             style="background-image: url('{{ $option['cover_photo_url'] }}');">
+                            style="background-image: url('{{ $option['cover_photo_url'] }}');">
                         </div>
 
                         <!-- Bottom Half Overlay -->
-                        <div class="absolute bottom-0 h-1/2 w-full bg-[rgba(0,0,0,0.6)] text-white p-4 flex flex-col justify-center">
+                        <div
+                            class="absolute bottom-0 h-1/2 w-full bg-[rgba(0,0,0,0.6)] text-white p-4 flex flex-col justify-center">
                             <h3 class="text-lg font-semibold">{{ $option['title'] }}</h3>
                             <p class="text-sm mt-1">{{ $option['description'] }}</p>
                         </div>
