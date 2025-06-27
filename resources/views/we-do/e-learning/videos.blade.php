@@ -18,7 +18,7 @@
             <p>
                 Our educational videos explore topics ranging from data collection and statistical analysis to agroecology and farmer research. We also provide video ‘playlists’, which are a set of videos exploring a topic in greater depth. 
             </p>
-            <p>
+            <p class="mt-2">
                 Some of the videos relating to our work in South America are in Spanish or subtitled in Spanish, and some of the videos for our work in West Africa are in French or subtitled in French. 
             </p>
         ',

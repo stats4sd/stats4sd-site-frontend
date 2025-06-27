@@ -39,10 +39,13 @@
                         practices and overall system performance (see 
                         <a href="' . route('we-do.data-systems.collection-management-systems') . '#prosoil-survey" class="font-bold text-stats4sd-red">Providing end-to-end support for ProSoil survey</a>).
                     </p>
-                    <p class="pt-2">For the analysis, the data from the four countries was treated as a single dataset. The examples below show some of the analysis for TAPE Step 1. Full results can be found in 
+                    
+                ',
+                 'secondcolumn' => '
+                 <p class="">For the analysis, the data from the four countries was treated as a single dataset. The examples below show some of the analysis for TAPE Step 1. Full results can be found in 
                         the <a href="https://cifor-icraf.org/publications/pdf_files/WPapers/TPP-WP-8.pdf" target="_blank" class="font-bold text-stats4sd-red">cross-country report</a>.
                     </p>
-                ',
+                    ',
             ],
             [
                 'title' => 'Analytical support for a study of agroecology practices',
@@ -53,11 +56,14 @@
                         In 2022, the 
                         <a href="https://www.agroecologytpp.org/about/" target="_blank" class="font-bold text-stats4sd-red">Agroecology TPP</a> launched a study to document and evaluate the socio-economic viability of agroecology practices across Africa. The study involved 12 teams working in 9 African countries and included a farm survey. To support the survey, Stats4SD programmed a set of data processing scripts in R to generate sets of descriptive indicators and run a Multiple Component Analysis (MCA).
                     </p>
-                    <p class="pt-2">
+
+                ',
+                                 'secondcolumn' => '
+                                    <p >
                         The R scripts were included in the <a href="' . route('we-do.data-systems.databases') . '" class="font-bold text-stats4sd-red">platform</a> that Stats4SD developed to hold the data, so that the 12 teams that had 
                         <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">collected the data</a> could do automated data processing to produce a standard set of results. Each team received the automated results as outputs, as well as the raw data, and could then do additional analysis of their own.
                     </p>
-                ',
+                    ',
             ],
         ],
         'additionalContent' => '',

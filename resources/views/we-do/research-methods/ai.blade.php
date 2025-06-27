@@ -12,8 +12,11 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'lead_paragraph' => '
-                At Stats4SD we are excited by the opportunities that Artificial Intelligence (AI) offers. We are keen to adopt the new technologies and use Machine Learning (ML) to increase our analytical efficiency. ML is a subset of AI which involves algorithms and statistical models that enable computers to learn from data and produce results without being explicitly programmed. It is very powerful, doing tasks that would take us a lot of time and saving Stats4SD and its clients money.',
+                At Stats4SD we are excited by the opportunities that Artificial Intelligence (AI) offers. We are keen to adopt the new technologies and use Machine Learning (ML) to increase our analytical efficiency. ',
         'content' => '
+            <p>
+                ML is a subset of AI which involves algorithms and statistical models that enable computers to learn from data and produce results without being explicitly programmed. It is very powerful, doing tasks that would take us a lot of time and saving Stats4SD and its clients money.
+            </p>
             <p>
                 However, we are also aware of the limitations of AI. When the machines take control, analysis tends to becomes more uniform or ‘average’ because the machines learn from what existed before, so there is a tendency for creativity, richness and nuances to get lost. Also, AI sometimes invents results. 
             </p>
@@ -27,6 +30,7 @@
         'caseStudies' => [
             [
                 'title' => 'What to think about when proposing to use AI for analysis',
+                'redtitle' => 'Insight',
                 'image' => 'images/about.webp',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
@@ -71,7 +75,10 @@
                     <p class="pt-2">
                         In some respects, the results were similar – for example, the categories and factors highlighted by the two analyses were much the same. The time taken to do the ChatGPT analysis was much less, making it more efficient. But a lot of the richness was lost. For example, Romina reported interviewees switching to organic and locally produced fertilisers for several reasons: financial, families’ health, the health of the soil, and cultural appropriateness. ChatGPT simply said that such decisions were driven by financial considerations - the complexities of how people really make decisions was lost. 
                     </p>
-                    <p class="pt-2">
+
+                 ',
+                 'secondcolumn' => '
+                                     <p class="pt-2">
                         Romina reflected that human critical thinking and the analytical expertise that can only be developed through experience helped her to contextualise and interpret the findings. This enabled her to produce results that were fuller and richer than those of ChatGPT.
                     </p>
                     <p class="pt-2">

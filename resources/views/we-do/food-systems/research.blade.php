@@ -12,9 +12,12 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'lead_paragraph' => '
-            Stats4SD’s research methods experts support traditional agricultural research, such as farm experiments. Such research is usually led by the researcher with a mandate from a government or international organisation, and it focuses on increasing production and productivity by addressing agronomy challenges. Stats4SD has many years of experience in providing study design advice in this context. Particularly when experiments are unconventional or take place in challenging environments, we can help researchers to improve significantly the efficiency of their study design and avoid poor, inefficient designs. We can also assist with efficient data collection and management systems.
+            Stats4SD’s research methods experts support traditional agricultural research, such as farm experiments. Such research is usually led by the researcher with a mandate from a government or international organisation, and it focuses on increasing production and productivity by addressing agronomy challenges. 
         ',
         'content' => '
+        <p>
+            Stats4SD has many years of experience in providing study design advice in this context. Particularly when experiments are unconventional or take place in challenging environments, we can help researchers to improve significantly the efficiency of their study design and avoid poor, inefficient designs. We can also assist with efficient data collection and management systems.
+        </p>
             <p>
                 We are also very much involved in developing ‘farmer research’ methods, which comes out of our work on agroecology. The overarching objective is to find – though research, practice and participation of people – ways of transforming agriculture and food systems to a high-level equilibrium where we can restore stocks of natural assets such as soil, water, nutrients and oxygen, as well as biodiversity, thereby guaranteeing the future of agriculture and food systems. 
             </p>
@@ -45,13 +48,16 @@
                     <p class="pt-2">
                         Farmers in Malawi normally experience the ‘top-down’ model of technology transfer, in which technologies are generated from afar and disseminated by extension workers for farmers to use. If farmers reject the advice, they are called non-adopters or ‘laggers’. 
                     </p>
-                    <p class="pt-2">
+                    
+                ',
+                'secondcolumn' => '
+                <p class="pt-2">
                         The Best Bets project in Malawi, supported by the McKnight Foundation’s CRFS, is challenging this top-down approach. It is working with FRNs to encourage farmers to do research on their own problems and promoting co-learning and innovation among participants.
                     </p>
                     <p class="pt-2">
                         See full presentation at: Farmer Research Networks in Malawi as a socially just model of inclusive knowledge co-creation.
                     </p>
-                ',
+                    ',
             ],
             [
                 'title' => 'Farmer research – an example from Uganda',
@@ -64,11 +70,14 @@
                     <p class="pt-2">
                         The aim of the Soroti workshop was to co-develop research methods for agroecological assessment with farmers and to conduct a pilot study of Step 1 of the TAPE, which aims to produce a characterization of ‘how agroecological’ a food and agricultural system is. 
                     </p>
-                    <p class="pt-2">
-                        For more details, see: Grounding a global tool—Principles and practice for agroecological assessments inspired by TAPE
-                    </p>
+
 
                 ',
+                'secondcolumn' => '
+                                    <p class="pt-2">
+                        For more details, see: Grounding a global tool—Principles and practice for agroecological assessments inspired by TAPE
+                    </p>
+                    ', 
             ],
         ],
         'additionalContent' => '',

@@ -51,6 +51,12 @@
                         <li>
                             Creating a database and platform of around 8,000 food and agriculture system ‘metrics’ for the Agroecology TPP, and developing guidelines for integrated system assessments.
                         </li>
+
+                    </ul>
+                ',
+                'secondcolumn' => '
+                                 <ul class="list-disc pl-6">
+                        
                         <li>
                             Creating an agroecology finance assessment tool for the Agroecology Coalition to enable institutions to evaluate their funding initiatives in terms of how much they support agroecological transformations.
                         </li>
@@ -58,7 +64,8 @@
                             Working with the Grassroots Evidence for Agroecology (GEA) Initiative of the Agroecology Fund to support local organisations’ efforts to build and communicate evidence for agroecology to their target audiences and demonstrate their impact. 
                         </li>
                     </ul>
-                '
+                
+                ',
             ]
 
         ],

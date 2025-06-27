@@ -29,6 +29,17 @@
                         The Stats4SD Resources Library includes hundreds of resources, sorted into various categories of research methods and broad topics. You can explore these categories or search and filter to discover free materials for reference, teaching or individual capacity-building. You can also browse or search our collections and link to other resource hubs.
                     </p>
                 ',
+                 'secondcolumn' => '
+                    <p>
+                        Explore the Library:
+                    </p>
+                    <div class="w-auto mt-6">
+                        <a href="https://stats4sd.org/resources"
+                            class="inline-block bg-black text-white px-6 py-3 font-semibold rounded-3xl hover-effect uppercase">
+                            Stats4SD Resources Library
+                        </a>
+                    </div>
+                ',
             ]
         ],
         'additionalContent' => '',

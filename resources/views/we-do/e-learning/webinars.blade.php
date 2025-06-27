@@ -13,10 +13,13 @@
         'level1BreadcrumbUrl' => route('we-do'),
         'lead_paragraph' => '
             Our webinars relate to our work on 
-            <a href="' . route('we-do.research-methods.design-support') . '" class="font-bold text-stats4sd-red">research methods support</a> for the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS) and provide the opportunity for discussion and sharing of knowledge and experiences. Recently we have begun to do multi-language webinars, where presentations are made in English, French and Spanish language channels simultaneously.
+            <a href="' . route('we-do.research-methods.design-support') . '" class="font-bold text-stats4sd-red">research methods support</a> for the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS) and provide the opportunity for discussion and sharing of knowledge and experiences. 
         ',
         'content' => '
             <p>
+             Recently we have begun to do multi-language webinars, where presentations are made in English, French and Spanish language channels simultaneously.
+             </p>
+                <p class="mt-2">
                 The presentations are available in the <a href="https://resources.stats4sdtest.online" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>. 
             </p>
         ',

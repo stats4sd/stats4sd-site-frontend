@@ -28,16 +28,17 @@
                 'image' => 'images/about.webp', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
-                    <p>
-                        Stats4SD works with the Quality of Life assessment programme of the Aga Khan Development Network, supporting the Quality of Life team on survey design, implementation using ODK and analysis of results.
+
+                    <p class="pt-2">
+                        The data platform also includes dashboards at the levels of district, sub-district, village and household, making it possible to review the survey’s progress at each of these levels. 
                     </p>
                     <p class="pt-2">
-                        In 2021, Stats4SD built a data platform to help the Quality of Life team manage their surveys and bring data from all survey locations into one database. The platform includes a survey monitoring dashboard which allows both the field supervisors and the remote managers to track the progress of the survey from anywhere in the world.
+                        Users of the dashboard can delete submissions that are incorrect or update a submission to fix the incorrect data. Updates made through the platform are kept in a log, to ensure transparency. The dashboard is updated as soon as survey submissions are sent to the server, so - as long as the field staff (enumerators) can access the internet to upload their submissions regularly - the survey management team can review them and resolve any issues promptly.
                     </p>
-                    <p class="pt-2">
-                        At the top level, the survey monitoring dashboard provides a summary of progress based on key indicators that are tailored to the requirements of the survey team. It also highlights issues with the submitted data, including submissions where a household could not be identified and cases of duplicate submissions for the same household.
-                    </p>
-                    <p class="pt-2">
+                ',
+                 'secondcolumn' => '
+                    
+                    <p class="">
                         The data platform also includes dashboards at the levels of district, sub-district, village and household, making it possible to review the survey’s progress at each of these levels. 
                     </p>
                     <p class="pt-2">
@@ -56,7 +57,10 @@
                     <p class="pt-2">
                         Stats4SD has built an interactive indicator dashboard for this project bringing together a variety of data sources - including geospatial and population census data  - so that the risks and rewards of each proposed land investment can be modelled. The dashboard was built using R and R shiny. 
                     </p>
-                    <p class="pt-2">
+                ',
+                 'secondcolumn' => '
+                  
+                    <p class="">
                         This dashboard allows users to select a pre-defined geographical area or to draw an area on a map and then select the parameters they want to assess. The output is a report on the environmental risks and the socio-economic risks and rewards of the proposed investment. 
                     </p>
                     <p class="pt-2">

@@ -38,17 +38,20 @@
                 <p class="pt-2">
                     On awarding the prize, Ipsos UK highlighted three methodological innovations that were contributed to the study by Andrew Pinney from Stats4SD: adopting a calibration group approach to overcome the absence of a clear counterfactual, devising an appropriate snowball sampling strategy, and conducting retrospective baseline data collection at the same time as the endline as a solution to significantly reduced returnee flows at the start of the COVID-19 pandemic.
                 </p>
+',
+                'secondcolumn' => '
+                
                 <p class="pt-2">
                     Davide Bruscoli, Regional Information Management Officer for East and Horn of Africa of the IOM, said:
                 </p>
-                <blockquote class="pl-4">
+                <blockquote class="my-4">
                     “I am glad to say that the study achieved all its objectives and pushed the evaluability frontier to include a topical area (assisted voluntary return and reintegration) of development intervention that was previously left out. 
                     Throughout the evaluation process, the evaluation team, led by Andrew Pinney* and Itad, demonstrated a high level of professionalism, expertise, and dedication.                 The study was conducted in close collaboration with IOM – even, I would say, in a spirit of partnership rather than simple service provision – with Itad and the evaluation team walking several ‘extra miles’.”
                 </blockquote>
                 <p>
                     * Dr Andrew Pinney, Stats4SD, was quantitative design and technical lead of the IMPACT Study evaluation team.
                 </p>
-                </p>',
+                ',
             ],
             [
                 'title' => 'Creating a baseline for Supporting Girls to Thrive',
@@ -74,7 +77,11 @@
                 <p class="pt-2">
                     For the evaluation, Stats4SD worked with an advisor from the Burnet Institute in Australia, which has developed measurement tools for menstrual health research including the Menstrual Practice Needs Scale (MPNS). Stats4SD designed and supported baseline, midline and endline surveys using the MPNS ‘needs met’ indicator and indicators designed to assess knowledge and impact on day-to-day activities.
                 </p>
-                <p class="pt-2">
+
+                ',
+                 'secondcolumn' => '
+              
+                <p class="">
                     Designing the questionnaire for the survey and collecting the data was straightforward. However, given the political volatility in some of the areas selected to participate in the project, several adaptations to the survey design, sampling scheme and plan of analysis had to be made between the baseline and the endline, and proving a causal link between the intervention and outcomes was challenging. 
                 </p>
                 ',
@@ -84,13 +91,13 @@
                 'image' => 'images/about.webp',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
-                <p id="aga-khan-foundation">
-                    Stats4SD is working on an endline assessment for the Aga Khan Foundation (AKF) Canada’s five-year Foundations for Health and Empowerment (F4HE) project, funded by Global Affairs Canada and AKF Canada. This project promotes equitable development and empowerment for women, girls, adolescents, their families, and communities in targeted regions of Central Asia.
-                </p>
+
                 <p class="pt-2">
-                    Stats4SD is assessing the effectiveness of two components of the F4HE project that relate to health and to early childhood development. The assessment will use quantitative and qualitative methods to show how much progress has been made by the project and to make evidence-based recommendations to inform the design of future programmes. The qualitative component will include key informant interviews.
-                </p>
-                <p class="pt-2">
+                    Stats4SD is supporting the AKF country teams in Afghanistan, Kyrgyzstan, Pakistan, and Tajikistan with study design and sampling; finalising the data collection tools (some on paper and some digital); preparing data collection guidelines; providing virtual training; creating a platform to capture and store the data; data quality assurance; analysing data to measure selected outcome indicators; contributing to data interpretation workshops; and writing the endline report.
+                </p>',
+            'secondcolumn' => '
+                
+                <p class="">
                     Stats4SD is supporting the AKF country teams in Afghanistan, Kyrgyzstan, Pakistan, and Tajikistan with study design and sampling; finalising the data collection tools (some on paper and some digital); preparing data collection guidelines; providing virtual training; creating a platform to capture and store the data; data quality assurance; analysing data to measure selected outcome indicators; contributing to data interpretation workshops; and writing the endline report.
                 </p>',
             ]

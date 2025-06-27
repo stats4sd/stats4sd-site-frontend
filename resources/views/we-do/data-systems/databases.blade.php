@@ -34,7 +34,11 @@
                     <p class="pt-2">
                         We provided a data platform to enable all teams to bring their data collected across different research activities (Key Informant Interviews, Farm Surveys, Focus Group Discussions) into a central location.
                     </p>
-                    <p class="pt-2">
+
+                ',
+                'secondcolumn' => '
+                    
+                    <p class="">
                         Each team worked to the same common research protocol and used the same set of ODK data collection tools, so the results were comparable between locations. But each team had specific local requirements, so the platform was designed to allow team-specific customisations of research activities and tools.
                     </p>
                     <p class="pt-2">
@@ -53,7 +57,11 @@
                     <p class="pt-2">
                         Stats4SD is developing a web-based platform to guide survey teams through the process of setting up and implementing a HOLPA survey, including adapting it to local requirements and languages. This is web-based platform is known as the HOLPA Online Tool.
                     </p>
-                    <p class="pt-2">
+
+                ',
+                'secondcolumn' => '
+
+                    <p class="">
                         The HOLPA Online Tool uses ODK software as its starting point. It enables survey teams to prepare for data collection, collect and aggregate data in real time; to manage survey processes; to access the survey data and other relevant information such as secondary data and qualitative research findings; and to quality assure, store and analyse the data, with the help of an R server which runs automated R scripts to check for errors and calculate indicators. 
                     </p>
                     <p class="pt-2">

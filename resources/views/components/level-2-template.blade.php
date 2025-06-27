@@ -40,7 +40,7 @@
 <div class="w-full h-64 md:h-80 lg:h-96  ">
     <img src="{{ asset($headerImage) }}" alt="Header Image" class=" w-full h-full object-cover">
 </div>
-<div class="w-full  mb-12 ">
+<div class="w-full  mb-12 "  id="wedo-head">
     <!-- Content -->
     <div
         class=" -mt-40 mx-auto relative z-40 w-[90%] max-w-7xl bg-white px-12 lg:px-16 xl:px-20 py-12 lg:py-16 xl:py-20">
@@ -64,7 +64,7 @@
 <!-- Case Study -->
 @if (!empty($caseStudies) && is_array($caseStudies))
     @foreach ($caseStudies as $index => $caseStudy)
-        <section class="w-full flex  flex-col lg:flex-row  {{ $index % 2 !== 0 ? 'lg:flex-row-reverse' : '' }}">
+        <section class="w-full flex  flex-col lg:flex-row  {{ $index % 2 !== 0 ? 'lg:flex-row-reverse' : '' }}" id="casestudy">
             <!-- Image -->
             <div class="w-full lg:w-[30%] h-80 lg:h-auto">
                 <img src="{{ asset($caseStudy['image']) }}" alt="{{ $caseStudy['imageAlt'] }}"
@@ -86,7 +86,7 @@
                                     {{ t('Our Work') }}
                                 @endif
                             </div>
-                            <h2 class="text-3xl font-bold mb-4">
+                            <h2 class="text-3xl font-bold ">
                                 {{ $caseStudy['title'] }}
                             </h2>
 
@@ -95,7 +95,7 @@
                     <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
                 </div>
 
-                <div class="flex flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} h-full">
+                <div class="flex mt-4 flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} h-full">
 
                     <div class="w-full max-w-5xl {{ $index % 2 !== 0 ? 'ml-20 ' : 'mr-20' }} ">
 
