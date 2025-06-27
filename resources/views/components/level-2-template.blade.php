@@ -1,50 +1,62 @@
 <!-- Header section -->
-<div class="px-4 pb-12 pt-20 max-w-screen-xl mx-auto">
-    <div class="max-w-xl">
-        <div class="text-3xl font-bold uppercase text-stats4sd-red pt-12">
-            {{ $headerSubtitle }}
-        </div>
 
-        <div class="text-5xl font-bold pt-2 mb-4">
-            {{ $headerTitle }}
-        </div>
+<div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">
+        <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-0  mx-auto">
+            <div class="text-2xl md:text-3xl font-bold uppercase text-stats4sd-red ">
+               {{ $headerSubtitle }}
+            </div>
 
-        <nav class="pt-12 text-sm text-gray-600" aria-label="Breadcrumb">
-            <ol class="flex space-x-2 text-sm text-gray-600">
-                <li>
+            <div class="text-5xl md:text-6xl font-bold pt-2">
+                 {{ $headerTitle }}
+            </div>
+        </div>
+</div>
+<div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-4  mx-auto">
+
+          <nav class="py-12 text-sm text-gray-600" aria-label="Breadcrumb">
+            <ol class="flex space-x-2 text-sm text-gray-600 flex-col sm:flex-row">
+                <li class="hidden sm:block">
                     <a href="{{ url('/home') }}" class="hover:underline">{{ t("Home") }}</a>
                 </li>
-                <li><span>&gt;</span></li>
-                <li>
+                <li class="hidden sm:block"><span>&gt;</span></li>
+                <li class="hidden sm:block">
                     <a href="{{ $level1BreadcrumbUrl }}" class="hover:underline">{{ $level1Breadcrumb }}</a>
                 </li>
-                <li><span>&gt;</span></li>
-                <li>{{ $headerTitle }}</li>
+                <li class="block sm:hidden">
+                    <a href="{{ $level1BreadcrumbUrl }}" class="hover:underline">< Back to {{ $level1Breadcrumb }}</a>
+                </li>
+                <li class="hidden sm:block"><span>&gt;</span></li>
+                <li class="hidden sm:block">{{ $headerTitle }}</li>
             </ol>
         </nav>
+            
+        </div>
     </div>
-</div>
+
+
 
 <!-- Header Image and content -->
-<div class="relative w-full h-64 md:h-80 lg:h-96 mb-64">
+<div class="w-full h-64 md:h-80 lg:h-96  ">
     <img 
         src="{{ asset($headerImage) }}" 
         alt="Header Image" 
-        class="absolute inset-0 w-full h-full object-cover"
+        class=" w-full h-full object-cover"
     >
-
+</div>
+<div class="w-full md:h-80 lg:h-96 mb-64 ">
     <!-- Content -->
-    <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-[90%] max-w-6xl bg-white px-6 md:px-12 py-12">
-        <div class="flex flex-col md:flex-row gap-8">
+    <div class=" -mt-40 mx-auto relative z-40 w-[90%] max-w-7xl bg-white px-12 lg:px-16 xl:px-20 py-12 lg:py-16 xl:py-20">
+        <div class="flex flex-col md:flex-row gap-12 2xl:gap-20">
             <!-- Lead Paragraph -->
             <div class="md:w-1/2">
                 <p class="text-xl md:text-xl font-semibold">
                     {{ $lead_paragraph }}
                 </p>
+                <div class="bg-stats4sd-red w-20 mt-16  h-3"></div>
             </div>
 
             <!-- Content -->
-            <div class="md:w-1/2">
+            <div class="md:w-1/2 ">
                 {!! $content !!}
             </div>
         </div>
@@ -54,7 +66,7 @@
 <!-- Case Study -->
 @if(!empty($caseStudies) && is_array($caseStudies))
     @foreach($caseStudies as $index => $caseStudy)
-        <section class="w-full flex flex-col lg:flex-row {{ $index % 2 !== 0 ? 'lg:flex-row-reverse' : '' }}">
+        <section class="w-full flex  flex-col lg:flex-row {{ $index % 2 !== 0 ? 'lg:flex-row-reverse' : '' }}">
         <!-- Image -->
         <div class="w-full lg:w-2/5 h-80 lg:h-auto">
             <img src="{{ asset($caseStudy['image']) }}" alt="{{ $caseStudy['imageAlt'] }}" class="w-full h-full object-cover">
