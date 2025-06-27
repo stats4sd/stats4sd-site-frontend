@@ -3,7 +3,7 @@
 
     <!-- Header section -->
     <div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">
-        <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-20  mx-auto">
+        <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-20   mx-auto">
             <div class="text-3xl font-bold uppercase text-stats4sd-red ">
                 {{ t("Who We Are") }}
             </div>

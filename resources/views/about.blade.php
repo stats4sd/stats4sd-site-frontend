@@ -34,7 +34,7 @@
 
  <!-- About us  -->
     <!-- Right: Text and Button -->
-    <div class=" py-16 ">
+    <div class=" pb-16 pt-10 ">
         <div class=" grid grid-cols-1 lg:grid-cols-2 gap-16 items-stretch w-full">
 
             <div class="order-1 lg:order-1">
