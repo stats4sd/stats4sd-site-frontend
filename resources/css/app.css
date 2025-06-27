@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
 @import "tailwindcss";
 
     @theme {
@@ -5,6 +6,7 @@
         --color-stats4sd-grey: #4d4d4d;
         --color-stats4sd-lightgrey: #f2f2f2;
     }
+
 
 body {
     font-family: 'open sans', 'sans serif';
@@ -47,3 +49,35 @@ body {
             @apply first-of-type:rounded-t-2xl first-of-type:pt-4 last-of-type:rounded-b-2xl last-of-type:pb-4  py-1  hover:text-stats4sd-red disabled:text-gray-500;
   }     
 }
+
+.leftborder-heading {
+@apply w-8 h-full bg-stats4sd-red absolute;
+left:  calc(1px-(100vw - 100%) - 2rem);
+}
+
+ 
+@media only screen and (min-width: 1600px) {
+.xl3-w-24 {
+    @apply w-2/4
+}
+
+.-xl3-mr-36 {
+    @apply pr-0 -mr-36;
+    }
+    .xl3-gap-0 {
+    @apply gap-0;
+    }
+    .-xl3-ml-24 {
+        @apply -ml-24;
+    }
+    .xl3-max-500 {
+       @apply  ml-12;
+    }
+}
+@media only screen and (min-width: 1800px) {
+    .xl3-max-500 {
+       @apply  max-w-[600px];
+    }
+}
+
+
