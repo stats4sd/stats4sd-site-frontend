@@ -12,7 +12,8 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'lead_paragraph' => '
-            Stats4SD is committed to the principles of agroecology. It does not believe that agriculture and food production should be about extracting reserves from nature and replacing them in an unbalanced manner, leading to a low-level equilibrium that depends on fossil fuels. Instead, we believe that the world needs to find ways of transforming farming systems to become sustainable, creating a high-level equilibrium where stocks of natural assets are restored. 
+            Stats4SD is committed to the <a href="https://www.fao.org/agroecology/overview/en/" target="_blank" class="font-bold text-stats4sd-red">principles of agroecology</a>. 
+            It does not believe that agriculture and food production should be about extracting reserves from nature and replacing them in an unbalanced manner, leading to a low-level equilibrium that depends on fossil fuels. Instead, we believe that the world needs to find ways of transforming farming systems to become sustainable, creating a high-level equilibrium where stocks of natural assets are restored. 
         ',
         'content' => '
             <p>
@@ -20,16 +21,17 @@
             </p>
             <ul class="list-disc pl-6">
                 <li>
-                    The McKnight Foundation’s CRFS, which believes that the principles of agroecology are the basis for its work to build globally resilient food systems. Agroecology is central to the work of CRFS project grantees and communities of practice in supporting the livelihoods of smallholder and indigenous farmers in Africa and South America.
+                    The McKnight Foundation’s CRFS, which believes that the principles of agroecology are the basis for its work to build globally resilient food systems. 
+                    <a href="https://www.ccrp.org/how-we-work/agroecological-intensification/" target="_blank" class="font-bold text-stats4sd-red">Agroecology is central</a> to the work of CRFS project grantees and communities of practice in supporting the livelihoods of smallholder and indigenous farmers in Africa and South America.
                 </li>
                 <li>
-                    The Agroecology TPP (Transformative Partnership Platform), hosted by Center for International Forestry Research and World Agroforestry (CIFOR-ICRAF), which aims to coordinate work on agroecology between institutions and add value with innovative initiatives and projects. Knowledge sharing is central to its vision. 
+                    The <a href="https://www.agroecologytpp.org/about/" target="_blank" class="font-bold text-stats4sd-red">Agroecology TPP</a> (Transformative Partnership Platform), hosted by Center for International Forestry Research and World Agroforestry (CIFOR-ICRAF), which aims to coordinate work on agroecology between institutions and add value with innovative initiatives and projects. Knowledge sharing is central to its vision. 
                 </li>
                 <li>
-                    The Agroecology Coalition, which is a ‘coalition of the willing’, comprising around 380 members committed to transforming food systems through agroecology. Research, co-creation and sharing of knowledge, advocacy and engagement are central to its approach.
+                    The <a href="https://agroecology-coalition.org/principles-and-vision/" target="_blank" class="font-bold text-stats4sd-red">Agroecology Coalition</a>, which is a ‘coalition of the willing’, comprising around 380 members committed to transforming food systems through agroecology. Research, co-creation and sharing of knowledge, advocacy and engagement are central to its approach.
                 </li>
                 <li>
-                    The Agroecology Fund, which aims to amplify agroecological solutions by providing grant funding to grassroots organisations, encouraging donors to support agroecology projects and providing a learning platform for donors, advisers and grantees.
+                    The <a href="https://agroecologyfund.org/who-we-are/" target="_blank" class="font-bold text-stats4sd-red">Agroecology Fund</a>, which aims to amplify agroecological solutions by providing grant funding to grassroots organisations, encouraging donors to support agroecology projects and providing a learning platform for donors, advisers and grantees.
                 </li>
             </ul>
         ',

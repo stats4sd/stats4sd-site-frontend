@@ -51,7 +51,8 @@
                         </li>
                     </ul>
                     <p class="pt-2">
-                        All these approaches fall under the category of “using AI to do the analysis”, but they are very different. They use different types of tools, provide different types of output and, crucially, they each require careful thought from the humans involved during the planning and execution of the analysis. For those that involve sending data to ChatGPT or similar AI tools, you need to be aware that the data will be reviewed by OpenAI staff and used for further training of their AI models, which would be inappropriate for data where respondent confidentiality needs to be protected. 
+                        All these approaches fall under the category of “using AI to do the analysis”, but they are very different. They use different types of tools, provide different types of output and, crucially, they each require careful thought from the humans involved during the planning and execution of the analysis. For those that involve sending data to ChatGPT or similar AI tools, you need to be aware that the data will be reviewed by OpenAI staff and used for further training of their AI models, which would be inappropriate for data where 
+                        <a href="' . route('we-do.research-methods.ethics') . '" class="font-bold text-stats4sd-red">respondent confidentiality</a> needs to be protected. 
                     </p>
                     <p class="pt-2">
                         We encourage researchers and project managers to think carefully about such things and reflect them in their proposals.
@@ -64,7 +65,8 @@
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>
-                        Two Stats4SD colleagues recently ran an experiment in which they analysed text independently of each other, Carlos Barahona using ChatGPT and Romina De Angelis using traditional thematic analysis methods. This experiment was discussed in a seminar: Using AI for Qualitative Data Analysis.
+                        Two Stats4SD colleagues recently ran an experiment in which they analysed text independently of each other, Carlos Barahona using ChatGPT and Romina De Angelis using traditional thematic analysis methods. This experiment was discussed in a seminar: 
+                        <a href="https://www.youtube.com/watch?v=-0uAK5KSM0Y" target="_blank"class="font-bold text-stats4sd-red">Using AI for Qualitative Data Analysis</a>.
                     </p>
                     <p class="pt-2">
                         In some respects, the results were similar – for example, the categories and factors highlighted by the two analyses were much the same. The time taken to do the ChatGPT analysis was much less, making it more efficient. But a lot of the richness was lost. For example, Romina reported interviewees switching to organic and locally produced fertilisers for several reasons: financial, families’ health, the health of the soil, and cultural appropriateness. ChatGPT simply said that such decisions were driven by financial considerations - the complexities of how people really make decisions was lost. 

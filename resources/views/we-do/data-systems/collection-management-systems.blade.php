@@ -34,7 +34,7 @@
                 'image' => 'images/about.webp', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
-                    <p>
+                    <p id="prosoil-survey">
                         GIZ, a German government service provider in the field of international development, is implementing ProSoil: A Global Soil Conservation and Rehabilitation Programme to Promote Food Security. As part of ProSoil, GIZ ran a survey of 800 farm households in four of the participating countries - Kenya, Ethiopia, Benin and Madagascar - to understand if ProSoil’s activities had had a significant impact on farmers’ adoption of agroecology practices and overall system performance. 
                     </p>
                     <p class="pt-2">

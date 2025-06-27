@@ -43,7 +43,7 @@
             <!-- Lead Paragraph -->
             <div class="md:w-1/2">
                 <p class="text-xl md:text-xl font-semibold">
-                    {{ $lead_paragraph }}
+                    {!! $lead_paragraph !!}
                 </p>
             </div>
 

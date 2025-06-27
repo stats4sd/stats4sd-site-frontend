@@ -46,7 +46,7 @@
                 The full collection of Stats4SD blogs can be found here.
             </p>
             <p class="pt-2">
-                You can find other e-learning materials in the Stats4SD Resources Library.
+                You can find other e-learning materials in the <a href="https://resources.stats4sdtest.online" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
             </p>',
         'teamData' => [
             [

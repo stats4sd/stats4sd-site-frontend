@@ -20,10 +20,12 @@
             </p>
             <ul class="list-disc pl-6">
                 <li>
-                    Contribute to projects of our clients where a qualitative research element is needed, such as in our endline assessment for the Aga Khan Foundation Canada. 
+                    Contribute to projects of our clients where a qualitative research element is needed, such as in our 
+                    <a href="' . route('we-do.m-and-e') . '#aga-khan-foundation' . '" class="font-bold text-stats4sd-red">endline assessment for the Aga Khan Foundation Canada.
                 </li>
                 <li>
-                    Conducting qualitative research and write up the results as reports, for example: An Overview of the Slow Food Programmes: Presidia, Food Gardens and Earth Markets in Kenya and Uganda 
+                    Conducting qualitative research and write up the results as reports, for example: 
+                    <a href="https://www.slowfood.com/wp-content/uploads/2023/10/Funded-project_Agroecology-in-kenya-e-Uganda_2019-2022.pdf" target="_blank"class="font-bold text-stats4sd-red">An Overview of the Slow Food Programmes: Presidia, Food Gardens and Earth Markets in Kenya and Uganda</a> 
                 </li>
                 <li>
                     Support CRFS project grantees and students in Africa and South America in writing up their research findings and publishing them in scientific journals, so that they can contribute to global debates.
@@ -32,7 +34,9 @@
                     Support the Agroecology Fund’s work with grassroots organisations on building evidence-based cases for agroecology (see below).
                 </li>
                 <li>
-                    Create training materials for qualitative data collection and analysis such as Stats4SD’s videos on Qualitative Data Management and Qualitative Data Analysis, and practical guidance for practitioners on Participant Observation.
+                    Create training materials for qualitative data collection and analysis such as Stats4SD’s videos on 
+                    <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmN1ife2PcM3B17r6jFmE5NX" target="_blank"class="font-bold text-stats4sd-red">Qualitative Data Management</a> and Qualitative Data Analysis, and practical guidance for practitioners on 
+                    <a href="https://stats4sd.org/resources/participant-observation-parctical-guide-for-practitioners_2023-09-05_13:50:27" target="_blank"class="font-bold text-stats4sd-red">Participant Observation</a>.
                 </li>
             </ul>
         ',
@@ -47,13 +51,15 @@
                     </p>
                     <ul class="list-disc pl-6">
                         <li>
-                            Developing and pilot testing a methodology and process to support grassroots organisations’ efforts to build and communicate evidence to their target audiences and demonstrate their impact (see Grassroots Evidence for Agroecology – Pilot Report May 2024).
+                            Developing and pilot testing a methodology and process to support grassroots organisations’ efforts to build and communicate evidence to their target audiences and demonstrate their impact (see 
+                            <a href="https://agroecologyfund.org/wp-content/uploads/2024/11/GEA_Report_20241022-1-compressed.pdf" target="_blank"class="font-bold text-stats4sd-red">Grassroots Evidence for Agroecology – Pilot Report May 2024</a>).
                         </li>
                         <li>
-                            Creating a GEA online course that is free and available in English, French and Spanish – see video introduction here.
+                            Creating a GEA online course that is free and available in English, French and Spanish – see video introduction 
+                            <a href="https://agroecologyfund.org/wp-content/uploads/2024/11/GEA_Report_20241022-1-compressed.pdf" target="_blank"class="font-bold text-stats4sd-red">here</a>.
                         </li>
                         <li>
-                            Building an online catalogue to share cases and evidence from the GEA initiative. The catalogue was launched in February 2025 with the 13 cases from the pilot study. It will grow as other cases are developed by grassroots organisations.
+                            Building an <a href="https://evidence4agroecology.org/home" target="_blank"class="font-bold text-stats4sd-red">online catalogue</a> to share cases and evidence from the GEA initiative. The catalogue was launched in February 2025 with the 13 cases from the pilot study. It will grow as other cases are developed by grassroots organisations.
                         </li>
                     </ul>
                     <p class="pt-2">

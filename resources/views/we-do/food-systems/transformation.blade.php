@@ -12,13 +12,10 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'lead_paragraph' => '
-            The McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS) works to ensure a world where all have access to nutritious food that is sustainably produced by local people. Organisations in African and South America apply for grants to undertake projects designed to contribute to this goal. CRFS currently works with around 70 teams in 10 countries.
+            The McKnight Foundation’s <a href="https://www.ccrp.org/" target="_blank" class="font-bold text-stats4sd-red">Global Collaboration for Resilient Food Systems</a> (CRFS) works to ensure a world where all have access to nutritious food that is sustainably produced by local people. Organisations in African and South America apply for grants to undertake projects designed to contribute to this goal. CRFS currently works with around 70 teams in 10 countries.
         ',
         'content' => '
             <p>
-                The McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS) works to ensure a world where all have access to nutritious food that is sustainably produced by local people. Organisations in African and South America apply for grants to undertake projects designed to contribute to this goal. CRFS currently works with around 70 teams in 10 countries.
-            </p>
-            <p class="pt-2">
                 Stats4SD has been working with CRFS and its predecessor, the Collaborative Crop Research Program, since 2016. Ric Coe and Carlos Barahona have been involved in the program since 2009.
             </p>
             <p class="pt-2">

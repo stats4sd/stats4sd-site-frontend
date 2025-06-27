@@ -28,7 +28,7 @@
                 Including research methods specialists from the start of a project can save money, particularly when working in challenging environments. Stats4SD’s advice on research design and its support during the research process ensures that our partners and clients obtain the information they need in the most efficient way.
             </p>
             <p class="pt-2">
-                We have also developed many courses and videos about research methods. See our E-learning pages for details.
+                We have also developed many courses and videos about research methods. See our <a href="' . route('we-do.e-learning') . '" class="font-bold text-stats4sd-red">e-learning</a> pages for details.
             </p>
         ',
         'caseStudies' => [
@@ -36,7 +36,7 @@
             'title' => 'Research methods support for McKnight’s CRFS',
             'description' => '
                 <p>
-                    The McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS) works to ensure a world where all have access to nutritious food that is sustainably produced by local people.
+                    The McKnight Foundation’s <a href="https://www.ccrp.org/" target="_blank" class="font-bold text-stats4sd-red">Global Collaboration for Resilient Food Systems</a> (CRFS) works to ensure a world where all have access to nutritious food that is sustainably produced by local people.
                 </p>
                 <p class="pt-2">
                     Local organisations in Africa and South America apply for grants to undertake projects designed to contribute to this goal, and each project has a research component.
@@ -49,8 +49,8 @@
                 </p>
                 <p class="pt-2">See also:</p>
                 <ul list-disc pl-6>
-                    <li><a href="/food-systems-transformation">Food systems transformation</a></li>
-                    <li><a href="/agricultural-and-farmer-research">Agricultural and farmer research</a></li>
+                    <li><a href="' . route('we-do.food-systems.transformation') . '" class="font-bold text-stats4sd-red">Food systems transformation</a></li>
+                    <li><a href="' . route('we-do.food-systems.research') . '" class="font-bold text-stats4sd-red">Agricultural and farmer research</a></li>
                 </ul>
             ',
             'image' => 'images/about.webp',
@@ -69,7 +69,7 @@
                     This approach avoids collecting data that is not needed, which is inefficient. More importantly, it helps ensure you don’t get to the end of the research process only to discover that you’re missing critical data required to answer your research questions.
                 </p>
                 <p class="pt-2">
-                    For more details, watch the video: <a href="/videos/thinking-in-reverse-order" target="_blank" rel="noopener">Thinking in Reverse Order</a>.
+                    For more details, watch the video: <a href="https://www.youtube.com/watch?v=Xo861guv04Y" target="_blank" class="font-bold text-stats4sd-red">Thinking in Reverse Order</a>.
                 </p>
             ',
             'image' => 'images/about.webp', 

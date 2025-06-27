@@ -28,6 +28,8 @@
         'caseStudies' => [
             [
                 'title' => 'Innovative methods for evaluating programmes for migrants returning to the Horn of Africa',
+                'image' => 'images/about.webp',
+                'imageAlt' => 'Case Study Image',
                 'description' => '
                 <p>
                     In 2023 the UK Evaluation Society awarded its Innovation in Methodologies prize, sponsored by Ispos UK, to a consortium led by Itad in which Stats4SD provided quantitative evaluation design, analysis and interpretation. The prize was awarded for the IMPACT Study which evaluated a joint programme of the European Union and the International Organization for Migration (IOM) that assisted migrants to return to Ethiopia, Somalia and Sudan and provided services and grants to foster their successful reintegration. 
@@ -46,11 +48,11 @@
                     * Dr Andrew Pinney, Stats4SD, was quantitative design and technical lead of the IMPACT Study evaluation team.
                 </p>
                 </p>',
-                'image' => 'images/about.webp',
-                'imageAlt' => 'Case Study Image',
             ],
             [
                 'title' => 'Creating a baseline for Supporting Girls to Thrive',
+                'image' => 'images/about.webp',
+                'imageAlt' => 'Case Study Image',
                 'description' => '
                 <p>
                     In 2018, UNICEF launched the Supporting Girls to Thrive programme in Sorong, West Papua (Indonesia), with support from the David Beckham 7 Fund. The programme aimed to increase opportunities for adolescents, especially girls, to actively learn, discuss and express their views on key issues affecting their lives. 
@@ -59,11 +61,11 @@
                     In 2019, UNICEF commissioned a mixed methods study by Empatika and Stats4SD to understand the situation before the programme started and to provide a baseline for a future programme impact assessment. The baseline study included a survey, for which Stats4SD defined the methodology, designed the sampling scheme, developed the ODK questionnaires to be used on mobile devices, created training materials and trained the fieldwork team, provided support and quality assurance throughout the fieldwork, and analysed the data. The report of the study is available here.
                 </p>
                 ',
-                'image' => 'images/about.webp',
-                'imageAlt' => 'Case Study Image',
             ],
             [
                 'title' => 'Evaluating a project to improve menstrual health and hygiene in Ethiopia',
+                'image' => 'images/about.webp',
+                'imageAlt' => 'Case Study Image',
                 'description' => '
                 <p>
                     Stats4SD was part of the evaluation of a three-year project in Ethiopia promoting private sector investment in the provision of Menstrual Health and Hygiene products. The project started in January 2022 and was sponsored by the French Ministry of Europe and Foreign Affairs and the Agence Française de Développement (French Development Agency). It was implemented by an NGO consortium led by CARE France, with pre-financing from the French bank BNP Paribas.
@@ -75,13 +77,13 @@
                     Designing the questionnaire for the survey and collecting the data was straightforward. However, given the political volatility in some of the areas selected to participate in the project, several adaptations to the survey design, sampling scheme and plan of analysis had to be made between the baseline and the endline, and proving a causal link between the intervention and outcomes was challenging. 
                 </p>
                 ',
-                'image' => 'images/about.webp',
-                'imageAlt' => 'Case Study Image',
             ],
             [
                 'title' => 'Assessing a health and empowerment project in Central Asia',
+                'image' => 'images/about.webp',
+                'imageAlt' => 'Case Study Image',
                 'description' => '
-                <p>
+                <p id="aga-khan-foundation">
                     Stats4SD is working on an endline assessment for the Aga Khan Foundation (AKF) Canada’s five-year Foundations for Health and Empowerment (F4HE) project, funded by Global Affairs Canada and AKF Canada. This project promotes equitable development and empowerment for women, girls, adolescents, their families, and communities in targeted regions of Central Asia.
                 </p>
                 <p class="pt-2">
@@ -90,8 +92,6 @@
                 <p class="pt-2">
                     Stats4SD is supporting the AKF country teams in Afghanistan, Kyrgyzstan, Pakistan, and Tajikistan with study design and sampling; finalising the data collection tools (some on paper and some digital); preparing data collection guidelines; providing virtual training; creating a platform to capture and store the data; data quality assurance; analysing data to measure selected outcome indicators; contributing to data interpretation workshops; and writing the endline report.
                 </p>',
-                'image' => 'images/about.webp',
-                'imageAlt' => 'Case Study Image',
             ]
         ],
         'additionalContent' => [],
