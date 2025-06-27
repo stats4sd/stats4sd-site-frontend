@@ -39,7 +39,7 @@
             @foreach($teamData as $teamMember)
                 <div class="relative" x-data="{ open: false }">
                     <!-- Card -->
-                    <div class="cursor-pointer rounded-3xl overflow-hidden  hover-effect" @click="open = true">                        
+                    <div class="cursor-pointer rounded-3xl overflow-hidden hover-effect" @click="open = true">                        
                         <div 
                             class="h-80 sm:h-70 bg-cover bg-center transition duration-300"
                             style="background-image: url('{{ asset($teamMember['avatar']) }}')"
@@ -167,7 +167,7 @@
                 Download the organisation diagram to see the staff and management structure at Stats4SD.
             </p>
             <a href="#" 
-                class="inline-block bg-black text-white px-6 py-2 !text-base font-semibold rounded-full hover-effect transition"
+                class="inline-block bg-black text-white px-6 py-2 !text-base font-semibold rounded-full hover-effect"
                 target="_blank">
                     DOWNLOAD PDF
             </a>
