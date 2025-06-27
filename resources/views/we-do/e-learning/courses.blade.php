@@ -12,7 +12,7 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'lead_paragraph' => '
-            Stats4SD creates online courses relating to its areas of work and expertise. Some are taught courses, while others use a self-learning approach. Our courses are delivered on the Stats4SD Moodle site or on the websites of those who commissioned them. 
+            Stats4SD creates online courses relating to its areas of work and expertise. Some are taught courses, while others use a self-learning approach. Our courses are delivered on the <a href="https://courses.stats4sd.org/?redirect=0" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Moodle site</a> or on the websites of those who commissioned them. 
         ',
         'content' => '
             <p>
@@ -33,26 +33,26 @@
                 'description' => '
                     <ul class="list-disc pl-6">
                         <li>
-                            Impact Evaluations for Return and Reintegration Programmes – a course on the International Organization for Migration (IOM) United Nations (UN) Migration e-campus
+                            <a href="https://www.ecampus.iom.int/login/index.php" target="_blank"class="font-bold text-stats4sd-red">Impact Evaluations for Return and Reintegration Programmes</a> – a course on the International Organization for Migration (IOM) United Nations (UN) Migration e-campus
                         </li>
                         <li>
-                            Grassroots Evidence for Agroecology (with the Agroecology Fund) – a course on the Stats4SD Moodle site, designed to help grassroots organisations prepare evidence-based cases advocating for agroecology
+                            <a href="https://courses.stats4sd.org/enrol/index.php?id=23" target="_blank"class="font-bold text-stats4sd-red">Grassroots Evidence for Agroecology</a> (with the Agroecology Fund) – a course on the Stats4SD Moodle site, designed to help grassroots organisations prepare evidence-based cases advocating for agroecology
                         </li>
                         <li>
-                            (Re)Introduction to Statistics - Envision 2025 – on the Stats4SD Moodle site, designed to provide an overview of common statistical methods and concepts used within environmental sciences
+                            <a href="https://courses.stats4sd.org/enrol/index.php?id=30" target="_blank"class="font-bold text-stats4sd-red">(Re)Introduction to Statistics - Envision 2025</a> – on the Stats4SD Moodle site, designed to provide an overview of common statistical methods and concepts used within environmental sciences
                         </li>
                         <li>
-                            Introduction to R and RStudio – on the Stats4SD Moodle site
+                            <a href="https://courses.stats4sd.org/enrol/index.php?id=21" target="_blank"class="font-bold text-stats4sd-red">Introduction to R and RStudio</a> – on the Stats4SD Moodle site
                         </li>
                         <li>
-                            Dare to discover data assimilation (with the University of Reading, UK) – an introduction to the concepts of data assimilation without assuming a background in mathematical concepts or specialist subject knowledge
+                            <a href="https://discoverda.org/" target="_blank"class="font-bold text-stats4sd-red">Dare to discover data assimilation</a> (with the University of Reading, UK) – an introduction to the concepts of data assimilation without assuming a background in mathematical concepts or specialist subject knowledge
                         </li>
                     </ul>
                 '
             ]
         ],
         'additionalContent' => '
-            You can find courses and other e-learning materials in the Stats4SD Resources Library.
+            You can find courses and other e-learning materials in the <a href="https://resources.stats4sdtest.online" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
         ',
         'teamData' => [
             [

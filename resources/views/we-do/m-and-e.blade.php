@@ -21,8 +21,8 @@
                 experienced in collecting and analysing qualitative data (text, audio recordings, images etc). We also try to maximise 
                 any positive feedback loops between quantitative and qualitative data in our study designs.
             </p>
-            <p class="pt-2">Stats4SD’s Data systems and platforms team can also provide end-to-end data collection and management 
-                systems for your M&E and impact assessment studies.
+            <p class="pt-2">Stats4SD’s <a href="' . route('we-do.data-systems') . '" class="font-bold text-stats4sd-red">Data systems and platforms</a> team 
+                can also provide end-to-end data collection and management systems for your M&E and impact assessment studies.
             </p>
         ',
         'caseStudies' => [
@@ -32,7 +32,8 @@
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                 <p>
-                    In 2023 the UK Evaluation Society awarded its Innovation in Methodologies prize, sponsored by Ispos UK, to a consortium led by Itad in which Stats4SD provided quantitative evaluation design, analysis and interpretation. The prize was awarded for the IMPACT Study which evaluated a joint programme of the European Union and the International Organization for Migration (IOM) that assisted migrants to return to Ethiopia, Somalia and Sudan and provided services and grants to foster their successful reintegration. 
+                    In 2023 the <a href="https://evaluation.org.uk/" target="_blank"class="font-bold text-stats4sd-red">UK Evaluation Society</a> awarded its Innovation in Methodologies prize, sponsored by Ispos UK, to a consortium led by 
+                    <a href="https://www.itad.com/article/ioms-impact-study-wins-innovation-in-methodologies-prize/" target="_blank"class="font-bold text-stats4sd-red">Itad</a> in which Stats4SD provided quantitative evaluation design, analysis and interpretation. The prize was awarded for the IMPACT Study which evaluated a joint programme of the European Union and the International Organization for Migration (IOM) that assisted migrants to return to Ethiopia, Somalia and Sudan and provided services and grants to foster their successful reintegration. 
                 </p>
                 <p class="pt-2">
                     On awarding the prize, Ipsos UK highlighted three methodological innovations that were contributed to the study by Andrew Pinney from Stats4SD: adopting a calibration group approach to overcome the absence of a clear counterfactual, devising an appropriate snowball sampling strategy, and conducting retrospective baseline data collection at the same time as the endline as a solution to significantly reduced returnee flows at the start of the COVID-19 pandemic.
