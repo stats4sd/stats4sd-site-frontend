@@ -73,7 +73,8 @@
                     {{ t("Stats4SD was founded in 2016 by a group of applied statisticians, data engineers and research methods experts from the University of 
                     Reading with a mission to use their skills for the benefit of society and the environment.") }}
                 </p>
-                <p>{{ t("Since then, we have led or supported around xx projects across xx countries. Our team now includes specialists in quantitative and qualitative 
+                <!-- Since then, we have led or supported around xx projects across xx countries.  -->
+                <p>{{ t("Our team now includes specialists in quantitative and qualitative 
                     research methods, complex data analysis and data systems and platforms.") }}
                 </p>
                 <p>
