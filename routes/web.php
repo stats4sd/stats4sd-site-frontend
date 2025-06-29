@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Article;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', static function () {
@@ -15,6 +16,16 @@ Route::get('/team', function () {
 });
 Route::view('/where-we-work', 'where-we-work')->name('where-we-work');
 Route::view('/about', 'about')->name('about');
+
+Route::get('/blog', function () {
+    $blogs = Article::latest()->paginate(12);;
+    return view('blog', compact('blogs'));
+})->name('blog');
+
+Route::get('/blog/{slug}', function ($slug) {
+    $article = Article::with(['category', 'tags'])->where('slug', $slug)->firstOrFail();
+    return view('article', compact('article'));
+});
 
 // Level 2: we-do
 Route::prefix('we-do')->name('we-do.')->group(function () {
