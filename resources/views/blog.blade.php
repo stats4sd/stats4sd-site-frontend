@@ -44,35 +44,35 @@
                 </a>
             @endforeach
 
+            <!-- Pagination -->
             @if ($blogs->hasPages())
-    <div class="mt-12 flex justify-center">
-        <nav role="navigation" aria-label="Pagination Navigation" class="flex items-center space-x-2">
-            {{-- Previous Page Link --}}
-            @if ($blogs->onFirstPage())
-                <span class="px-4 py-2 text-gray-400 border rounded cursor-not-allowed">&laquo;</span>
-            @else
-                <a href="{{ $blogs->previousPageUrl() }}" class="px-4 py-2 text-black border rounded hover:bg-gray-100">&laquo;</a>
+                <div class="mt-12 flex justify-center">
+                    <nav role="navigation" aria-label="Pagination Navigation" class="flex items-center space-x-2">
+                        {{-- Previous Page Link --}}
+                        @if ($blogs->onFirstPage())
+                            <span class="px-4 py-2 text-gray-400 border rounded cursor-not-allowed">&laquo;</span>
+                        @else
+                            <a href="{{ $blogs->previousPageUrl() }}" class="px-4 py-2 text-black border rounded hover:bg-gray-100">&laquo;</a>
+                        @endif
+
+                        {{-- Pagination Elements --}}
+                        @foreach ($blogs->getUrlRange(1, $blogs->lastPage()) as $page => $url)
+                            @if ($page == $blogs->currentPage())
+                                <span class="px-4 py-2 bg-black text-white border rounded">{{ $page }}</span>
+                            @else
+                                <a href="{{ $url }}" class="px-4 py-2 text-black border rounded hover:bg-gray-100">{{ $page }}</a>
+                            @endif
+                        @endforeach
+
+                        {{-- Next Page Link --}}
+                        @if ($blogs->hasMorePages())
+                            <a href="{{ $blogs->nextPageUrl() }}" class="px-4 py-2 text-black border rounded hover:bg-gray-100">&raquo;</a>
+                        @else
+                            <span class="px-4 py-2 text-gray-400 border rounded cursor-not-allowed">&raquo;</span>
+                        @endif
+                    </nav>
+                </div>
             @endif
-
-            {{-- Pagination Elements --}}
-            @foreach ($blogs->getUrlRange(1, $blogs->lastPage()) as $page => $url)
-                @if ($page == $blogs->currentPage())
-                    <span class="px-4 py-2 bg-black text-white border rounded">{{ $page }}</span>
-                @else
-                    <a href="{{ $url }}" class="px-4 py-2 text-black border rounded hover:bg-gray-100">{{ $page }}</a>
-                @endif
-            @endforeach
-
-            {{-- Next Page Link --}}
-            @if ($blogs->hasMorePages())
-                <a href="{{ $blogs->nextPageUrl() }}" class="px-4 py-2 text-black border rounded hover:bg-gray-100">&raquo;</a>
-            @else
-                <span class="px-4 py-2 text-gray-400 border rounded cursor-not-allowed">&raquo;</span>
-            @endif
-        </nav>
-    </div>
-@endif
-
 
         </div>
 
