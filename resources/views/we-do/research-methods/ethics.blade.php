@@ -46,7 +46,7 @@
 
     <!-- Header Image and content -->
     <div class="w-full h-64 md:h-80 lg:h-96  ">
-        <img src="{{ url('images/we-do.jpg') }}" alt="Header Image" class=" w-full h-full object-cover">
+        <img src="{{ url('images/wedo/rm/ethics.jpg') }}" alt="Header Image" class=" w-full h-full object-cover">
     </div>
     <div class="w-full  ">
         <!-- Content -->

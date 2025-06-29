@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/rm/surveys.jpg',
         'headerAlt' => 'Surveys page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Surveys"),
@@ -31,7 +31,7 @@
         'caseStudies' => [
             [
                 'title' => 'The Ukraine national iodine survey',
-                'image' => 'images/about.webp',
+                'image' => 'images//wedo/rm/casestudies/salt.jpg',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>

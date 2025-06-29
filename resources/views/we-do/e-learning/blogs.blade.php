@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/el/blog.jpg',
         'headerAlt' => 'Blogs page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Blogs"),
@@ -18,7 +18,7 @@
         'caseStudies' => [
             [
                 'title' => 'Examples of our blogs',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/el/casestudies/blogs.jpg', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                 <ul class="list-disc pl-6">

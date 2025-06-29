@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/rm/design.jpg',
         'headerAlt' => 'Designing and supporting research page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Designing and supporting research"),
@@ -58,8 +58,9 @@
                     <li><a href="' . route('we-do.food-systems.research') . '" class="font-bold text-stats4sd-red">Agricultural and farmer research</a></li>
                 </ul>
                 ',
-            'image' => 'images/about.webp',
+            'image' => 'images/wedo/rm/crfstall.jpg',
             'imageAlt' => 'Case Study Image',
+            'imgstretch' => '1',
             ],
             [
             'title' => 'Where should I start?',
@@ -81,7 +82,8 @@
                     For more details, watch the video: <a href="https://www.youtube.com/watch?v=Xo861guv04Y" target="_blank" class="font-bold text-stats4sd-red">Thinking in Reverse Order</a>.
                 </p>
                 ',
-            'image' => 'images/about.webp', 
+            'image' => 'images/wedo/rm/where.jpg', 
+            'imgstretch' => '1',
             'imageAlt' => 'Case Study Image', 
             ]
         ],

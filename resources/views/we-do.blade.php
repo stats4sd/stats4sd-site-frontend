@@ -37,32 +37,32 @@
             [
                 'title' => t('Sustainable development'),
                 'url' => url('/we-do/sustainable-devlopment'),
-                'bg' => asset('images/we-do.jpg'),
+                'bg' => asset('images/wedo/sustain.jpg'),
             ],
             [
                 'title' => t('Research methods and analysis'),
                 'url' => url('/we-do/research-methods'),
-                'bg' => asset('images/team.jpg'),
+                'bg' => asset('images/wedo/rm/design.jpg'),
             ],
             [
                 'title' => t('Agriculture and food systems'),
                 'url' => url('/we-do/food-systems'),
-                'bg' => asset('images/about.webp'),
+                'bg' => asset('images/wedo/agri/agriculturefood.jpg'),
             ],
             [
                 'title' => t('Data systems and platforms'),
                 'url' => url('/we-do/data-systems'),
-                'bg' => asset('images/about.webp'),
+                'bg' => asset('images/wedo/de/datacoll.jpg'),
             ],
             [
                 'title' => t('M&E and impact assessment'),
                 'url' => url('/we-do/m-and-e'),
-                'bg' => asset('images/we-do.jpg'),
+                'bg' => asset('images/wedo/mande.jpg'),
             ],
             [
                 'title' => t('E-learning'),
                 'url' => url('/we-do/e-learning'),
-                'bg' => asset('images/team.jpg'),
+                'bg' => asset('images/wedo/el/elearning.jpg'),
             ],
         ];
     @endphp

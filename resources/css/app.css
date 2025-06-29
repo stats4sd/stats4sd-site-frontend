@@ -89,3 +89,7 @@ left:  calc(1px-(100vw - 100%) - 2rem);
     }
 }
 
+#my-map-display img.text-marker {
+    max-width:none!important;
+    background:none!important;
+}

@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-2-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/mande.jpg',
         'headerAlt' => 'M&E and impact assessment page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("M&E and impact assessment"),
@@ -28,7 +28,7 @@
         'caseStudies' => [
             [
                 'title' => 'Innovative methods for evaluating programmes for migrants returning to the Horn of Africa',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/me-cs/impact.png',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                 <p>
@@ -55,20 +55,22 @@
             ],
             [
                 'title' => 'Creating a baseline for Supporting Girls to Thrive',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/me-cs/baselinesupportinggirls.png',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                 <p>
                     In 2018, UNICEF launched the Supporting Girls to Thrive programme in Sorong, West Papua (Indonesia), with support from the David Beckham 7 Fund. The programme aimed to increase opportunities for adolescents, especially girls, to actively learn, discuss and express their views on key issues affecting their lives. 
-                </p>
+                </p> ',
+                'secondcolumn' => '
                 <p class="pt-2">
                     In 2019, UNICEF commissioned a mixed methods study by Empatika and Stats4SD to understand the situation before the programme started and to provide a baseline for a future programme impact assessment. The baseline study included a survey, for which Stats4SD defined the methodology, designed the sampling scheme, developed the ODK questionnaires to be used on mobile devices, created training materials and trained the fieldwork team, provided support and quality assurance throughout the fieldwork, and analysed the data. The report of the study is available here.
                 </p>
                 ',
+
             ],
             [
                 'title' => 'Evaluating a project to improve menstrual health and hygiene in Ethiopia',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/me-cs/ethiopia.jpg',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                 <p>
@@ -88,7 +90,7 @@
             ],
             [
                 'title' => 'Assessing a health and empowerment project in Central Asia',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/me-cs/centralasia.jpg',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
 

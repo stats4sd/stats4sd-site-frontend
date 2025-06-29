@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/rm/datavis.png',
         'headerAlt' => 'Indicators and data visualisations page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Indicators and data visualisations"),
@@ -24,7 +24,7 @@
         'caseStudies' => [
             [
                 'title' => 'Asia Girls’ Leadership Index',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/rm/casestudies/girlsleadership.png',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>
@@ -42,7 +42,7 @@
             ],
             [
                 'title' => 'The agroecology finance assessment tool',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/rm/casestudies/financeassess.png',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>

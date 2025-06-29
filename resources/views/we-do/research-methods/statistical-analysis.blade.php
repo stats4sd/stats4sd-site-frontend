@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/rm/statan1.png',
         'headerAlt' => 'Statistical analysis page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Statistical analysis"),
@@ -31,7 +31,7 @@
         'caseStudies' => [
             [
                 'title' => 'Statistical analysis for ProSoil survey',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/rm/casestudies/prosoilanalysis.png',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>Stats4SD did the statistical analysis for a ProSoil survey of 800 farm households in Kenya, Ethiopia, Benin and Madagascar, which used the 
@@ -49,7 +49,7 @@
             ],
             [
                 'title' => 'Analytical support for a study of agroecology practices',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/rm/casestudies/tpp1.png',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>

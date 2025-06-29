@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/de/dashboard.jpg',
         'headerAlt' => 'Dashboards page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Dashboards"),
@@ -25,15 +25,20 @@
         'caseStudies' => [
             [
                 'title' => 'The Quality of Life Survey Monitoring Dashboard',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/de/casestudies/qol1.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
 
-                    <p class="pt-2">
-                        The data platform also includes dashboards at the levels of district, sub-district, village and household, making it possible to review the survey’s progress at each of these levels. 
+                    <p class="">
+                        Stats4SD works with the Quality of Life assessment programme of the Aga Khan Development Network, supporting the Quality of Life team on survey design, implementation using ODK and analysis of results.
+
+
                     </p>
                     <p class="pt-2">
-                        Users of the dashboard can delete submissions that are incorrect or update a submission to fix the incorrect data. Updates made through the platform are kept in a log, to ensure transparency. The dashboard is updated as soon as survey submissions are sent to the server, so - as long as the field staff (enumerators) can access the internet to upload their submissions regularly - the survey management team can review them and resolve any issues promptly.
+                        In 2021, Stats4SD built a data platform to help the Quality of Life team manage their surveys and bring data from all survey locations into one database. The platform includes a survey monitoring dashboard which allows both the field supervisors and the remote managers to track the progress of the survey from anywhere in the world.                    
+                    </p>
+                    <p class="pt-2">
+                        At the top level, the survey monitoring dashboard provides a summary of progress based on key indicators that are tailored to the requirements of the survey team. It also highlights issues with the submitted data, including submissions where a household could not be identified and cases of duplicate submissions for the same household.
                     </p>
                 ',
                  'secondcolumn' => '
@@ -48,7 +53,7 @@
             ],
             [
                 'title' => 'Interactive indicator dashboard for assessing land investments',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/de/casestudies/tli.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>

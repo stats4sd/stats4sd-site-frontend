@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/de/datacoll.jpg',
         'headerAlt' => 'Data collection and management systems page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Data collection and management systems"),
@@ -34,7 +34,7 @@
         'caseStudies' => [
             [
                 'title' => 'Providing end-to-end support for ProSoil survey',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/de/casestudies/tape.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p id="prosoil-survey">
@@ -71,7 +71,7 @@
             ],
             [
                 'title' => 'Managing data for a pan-African study of the fall armyworm',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/de/casestudies/fallarmyworm.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>

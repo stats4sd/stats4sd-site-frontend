@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/agri/agroecology.jpg',
         'headerAlt' => 'Agroecology page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Agroecology"),
@@ -38,7 +38,7 @@
         'caseStudies' => [
             [
                 'title' => 'Innovation in research methods for agroecology',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/agri/casestudies/agroecology.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>

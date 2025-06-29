@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/rm/ai.jpg',
         'headerAlt' => 'AI for analysis page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("AI for analysis"),
@@ -31,7 +31,7 @@
             [
                 'title' => 'What to think about when proposing to use AI for analysis',
                 'redtitle' => 'Insight',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/rm/casestudies/aian.jpg',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>
@@ -65,7 +65,7 @@
             ],
             [
                 'title' => 'Comparing human and artificial intelligence for text analysis',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/rm/casestudies/aitext.jpg',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>

@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/agri/farm1.jpg',
         'headerAlt' => 'Agricultural and farmer research page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Agricultural and farmer research"),
@@ -39,7 +39,7 @@
         'caseStudies' => [
             [
                 'title' => 'FRNs and knowledge co-creation in Malawi',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/agri/casestudies/cocreation.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
@@ -61,7 +61,7 @@
             ],
             [
                 'title' => 'Farmer research – an example from Uganda',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/agri/casestudies/ugandatall.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>

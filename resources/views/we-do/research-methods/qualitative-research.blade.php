@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/rm/qual.png',
         'headerAlt' => 'Qualitative research page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Qualitative research"),
@@ -43,7 +43,7 @@
         'caseStudies' => [
             [
                 'title' => 'Building evidence-based cases for agroecology',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/rm/casestudies/aeftall.jpg',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>

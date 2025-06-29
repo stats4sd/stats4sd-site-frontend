@@ -64,17 +64,17 @@
 <!-- Case Study -->
 @if (!empty($caseStudies) && is_array($caseStudies))
     @foreach ($caseStudies as $index => $caseStudy)
-        <section class="w-full flex  flex-col lg:flex-row  {{ $index % 2 !== 0 ? 'lg:flex-row-reverse' : '' }}" id="casestudy">
+        <section class="w-full flex  flex-col lg:flex-row mt-8 mb-24  {{ mb_strlen($caseStudy['description'], 'UTF-8') > 800 ? 'items-start' : 'items-center' }}  {{ $index % 2 !== 0 ? 'lg:flex-row-reverse' : '' }}" id="casestudy">
             <!-- Image -->
-            <div class="w-full lg:w-[30%] h-80 lg:h-auto">
+            <div class="w-full lg:w-[50%] xl:w-[40%]  max-h-[800px] px-12 text-center {{ $index % 2 !== 0 ? 'lg:pl-0 lg:text-left' : 'lg:pr-0 lg:text-right' }}">
                 <img src="{{ asset($caseStudy['image']) }}" alt="{{ $caseStudy['imageAlt'] }}"
-                    class="w-full h-full object-cover">
+                    class=" inline lg:object-contain max-h-[500px] {{ mb_strlen($caseStudy['description'], 'UTF-8') > 800 ? 'xl:max-h-full xl:max-w-[500px]' : '' }} ">
             </div>
 
             <!-- Text -->
             <div
-                class="flex flex-col w-full lg:w-[70%] justify-center bg-stats4sd-lightgrey py-12 xl:py-16 {{ $index % 2 !== 0 ? 'pr-12' : 'xl:pl-12' }}">
-                <div class="flex flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} h-full">
+                class="flex flex-col w-full lg:w-[50%] xl:w-[60%] justify-center mt-8 lg:mt-4 {{ $index % 2 !== 0 ? 'pr-8 sm:pr-10 xl:pr-8' : 'pl-8 sm:pl-10 xl:pl-8' }}">
+                <div class="flex flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} items-stretch">
 
                     <div class="w-full max-w-5xl {{ $index % 2 !== 0 ? 'ml-20 ' : 'mr-20' }} ">
 
@@ -128,7 +128,7 @@
 
             </div>
         </section>
-    @endforeach
+@endforeach
 @endif
 
 <section class="bg-white

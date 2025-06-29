@@ -99,7 +99,7 @@
         <div class="flex flex-row lg:w-1/3 min-w-[26rem] justify-between xl3-w-24  ">
             <!-- Right Column: Image -->
             <div class="float-left lg:-ml-24  xl3-max-500 ">
-                <img src="{{ asset('images/about.webp') }}" alt="Our Work" class="w-full  lg:h-[580px] object-cover ">
+                <img src="{{ asset('images/wedo1.jpg') }}" alt="Our Work" class="w-full  lg:h-[580px] object-cover ">
             </div>
 
         </div>
@@ -168,8 +168,8 @@
                     <div class="text-stats4sd-red text-xl font-bold uppercase mb-4">
                         {{ t('Our work') }}
                     </div>
-                    <img src="{{ asset('images/team.jpg') }}" alt="{{ t('Our work') }}"
-                        class="mb-6 w-full lg:max-w-md object-cover h-72 lg:h-auto" />
+                    <img src="{{ asset('images/map.png') }}" alt="{{ t('Our work') }}"
+                        class="mb-6 w-full lg:max-w-md object-cover h-72 " />
 
                 </div>
             </div>
@@ -179,8 +179,8 @@
                     <div class="text-stats4sd-red text-xl font-bold uppercase mb-4">
                         {{ t('About us') }}
                     </div>
-                    <img src="{{ asset('images/we-do.jpg') }}" alt="{{ t('About us') }}"
-                        class="mb-6 w-full lg:max-w-md object-cover h-72 lg:h-auto " />
+                    <img src="{{ asset('images/aboutus.jpg') }}" alt="{{ t('About us') }}"
+                        class="mb-6 w-full lg:max-w-md object-cover h-72 ] " />
                    
                     
                 </div>
@@ -203,7 +203,9 @@
             <div class=" order-3 lg:order-5  px-8 lg:px-0 mb-16 lg:mb-0">
                 <div class="flex flex-col w-[450px] lg:float-right">
                     <p class="text-gray-700 mb-6 max-w-md lg:h-12">
-                        {{ t('Use our interactive map to see where we work around the world and the projects we support.') }}
+                        {{-- Update once we have the page working:
+                         {{ t('Use our interactive map to see where we work around the world and the projects we support.') }} --}}
+                    {{ t('See where we work around the world and the projects we support.') }}
                     </p>
                     <div class="flex justify-start">
                         <a href="{{ url('/where-we-work') }}"

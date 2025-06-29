@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/resources.webp',
         'headerAlt' => 'Resources library page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Resources library"),
@@ -18,30 +18,18 @@
                 Wherever possible, we aim to make these publicly available to all who could benefit from them. We therefore maintain the 
                 <a href="https://resources.stats4sdtest.online" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>, a searchable database in which we store and share materials produced by our team, along with selected links to materials from other sources that we recommend. 
             </p>
-        ',
-        'caseStudies' => [
-            [
-                'title' => 'Resources Library',
-                'image' => 'images/about.webp', 
-                'imageAlt' => 'Case Study Image', 
-                'description' => '
-                    <p>
+                                <p class="pt-4">
                         The Stats4SD Resources Library includes hundreds of resources, sorted into various categories of research methods and broad topics. You can explore these categories or search and filter to discover free materials for reference, teaching or individual capacity-building. You can also browse or search our collections and link to other resource hubs.
                     </p>
-                ',
-                 'secondcolumn' => '
-                    <p>
-                        Explore the Library:
-                    </p>
-                    <div class="w-auto mt-6">
+                                        <div class="w-auto mt-12 ">
                         <a href="https://stats4sd.org/resources"
-                            class="inline-block bg-black text-white px-6 py-3 font-semibold rounded-3xl hover-effect uppercase">
+                            class="inline-block bg-stats4sd-red text-white px-6 py-3 font-semibold rounded-3xl hover-effect uppercase">
                             Stats4SD Resources Library
                         </a>
                     </div>
-                ',
-            ]
-        ],
+        ',
+       
+       
         'additionalContent' => '',
         'teamData' => [
             [

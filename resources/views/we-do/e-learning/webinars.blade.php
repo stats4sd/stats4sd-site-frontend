@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/el/webinar.jpg',
         'headerAlt' => 'Webinars page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Webinars"),
@@ -26,7 +26,7 @@
         'caseStudies' => [
             [
                 'title' => 'Examples of the presentations we have created',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/el/casestudies/webinars.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <ul class="list-disc pl-6">

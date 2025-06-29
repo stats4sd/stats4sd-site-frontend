@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/el/vid.jpg',
         'headerAlt' => 'Videos and video playlists page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Videos and video playlists"),
@@ -25,7 +25,7 @@
         'caseStudies' => [
             [
                 'title' => 'Examples of the videos we have created',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/el/casestudies/videos1.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <ul class="list-disc pl-6">

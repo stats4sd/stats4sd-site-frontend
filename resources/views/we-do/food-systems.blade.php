@@ -13,19 +13,19 @@
             [
                 'title' => 'Food systems transformation',
                 'url' => url('/we-do/food-systems/transformation'),
-                'cover_photo_url' => asset('images/we-do.jpg'),
+                'cover_photo_url' => asset('images/wedo/agri/food2.jpg'),
                 'description' => 'We support the McKnight Foundation’s work towards a world where everyone has access to sustainably produced, nutritious food.',
             ],
             [
                 'title' => 'Agroecology',
                 'url' => url('/we-do/food-systems/agroecology'),
-                'cover_photo_url' => asset('images/we-do.jpg'),
+                'cover_photo_url' => asset('images/wedo/agri/agroecology.jpg'),
                 'description' => 'Together with our partner organisations, we are developing innovative research methods for agroecology.',
             ],
             [
                 'title' => 'Agricultural and farmer research',
                 'url' => url('/we-do/food-systems/research'),
-                'cover_photo_url' => asset('images/we-do.jpg'),
+                'cover_photo_url' => asset('images/wedo/agri/farmsm.jpg'),
                 'description' => 'Our team can advise on traditional agricultural research and is also actively involved in farmer research and knowledge co-creation.',
             ],
         ]

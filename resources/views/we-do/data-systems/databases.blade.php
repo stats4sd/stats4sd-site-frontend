@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/de/database.jpg',
         'headerAlt' => 'Databases and platforms page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Databases and platforms"),
@@ -25,7 +25,7 @@
         'caseStudies' => [
             [
                 'title' => 'Building an online data platform for an Agroecology TPP project',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/rm/casestudies/tpp.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
@@ -48,7 +48,7 @@
             ],
             [
                 'title' => 'The HOLPA web-based data collection and management platform',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/de/casestudies/holpa.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>

@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-2-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/sustain.jpg',
         'headerAlt' => 'Sustainable Development page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Sustainable development"),
@@ -32,7 +32,7 @@
                 'secondcolumn' => '
                     As we wanted to help the FSC in its work on sustainable forestry, we not only answered the original question but decided to develop a new model 
                     that was better suited to their needs.',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/fsc.jpg',
                 'imageAlt' => 'Case Study Image',
             ]
         ],
