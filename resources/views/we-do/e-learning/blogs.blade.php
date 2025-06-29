@@ -23,19 +23,27 @@
                 'description' => '
                 <ul class="list-disc pl-6">
                     <li>
-                        Providing support to projects that are midway through the research process by Shiphar Mulumba 
+                        <a href="' . url('/blog/providing-support-to-projects-that-are-midway-through-the-research-process-project-a') . '" target="_blank" class="font-bold text-stats4sd-red">
+                            Providing support to projects that are midway through the research process
+                        </a> by Shiphar Mulumba
                     </li>
                     <li>
-                        Warming Stripes: A problem-solving task in R by Sam Dumble
+                        <a href="' . url('/blog/warming-stripes-a-problem-solving-task-in-r') . '" target="_blank" class="font-bold text-stats4sd-red">
+                            Warming Stripes: A problem-solving task in R
+                        </a> by Sam Dumble
                     </li>
                     <li>
-                        The design of the design of experiments by Ric Coe
+                        <a href="' . url('/blog/the-design-of-the-design-of-experiments') . '" target="_blank" class="font-bold text-stats4sd-red">
+                            The design of the design of experiments
+                        </a> by Ric Coe
                     </li>
                     <p class="pt-2">
                         And for fun…
                     </p>
                     <li>
-                        Red or White? An Oenological Experimentation into Gustationary Ability to Discern the Pigmentation of Wine when Imbibition is Concealed by Sam Dumble
+                        <a href="' . url('/blog/red-or-white') . '" target="_blank" class="font-bold text-stats4sd-red">
+                            Red or White? An Oenological Experimentation into Gustationary Ability to Discern the Pigmentation of Wine when Imbibition is Concealed
+                        </a> by Sam Dumble
                     </li>
                 </ul>
                 '
@@ -43,7 +51,8 @@
         ],
         'additionalContent' => '
             <p>
-                The full collection of Stats4SD blogs can be found here.
+                The full collection of Stats4SD blogs can be found 
+                <a href="' . route('blog') . '" class="font-bold text-stats4sd-red">here</a>.
             </p>
             <p class="pt-2">
                 You can find other e-learning materials in the <a href="https://resources.stats4sdtest.online" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
