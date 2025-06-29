@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <section class="bg-white pt-4 px-6 md:px-20">
+    <section class="bg-white pt-4 pb-16 px-6 md:px-20">
         <div class="max-w-4xl mx-auto space-y-6 text-gray-800">
             <img src="{{ asset('images/stats4sd-map.png') }}" alt="Map of where we work" class="w-full h-auto rounded shadow">
         </div>
