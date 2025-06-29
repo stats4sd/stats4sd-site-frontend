@@ -56,7 +56,7 @@
                 The full collection of Stats4SD videos and video playlists can be found on the <a href="https://www.youtube.com/@Stats4SD" target="_blank"class="font-bold text-stats4sd-red">Stats4SD YouTube channel</a>. 
             </p>
             <p class="pt-2">
-                You can find other e-learning materials in the <a href="https://resources.stats4sdtest.online" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
+                You can find other e-learning materials in the <a href="https://stats4sd.org/resources" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
             </p>
         ',
         'teamData' => [

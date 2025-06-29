@@ -16,7 +16,7 @@
         'content' => '
             <p>
                 Wherever possible, we aim to make these publicly available to all who could benefit from them. We therefore maintain the 
-                <a href="https://resources.stats4sdtest.online" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>, a searchable database in which we store and share materials produced by our team, along with selected links to materials from other sources that we recommend. 
+                <a href="https://stats4sd.org/resources" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>, a searchable database in which we store and share materials produced by our team, along with selected links to materials from other sources that we recommend. 
             </p>
         ',
         'caseStudies' => [
