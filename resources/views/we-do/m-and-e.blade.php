@@ -33,10 +33,12 @@
                 'description' => '
                 <p>
                     In 2023 the <a href="https://evaluation.org.uk/" target="_blank"class="font-bold text-stats4sd-red">UK Evaluation Society</a> awarded its Innovation in Methodologies prize, sponsored by Ispos UK, to a consortium led by 
-                    <a href="https://www.itad.com/article/ioms-impact-study-wins-innovation-in-methodologies-prize/" target="_blank"class="font-bold text-stats4sd-red">Itad</a> in which Stats4SD provided quantitative evaluation design, analysis and interpretation. The prize was awarded for the IMPACT Study which evaluated a joint programme of the European Union and the International Organization for Migration (IOM) that assisted migrants to return to Ethiopia, Somalia and Sudan and provided services and grants to foster their successful reintegration. 
+                    <a href="https://www.itad.com/article/ioms-impact-study-wins-innovation-in-methodologies-prize/" target="_blank"class="font-bold text-stats4sd-red">Itad</a> in which Stats4SD provided quantitative evaluation design, analysis and interpretation. The prize was awarded for the 
+                    <a href="https://eastandhornofafrica.iom.int/impact-study" target="_blank"class="font-bold text-stats4sd-red">IMPACT Study</a> which evaluated a joint programme of the European Union and the International Organization for Migration (IOM) that assisted migrants to return to Ethiopia, Somalia and Sudan and provided services and grants to foster their successful reintegration. 
                 </p>
                 <p class="pt-2">
-                    On awarding the prize, Ipsos UK highlighted three methodological innovations that were contributed to the study by Andrew Pinney from Stats4SD: adopting a calibration group approach to overcome the absence of a clear counterfactual, devising an appropriate snowball sampling strategy, and conducting retrospective baseline data collection at the same time as the endline as a solution to significantly reduced returnee flows at the start of the COVID-19 pandemic.
+                    On awarding the prize, Ipsos UK highlighted 
+                    <a href="https://www.itad.com/article/ioms-impact-study-wins-innovation-in-methodologies-prize/" target="_blank"class="font-bold text-stats4sd-red">three methodological innovations</a> that were contributed to the study by Andrew Pinney from Stats4SD: adopting a calibration group approach to overcome the absence of a clear counterfactual, devising an appropriate snowball sampling strategy, and conducting retrospective baseline data collection at the same time as the endline as a solution to significantly reduced returnee flows at the start of the COVID-19 pandemic.
                 </p>
                 <p class="pt-2">
                     Davide Bruscoli, Regional Information Management Officer for East and Horn of Africa of the IOM, said:
@@ -45,7 +47,7 @@
                     “I am glad to say that the study achieved all its objectives and pushed the evaluability frontier to include a topical area (assisted voluntary return and reintegration) of development intervention that was previously left out. 
                     Throughout the evaluation process, the evaluation team, led by Andrew Pinney* and Itad, demonstrated a high level of professionalism, expertise, and dedication.                 The study was conducted in close collaboration with IOM – even, I would say, in a spirit of partnership rather than simple service provision – with Itad and the evaluation team walking several ‘extra miles’.”
                 </blockquote>
-                <p>
+                <p class="pt-2">
                     * Dr Andrew Pinney, Stats4SD, was quantitative design and technical lead of the IMPACT Study evaluation team.
                 </p>
                 </p>',
@@ -59,7 +61,10 @@
                     In 2018, UNICEF launched the Supporting Girls to Thrive programme in Sorong, West Papua (Indonesia), with support from the David Beckham 7 Fund. The programme aimed to increase opportunities for adolescents, especially girls, to actively learn, discuss and express their views on key issues affecting their lives. 
                 </p>
                 <p class="pt-2">
-                    In 2019, UNICEF commissioned a mixed methods study by Empatika and Stats4SD to understand the situation before the programme started and to provide a baseline for a future programme impact assessment. The baseline study included a survey, for which Stats4SD defined the methodology, designed the sampling scheme, developed the ODK questionnaires to be used on mobile devices, created training materials and trained the fieldwork team, provided support and quality assurance throughout the fieldwork, and analysed the data. The report of the study is available here.
+                    In 2019, UNICEF commissioned a mixed methods study by 
+                    <a href="https://www.empatika.org/" target="_blank"class="font-bold text-stats4sd-red">Empatika</a> and Stats4SD to understand the situation before the programme started and to provide a baseline for a future programme impact assessment. The baseline study included a survey, for which Stats4SD defined the methodology, designed the sampling scheme, developed the 
+                    <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">ODK</a> questionnaires to be used on mobile devices, created training materials and trained the fieldwork team, provided support and quality assurance throughout the fieldwork, and analysed the data. The report of the study is available 
+                    <a href="https://www.unicef.org/indonesia/reports/supporting-girls-thrive-baseline-mixed-methods-study" target="_blank"class="font-bold text-stats4sd-red">here</a>.
                 </p>
                 ',
             ],
@@ -69,10 +74,12 @@
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                 <p>
-                    Stats4SD was part of the evaluation of a three-year project in Ethiopia promoting private sector investment in the provision of Menstrual Health and Hygiene products. The project started in January 2022 and was sponsored by the French Ministry of Europe and Foreign Affairs and the Agence Française de Développement (French Development Agency). It was implemented by an NGO consortium led by CARE France, with pre-financing from the French bank BNP Paribas.
+                    Stats4SD was part of the evaluation of 
+                    <a href="https://www.afd.fr/en/projects/promoting-private-sector-investment-menstrual-health-and-hygiene-ethiopia" target="_blank"class="font-bold text-stats4sd-red">a three-year project in Ethiopia</a> promoting private sector investment in the provision of Menstrual Health and Hygiene products. The project started in January 2022 and was sponsored by the French Ministry of Europe and Foreign Affairs and the Agence Française de Développement (French Development Agency). It was implemented by an NGO consortium led by CARE France, with pre-financing from the French bank BNP Paribas.
                 </p>
                 <p class="pt-2">
-                    For the evaluation, Stats4SD worked with an advisor from the Burnet Institute in Australia, which has developed measurement tools for menstrual health research including the Menstrual Practice Needs Scale (MPNS). Stats4SD designed and supported baseline, midline and endline surveys using the MPNS ‘needs met’ indicator and indicators designed to assess knowledge and impact on day-to-day activities.
+                    For the evaluation, Stats4SD worked with an advisor from the Burnet Institute in Australia, which has developed measurement tools for menstrual health research including the 
+                    <a href="https://mhevidence.au/measures/mpns/" target="_blank"class="font-bold text-stats4sd-red">Menstrual Practice Needs Scale (MPNS)</a>. Stats4SD designed and supported baseline, midline and endline surveys using the MPNS ‘needs met’ indicator and indicators designed to assess knowledge and impact on day-to-day activities.
                 </p>
                 <p class="pt-2">
                     Designing the questionnaire for the survey and collecting the data was straightforward. However, given the political volatility in some of the areas selected to participate in the project, several adaptations to the survey design, sampling scheme and plan of analysis had to be made between the baseline and the endline, and proving a causal link between the intervention and outcomes was challenging. 
