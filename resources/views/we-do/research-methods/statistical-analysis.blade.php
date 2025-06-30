@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/wedo/rm/statan1.png',
+        'headerImage' => 'images/wedo/rm/statan.jpg',
         'headerAlt' => 'Statistical analysis page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Statistical analysis"),

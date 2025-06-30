@@ -25,7 +25,7 @@
             [
                 'title' => 'Statistical analysis',
                 'url' => url('/we-do/research-methods/statistical-analysis'),
-                'cover_photo_url' => asset('images/wedo/rm/statan1.png'),
+                'cover_photo_url' => asset('images/wedo/rm/statan.jpg'),
                 'description' => 'Our experiences statisticians are familiar with the statistical techniques and programs you need for your data analysis.',
             ],
             [
