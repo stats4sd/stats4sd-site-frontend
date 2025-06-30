@@ -65,7 +65,7 @@
 
                 ',
                  'secondcolumn' => '                    
-                 <p class="pt-2">
+                    <p>
                         The qualitative research team at Stats4SD was central to this work, helping organisations to build coherent cases and compelling arguments for agroecology based on a framework and a logical argument. The cases aim to influence farmers, communities, donors, policymakers, researchers and consumers – key actors in the transformation of food systems.
                     </p>
                  
