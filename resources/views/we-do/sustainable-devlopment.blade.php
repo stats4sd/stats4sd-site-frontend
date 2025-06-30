@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-2-template', [
-        'headerImage' => 'images/wedo/sustain.jpg',
+        'headerImage' => 'images/wedo/sustain.JPG',
         'headerAlt' => 'Sustainable Development page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Sustainable development"),
