@@ -58,13 +58,17 @@
                             Creating a GEA online course that is free and available in English, French and Spanish – see video introduction 
                             <a href="https://agroecologyfund.org/wp-content/uploads/2024/11/GEA_Report_20241022-1-compressed.pdf" target="_blank"class="font-bold text-stats4sd-red">here</a>.
                         </li>
-                        <li>
-                            Building an <a href="https://evidence4agroecology.org/home" target="_blank"class="font-bold text-stats4sd-red">online catalogue</a> to share cases and evidence from the GEA initiative. The catalogue was launched in February 2025 with the 13 cases from the pilot study. It will grow as other cases are developed by grassroots organisations.
-                        </li>
+
                     </ul>
 
                 ',
                  'secondcolumn' => '                    
+                      <ul class="list-disc pl-6">
+                        
+                        <li>
+                            Building an <a href="https://evidence4agroecology.org/home" target="_blank"class="font-bold text-stats4sd-red">online catalogue</a> to share cases and evidence from the GEA initiative. The catalogue was launched in February 2025 with the 13 cases from the pilot study. It will grow as other cases are developed by grassroots organisations.
+                        </li>
+                    </ul>
                     <p>
                         The qualitative research team at Stats4SD was central to this work, helping organisations to build coherent cases and compelling arguments for agroecology based on a framework and a logical argument. The cases aim to influence farmers, communities, donors, policymakers, researchers and consumers – key actors in the transformation of food systems.
                     </p>
