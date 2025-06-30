@@ -37,7 +37,7 @@
             [
                 'title' => t('Sustainable development'),
                 'url' => url('/we-do/sustainable-devlopment'),
-                'bg' => asset('images/wedo/sustain.jpg'),
+                'bg' => asset('images/wedo/sustain.JPG'),
             ],
             [
                 'title' => t('Research methods and analysis'),
