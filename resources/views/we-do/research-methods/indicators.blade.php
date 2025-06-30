@@ -41,7 +41,7 @@
                 'image' => 'images/about.webp',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
-                    <p>
+                    <p id="agroecology-finance-assessment-tool">
                         Stats4SD created an agroecology finance assessment tool for the Agroecology Coalition to answer the questions “how agroecological is my funding portfolio?” and “how do I compare with others?” 
                     </p>
                     <p class="pt-2">

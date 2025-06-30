@@ -33,19 +33,19 @@
                 'description' => '
                     <ul class="list-disc pl-6">
                         <li>
-                            <a href="https://www.ecampus.iom.int/login/index.php" target="_blank"class="font-bold text-stats4sd-red">Impact Evaluations for Return and Reintegration Programmes</a> – a course on the International Organization for Migration (IOM) United Nations (UN) Migration e-campus
+                            <a href="https://www.ecampus.iom.int/login/index.php" target="_blank"class="font-bold text-stats4sd-red">Impact Evaluations for Return and Reintegration Programmes</a> – a course on the International Organization for Migration (IOM) United Nations (UN) Migration e-campus.
                         </li>
                         <li>
-                            <a href="https://courses.stats4sd.org/enrol/index.php?id=23" target="_blank"class="font-bold text-stats4sd-red">Grassroots Evidence for Agroecology</a> (with the Agroecology Fund) – a course on the Stats4SD Moodle site, designed to help grassroots organisations prepare evidence-based cases advocating for agroecology
+                            <a href="https://courses.stats4sd.org/enrol/index.php?id=23" target="_blank"class="font-bold text-stats4sd-red">Grassroots Evidence for Agroecology</a> (with the Agroecology Fund) – a course on the Stats4SD Moodle site, designed to help grassroots organisations prepare evidence-based cases advocating for agroecology.
                         </li>
                         <li>
-                            <a href="https://courses.stats4sd.org/enrol/index.php?id=30" target="_blank"class="font-bold text-stats4sd-red">(Re)Introduction to Statistics - Envision 2025</a> – on the Stats4SD Moodle site, designed to provide an overview of common statistical methods and concepts used within environmental sciences
+                            <a href="https://courses.stats4sd.org/enrol/index.php?id=30" target="_blank"class="font-bold text-stats4sd-red">(Re)Introduction to Statistics - Envision 2025</a> – on the Stats4SD Moodle site, designed to provide an overview of common statistical methods and concepts used within environmental sciences.
                         </li>
                         <li>
-                            <a href="https://courses.stats4sd.org/enrol/index.php?id=21" target="_blank"class="font-bold text-stats4sd-red">Introduction to R and RStudio</a> – on the Stats4SD Moodle site
+                            <a href="https://courses.stats4sd.org/enrol/index.php?id=21" target="_blank"class="font-bold text-stats4sd-red">Introduction to R and RStudio</a> – on the Stats4SD Moodle site.
                         </li>
                         <li>
-                            <a href="https://discoverda.org/" target="_blank"class="font-bold text-stats4sd-red">Dare to discover data assimilation</a> (with the University of Reading, UK) – an introduction to the concepts of data assimilation without assuming a background in mathematical concepts or specialist subject knowledge
+                            <a href="https://discoverda.org/" target="_blank"class="font-bold text-stats4sd-red">Dare to discover data assimilation</a> (with the University of Reading, UK) – an introduction to the concepts of data assimilation without assuming a background in mathematical concepts or specialist subject knowledge.
                         </li>
                     </ul>
                 '
