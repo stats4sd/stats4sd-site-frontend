@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/de/datacoll.jpg',
         'headerAlt' => 'Data collection and management systems page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Data collection and management systems"),
@@ -12,10 +12,13 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'lead_paragraph' => '
-            The focus of the data collection and management systems work at Stats4SD is on choosing the right tools and building the systems for digital data collection and management. We support people who want to collect data, for example through household surveys, field experiments or talking to farmers about their practices. Our job is to capture the data, store it sensibly and get it into shape for efficient processing. This includes designing questionnaires and forms for collecting data on a mobile device, as well as building end-to-end systems to manage the data collection (fieldwork) and processing.
+            The focus of the data collection and management systems work at Stats4SD is on choosing the right tools and building the systems for digital data collection and management. We support people who want to collect data, for example through household surveys, field experiments or talking to farmers about their practices. 
         ',
         'content' => '
-            <p class="font-bold">
+        <p>
+        Our job is to capture the data, store it sensibly and get it into shape for efficient processing. This includes designing questionnaires and forms for collecting data on a mobile device, as well as building end-to-end systems to manage the data collection (fieldwork) and processing.
+        </p>
+            <p class="font-bold mt-6">
                 ODK for data collection
             </p>
             <p class="pt-2">
@@ -31,7 +34,7 @@
         'caseStudies' => [
             [
                 'title' => 'Providing end-to-end support for ProSoil survey',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/de/casestudies/tape.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p id="prosoil-survey">
@@ -42,7 +45,14 @@
                         The starting point for data collection was the 
                         <a href="https://www.fao.org/agroecology/tools-tape/en" target="_blank"class="font-bold text-stats4sd-red">Tool for Agroecology Performance Evaluation (TAPE)</a> of the UN Food and Agriculture Organisation (FAO). ODK forms were used to collect data in the field with mobile devices and to aggregate the data. 
                     </p>
+
+
                     <p class="pt-2">
+                        Stats4SD also carried out the statistical analysis for the survey.
+                    </p>
+                ',
+                  'secondcolumn' => '
+                                      <p class="pt-2">
                         Stats4SD provided end-to-end support including platform design, field support, data analysis and report writing. Our role included:
                     </p>
                     <ul class="list-disc pl-6">
@@ -59,7 +69,6 @@
                             Designing a custom-built <a href="' . route('we-do.data-systems.databases') . '" class="font-bold text-stats4sd-red">database</a> with structures that made it easy to extract analysis-ready data and do cross-country comparisons.
                         </li>
                     </ul>
-
                     <p class="pt-2">
                         Stats4SD also carried out the <a href="' . route('we-do.research-methods.statistical-analysis') . '" class="font-bold text-stats4sd-red">statistical analysis</a> for the survey.
                     </p>
@@ -67,7 +76,7 @@
             ],
             [
                 'title' => 'Managing data for a pan-African study of the fall armyworm',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/de/casestudies/fallarmyworm.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>

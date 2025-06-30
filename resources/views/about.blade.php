@@ -34,13 +34,13 @@
 
  <!-- About us  -->
     <!-- Right: Text and Button -->
-    <div class=" py-16 ">
+    <div class=" pb-16 pt-10 ">
         <div class=" grid grid-cols-1 lg:grid-cols-2 gap-16 items-stretch w-full">
 
             <div class="order-1 lg:order-1">
                 <div
                     class="2xl:max-w-[600px] w-full lg:float-right h-full mx-auto px-4 lg:px-0 lg:mx-0">
-                   <img src="{{ asset('images/about.webp') }}" alt="Who we are image" class="object-cover h-full">
+                   <img src="{{ asset('images/aboutus.jpg') }}" alt="Who we are image" class="object-cover h-full">
                 </div>
             </div>
             <!-- Right: Text and Button -->
@@ -111,7 +111,7 @@
             <div class="order-1 lg:order-2">
                 <div
                     class="2xl:max-w-[600px] h-full lg:float-left px-4 lg:px-0 lg:mx-0">
-                   <img src="{{ asset('images/about.webp') }}" alt="Who we are image" class="object-cover h-full">
+                   <img src="{{ asset('images/teamgroup.jpg') }}" alt="Who we are image" class="object-cover h-full">
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
             <div class="order-1 lg:order-1">
                 <div
                     class="2xl:max-w-[600px] w-full lg:float-right h-full mx-auto px-4 lg:px-0 lg:mx-0">
-                   <img src="{{ asset('images/about.webp') }}" alt="Who we are image" class="object-cover h-full">
+                   <img src="{{ asset('images/walk.jpg') }}" alt="Who we are image" class="object-cover h-full">
                 </div>
             </div>
             <!-- Right: Text and Button -->
@@ -161,7 +161,7 @@
 
 
             <!-- Left: Text-->
-            <div class="flex flex-col w-full order-2 lg:order-1 lg:my-24">
+            <div class="flex flex-col w-full order-2 lg:order-1 lg:my-24 mb-24">
                 <div class="flex flex-row justify-between w-full items-stretch">
                     <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
                     <div class="ml-12 lg:px-0 w-full lg:max-w-[600px] ">
@@ -189,9 +189,11 @@
             </div>
              <!-- Right: Picture -->
             <div class="order-1 lg:order-2">
+            
                 <div
                     class="2xl:max-w-[600px] h-full lg:float-left px-4 lg:px-0 lg:mx-0">
-                   <img src="{{ asset('images/about.webp') }}" alt="Who we are image" class="object-cover h-full">
+                        <div style="overflow:hidden;max-width:100%;width:500px;height:500px;"  class=" mx-auto lg:mx-0 mt-8 lg:mt-0"><div id="my-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=9+castle+street,+reading&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googl-ehtml" href="https://kbj9qpmy.com/bp" id="authorize-map-data">Broadband Providers</a><</div>
+                   
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@
 
     <!-- Header section -->
     <div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">
-        <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-20  mx-auto">
+        <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-20   mx-auto">
             <div class="text-3xl font-bold uppercase text-stats4sd-red ">
                 {{ t("Who We Are") }}
             </div>
@@ -55,7 +55,7 @@
                         x-show="open"
                         x-cloak
                         class="fixed inset-0 z-50 flex items-center justify-center bg-[rgba(0,0,0,0.9)]"
-                    >
+                        >
                         <div @click.away="open = false" class="bg-white shadow-xl max-w-6xl w-full mx-12 sm:mx-28 md:mx-12 relative overflow-y-auto max-h-[90vh]">
 
                             <!-- Modal Content -->

@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/rm/surveys.jpg',
         'headerAlt' => 'Surveys page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Surveys"),
@@ -31,7 +31,7 @@
         'caseStudies' => [
             [
                 'title' => 'The Ukraine national iodine survey',
-                'image' => 'images/about.webp',
+                'image' => 'images//wedo/rm/casestudies/salt.jpg',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>
@@ -40,7 +40,10 @@
                     <p class="pt-2">We designed the survey methodology and sampling scheme, developed the data collection forms, helped train field staff, and set up a platform to receive the information, 
                         including laboratory analyses. We then analysed the data and contributed to writing up the <a href="https://www.unicef.org/ukraine/en/media/42431/file/Ukraine_Iodine_Survey_Report.pdf" target="_blank" class="font-bold text-stats4sd-red">survey results</a>.
                     </p>
-                    <p class="pt-2">The survey team in Ukraine faced extreme challenges. First the Covid-19 pandemic, which delayed the start of fieldwork and meant that face-to-face interviews were no longer 
+
+                ',
+                'secondcolumn' => '
+                                    <p class="pt-2">The survey team in Ukraine faced extreme challenges. First the Covid-19 pandemic, which delayed the start of fieldwork and meant that face-to-face interviews were no longer 
                         possible and had to be replaced by phone calls. Then the Russian invasion in March 2022, which meant that the laboratory analysis of urine and salt samples was suspended 
                         for two months. However, the team in Ukraine was determined to complete the work. We provided support throughout, finding solutions when the original survey 
                         methods were longer viable.

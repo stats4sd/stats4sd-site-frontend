@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/agri/food2.jpg',
         'headerAlt' => 'Food systems transformation page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Food systems transformation"),
@@ -28,7 +28,7 @@
         'caseStudies' => [
             [
                 'title' => 'Research for CRFS’s landscape level initiatives',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/agri/casestudies/landscape1.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>

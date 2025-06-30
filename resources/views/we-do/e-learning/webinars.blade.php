@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/el/webinar.jpg',
         'headerAlt' => 'Webinars page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Webinars"),
@@ -13,17 +13,20 @@
         'level1BreadcrumbUrl' => route('we-do'),
         'lead_paragraph' => '
             Our webinars relate to our work on 
-            <a href="' . route('we-do.research-methods.design-support') . '" class="font-bold text-stats4sd-red">research methods support</a> for the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS) and provide the opportunity for discussion and sharing of knowledge and experiences. Recently we have begun to do multi-language webinars, where presentations are made in English, French and Spanish language channels simultaneously.
+            <a href="' . route('we-do.research-methods.design-support') . '" class="font-bold text-stats4sd-red">research methods support</a> for the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS) and provide the opportunity for discussion and sharing of knowledge and experiences. 
         ',
         'content' => '
             <p>
+             Recently we have begun to do multi-language webinars, where presentations are made in English, French and Spanish language channels simultaneously.
+             </p>
+                <p class="mt-2">
                 The presentations are available in the <a href="https://stats4sd.org/resources" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>. 
             </p>
         ',
         'caseStudies' => [
             [
                 'title' => 'Examples of the presentations we have created',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/el/casestudies/webinars.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <ul class="list-disc pl-6">

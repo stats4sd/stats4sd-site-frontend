@@ -80,4 +80,16 @@ left:  calc(1px-(100vw - 100%) - 2rem);
     }
 }
 
+#casestudy, #wedo-head {
+    ol,ul {
+        @apply my-4;
+    }
+    li {
+        @apply my-2;
+    }
+}
 
+#my-map-display img.text-marker {
+    max-width:none!important;
+    background:none!important;
+}

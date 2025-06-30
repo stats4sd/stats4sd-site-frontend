@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/agri/agroecology.jpg',
         'headerAlt' => 'Agroecology page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Agroecology"),
@@ -38,7 +38,7 @@
         'caseStudies' => [
             [
                 'title' => 'Innovation in research methods for agroecology',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/agri/casestudies/agroecology.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
@@ -52,6 +52,12 @@
                         <li>
                             Creating a database and platform of around 8,000 food and agriculture system ‘metrics’ for the Agroecology TPP, and developing guidelines for integrated system assessments.
                         </li>
+
+                    </ul>
+                ',
+                'secondcolumn' => '
+                                 <ul class="list-disc pl-6">
+                        
                         <li>
                             Creating an <a href="' . route('we-do.research-methods.indicators') . '#agroecology-finance-assessment-tool' . '" class="font-bold text-stats4sd-red">agroecology finance assessment tool</a> for the Agroecology Coalition to enable institutions to evaluate their funding initiatives in terms of how much they support agroecological transformations.
                         </li>
@@ -60,7 +66,8 @@
                             <a href="' . route('we-do.research-methods.qualitative-research') . '#evidence-for-agroecology' . '" class="font-bold text-stats4sd-red">evidence for agroecology</a> to their target audiences and demonstrate their impact. 
                         </li>
                     </ul>
-                '
+                
+                ',
             ]
 
         ],

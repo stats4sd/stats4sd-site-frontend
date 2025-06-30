@@ -13,31 +13,31 @@
             [
                 'title' => 'Courses',
                 'url' => url('/we-do/e-learning/courses'),
-                'cover_photo_url' => asset('images/we-do.jpg'),
+                'cover_photo_url' => asset('images/wedo/el/elearning.jpg'),
                 'description' => 'Stats4SD provides taught courses and self-learning courses online.',
             ],
             [
                 'title' => 'Videos and video playlists',
                 'url' => url('/we-do/e-learning/videos'),
-                'cover_photo_url' => asset('images/we-do.jpg'),
+                'cover_photo_url' => asset('images/wedo/el/vid.jpg'),
                 'description' => 'Our educational videos explore topics ranging from data collection and statistical analysis to agroecology and farmer research.',
             ],
             [
                 'title' => 'Webinars',
                 'url' => url('/we-do/e-learning/webinars'),
-                'cover_photo_url' => asset('images/we-do.jpg'),
+                'cover_photo_url' => asset('images/wedo/el/webinar.jpg'),
                 'description' => 'Our research methods webinars provide the opportunity for discussion and sharing of knowledge and experiences.',
             ],
             [
                 'title' => 'Blogs',
                 'url' => url('/we-do/e-learning/blogs'),
-                'cover_photo_url' => asset('images/we-do.jpg'),
-                'description' => 'Search our library of resources, browse our collections and link to other resource hubs.',
+                'cover_photo_url' => asset('images/wedo/el/blog.jpg'),
+                'description' => 'Short articles on topics that we find interesting, many of which make great e-learning materials.',
             ],
             [
                 'title' => 'Resources library',
                 'url' => url('/we-do/e-learning/resources-library'),
-                'cover_photo_url' => asset('images/we-do.jpg'),
+                'cover_photo_url' => asset('images/resources.webp'),
                 'description' => 'Search our library of resources, browse our collections and link to other resource hubs.',
             ]
             ]

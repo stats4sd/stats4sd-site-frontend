@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/rm/qual.png',
         'headerAlt' => 'Qualitative research page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Qualitative research"),
@@ -43,7 +43,7 @@
         'caseStudies' => [
             [
                 'title' => 'Building evidence-based cases for agroecology',
-                'image' => 'images/about.webp',
+                'image' => 'images/wedo/rm/casestudies/aeftall.jpg',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p id="evidence-for-agroecology">
@@ -62,10 +62,14 @@
                             Building an <a href="https://evidence4agroecology.org/home" target="_blank"class="font-bold text-stats4sd-red">online catalogue</a> to share cases and evidence from the GEA initiative. The catalogue was launched in February 2025 with the 13 cases from the pilot study. It will grow as other cases are developed by grassroots organisations.
                         </li>
                     </ul>
-                    <p class="pt-2">
+
+                ',
+                 'secondcolumn' => '                    
+                 <p class="pt-2">
                         The qualitative research team at Stats4SD was central to this work, helping organisations to build coherent cases and compelling arguments for agroecology based on a framework and a logical argument. The cases aim to influence farmers, communities, donors, policymakers, researchers and consumers – key actors in the transformation of food systems.
                     </p>
-                ',
+                 
+                 ',
             ],
         ],
         'additionalContent' => '',

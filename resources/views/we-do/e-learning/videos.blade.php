@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/el/vid.jpg',
         'headerAlt' => 'Videos and video playlists page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Videos and video playlists"),
@@ -18,14 +18,14 @@
             <p>
                 Our educational videos explore topics ranging from data collection and statistical analysis to agroecology and farmer research. We also provide video ‘playlists’, which are a set of videos exploring a topic in greater depth. 
             </p>
-            <p>
+            <p class="mt-2">
                 Some of the videos relating to our work in South America are in Spanish or subtitled in Spanish, and some of the videos for our work in West Africa are in French or subtitled in French. 
             </p>
         ',
         'caseStudies' => [
             [
                 'title' => 'Examples of the videos we have created',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/el/casestudies/videos1.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <ul class="list-disc pl-6">

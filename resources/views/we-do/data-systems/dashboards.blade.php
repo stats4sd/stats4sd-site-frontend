@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/de/dashboard.jpg',
         'headerAlt' => 'Dashboards page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Dashboards"),
@@ -25,7 +25,7 @@
         'caseStudies' => [
             [
                 'title' => 'The Quality of Life Survey Monitoring Dashboard',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/de/casestudies/qol1.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
@@ -33,12 +33,15 @@
                         <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">ODK</a> and analysis of results.
                     </p>
                     <p class="pt-2">
-                        In 2021, Stats4SD built a data platform to help the Quality of Life team manage their surveys and bring data from all survey locations into one database. The platform includes a survey monitoring dashboard which allows both the field supervisors and the remote managers to track the progress of the survey from anywhere in the world.
+                        In 2021, Stats4SD built a data platform to help the Quality of Life team manage their surveys and bring data from all survey locations into one database. The platform includes a survey monitoring dashboard which allows both the field supervisors and the remote managers to track the progress of the survey from anywhere in the world.                    
                     </p>
                     <p class="pt-2">
                         At the top level, the survey monitoring dashboard provides a summary of progress based on key indicators that are tailored to the requirements of the survey team. It also highlights issues with the submitted data, including submissions where a household could not be identified and cases of duplicate submissions for the same household.
                     </p>
-                    <p class="pt-2">
+                ',
+                 'secondcolumn' => '
+                    
+                    <p class="">
                         The data platform also includes dashboards at the levels of district, sub-district, village and household, making it possible to review the survey’s progress at each of these levels. 
                     </p>
                     <p class="pt-2">
@@ -48,7 +51,7 @@
             ],
             [
                 'title' => 'Interactive indicator dashboard for assessing land investments',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/de/casestudies/tli.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
@@ -58,7 +61,10 @@
                     <p class="pt-2">
                         Stats4SD has built an interactive indicator dashboard for this project bringing together a variety of data sources - including geospatial and population census data  - so that the risks and rewards of each proposed land investment can be modelled. The dashboard was built using R and R shiny. 
                     </p>
-                    <p class="pt-2">
+                ',
+                 'secondcolumn' => '
+                  
+                    <p class="">
                         This dashboard allows users to select a pre-defined geographical area or to draw an area on a map and then select the parameters they want to assess. The output is a report on the environmental risks and the socio-economic risks and rewards of the proposed investment. 
                     </p>
                     <p class="pt-2">

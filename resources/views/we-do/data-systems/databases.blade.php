@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/we-do.jpg',
+        'headerImage' => 'images/wedo/de/database.jpg',
         'headerAlt' => 'Databases and platforms page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Databases and platforms"),
@@ -27,7 +27,7 @@
         'caseStudies' => [
             [
                 'title' => 'Building an online data platform for an Agroecology TPP project',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/rm/casestudies/tpp.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
@@ -39,7 +39,10 @@
                     <p class="pt-2">
                         We provided a data platform to enable all teams to bring their data collected across different research activities (Key Informant Interviews, Farm Surveys, Focus Group Discussions) into a central location.
                     </p>
-                    <p class="pt-2">
+                ',
+                'secondcolumn' => '
+                    
+                    <p class="">
                         Each team worked to the same common research protocol and used the same set of ODK 
                         <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">data collection tools</a>, so the results were comparable between locations. But each team had specific local requirements, so the platform was designed to allow team-specific customisations of research activities and tools.
                     </p>
@@ -51,7 +54,7 @@
             ],
             [
                 'title' => 'The HOLPA web-based data collection and management platform',
-                'image' => 'images/about.webp', 
+                'image' => 'images/wedo/de/casestudies/holpa.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
@@ -61,7 +64,11 @@
                         Stats4SD is developing a web-based platform to guide survey teams through the process of setting up and implementing a HOLPA survey, including adapting it to local requirements and languages. This is web-based platform is known as the 
                         <a href="https://holpa.org/" target="_blank"class="font-bold text-stats4sd-red">HOLPA Online Tool</a>.
                     </p>
-                    <p class="pt-2">
+
+                ',
+                'secondcolumn' => '
+
+                    <p class="">
                         The HOLPA Online Tool uses ODK software as its starting point. It enables survey teams to prepare for data collection, collect and aggregate data in real time; to manage survey processes; to access the survey data and other relevant information such as secondary data and qualitative research findings; and to quality assure, store and analyse the data, with the help of an R server which runs automated R scripts to check for errors and calculate indicators. 
                     </p>
                     <p class="pt-2">
