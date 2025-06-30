@@ -55,20 +55,19 @@
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
-                        World Agroforestry (ICRAF)’s 
+                        Center for International Forestry Research and World Agroforestry (CIFOR-ICRAF)’s  
                         <a href="https://tli.cifor-icraf.org/what-are-transformative-land-investments/" target="_blank"class="font-bold text-stats4sd-red">Transformative Land Investments</a> project aims to promote land investments that adhere to agroecological principles and support sustainable food systems. The project includes supporting government officials in African and Asian countries to make better assessments of risk for proposed land investments, using a set of risk and reward indicators.
                     </p>
                     <p class="pt-2">
-                        Stats4SD has built an interactive indicator dashboard for this project bringing together a variety of data sources - including geospatial and population census data  - so that the risks and rewards of each proposed land investment can be modelled. The dashboard was built using R and R shiny. 
+                        As part of this project, CIFOR-ICRAF and Stats4SD have built an interactive indicator dashboard bringing together a variety of data sources - including geospatial and population census data  - so that the risks and rewards of each proposed land investment can be modelled. The dashboard was built using R and R shiny and has been developed for Ghana, Ethiopia, Mozambique and Laos.
                     </p>
                 ',
                  'secondcolumn' => '
-                  
-                    <p class="">
-                        This dashboard allows users to select a pre-defined geographical area or to draw an area on a map and then select the parameters they want to assess. The output is a report on the environmental risks and the socio-economic risks and rewards of the proposed investment. 
+                    <p>
+                        This dashboard allows users to select a pre-defined geographical area or to draw an area on a map and then select the parameters they want to assess. The output is a report on the environmental risks and the socio-economic risks and rewards of the proposed investment.
                     </p>
                     <p class="pt-2">
-                        Users of this dashboard can also alter certain conditions (inputs to the model) to explore whether doing so changes the risk-reward status of a proposal. In such cases, government officials might consider giving investors permission to proceed subject to meeting certain conditions.
+                        Users of this dashboard can also alter certain conditions (inputs to the model) to explore whether doing so changes the risk-reward status of a proposal.
                     </p>
                 ',
             ],
