@@ -87,7 +87,7 @@
                 <div class="block w-full">
                     <p
                         class="bg-stats4sd-red rounded-t-4xl rounded-bl-4xl px-10 py-12 my-8 md:my-0 text-white font-semibold uppercase md:float-right w-full md:w-72">
-                        {{ t('Follow the links below to learn more about the work we do for our clients and partners.') }}
+                        {{ t('Follow the links on the right to learn more about the work we do for our clients and partners.') }}
                     </p>
                 </div>
             </div>
