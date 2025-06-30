@@ -46,7 +46,8 @@
                     </p>
                     <ul class="list-disc pl-6">
                         <li>
-                            Working with the McKnight Foundation’s CRFS and with Farmer Research Networks (FRNs) on co-creation of agroecology research methods with farmers.
+                            Working with the McKnight Foundation’s CRFS and with Farmer Research Networks (FRNs) on 
+                            <a href="' . route('we-do.food-systems.research') . '" class="font-bold text-stats4sd-red">co-creation of agroecology research methods with farmers</a>.
                         </li>
                         <li>
                             Creating a database and platform of around 8,000 food and agriculture system ‘metrics’ for the Agroecology TPP, and developing guidelines for integrated system assessments.
@@ -58,10 +59,11 @@
                                  <ul class="list-disc pl-6">
                         
                         <li>
-                            Creating an agroecology finance assessment tool for the Agroecology Coalition to enable institutions to evaluate their funding initiatives in terms of how much they support agroecological transformations.
+                            Creating an <a href="' . route('we-do.research-methods.indicators') . '#agroecology-finance-assessment-tool' . '" class="font-bold text-stats4sd-red">agroecology finance assessment tool</a> for the Agroecology Coalition to enable institutions to evaluate their funding initiatives in terms of how much they support agroecological transformations.
                         </li>
                         <li>
-                            Working with the Grassroots Evidence for Agroecology (GEA) Initiative of the Agroecology Fund to support local organisations’ efforts to build and communicate evidence for agroecology to their target audiences and demonstrate their impact. 
+                            Working with the Grassroots Evidence for Agroecology (GEA) Initiative of the Agroecology Fund to support local organisations’ efforts to build and communicate 
+                            <a href="' . route('we-do.research-methods.qualitative-research') . '#evidence-for-agroecology' . '" class="font-bold text-stats4sd-red">evidence for agroecology</a> to their target audiences and demonstrate their impact. 
                         </li>
                     </ul>
                 

@@ -12,27 +12,30 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'lead_paragraph' => '
-            Stats4SD’s research methods experts support traditional agricultural research, such as farm experiments. Such research is usually led by the researcher with a mandate from a government or international organisation, and it focuses on increasing production and productivity by addressing agronomy challenges. 
+            Stats4SD’s research methods experts support traditional agricultural research, such as farm experiments. Such research is usually led by the researcher with a mandate from a government or international organisation, and it focuses on increasing production and productivity by addressing agronomy challenges.
         ',
         'content' => '
-        <p>
-            Stats4SD has many years of experience in providing study design advice in this context. Particularly when experiments are unconventional or take place in challenging environments, we can help researchers to improve significantly the efficiency of their study design and avoid poor, inefficient designs. We can also assist with efficient data collection and management systems.
-        </p>
             <p>
+                Stats4SD has many years of experience in providing study design advice in this context. Particularly when experiments are unconventional or take place in challenging environments, we can help researchers to improve significantly the efficiency of their study design and avoid poor, inefficient designs. We can also assist with efficient
+                <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">data collection and management systems</a>.
+            </p>
+            <p class="pt-2">
                 We are also very much involved in developing ‘farmer research’ methods, which comes out of our work on agroecology. The overarching objective is to find – though research, practice and participation of people – ways of transforming agriculture and food systems to a high-level equilibrium where we can restore stocks of natural assets such as soil, water, nutrients and oxygen, as well as biodiversity, thereby guaranteeing the future of agriculture and food systems. 
             </p>
             <p class="pt-2">
-                Stats4SD works on farmer research through its research methods support work with the McKnight Foundation’s CRFS. In many cases, this involves work with Farmer Research Networks (FRNs), encouraging farmers to contribute to a joint process known as ‘co-creation’ of knowledge. This type of research involves multiple actors and combines scientific methods with local, culturally validated and relevant approaches. Farmers are not just participants in research designed by others, but are involved in the research process at all stages: from its design through data collection to analysis and interpretation of results.
+                Stats4SD works on farmer research through its 
+                <a href="' . route('we-do.research-methods.design-support') . '#rms-mcknight-crfs' . '" class="font-bold text-stats4sd-red">research methods support work with the McKnight Foundation’s CRFS</a>. In many cases, this involves work with Farmer Research Networks (FRNs), encouraging farmers to contribute to a joint process known as ‘co-creation’ of knowledge. This type of research involves multiple actors and combines scientific methods with local, culturally validated and relevant approaches. Farmers are not just participants in research designed by others, but are involved in the research process at all stages: from its design through data collection to analysis and interpretation of results.
             </p>
             <p class="pt-2">
                 Stats4SD has developed:
             </p>
             <ul class="list-disc pl-6">
                 <li>
-                    A series of training materials for farmer research, such as the Involving Farmers Around the Research Cycle seminars on youtube.
+                    A series of training materials for farmer research, such as the 
+                    <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmMlefd36ZQKWCn00F_J5YjX" target="_blank"class="font-bold text-stats4sd-red">Involving Farmers Around the Research Cycle</a> seminars on youtube.
                 </li>
                 <li>
-                    The FRN Research Methods Hub - A library of reference materials, tools and useful information for FRNs, provided by Stats4SD as part of its work on research methods support for CRFS.
+                    <a href="https://stats4sd.org/frn" target="_blank"class="font-bold text-stats4sd-red">The FRN Research Methods Hub</a> - A library of reference materials, tools and useful information for FRNs, provided by Stats4SD as part of its work on research methods support for CRFS.
                 </li>
             </ul>
         ',
@@ -55,7 +58,8 @@
                         The Best Bets project in Malawi, supported by the McKnight Foundation’s CRFS, is challenging this top-down approach. It is working with FRNs to encourage farmers to do research on their own problems and promoting co-learning and innovation among participants.
                     </p>
                     <p class="pt-2">
-                        See full presentation at: Farmer Research Networks in Malawi as a socially just model of inclusive knowledge co-creation.
+                        See full presentation at: 
+                        <a href="https://stats4sd.org/resources/farmer-research-networks-in-malawi-as-a-socially-just-model-of-inclusive-knowledge-co-creation_2024-01-15_16:38:47" target="_blank"class="font-bold text-stats4sd-red">Farmer Research Networks in Malawi as a socially just model of inclusive knowledge co-creation</a>.
                     </p>
                     ',
             ],
@@ -65,13 +69,16 @@
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
-                        In February 2020, Stats4SD facilitated a workshop in Soroti, Uganda, to discuss tools for assessment of famers’ agroecology initiatives and to pilot test the Tool for Agroecology Performance Evaluation (TAPE) of the UN Food and Agriculture Organisation (FAO). TAPE sets out to be a multidimensional approach to collecting evidence at farm and community levels using harmonised indicators that produce globally comparable data.
+                        In February 2020, Stats4SD facilitated a workshop in Soroti, Uganda, to discuss tools for assessment of famers’ agroecology initiatives and to pilot test the 
+                        <a href="https://www.fao.org/agroecology/tools-tape/en/#:~:text=TAPE%20can%20also%20be%20used,at%20farm%20and%20territorial%20levels." target="_blank"class="font-bold text-stats4sd-red">Tool for Agroecology Performance Evaluation (TAPE)</a> of the UN Food and Agriculture Organisation (FAO). TAPE sets out to be a multidimensional approach to collecting evidence at farm and community levels using harmonised indicators that produce globally comparable data.
                     </p>
                     <p class="pt-2">
                         The aim of the Soroti workshop was to co-develop research methods for agroecological assessment with farmers and to conduct a pilot study of Step 1 of the TAPE, which aims to produce a characterization of ‘how agroecological’ a food and agricultural system is. 
                     </p>
-
-
+                    <p class="pt-2">
+                        For more details, see: 
+                        <a href="https://online.ucpress.edu/elementa/article/10/1/00022/185022/Grounding-a-global-tool-Principles-and-practice" target="_blank"class="font-bold text-stats4sd-red">Grounding a global tool—Principles and practice for agroecological assessments inspired by TAPE</a>
+                    </p>
                 ',
                 'secondcolumn' => '
                                     <p class="pt-2">
@@ -103,6 +110,17 @@
                 'google_scholar' => 'https://scholar.google.com/citations?user=tH_rckIAAAAJ&hl=en',
                 'avatar' => 'images/team/Carlos.jpg',
                 'long_description' => 'Carlos leads Stats4SD and advises partners and clients on complex research design and robust methodologies in the context of sustainable development. With over 30 years’ experience, Carlos specialises in quantitative methods, participatory action research and mixed methods. He is passionate about transdisciplinary research that combines scientific rigour with local knowledge. He works on empowering communities to produce and use evidence to guide change, with a focus on knowledge co-creation to support agroecology, farmer research and food systems transformation. He is part of the leadership team of the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS). Before founding Stats4SD in 2016, he worked for 21 years at the Statistical Services Centre, University of Reading.',
+            ],
+            [
+                'id' => 'romina_de_angelis',
+                'name' => 'Romina De Angelis',
+                'title' => 'Social & Qualitative Research Methods Specialist',
+                'email' => 'romina@stats4sd.org',
+                'linkedin' => '',
+                'github' => '',
+                'google_scholar' => 'https://scholar.google.com/citations?user=_3X8Hg8AAAAJ&hl=en',
+                'avatar' => 'images/team/Romina.jpg',
+                'long_description' => 'Romina leads Stats4SD’s social and qualitative research work. She provides research methods support to projects of the McKnight Foundation’s Global Collaboration for Resilient Food Systems, works with Farmer Research Networks, and contributes to impact assessments. Her expertise includes qualitative data collection and analysis and using AI for text analysis. She is keen on supporting grassroots organisations to build and communicate evidence on agroecology to their target audiences, and on empowering communities through co-creation and co-learning processes. Romina has a PhD in Education for Sustainable Development, a Postgraduate Diploma in Educational and Social Research from the Institute of Education, University College London, and an MA in Development Studies from the Tata Institute of Social Sciences in India. Before joining Stats4SD, she worked on sustainable development initiatives in India and Jamaica.',
             ],
         ],
     ])

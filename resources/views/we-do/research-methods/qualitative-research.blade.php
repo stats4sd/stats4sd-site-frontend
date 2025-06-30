@@ -21,11 +21,11 @@
             <ul class="list-disc pl-6">
                 <li>
                     Contribute to projects of our clients where a qualitative research element is needed, such as in our 
-                    <a href="' . route('we-do.m-and-e') . '#aga-khan-foundation' . '" class="font-bold text-stats4sd-red">endline assessment for the Aga Khan Foundation Canada.</a>
+                    <a href="' . route('we-do.m-and-e') . '#aga-khan-foundation' . '" class="font-bold text-stats4sd-red">endline assessment for the Aga Khan Foundation Canada</a>.
                 </li>
                 <li>
                     Conducting qualitative research and write up the results as reports, for example: 
-                    <a href="https://www.slowfood.com/wp-content/uploads/2023/10/Funded-project_Agroecology-in-kenya-e-Uganda_2019-2022.pdf" target="_blank"class="font-bold text-stats4sd-red">An Overview of the Slow Food Programmes: Presidia, Food Gardens and Earth Markets in Kenya and Uganda</a> 
+                    <a href="https://www.slowfood.com/wp-content/uploads/2023/10/Funded-project_Agroecology-in-kenya-e-Uganda_2019-2022.pdf" target="_blank"class="font-bold text-stats4sd-red">An Overview of the Slow Food Programmes: Presidia, Food Gardens and Earth Markets in Kenya and Uganda</a>.
                 </li>
                 <li>
                     Support CRFS project grantees and students in Africa and South America in writing up their research findings and publishing them in scientific journals, so that they can contribute to global debates.
@@ -46,7 +46,7 @@
                 'image' => 'images/wedo/rm/casestudies/aeftall.jpg',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
-                    <p>
+                    <p id="evidence-for-agroecology">
                         The Agroecology Fund partnered with Stats4SD in 2020 to launch the Grassroots Evidence for Agroecology (GEA) Initiative. Under this initiative, Stats4SD supported the Agroecology Fund by:
                     </p>
                     <ul class="list-disc pl-6">

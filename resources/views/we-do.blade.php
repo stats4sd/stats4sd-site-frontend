@@ -76,11 +76,12 @@
                 class="md:col-span-8 lg:col-span-4 space-y-6 text-gray-800 w-full md:flex md:flex-row md:gap-12 lg:gap-0 lg:flex-col ">
                 <div>
                     <p class="mb-4">
-                        {{ t("Stats4SD was founded in 2016 by a group of applied statisticians, data engineers and research methods experts from the University of
-                                                Reading with a mission to use their skills for the benefit of society and the environment.") }}
+                      {{ t("Stats4SD was founded in 2016 by a group of applied statisticians, data engineers and research methods experts from the University of 
+                      Reading with a mission to use their skills for the benefit of society and the environment.") }}
                     </p>
-                    <p>{{ t("Since then, we have led or supported around xx projects across xx countries. Our team now includes specialists in quantitative and qualitative
-                                            research methods, complex data analysis and data systems and platforms.") }}
+                    <!-- Since then, we have led or supported around xx projects across xx countries.  -->
+                    <p>{{ t("Our team now includes specialists in quantitative and qualitative 
+                        research methods, complex data analysis and data systems and platforms.") }}
                     </p>
                 </div>
                 <div class="block w-full">

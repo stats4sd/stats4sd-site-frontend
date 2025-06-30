@@ -28,11 +28,9 @@
                 'image' => 'images/wedo/de/casestudies/qol1.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
-
-                    <p class="">
-                        Stats4SD works with the Quality of Life assessment programme of the Aga Khan Development Network, supporting the Quality of Life team on survey design, implementation using ODK and analysis of results.
-
-
+                    <p>
+                        Stats4SD works with the Quality of Life assessment programme of the Aga Khan Development Network, supporting the Quality of Life team on survey design, implementation using 
+                        <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">ODK</a> and analysis of results.
                     </p>
                     <p class="pt-2">
                         In 2021, Stats4SD built a data platform to help the Quality of Life team manage their surveys and bring data from all survey locations into one database. The platform includes a survey monitoring dashboard which allows both the field supervisors and the remote managers to track the progress of the survey from anywhere in the world.                    
@@ -57,7 +55,8 @@
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
-                        World Agroforestry (ICRAF)’s Transformative Land Investments project aims to promote land investments that adhere to agroecological principles and support sustainable food systems. The project includes supporting government officials in African and Asian countries to make better assessments of risk for proposed land investments, using a set of risk and reward indicators.
+                        World Agroforestry (ICRAF)’s 
+                        <a href="https://tli.cifor-icraf.org/what-are-transformative-land-investments/" target="_blank"class="font-bold text-stats4sd-red">Transformative Land Investments</a> project aims to promote land investments that adhere to agroecological principles and support sustainable food systems. The project includes supporting government officials in African and Asian countries to make better assessments of risk for proposed land investments, using a set of risk and reward indicators.
                     </p>
                     <p class="pt-2">
                         Stats4SD has built an interactive indicator dashboard for this project bringing together a variety of data sources - including geospatial and population census data  - so that the risks and rewards of each proposed land investment can be modelled. The dashboard was built using R and R shiny. 

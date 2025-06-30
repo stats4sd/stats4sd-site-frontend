@@ -5,7 +5,7 @@
     <div class="px-4 pb-12 pt-20 max-w-screen-xl mx-auto">
         <div class="max-w-xl">
             <div class="text-3xl font-bold uppercase text-stats4sd-red pt-12">
-                {{ t("Where we work") }}
+                {{ t("Our global impact") }}
             </div>
 
             <div class="text-5xl font-bold pt-2 mb-4">
@@ -29,11 +29,9 @@
         </div>
     </div>
 
-    <section class="bg-white pt-4 px-6 md:px-20">
+    <section class="bg-white pt-4 pb-16 px-6 md:px-20">
         <div class="max-w-4xl mx-auto space-y-6 text-gray-800">
-            <p>
-                Coming soon!
-            </p>
+            <img src="{{ asset('images/stats4sd-map.png') }}" alt="Map of where we work" class="w-full h-auto rounded shadow">
         </div>
     </section>
 

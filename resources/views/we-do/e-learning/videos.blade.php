@@ -30,22 +30,22 @@
                 'description' => '
                     <ul class="list-disc pl-6">
                         <li>
-                            <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmOEvcWo1XQ79dYrnQGQlaNO" target="_blank"class="font-bold text-stats4sd-red">Sampling decision assistant</a>, which answers common questions about sampling and helps you build a sampling scheme
+                            <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmOEvcWo1XQ79dYrnQGQlaNO" target="_blank"class="font-bold text-stats4sd-red">Sampling decision assistant</a>, which answers common questions about sampling and helps you build a sampling scheme.
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmM2UYcm_1ZZW_ZhKTBQzpGI" target="_blank"class="font-bold text-stats4sd-red">Introduction to ODK</a>, which helps you learn about ODK and mobile data collection
+                            <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmM2UYcm_1ZZW_ZhKTBQzpGI" target="_blank"class="font-bold text-stats4sd-red">Introduction to ODK</a>, which helps you learn about ODK and mobile data collection.
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmM_ISpxwoiXD2SioG3MWNqg" target="_blank"class="font-bold text-stats4sd-red">Introduction to R</a>, introducing you to the functions and packages that can be used in R, their benefits, and how to use them effectively
+                            <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmM_ISpxwoiXD2SioG3MWNqg" target="_blank"class="font-bold text-stats4sd-red">Introduction to R</a>, introducing you to the functions and packages that can be used in R, their benefits, and how to use them effectively.
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmMlefd36ZQKWCn00F_J5YjX" target="_blank"class="font-bold text-stats4sd-red">Involving farmers around the research cycle</a>, explaining the rationale of involving farmers and how research methods and assumptions evolve and are adapted when farmers are involved
+                            <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmMlefd36ZQKWCn00F_J5YjX" target="_blank"class="font-bold text-stats4sd-red">Involving farmers around the research cycle</a>, explaining the rationale of involving farmers and how research methods and assumptions evolve and are adapted when farmers are involved.
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/watch?v=cp0HXjvbbCk" target="_blank"class="font-bold text-stats4sd-red">Gestión de datos: Uso ético de los datos</a> (Spanish)
+                            <a href="https://www.youtube.com/watch?v=cp0HXjvbbCk" target="_blank"class="font-bold text-stats4sd-red">Gestión de datos: Uso ético de los datos</a> (Spanish).
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/watch?v=VEYeygRj4U8" target="_blank"class="font-bold text-stats4sd-red">Expérimentation rapide</a> (French)
+                            <a href="https://www.youtube.com/watch?v=VEYeygRj4U8" target="_blank"class="font-bold text-stats4sd-red">Expérimentation rapide</a> (French).
                         </li>
                     </ul>
                 '
@@ -56,7 +56,7 @@
                 The full collection of Stats4SD videos and video playlists can be found on the <a href="https://www.youtube.com/@Stats4SD" target="_blank"class="font-bold text-stats4sd-red">Stats4SD YouTube channel</a>. 
             </p>
             <p class="pt-2">
-                You can find other e-learning materials in the <a href="https://resources.stats4sdtest.online" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
+                You can find other e-learning materials in the <a href="https://stats4sd.org/resources" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
             </p>
         ',
         'teamData' => [
