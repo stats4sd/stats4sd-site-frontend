@@ -162,11 +162,11 @@
     <div class="bg-white py-16 ">
         <div class=" grid grid-cols-1 lg:grid-cols-2 gap-x-24">
 
-            <!-- Top row Left half: Our Work -->
+            <!-- Top row Left half: where we work -->
             <div class="order-1 px-8 lg:px-0 ">
                 <div class="flex flex-col w-full lg:w-[450px] lg:float-right">
                     <div class="text-stats4sd-red text-xl font-bold uppercase mb-4">
-                        {{ t('Our work') }}
+                        {{ t('Global impact') }}
                     </div>
                     <img src="{{ asset('images/map.png') }}" alt="{{ t('Our work') }}"
                         class="mb-6 w-full lg:max-w-md object-cover h-72 " />
@@ -177,7 +177,7 @@
             <div class="order-4 lg:order-2 px-8 lg:px-0">
                 <div class="flex flex-col w-full lg:w-[450px] lg:float-left">
                     <div class="text-stats4sd-red text-xl font-bold uppercase mb-4">
-                        {{ t('About us') }}
+                        {{ t('Who we are') }}
                     </div>
                     <img src="{{ asset('images/aboutus.jpg') }}" alt="{{ t('About us') }}"
                         class="mb-6 w-full lg:max-w-md object-cover h-72 ] " />
