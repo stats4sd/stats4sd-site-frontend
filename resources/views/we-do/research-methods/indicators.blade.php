@@ -34,8 +34,7 @@
 
                 ',
                 'secondcolumn' => '
-
-                    <p class="pt-2">
+                    <p>
                         Stats4SD worked with the PLAN consultant to define the domains, create the methodology for the indices and build the database. The indicators were drawn from internationally recognised sources available online, with Sustainable Development Goal (SDG) indicators prioritised to support regular updating of the Index. 
                     </p>
                 ',
@@ -57,7 +56,7 @@
 
                 ',
                 'secondcolumn' => '
-                                    <p class="pt-2">
+                    <p>
                         The agroecology finance assessment tool shows the indicators for all initiatives and all agroecology principles together (below). It also provides detailed performance indicators for each initiative in relation to each agroecological principle.
                     </p>
                                     <p class="pt-2">

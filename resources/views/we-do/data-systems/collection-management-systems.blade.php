@@ -52,7 +52,7 @@
                     </p>
                 ',
                   'secondcolumn' => '
-                                      <p class="pt-2">
+                    <p>
                         Stats4SD provided end-to-end support including platform design, field support, data analysis and report writing. Our role included:
                     </p>
                     <ul class="list-disc pl-6">

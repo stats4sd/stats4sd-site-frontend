@@ -49,7 +49,7 @@
                     <div class="px-8 lg:px-0">
 
                         <div class="text-4xl font-bold ">
-                            {{ t('About us') }}
+                            {{ t('About Stats4SD') }}
                         </div>
                     </div>
                     <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>

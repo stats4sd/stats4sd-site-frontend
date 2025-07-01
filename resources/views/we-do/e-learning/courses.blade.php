@@ -12,21 +12,18 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'lead_paragraph' => '
-    
-                Our team is skilled at creating effective learning experiences from complex information. We have many years of experience – both at Stats4SD and previously at the University of Reading – with adapting courses to a range of audiences, accessibility needs, specific user requirements and technical specifications.
-           
+                Stats4SD creates online courses relating to its areas of work and expertise. Some are taught courses, while others use a self-learning approach. Our courses are delivered on the <a href="https://courses.stats4sd.org/?redirect=0" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Moodle site</a> or on the websites of those who commissioned them. 
         ',
         'content' => '
             <p>
-                Stats4SD creates online courses relating to its areas of work and expertise. Some are taught courses, while others use a self-learning approach. Our courses are delivered on the <a href="https://courses.stats4sd.org/?redirect=0" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Moodle site</a> or on the websites of those who commissioned them. 
-            </p>
-            <p class="mt-2">
                 To access the Stats4SD Moodle site you have to register, but registration is free. Once you have access, you can enrol for courses, track your progress and obtain certificates. 
             </p>
             <p class="pt-2">
                 We tailor our approach depending on the project. This can mean developing content by drawing on the knowledge within the Stats4SD team or by collaborating with external partners. It can involve multiple different formats of course delivery, including videos, interactive e-learning activities, webinars and interactive workbooks. 
             </p>
-
+            <p class="pt-2">
+                Our team is skilled at creating effective learning experiences from complex information. We have many years of experience – both at Stats4SD and previously at the University of Reading – with adapting courses to a range of audiences, accessibility needs, specific user requirements and technical specifications.
+            </p>
         ',
         'caseStudies' => [
             [

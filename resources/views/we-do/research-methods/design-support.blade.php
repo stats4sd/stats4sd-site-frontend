@@ -49,7 +49,7 @@
 
             ',
             'secondcolumn' => '
-                            <p class="pt-2">
+                <p>
                     Stats4SD provides the research support, accompanying the grantees through the entire research cycle—starting with conceptualisation, then formulation of research questions and hypotheses, followed by selection of methods and then data collection, management, and analysis.
                 </p>
                             <p class="pt-2">See also:</p>
@@ -75,7 +75,7 @@
 
             ',
             'secondcolumn' => '
-                            <p class="pt-2">
+                <p>
                     This approach avoids collecting data that is not needed, which is inefficient. More importantly, it helps ensure you don’t get to the end of the research process only to discover that you’re missing critical data required to answer your research questions.
                 </p>
                                            <p class="pt-2">

@@ -41,8 +41,7 @@
                     </p>
                 ',
                 'secondcolumn' => '
-                    
-                    <p class="">
+                    <p>
                         Each team worked to the same common research protocol and used the same set of ODK 
                         <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">data collection tools</a>, so the results were comparable between locations. But each team had specific local requirements, so the platform was designed to allow team-specific customisations of research activities and tools.
                     </p>
@@ -67,8 +66,7 @@
 
                 ',
                 'secondcolumn' => '
-
-                    <p class="">
+                    <p>
                         The HOLPA Online Tool uses ODK software as its starting point. It enables survey teams to prepare for data collection, collect and aggregate data in real time; to manage survey processes; to access the survey data and other relevant information such as secondary data and qualitative research findings; and to quality assure, store and analyse the data, with the help of an R server which runs automated R scripts to check for errors and calculate indicators. 
                     </p>
                     <p class="pt-2">

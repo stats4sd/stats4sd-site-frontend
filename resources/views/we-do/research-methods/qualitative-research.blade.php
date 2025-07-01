@@ -64,7 +64,6 @@
                 ',
                  'secondcolumn' => '                    
                       <ul class="list-disc pl-6">
-                        
                         <li>
                             Building an <a href="https://evidence4agroecology.org/home" target="_blank"class="font-bold text-stats4sd-red">online catalogue</a> to share cases and evidence from the GEA initiative. The catalogue was launched in February 2025 with the 13 cases from the pilot study. It will grow as other cases are developed by grassroots organisations.
                         </li>

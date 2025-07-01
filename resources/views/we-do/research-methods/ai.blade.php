@@ -17,7 +17,7 @@
             <p>
                 ML is a subset of AI which involves algorithms and statistical models that enable computers to learn from data and produce results without being explicitly programmed. It is very powerful, doing tasks that would take us a lot of time and saving Stats4SD and its clients money.
             </p>
-            <p>
+            <p class="pt-2">
                 However, we are also aware of the limitations of AI. When the machines take control, analysis tends to becomes more uniform or ‘average’ because the machines learn from what existed before, so there is a tendency for creativity, richness and nuances to get lost. Also, AI sometimes invents results. 
             </p>
             <p class="pt-2">
@@ -78,7 +78,7 @@
 
                  ',
                  'secondcolumn' => '
-                                     <p class="pt-2">
+                    <p>
                         Romina reflected that human critical thinking and the analytical expertise that can only be developed through experience helped her to contextualise and interpret the findings. This enabled her to produce results that were fuller and richer than those of ChatGPT.
                     </p>
                     <p class="pt-2">

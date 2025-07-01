@@ -42,7 +42,8 @@
                     
                 ',
                  'secondcolumn' => '
-                 <p class="">For the analysis, the data from the four countries was treated as a single dataset. The examples below show some of the analysis for TAPE Step 1. Full results can be found in 
+                    <p>
+                        For the analysis, the data from the four countries was treated as a single dataset. The examples below show some of the analysis for TAPE Step 1. Full results can be found in 
                         the <a href="https://cifor-icraf.org/publications/pdf_files/WPapers/TPP-WP-8.pdf" target="_blank" class="font-bold text-stats4sd-red">cross-country report</a>.
                     </p>
                     ',
@@ -58,8 +59,8 @@
                     </p>
 
                 ',
-                                 'secondcolumn' => '
-                                    <p >
+                'secondcolumn' => '
+                    <p >
                         The R scripts were included in the <a href="' . route('we-do.data-systems.databases') . '" class="font-bold text-stats4sd-red">platform</a> that Stats4SD developed to hold the data, so that the 12 teams that had 
                         <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">collected the data</a> could do automated data processing to produce a standard set of results. Each team received the automated results as outputs, as well as the raw data, and could then do additional analysis of their own.
                     </p>

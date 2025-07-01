@@ -6,7 +6,7 @@
         'headerImage' => 'images/resources.webp',
         'headerAlt' => 'Resources library page',
         'headerSubtitle' => t("What we do"),
-        'headerTitle' => t("Resources library"),
+        'headerTitle' => t("Resources Library"),
         'level2Breadcrumb' => t("E-learning"),
         'level2BreadcrumbUrl' => route('we-do.e-learning'),
         'level1Breadcrumb' => t("What we do"),

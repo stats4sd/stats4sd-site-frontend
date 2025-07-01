@@ -35,7 +35,7 @@
                 'description' => 'We help you to present complex results in a clear and engaging manner for your audiences.',
             ],
             [
-                'title' => 'Artificial intelligence',
+                'title' => 'AI for analysis',
                 'url' => url('/we-do/research-methods/ai'),
                 'cover_photo_url' => asset('images/wedo/rm/ai.jpg'),
                 'description' => 'We are excited about new technologies and we use them in our work. We can also advise you what not to do with them.',

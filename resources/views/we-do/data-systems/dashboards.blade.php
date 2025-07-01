@@ -40,8 +40,7 @@
                     </p>
                 ',
                  'secondcolumn' => '
-                    
-                    <p class="">
+                    <p>
                         The data platform also includes dashboards at the levels of district, sub-district, village and household, making it possible to review the survey’s progress at each of these levels. 
                     </p>
                     <p class="pt-2">

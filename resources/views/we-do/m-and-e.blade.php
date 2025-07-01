@@ -42,8 +42,7 @@
                 </p>
 ',
                 'secondcolumn' => '
-                
-                <p class="pt-2">
+                <p>
                     Davide Bruscoli, Regional Information Management Officer for East and Horn of Africa of the IOM, said:
                 </p>
                 <blockquote class="my-4">
@@ -64,7 +63,7 @@
                     In 2018, UNICEF launched the Supporting Girls to Thrive programme in Sorong, West Papua (Indonesia), with support from the David Beckham 7 Fund. The programme aimed to increase opportunities for adolescents, especially girls, to actively learn, discuss and express their views on key issues affecting their lives. 
                 </p> ',
                 'secondcolumn' => '
-                <p class="pt-2">
+                <p>
                     In 2019, UNICEF commissioned a mixed methods study by 
                     <a href="https://www.empatika.org/" target="_blank"class="font-bold text-stats4sd-red">Empatika</a> and Stats4SD to understand the situation before the programme started and to provide a baseline for a future programme impact assessment. The baseline study included a survey, for which Stats4SD defined the methodology, designed the sampling scheme, developed the 
                     <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">ODK</a> questionnaires to be used on mobile devices, created training materials and trained the fieldwork team, provided support and quality assurance throughout the fieldwork, and analysed the data. The report of the study is available 
@@ -89,8 +88,7 @@
 
                 ',
                  'secondcolumn' => '
-              
-                <p class="">
+                <p>
                     Designing the questionnaire for the survey and collecting the data was straightforward. However, given the political volatility in some of the areas selected to participate in the project, several adaptations to the survey design, sampling scheme and plan of analysis had to be made between the baseline and the endline, and proving a causal link between the intervention and outcomes was challenging. 
                 </p>
                 ',
@@ -100,15 +98,17 @@
                 'image' => 'images/wedo/me-cs/centralasia.jpg',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
-
-                <p class="pt-2">
-                    Stats4SD is supporting the AKF country teams in Afghanistan, Kyrgyzstan, Pakistan, and Tajikistan with study design and sampling; finalising the data collection tools (some on paper and some digital); preparing data collection guidelines; providing virtual training; creating a platform to capture and store the data; data quality assurance; analysing data to measure selected outcome indicators; contributing to data interpretation workshops; and writing the endline report.
-                </p>',
-            'secondcolumn' => '
-                
-                <p class="">
-                    Stats4SD is supporting the AKF country teams in Afghanistan, Kyrgyzstan, Pakistan, and Tajikistan with study design and sampling; finalising the data collection tools (some on paper and some digital); preparing data collection guidelines; providing virtual training; creating a platform to capture and store the data; data quality assurance; analysing data to measure selected outcome indicators; contributing to data interpretation workshops; and writing the endline report.
-                </p>',
+                    <p>
+                        Stats4SD is working on an endline assessment for the Aga Khan Foundation (AKF) Canada’s five-year 
+                        <a href="https://www.akfc.ca/our-work/foundations-for-health-and-empowerment/" target="_blank"class="font-bold text-stats4sd-red">Foundations for Health and Empowerment (F4HE) project</a>, funded by Global Affairs Canada and AKF Canada. This project promotes equitable development and empowerment for women, girls, adolescents, their families, and communities in targeted regions of Central Asia.
+                    </p>
+                    <p class="pt-2">
+                        Stats4SD is assessing the effectiveness of two components of the F4HE project that relate to health and to early childhood development. The assessment will use quantitative and qualitative methods to show how much progress has been made by the project and to make evidence-based recommendations to inform the design of future programmes. The qualitative component will include key informant interviews.
+                    </p>',
+                'secondcolumn' => '
+                    <p>
+                        Stats4SD is supporting the AKF country teams in Afghanistan, Kyrgyzstan, Pakistan, and Tajikistan with study design and sampling; creating analysis plans to define how indicators will be produced; finalising the data collection tools (some on paper and some digital); preparing data collection guidelines; providing virtual training; creating a platform to capture and store the data; data quality assurance; conducting some statistical analysis; contributing to data interpretation workshops; and writing the endline report.                
+                    </p>',
             ]
         ],
         'additionalContent' => [],

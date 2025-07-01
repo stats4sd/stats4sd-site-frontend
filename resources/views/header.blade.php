@@ -41,15 +41,15 @@
                 <li><a href="/team" class="flex items-center nav-link uppercase">
                     {{ t("Our team") }}
                 </a></li>
-                <li><a href="/where-we-work" class="flex items-center nav-link uppercase">
+                <!-- <li><a href="/where-we-work" class="flex items-center nav-link uppercase">
                     {{ t("Where we work") }}
-                </a></li>
+                </a></li> -->
                 <li><a href="/about" class="flex items-center nav-link uppercase">{{ t("About us") }}
                 </a></li>
                 <li><a href="https://stats4sd.org/resources" class="flex items-center nav-link uppercase">
                     {{ t("Resources library") }}
                 </a></li>
-                 <!-- Language Dropdown -->
+                 <!-- Language Dropdown
                  <li class="relative nav-item dropdown" x-data="{ langOpen: false }">
                     <a class="nav-link uppercase dropdown-toggle cursor-pointer flex items-center nav-link space-x-1"
                         role="button" aria-expanded="false" x-on:click="langOpen = !langOpen">
@@ -63,7 +63,7 @@
                         <a class="dropdown-item" href="{{ URL::current() . '?locale=es' }}">Español</a>
                         <a class="dropdown-item" href="{{ URL::current() . '?locale=fr' }}">Français</a>
                     </div>
-                </li>
+                </li> -->
             </ul>
         </nav>
         
@@ -94,10 +94,10 @@
                     </ul>
                 </li>
                 <li><a href="/team" class="uppercase">{{ t("Our team") }}</a></li>
-                <li><a href="/where-we-work" class="uppercase">{{ t("Where we work") }}</a></li>
+                <!-- <li><a href="/where-we-work" class="uppercase">{{ t("Where we work") }}</a></li> -->
                 <li><a href="/about" class="uppercase">{{ t("About us") }}</a></li>
                 <li><a href="/resources-library" class="uppercase">{{ t("Resources library") }}</a></li>
-                <li class="relative nav-item " x-data="{ langOpen: false }">
+                <!-- <li class="relative nav-item " x-data="{ langOpen: false }">
                     <a class="nav-link uppercase" role="button" x-on:click="langOpen = !langOpen">
                         {{ t("Change language") }}
                     </a>
@@ -106,7 +106,7 @@
                         <li><a class="py-2 text-gray-800 hover:text-stats4sd-red " href="{{ URL::current() . '?locale=es' }}">Español</a></li>
                         <li><a class="text-gray-800 hover:text-stats4sd-red " href="{{ URL::current() . '?locale=fr' }}">Français</a></li>
                     </ul>
-                </li>
+                </li> -->
             </ul>
         </nav>
     </div>

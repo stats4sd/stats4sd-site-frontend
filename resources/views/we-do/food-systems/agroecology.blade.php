@@ -56,8 +56,7 @@
                     </ul>
                 ',
                 'secondcolumn' => '
-                                 <ul class="list-disc pl-6">
-                        
+                    <ul class="list-disc pl-6">
                         <li>
                             Creating an <a href="' . route('we-do.research-methods.indicators') . '#agroecology-finance-assessment-tool' . '" class="font-bold text-stats4sd-red">agroecology finance assessment tool</a> for the Agroecology Coalition to enable institutions to evaluate their funding initiatives in terms of how much they support agroecological transformations.
                         </li>

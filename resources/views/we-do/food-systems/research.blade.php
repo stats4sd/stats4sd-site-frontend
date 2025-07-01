@@ -54,7 +54,7 @@
                     
                 ',
                 'secondcolumn' => '
-                <p class="pt-2">
+                    <p>
                         The Best Bets project in Malawi, supported by the McKnight Foundation’s CRFS, is challenging this top-down approach. It is working with FRNs to encourage farmers to do research on their own problems and promoting co-learning and innovation among participants.
                     </p>
                     <p class="pt-2">
@@ -75,10 +75,10 @@
 
                 ',
                 'secondcolumn' => '
-                     <p class="pt-2">
+                     <p>
                         The aim of the Soroti workshop was to co-develop research methods for agroecological assessment with farmers and to conduct a pilot study of Step 1 of the TAPE, which aims to produce a characterization of ‘how agroecological’ a food and agricultural system is. 
                     </p>
-                    <p>
+                    <p class="pt-2">
                         For more details, see: 
                         <a href="https://online.ucpress.edu/elementa/article/10/1/00022/185022/Grounding-a-global-tool-Principles-and-practice" target="_blank"class="font-bold text-stats4sd-red">Grounding a global tool—Principles and practice for agroecological assessments inspired by TAPE</a>.
                     </p>

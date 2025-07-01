@@ -164,12 +164,12 @@
         <div class="h-3 w-16 bg-stats4sd-red mb-3"></div>
             <h2 class="text-4xl font-bold text-gray-900 mb-6">Organisation Diagram</h2>
             <p class="text-base text-gray-700 mb-8">
-                Download the organisation diagram to see the staff and management structure at Stats4SD.
+                View the organisation diagram to see the staff and management structure at Stats4SD.
             </p>
-            <a href="#" 
-                class="inline-block bg-black text-white px-6 py-2 !text-base font-semibold rounded-full hover-effect"
+            <a href="{{ asset('files/stats4sd_organisation_diagram_june_2025.pdf') }}" 
+                class="inline-block bg-black text-white px-6 py-2 !text-base font-semibold rounded-full hover-effect" 
                 target="_blank">
-                    DOWNLOAD PDF
+                    VIEW PDF
             </a>
         </div>
     </div>
