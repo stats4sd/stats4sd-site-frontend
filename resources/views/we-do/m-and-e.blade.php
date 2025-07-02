@@ -74,7 +74,7 @@
             ],
             [
                 'title' => 'Evaluating a project to improve menstrual health and hygiene in Ethiopia',
-                'image' => 'images/wedo/me-cs/ethiopia.jpg',
+                'image' => 'images/wedo/me-cs/ethiopia.JPG',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                 <p>
