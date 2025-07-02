@@ -28,12 +28,12 @@
 
     @php
         $options = [
-            ['label' => 'Research methods and analysis', 'url' => '/we-do/research-methods'],
-            ['label' => 'Agriculture and food systems', 'url' => '/we-do/food-systems'],
-            ['label' => 'Sustainable development', 'url' => '/we-do/sustainable-devlopment'],
-            ['label' => 'Data systems and platforms', 'url' => '/we-do/data-systems'],
-            ['label' => 'M&E and impact assessment', 'url' => '/we-do/m-and-e'],
-            ['label' => 'E-learning', 'url' => '/we-do/e-learning'],
+            ['label' => t('Research methods and analysis'), 'url' => '/we-do/research-methods'],
+            ['label' => t('Agriculture and food systems'), 'url' => '/we-do/food-systems'],
+            ['label' => t('Sustainable development'), 'url' => '/we-do/sustainable-devlopment'],
+            ['label' => t('Data systems and platforms'), 'url' => '/we-do/data-systems'],
+            ['label' => t('M&E and impact assessment'), 'url' => '/we-do/m-and-e'],
+            ['label' => t('E-learning'), 'url' => '/we-do/e-learning'],
         ];
     @endphp
     <div class=" w-full flex flex-col gap-0 lg:flex-row lg:justify-between bt-12 lg:my-12">
