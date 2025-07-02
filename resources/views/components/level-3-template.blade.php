@@ -48,21 +48,22 @@
 <div class="w-full mb-12 " id="wedo-head">
     <!-- Content -->
     <div
-        class=" -mt-40 mx-auto relative z-40 w-[90%] max-w-7xl bg-white px-12 lg:px-16 xl:px-20 pt-12 lg:pt-16 xl:pt-20">
+        class=" -mt-40 mx-auto relative z-30 w-[90%] max-w-7xl bg-white px-12 lg:px-16 xl:px-20 pt-12 lg:pt-16 xl:pt-20">
+            <div class="bg-stats4sd-red w-20 mb-10   h-3"></div>
         <div class="flex flex-col md:flex-row gap-12 2xl:gap-20">
+        
             <!-- Lead Paragraph -->
             <div class="md:w-1/2">
-                <p class="text-xl md:text-xl font-semibold">
-                    {!! $lead_paragraph !!}
-                </p>
-                <div class="bg-stats4sd-red w-20 mt-16  h-3"></div>
+                    {!! $introcol1 !!}
+                
             </div>
 
             <!-- Content -->
             <div class="md:w-1/2 ">
-                {!! $content !!}
+                {!! $introcol2 !!}
             </div>
         </div>
+    
     </div>
 </div>
 
@@ -74,126 +75,185 @@
 @if (!empty($caseStudies) && is_array($caseStudies))
     @foreach ($caseStudies as $index => $caseStudy)
         @if (!empty($caseStudy['image']))
-            <section
-                class="w-full flex  flex-col lg:flex-row mt-28 mb-24  {{ mb_strlen($caseStudy['description'], 'UTF-8') > 800 ? 'items-start' : 'items-center' }}  {{ $index % 2 !== 0 ? 'lg:flex-row-reverse' : '' }}"
-                id="casestudy">
-                <!-- Image -->
-                <div
-                    class="w-full lg:w-[50%] xl:w-[40%]  max-h-[800px] px-12 text-center {{ $index % 2 !== 0 ? 'lg:pl-0 lg:text-left' : 'lg:pr-0 lg:text-right' }}">
-                    <img src="{{ asset($caseStudy['image']) }}" alt="{{ $caseStudy['imageAlt'] }}"
-                        class=" inline lg:object-contain max-h-[500px] {{ mb_strlen($caseStudy['description'], 'UTF-8') > 800 ? 'xl:max-h-full xl:max-w-[500px]' : '' }} ">
-                </div>
-
-                <!-- Text -->
-                <div
-                    class="flex flex-col w-full lg:w-[50%] xl:w-[60%] justify-center mt-8 lg:mt-4 {{ $index % 2 !== 0 ? 'pr-8 sm:pr-10 xl:pr-8' : 'pl-8 sm:pl-10 xl:pl-8' }}">
-                    <div
-                        class="flex flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} items-stretch">
-
-                        <div class="w-full max-w-5xl {{ $index % 2 !== 0 ? 'ml-20 ' : 'mr-20' }} ">
-
-                            <div class=" w-full  {{ $index % 2 !== 0 ? 'mr-12 ' : 'ml-12 ' }}">
-                                <div class="text-stats4sd-red uppercase font-bold tracking-wide text-xl mb-2">
-                                    @if (!empty($caseStudy['redtitle']))
-                                        {{ $caseStudy['redtitle'] }}
-                                    @else
-                                        {{ t('Our Work') }}
-                                    @endif
-                                </div>
-                                <h2 class="text-3xl font-bold ">
-                                    {{ $caseStudy['title'] }}
-                                </h2>
-
-                            </div>
-                        </div>
-                        <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
-                    </div>
+            @if (empty($caseStudy['image2']))
+                <section
+                    class="w-full flex  flex-col lg:flex-row mt-28 mb-24  {{ mb_strlen($caseStudy['description'], 'UTF-8') > 800 ? 'items-start' : 'items-center' }}  {{ $index % 2 !== 0 ? 'lg:flex-row-reverse' : '' }}"
+                    id="casestudy">
+                    <!-- Image -->
 
                     <div
-                        class="flex mt-4 flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} h-full">
-
-                        <div class="w-full max-w-5xl {{ $index % 2 !== 0 ? 'ml-20 ' : 'mr-20' }} ">
-
-                            <div
-                                class="   {{ $index % 2 !== 0 ? 'mr-12 ' : 'ml-12 ' }} md:flex md:flex-row lg:flex-col  xl:flex-row md:gap-x-12">
-                                @if (!empty($caseStudy['secondcolumn']))
-                                    <div class="md:w-1/2 lg:w-full xl:w-1/2 py-2">
-                                        {{-- Main description column --}}
-                                        <p>
-                                            {!! $caseStudy['description'] !!}
-                                        </p>
-                                    </div>
-                                    {{-- Second column - extra info and links --}}
-
-                                    <div class="md:w-1/2 lg:w-full xl:w-1/2 py-2">
-                                        {!! $caseStudy['secondcolumn'] !!}
-                                    </div>
-                                @else
-                                    <div class="w-full py-2">
-                                        {{-- Main description column --}}
-                                        <p>
-                                            {!! $caseStudy['description'] !!}
-                                        </p>
-                                    </div>
-                                @endif
-                            </div>
+                        class="w-full lg:w-[50%] xl:w-[40%]  max-h-[800px] px-12 text-center {{ $index % 2 !== 0 ? 'lg:pl-0 lg:text-left' : 'lg:pr-0 lg:text-right' }} ">
+                        <div>
+                            <img src="{{ asset($caseStudy['image']) }}" alt="{{ $caseStudy['imageAlt'] }}"
+                                class=" inline lg:object-contain max-h-[500px] mx-0 {{ mb_strlen($caseStudy['description'], 'UTF-8') > 800 ? 'xl:max-h-full xl:max-w-[500px]' : '' }} ">
                         </div>
-                        <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
-                    </div>
-
-                </div>
-            </section>
-
-
-        @else
-        <!-- working on a layout for if there's no picture - unfinished, but I think we can leave it for now. -->
-        <div
-            class="flex flex-col w-full  mt-8 lg:mt-4 {{ $index % 2 !== 0 ? 'pr-8 sm:pr-10 xl:pr-8' : 'pl-8 sm:pl-10 xl:pl-8' }}">
-            <div class="flex flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} items-stretch">
-                <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
-                <div class=" w-[90vw] max-w-7xl bg-white px-8 lg:px-12 xl:px-16   ">
-
-                    <div class=" w-full  ">
-                        <div class="text-stats4sd-red uppercase font-bold tracking-wide text-xl mb-2">
-                            @if (!empty($caseStudy['redtitle']))
-                                {{ $caseStudy['redtitle'] }}
-                     
+                        <div class="w-full ">
+                            @if (!empty($caseStudy['imagecaption']))
+                                <figcaption
+                                    class="bg-stats4sd-red sm:w-max xl:max-w-4/5 xl:max-w-[480px] relative -top-4 mx-auto xl:mx-0 lg:float-right  text-white   "
+                                    style="padding: 0.75rem 1.5rem; ">
+                                    <p class="">
+                                        {{ $caseStudy['imagecaption'] }}
+                                    </p>
+                                </figcaption>
                             @endif
                         </div>
-                        <h2 class="text-3xl font-bold ">
-                            {{ $caseStudy['title'] }}
-                        </h2>
-
                     </div>
-                </div>
-                <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
-
-            </div>
-            <div class="mx-auto w-[90vw] max-w-7xl bg-white px-8 lg:px-12 xl:px-16 mt-6 md:flex md:flex-row lg:flex-col  xl:flex-row md:gap-x-12">
-                @if (!empty($caseStudy['secondcolumn']))
-                    <div class="md:w-1/2 lg:w-full xl:w-1/2 py-2">
-                        {{-- Main description column --}}
-                        <p>
-                            {!! $caseStudy['description'] !!}
-                        </p>
-                    </div>
-                    {{-- Second column - extra info and links --}}
-
-                    <div class="md:w-1/2 lg:w-full xl:w-1/2 py-2">
-                        {!! $caseStudy['secondcolumn'] !!}
-                    </div>
+                    {{-- Two image layout --}}
                 @else
-                    <div class="w-full py-2">
-                        {{-- Main description column --}}
-                        <p>
-                            {!! $caseStudy['description'] !!}
-                        </p>
+                    <section class="w-full flex  flex-col  mt-28 mb-24   " id="casestudy">
+                        <div
+                            class="w-full flex flex-col lg:flex-row gap-12 lg:justify-center lg:items-end px-12 text-center ">
+                            <div class="xl:w-1/2 lg:max-w-[500px]">
+                                
+                                    <img src="{{ asset($caseStudy['image']) }}" alt="{{ $caseStudy['imageAlt'] }}"
+                                        class=" inline w-full  lg:max-w-[500px] ">
+                                
+                                <div class="xl:w-full lg:max-w-[500px]">
+                                    @if (!empty($caseStudy['imagecaption']))
+                                        <figcaption
+                                            class="bg-stats4sd-red text-right  relative -top-1 mx-auto  text-white   "
+                                            style="padding: 0.75rem 1.5rem; ">
+                                            <p class="">
+                                                {{ $caseStudy['imagecaption'] }}
+                                            </p>
+                                        </figcaption>
+                                    @endif
+                                </div>
+                            </div>
+                            <div class="xl:w-1/2 lg:max-w-[500px]">
+                                <img src="{{ asset($caseStudy['image2']) }}" alt="{{ $caseStudy['image2Alt'] }}"
+                                        class=" inline w-full lg:object-contain lg:max-w-[500px] ">
+                                
+                                <div class="xl:w-full lg:max-w-[500px]">
+                                    @if (!empty($caseStudy['image2caption']))
+                                        <figcaption
+                                            class="bg-stats4sd-red text-right  relative -top-1 mx-auto  text-white   "
+                                            style="padding: 0.75rem 1.5rem; ">
+                                            <p class="">
+                                                {{ $caseStudy['image2caption'] }}
+                                            </p>
+                                        </figcaption>
+                                    @endif
+                                </div>
+                            </div>
+                        </div>
+                     
+            @endif
+
+            <!-- Text -->
+            <div
+                class="flex flex-col w-full {{  (empty($caseStudy['image2'])) ? 'lg:w-[50%] xl:w-[60%]' : '' }}  justify-center mt-10 {{ $index % 2 !== 0 ? 'pr-8 sm:pr-10 xl:pr-8' : 'pl-8 sm:pl-10 xl:pl-8' }}">
+                <div
+                    class="flex flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} items-stretch">
+                     @if (!empty($caseStudy['image2']))
+                      <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
+                     @endif
+                    <div class="w-full max-w-5xl {{ $index % 2 !== 0 ? 'ml-20 ' : 'mr-20' }} ">
+
+                        <div class=" w-full  {{ $index % 2 !== 0 ? 'mr-12 ' : 'ml-12 ' }}">
+                            <div class="text-stats4sd-red uppercase font-bold tracking-wide text-xl mb-2">
+                                @if (!empty($caseStudy['redtitle']))
+                                    {{ $caseStudy['redtitle'] }}
+                                @else
+                                    {{ t('Our Work') }}
+                                @endif
+                            </div>
+                            <h2 class="text-3xl font-bold ">
+                                {{ $caseStudy['title'] }}
+                            </h2>
+
+                        </div>
                     </div>
-                @endif
+                    <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
+                </div>
+
+                <div
+                    class="flex mt-4 flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} h-full">
+                                         @if (!empty($caseStudy['image2']))
+                      <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
+                     @endif
+                    <div class="w-full max-w-5xl {{ $index % 2 !== 0 ? 'ml-20 ' : 'mr-20' }} ">
+
+                        <div
+                            class="   {{ $index % 2 !== 0 ? 'mr-12 ' : 'ml-12 ' }} md:flex md:flex-row lg:flex-col  xl:flex-row md:gap-x-12">
+                            @if (!empty($caseStudy['secondcolumn']))
+                                <div class="md:w-1/2 lg:w-full xl:w-1/2 py-2">
+                                    {{-- Main description column --}}
+                                    <p>
+                                        {!! $caseStudy['description'] !!}
+                                    </p>
+                                </div>
+                                {{-- Second column - extra info and links --}}
+
+                                <div class="md:w-1/2 lg:w-full xl:w-1/2 py-2">
+                                    {!! $caseStudy['secondcolumn'] !!}
+                                </div>
+                            @else
+                                <div class="w-full py-2">
+                                    {{-- Main description column --}}
+                                    <p>
+                                        {!! $caseStudy['description'] !!}
+                                    </p>
+                                </div>
+                            @endif
+                        </div>
+                    </div>
+                    <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
+                </div>
+
             </div>
-        </div>
-        
-        </section>
+            </section>
+        @else
+            <!-- working on a layout for if there's no picture - unfinished, but I think we can leave it for now. -->
+            <div
+                class="flex flex-col w-full  mt-8 lg:mt-4 {{ $index % 2 !== 0 ? 'pr-8 sm:pr-10 xl:pr-8' : 'pl-8 sm:pl-10 xl:pl-8' }}">
+                <div
+                    class="flex flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} items-stretch">
+                    <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
+                    <div class=" w-[90vw] max-w-7xl bg-white px-8 lg:px-12 xl:px-16   ">
+
+                        <div class=" w-full  ">
+                            <div class="text-stats4sd-red uppercase font-bold tracking-wide text-xl mb-2">
+                                @if (!empty($caseStudy['redtitle']))
+                                    {{ $caseStudy['redtitle'] }}
+                                @endif
+                            </div>
+                            <h2 class="text-3xl font-bold ">
+                                {{ $caseStudy['title'] }}
+                            </h2>
+
+                        </div>
+                    </div>
+                    <div class="w-4 xl:w-6  bg-stats4sd-red h-auto flex-shrink-0"></div>
+
+                </div>
+                <div
+                    class="mx-auto w-[90vw] max-w-7xl bg-white px-8 lg:px-12 xl:px-16 mt-6 md:flex md:flex-row lg:flex-col  xl:flex-row md:gap-x-12">
+                    @if (!empty($caseStudy['secondcolumn']))
+                        <div class="md:w-1/2 lg:w-full xl:w-1/2 py-2">
+                            {{-- Main description column --}}
+                            <p>
+                                {!! $caseStudy['description'] !!}
+                            </p>
+                        </div>
+                        {{-- Second column - extra info and links --}}
+
+                        <div class="md:w-1/2 lg:w-full xl:w-1/2 py-2">
+                            {!! $caseStudy['secondcolumn'] !!}
+                        </div>
+                    @else
+                        <div class="w-full py-2">
+                            {{-- Main description column --}}
+                            <p>
+                                {!! $caseStudy['description'] !!}
+                            </p>
+                        </div>
+                    @endif
+                </div>
+            </div>
+
+            </section>
         @endif
     @endforeach
 @endif
@@ -247,7 +307,8 @@
                                     <!-- Photo -->
                                     <div
                                         class="md:flex-shrink-0 md:min-h-full h-[50vh] md:h-auto overflow-hidden  w-full md:w-90">
-                                        <img src="{{ asset($teamMember['avatar']) }}" alt="{{ $teamMember['name'] }}"
+                                        <img src="{{ asset($teamMember['avatar']) }}"
+                                            alt="{{ $teamMember['name'] }}"
                                             class="object-cover min-h-full  rounded-none">
                                     </div>
 

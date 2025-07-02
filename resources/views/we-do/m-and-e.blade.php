@@ -9,11 +9,11 @@
         'headerTitle' => t("M&E and impact assessment"),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             Stats4SD provides support for Monitoring and Evaluation (M&E) and impact assessment of international development programmes. 
                 Our support incorporates both quantitative and qualitative aspects.
         ',
-        'content' => '
+        'introcol2' => '
             <p>On the quantitative side, it may involve advising on survey methods and efficient sampling design, development of data 
                 collection instruments, in-country and remote training and support for fieldwork teams, and quality assurance and analysis of results. 
             </p>

@@ -1,4 +1,4 @@
-<header class="absolute top-0 left-0 w-full z-10" x-data="{ open: false } fixed">
+<header class="absolute top-0 left-0 w-full z-40" x-data="{ open: false } fixed">
     <div class="w-full bg-white flex h-22 fixed">
         <div class="px-8 w-full mx-auto flex justify-between items-center py-8 fixed">
             <!-- Logo -->

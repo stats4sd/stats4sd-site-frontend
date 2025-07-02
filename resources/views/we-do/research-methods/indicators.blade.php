@@ -11,10 +11,10 @@
         'level2BreadcrumbUrl' => route('we-do.research-methods'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             Many organisations are looking for ways to present information in a clear, comparable and attractive way for their audiences. Indicators and data visualisations are a good way to do this, particularly when dealing with large datasets and looking to compare key results between organisations, projects or locations in a way that will catch people’s attention. 
         ',
-        'content' => '
+        'introcol2' => '
             <p>
                 We work with our clients to understand their data presentation needs and then build products to suit their needs. This work is often linked to our work on 
                 <a href="' . route('we-do.research-methods.statistical-analysis') . '" class="font-bold text-stats4sd-red">statistical analysis</a> and 

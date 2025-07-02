@@ -11,7 +11,7 @@
         'level2BreadcrumbUrl' => route('we-do.research-methods'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             The Stats4SD team is experienced in survey design and management, using its knowledge of statistical principles and experience with the 
             <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">latest tools and systems for collecting and managing data</a>. 
             We design and run large-scale surveys, build 
@@ -19,7 +19,7 @@
             and can also advise you on 
             <a href="' . route('we-do.data-systems.databases') . '" class="font-bold text-stats4sd-red">statistical analysis</a>.
         ',
-        'content' => '
+        'introcol2' => '
             <p>Surveys are a traditional way of collecting (mainly) quantitative data in a structured manner that allows you to reach conclusions about the population of interest – normally 
                 a defined group of people or households (or something that they can provide information about, such as the crops they grow or the livestock they own). If a survey is properly 
                 designed, the results will be both reliable and comparable, for instance between places and over time.

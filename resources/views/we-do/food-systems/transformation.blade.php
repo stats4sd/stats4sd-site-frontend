@@ -11,10 +11,10 @@
         'level2BreadcrumbUrl' => route('we-do.food-systems'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             The McKnight Foundation’s <a href="https://www.ccrp.org/" target="_blank" class="font-bold text-stats4sd-red">Global Collaboration for Resilient Food Systems</a> (CRFS) works to ensure a world where all have access to nutritious food that is sustainably produced by local people. Organisations in African and South America apply for grants to undertake projects designed to contribute to this goal. CRFS currently works with around 70 teams in 10 countries.
         ',
-        'content' => '
+        'introcol2' => '
             <p>
                 Stats4SD has been working with CRFS and its predecessor, the Collaborative Crop Research Program, since 2016. Ric Coe and Carlos Barahona have been involved in the program since 2009.
             </p>
@@ -30,6 +30,10 @@
                 'title' => 'Research for CRFS’s landscape level initiatives',
                 'image' => 'images/wedo/agri/casestudies/landscape1.png', 
                 'imageAlt' => 'Case Study Image', 
+                'imagecaption'=> 'Landscape mapping exercise.',
+                 'image2' => 'images/wedo/agri/casestudies/landscape2.png', 
+                'image2Alt' => 'Case Study Image', 
+                'image2caption'=> 'Using the visioning tool – how do you see your landscape in 10 years’ time? ',
                 'description' => '
                     <p>
                         Stats4SD is supporting CRFS’s landscape level work by developing methods for the research components of these projects.

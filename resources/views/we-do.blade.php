@@ -1,28 +1,24 @@
 @extends('layouts.app')
 @section('content')
     <!-- Header section -->
-    <div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">
-        <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-0  mx-auto">
-            <div class="text-3xl font-bold uppercase text-stats4sd-red ">
-                {{ t('Our work') }}
-            </div>
-
-            <div class="text-6xl font-bold pt-2">
-                {{ t('What we do') }}
-            </div>
+    <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-10 sm:px-22 md:px-14 2xl:px-3 mt-32 mx-auto">
+        <div class="bg-stats4sd-red h-3 w-28 mb-2"></div>
+        <div class="text-6xl font-bold pt-2">
+            {{ t('What we do') }}
         </div>
     </div>
+ 
     <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-4  mx-auto">
 
         <nav class="pt-12 text-sm text-gray-600" aria-label="Breadcrumb">
             <ol class="flex space-x-2 text-sm text-gray-600">
                 <li>
-                    <a href="{{ url('/home') }}" class="hover:underline">{{ t('Home') }}</a>
+                    <a href="{{ url('/home') }}" class="hover:text-stats4sd-red ">{{ t('Home') }}</a>
                 </li>
                 <li>
                     <span>&gt;</span>
                 </li>
-                <li>
+                <li class="">
                     {{ t('What we do') }}
                 </li>
             </ol>
@@ -76,12 +72,12 @@
                 class="md:col-span-8 lg:col-span-4 space-y-6 text-gray-800 w-full md:flex md:flex-row md:gap-12 lg:gap-0 lg:flex-col ">
                 <div>
                     <p class="mb-4">
-                      {{ t("Stats4SD was founded in 2016 by a group of applied statisticians, data engineers and research methods experts from the University of 
-                      Reading with a mission to use their skills for the benefit of society and the environment.") }}
+                        {{ t("Stats4SD was founded in 2016 by a group of applied statisticians, data engineers and research methods experts from the University of
+                                              Reading with a mission to use their skills for the benefit of society and the environment.") }}
                     </p>
                     <!-- Since then, we have led or supported around xx projects across xx countries.  -->
-                    <p>{{ t("Our team now includes specialists in quantitative and qualitative 
-                        research methods, complex data analysis and data systems and platforms.") }}
+                    <p>{{ t("Our team now includes specialists in quantitative and qualitative
+                                            research methods, complex data analysis and data systems and platforms.") }}
                     </p>
                 </div>
                 <div class="block w-full">

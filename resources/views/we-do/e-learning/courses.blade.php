@@ -11,10 +11,10 @@
         'level2BreadcrumbUrl' => route('we-do.e-learning'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
                 Stats4SD creates online courses relating to its areas of work and expertise. Some are taught courses, while others use a self-learning approach. Our courses are delivered on the <a href="https://courses.stats4sd.org/?redirect=0" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Moodle site</a> or on the websites of those who commissioned them. 
         ',
-        'content' => '
+        'introcol2' => '
             <p>
                 To access the Stats4SD Moodle site you have to register, but registration is free. Once you have access, you can enrol for courses, track your progress and obtain certificates. 
             </p>

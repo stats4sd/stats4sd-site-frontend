@@ -11,10 +11,10 @@
         'level2BreadcrumbUrl' => route('we-do.research-methods'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             Although Stats4SD was founded by quantitative data specialists, we recognise the importance of qualitative data in research processes.
         ',
-        'content' => '
+        'introcol2' => '
             <p>
                 Our team includes qualitative methods specialists who:
             </p>

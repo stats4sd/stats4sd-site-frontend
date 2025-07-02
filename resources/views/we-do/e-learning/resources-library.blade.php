@@ -11,9 +11,9 @@
         'level2BreadcrumbUrl' => route('we-do.e-learning'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             As part of our work with our partners, we develop materials such as reports, articles, videos, guides and courses that support good practice, research and learning in the broad range of topics relevant to our work.',
-        'content' => '
+        'introcol2' => '
             <p>
                 Wherever possible, we aim to make these publicly available to all who could benefit from them. We therefore maintain the 
                 <a href="https://stats4sd.org/resources" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>, a searchable database in which we store and share materials produced by our team, along with selected links to materials from other sources that we recommend. 

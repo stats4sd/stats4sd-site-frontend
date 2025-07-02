@@ -11,14 +11,14 @@
         'level2BreadcrumbUrl' => route('we-do.e-learning'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => 'At Stats4SD, we enjoy writing blogs (short articles on topics that we find interesting). We don’t produce blogs on a regular basis because of the pressures of our work - but when we have a bit of spare time, as we did during the Covid-19 pandemic, we like to blog.',
-        'content' => '
+        'introcol1' => 'At Stats4SD, we enjoy writing blogs (short articles on topics that we find interesting). We don’t produce blogs on a regular basis because of the pressures of our work - but when we have a bit of spare time, as we did during the Covid-19 pandemic, we like to blog.',
+        'introcol2' => '
             Many of our blogs make great e-learning materials. Some illustrate an aspect of our work that want to share with others, some are opinion pieces, and some are just for fun!
         ',
         'caseStudies' => [
             [
                 'title' => 'Examples of our blogs',
-                'image' => 'images/wedo/el/casestudies/blogs.jpg', 
+                'image' => 'images/wedo/el/casestudies/blogs.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                 <ul class="list-disc pl-6">

@@ -11,10 +11,10 @@
         'level2BreadcrumbUrl' => route('we-do.data-systems'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             The dashboards work at Stats4SD involves building two types of dashboard for our clients: one for managing data collection processes and the other for presenting results or indicators.
         ',
-        'content' => '
+        'introcol2' => '
             <p>
                 An example of the first type of dashboard is where there is a household survey running in multiple locations. As a minimum, the dashboard shows you what is going on in each location and highlights problems, such as consistently missing data, to the survey manager – who can then speak to the field staff. More sophisticated versions allow users to manage the whole survey process from start to finish.
             </p>
