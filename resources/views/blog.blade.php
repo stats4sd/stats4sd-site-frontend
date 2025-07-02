@@ -1,28 +1,29 @@
 @extends('layouts.app')
 @section('content')
     <!-- Header section -->
-    <div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">
-        <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-0 mx-auto">
-            <div class="text-6xl font-bold pt-2">
-                {{ t('Blog') }}
-            </div>
+
+    <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-10 sm:px-22 md:px-14 2xl:px-3 mt-32 mx-auto">
+        <div class="bg-stats4sd-red h-3 w-28 mb-2"></div>
+        <div class="text-6xl font-bold pt-2">
+            {{ t('Blog') }}
         </div>
     </div>
-    
-    <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-10 sm:px-22 md:px-16 2xl:px-2  mx-auto">
-            <nav class="pt-12 text-sm text-gray-600" aria-label="Breadcrumb">
-                <ol class="flex space-x-2 text-sm text-gray-600">
-                    <li>
-                        <a href="{{ url('/home') }}" class="hover:underline">{{ t('Home') }}</a>
-                    </li>
-                    <li>
-                        <span>&gt;</span>
-                    </li>
-                    <li>
-                        {{ t('Blog') }}
-                    </li>
-                </ol>
-            </nav>
+
+    <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-4 mx-auto">
+
+        <nav class="pt-12 text-sm text-gray-600" aria-label="Breadcrumb">
+            <ol class="flex space-x-2 text-sm text-gray-600">
+                <li>
+                    <a href="{{ url('/home') }}" class="hover:text-stats4sd-red ">{{ t('Home') }}</a>
+                </li>
+                <li>
+                    <span>&gt;</span>
+                </li>
+                <li>
+                    {{ t('Blog') }}
+                </li>
+            </ol>
+        </nav>
     </div>
 
     <div class="py-16 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-0 mx-auto">
