@@ -84,7 +84,7 @@
                                 <figcaption
                                     class="bg-stats4sd-red sm:w-max xl:max-w-4/5 xl:max-w-[480px] relative -top-4 mx-auto xl:mx-0 lg:float-right  text-white   "
                                     style="padding: 0.75rem 1.5rem; ">
-                                    <p class="">
+                                    <p>
                                         {{ $caseStudy['imagecaption'] }}
                                     </p>
                                 </figcaption>
@@ -106,7 +106,7 @@
                                         <figcaption
                                             class="bg-stats4sd-red text-right sm:w-max xl:max-w-4/5 xl:max-w-[480px] relative -top-4 mx-auto  text-white   "
                                             style="padding: 0.75rem 1.5rem; ">
-                                            <p class="">
+                                            <p>
                                                 {{ $caseStudy['imagecaption'] }}
                                             </p>
                                         </figcaption>
@@ -126,7 +126,7 @@
                                         <figcaption
                                             class="bg-stats4sd-red text-right sm:w-max lg:max-w-4/5 xl:max-w-[480px] relative -top-4 mx-auto  text-white   "
                                             style="padding: 0.75rem 1.5rem; ">
-                                            <p class="">
+                                            <p>
                                                 {{ $caseStudy['image2caption'] }}
                                             </p>
                                         </figcaption>

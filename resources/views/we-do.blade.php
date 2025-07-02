@@ -18,7 +18,7 @@
                 <li>
                     <span>&gt;</span>
                 </li>
-                <li class="">
+                <li>
                     {{ t('What we do') }}
                 </li>
             </ol>

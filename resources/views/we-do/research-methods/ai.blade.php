@@ -23,7 +23,7 @@
             </p>',
         'introcol2' => '
 
-            <p class="">
+            <p>
                 So, we need to make full use of our critical faculties when working with AI. Expecting it to do all the work for you is a bad idea! Instead, our aim at Stats4SD is to use AI in such a way that human intelligence remains in the driving seat. We can do this because we understand both the conventional statistical approaches and what AI can do. We also know what questions to ask and what are the assumptions being made, so we can integrate ML into our work in a way that allows us to understand any biases or data quality issues. AI is very powerful, but the real question is: “How do we integrate the technology into processes that increase efficiency but remain under the control of humans?”
             </p>
             <p class="pt-2">
