@@ -43,7 +43,7 @@
         'caseStudies' => [
             [
                 'title' => 'Building evidence-based cases for agroecology',
-                'image' => 'images/wedo/rm/casestudies/aeftall.jpg',
+                'image' => 'images/wedo/rm/casestudies/aeftall.JPG',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p id="evidence-for-agroecology">
