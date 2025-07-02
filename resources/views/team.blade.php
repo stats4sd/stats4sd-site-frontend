@@ -173,10 +173,8 @@
         <div
             class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xlx-8 sm:px-20 md:px-12 2xl:px-20  mx-auto text-left">
             <div class="h-3 w-16 bg-stats4sd-red mb-3"></div>
-            <h2 class="text-4xl font-bold text-gray-900 mb-6">{{ t("Organisation diagram") }}</h2>
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">{{ t("Organisation diagram") }}</h2>
         <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-24  mx-auto text-left">
-        <div class="h-3 w-16 bg-stats4sd-red mb-3"></div>
-            <h2 class="text-4xl font-bold text-gray-900 mb-6"></h2>
             <p class="text-base text-gray-700 mb-8">
                 {{ t("View the organisation diagram to see the staff and management structure at Stats4SD.") }}
             </p>
