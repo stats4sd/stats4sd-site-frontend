@@ -11,10 +11,10 @@
         'level2BreadcrumbUrl' => route('we-do.food-systems'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             Stats4SD’s research methods experts support traditional agricultural research, such as farm experiments. Such research is usually led by the researcher with a mandate from a government or international organisation, and it focuses on increasing production and productivity by addressing agronomy challenges.
         ',
-        'content' => '
+        'introcol2' => '
             <p>
                 Stats4SD has many years of experience in providing study design advice in this context. Particularly when experiments are unconventional or take place in challenging environments, we can help researchers to improve significantly the efficiency of their study design and avoid poor, inefficient designs. We can also assist with efficient
                 <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">data collection and management systems</a>.
@@ -43,7 +43,11 @@
             [
                 'title' => 'FRNs and knowledge co-creation in Malawi',
                 'image' => 'images/wedo/agri/casestudies/cocreation.png', 
+                'imagecaption' => 'Shortfalls of the top-down technology transfer model.',
                 'imageAlt' => 'Case Study Image', 
+                'image2' => 'images/wedo/agri/casestudies/cocreation2.png', 
+                'image2caption'=> 'Farmers are engaged in all stages of the learning process.',
+                'image2Alt' => 'Case Study Image', 
                 'description' => '
                     <p>
                         Romina De Angelis from Stats4SD and Frank Tchuwa and Daimon Kambewa from the Lilongwe University of Agriculture and Natural Resources made a joint presentation about working with FRNs in Malawi to the 2023 Conference of the UK Education and Development Forum.

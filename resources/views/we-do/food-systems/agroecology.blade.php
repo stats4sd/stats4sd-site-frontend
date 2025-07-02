@@ -11,11 +11,11 @@
         'level2BreadcrumbUrl' => route('we-do.food-systems'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             Stats4SD is committed to the <a href="https://www.fao.org/agroecology/overview/en/" target="_blank" class="font-bold text-stats4sd-red">principles of agroecology</a>. 
             It does not believe that agriculture and food production should be about extracting reserves from nature and replacing them in an unbalanced manner, leading to a low-level equilibrium that depends on fossil fuels. Instead, we believe that the world needs to find ways of transforming farming systems to become sustainable, creating a high-level equilibrium where stocks of natural assets are restored. 
         ',
-        'content' => '
+        'introcol2' => '
             <p>
                 We support this work by contributing to efforts to change the way that people do research. We aim to create better research processes and outcomes for agroecology practitioners, including farmers and other stakeholders. We are also involved in initiatives to share knowledge and provide appropriate data systems and platforms for this work. We work closely with the following organisations:
             </p>

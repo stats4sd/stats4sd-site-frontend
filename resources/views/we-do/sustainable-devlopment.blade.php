@@ -9,11 +9,11 @@
         'headerTitle' => t("Sustainable development"),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             Stats4SD is committed to supporting sustainable development around the world using data and analysis to inform policies and actions.
             We help people collect and organise information to solve real-world problems for the benefit of society and the environment.
         ',
-        'content' => '
+        'introcol2' => '
             <p>We support projects in areas ranging from <a href="' . route('we-do.food-systems.transformation') . '" class="font-bold text-stats4sd-red">food systems transformation</a> and <a href="' . route('we-do.food-systems.agroecology') . '" class="font-bold text-stats4sd-red">agroecology</a> to promoting women’s health, supporting education and understanding the challenges of displaced people. While we are familiar with many of these areas, we are not specialists in any of them. 
                 Our role, as experts in data and methods support, is to empower you to <a href="' . route('we-do.research-methods') . '" class="font-bold text-stats4sd-red">answer your research questions efficiently</a>, <a href="' . route('we-do.data-systems') . '" class="font-bold text-stats4sd-red">organise your information</a>, 
                 <a href="' . route('we-do.research-methods.surveys') . '" class="font-bold text-stats4sd-red">produce reliable results</a> and <a href="' . route('we-do.research-methods.indicators') . '" class="font-bold text-stats4sd-red">present them clearly to your audiences</a>.</p>

@@ -11,16 +11,19 @@
         'level2BreadcrumbUrl' => route('we-do.research-methods'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
-                At Stats4SD we are excited by the opportunities that Artificial Intelligence (AI) offers. We are keen to adopt the new technologies and use Machine Learning (ML) to increase our analytical efficiency. ',
-        'content' => '
-            <p>
+        'introcol1' => '
+         <p>
+                At Stats4SD we are excited by the opportunities that Artificial Intelligence (AI) offers. We are keen to adopt the new technologies and use Machine Learning (ML) to increase our analytical efficiency. 
+                </p>
+             <p class="pt-2">
                 ML is a subset of AI which involves algorithms and statistical models that enable computers to learn from data and produce results without being explicitly programmed. It is very powerful, doing tasks that would take us a lot of time and saving Stats4SD and its clients money.
             </p>
             <p class="pt-2">
                 However, we are also aware of the limitations of AI. When the machines take control, analysis tends to becomes more uniform or ‘average’ because the machines learn from what existed before, so there is a tendency for creativity, richness and nuances to get lost. Also, AI sometimes invents results. 
-            </p>
-            <p class="pt-2">
+            </p>',
+        'introcol2' => '
+
+            <p class="">
                 So, we need to make full use of our critical faculties when working with AI. Expecting it to do all the work for you is a bad idea! Instead, our aim at Stats4SD is to use AI in such a way that human intelligence remains in the driving seat. We can do this because we understand both the conventional statistical approaches and what AI can do. We also know what questions to ask and what are the assumptions being made, so we can integrate ML into our work in a way that allows us to understand any biases or data quality issues. AI is very powerful, but the real question is: “How do we integrate the technology into processes that increase efficiency but remain under the control of humans?”
             </p>
             <p class="pt-2">

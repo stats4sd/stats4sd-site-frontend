@@ -11,10 +11,10 @@
         'level2BreadcrumbUrl' => route('we-do.data-systems'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             The focus of the data collection and management systems work at Stats4SD is on choosing the right tools and building the systems for digital data collection and management. We support people who want to collect data, for example through household surveys, field experiments or talking to farmers about their practices. 
         ',
-        'content' => '
+        'introcol2' => '
         <p>
         Our job is to capture the data, store it sensibly and get it into shape for efficient processing. This includes designing questionnaires and forms for collecting data on a mobile device, as well as building end-to-end systems to manage the data collection (fieldwork) and processing.
         </p>
@@ -34,7 +34,7 @@
         'caseStudies' => [
             [
                 'title' => 'Providing end-to-end support for ProSoil survey',
-                'image' => 'images/wedo/de/casestudies/tape.png', 
+                'image' => 'images/wedo/de/casestudies/tape1.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p id="prosoil-survey">

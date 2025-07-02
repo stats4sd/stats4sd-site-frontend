@@ -11,11 +11,11 @@
         'level2BreadcrumbUrl' => route('we-do.e-learning'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             Our webinars relate to our work on 
             <a href="' . route('we-do.research-methods.design-support') . '" class="font-bold text-stats4sd-red">research methods support</a> for the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS) and provide the opportunity for discussion and sharing of knowledge and experiences. 
         ',
-        'content' => '
+        'introcol2' => '
             <p>
              Recently we have begun to do multi-language webinars, where presentations are made in English, French and Spanish language channels simultaneously.
              </p>

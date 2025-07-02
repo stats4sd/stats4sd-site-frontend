@@ -11,10 +11,10 @@
         'level2BreadcrumbUrl' => route('we-do.data-systems'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             Stats4SD builds databases that are designed specifically for our clients’ projects, with structures that make it easy to extract analysis-ready data, accessible via online platforms with user-friendly front ends.
         ',
-        'content' => '
+        'introcol2' => '
             <p>
                 The aim of this work is to get to the point where there is a clean, organised dataset in a sensible format that is ready for analysis by an analyst in the client’s organisation and that can be easily accessed via the online platform. Some clients may also request built-in data processing and custom scripts (in R) to do automated analysis such as calculating indicators and basic summaries. The front end of the platform may have an integrated 
                 <a href="' . route('we-do.data-systems.dashboards') . '" class="font-bold text-stats4sd-red">dashboard</a>. It may also be set up so that non-technical teams can manage their data collection and management processes – including field staff – effectively.

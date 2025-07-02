@@ -11,10 +11,10 @@
         'level2BreadcrumbUrl' => route('we-do.e-learning'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
             Stats4SD creates e-learning materials in a variety of formats: courses,  videos and video playlists, webinars and seminars, and blogs. 
         ',
-        'content' => '
+        'introcol2' => '
             <p>
                 Our educational videos explore topics ranging from data collection and statistical analysis to agroecology and farmer research. We also provide video ‘playlists’, which are a set of videos exploring a topic in greater depth. 
             </p>
@@ -25,7 +25,7 @@
         'caseStudies' => [
             [
                 'title' => 'Examples of the videos we have created',
-                'image' => 'images/wedo/el/casestudies/videos1.png', 
+                'image' => 'images/wedo/el/casestudies/videos.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <ul class="list-disc pl-6">

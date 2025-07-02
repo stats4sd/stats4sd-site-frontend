@@ -11,7 +11,7 @@
         'level2BreadcrumbUrl' => route('we-do.research-methods'),
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
-        'lead_paragraph' => '
+        'introcol1' => '
         <blockquote class=" pt-2">
                 “If you are building a hut, you don’t need an architect. But if you are building a complex building you need blueprints and someone who knows how to bring it all together. That’s what we do”. 
             </blockquote>
@@ -20,7 +20,7 @@
             </p>
            
         ',
-        'content' => ' <p>We support research processes by advising on efficient research approaches, methods and designs and on what are the most appropriate choices in each case.</p>
+        'introcol2' => ' <p>We support research processes by advising on efficient research approaches, methods and designs and on what are the most appropriate choices in each case.</p>
             <p>
                 We are experts in ‘research architecture’ – the design of complex research processes involving, for example, quantitative data collected through large-scale surveys, agricultural experiments or qualitative data from interviews, focus groups and participatory processes.
             </p>
