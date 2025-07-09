@@ -1,37 +1,45 @@
 @extends('layouts.app')
 @section('content')
-    <div class="bg-white pt-20 pb-12 mt-10">
+    <div class="bg-white pt-20  ">
 
         <!-- Title -->
 
 
         <!-- Image + Red Text Block -->
-        <div class="flex flex-col md:flex-row md:h-96 2xl:min-h-[20vh] 2xl:h-auto overflow-hidden">
+        <div class=" md:h-96  2xl:h-auto overflow-hidden">
 
-            <!-- Left: Image -->
-            <div class="md:w-2/3 w-full h-96 2xl:min-h-[20vh] ">
+            <!-- image -->
+            <div class=" w-full h-96 2xl:min-h-[20vh] ">
                 <img src="{{ asset('images/front-page.webp') }}" alt="Home Page"
-                    class="w-full h-full object-cover object-center">
+                    class="w-full h-full object-cover object-center filter brightness-75">
             </div>
 
 
-            <!-- Right: Red Block -->
-            <div class="md:w-1/3 md:min-w-92 w-full bg-stats4sd-red relative flex flex-col items-start justify-end p-12">
-                <div class="bg-white w-24 h-2"></div>
-                <h1 class="text-6xl font-bold text-white   mt-4 ml-10 md:ml-0"> Stats4SD </h1>
-                <p class="text-white text-lg font-semibold pt-6">
-                    {{ t('Improving research designs, data efficiency and information for decision-making') }}
-                </p>
+            <!-- top -->
+            <div class="w-full relative bottom-32 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto text-left px-12 ">
+               
+                <h1 class="text-6xl xl:text-7xl font-bold text-white   mt-4 "> Stats4SD </h1>
+                
             </div>
         </div>
     </div>
-    <div class="max-w-screen-lg text-center mx-auto">
+    <div class="w-full  max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-6 md:gap-12 sm:mt-12 2xl:mt-0 px-12 x mb-12">
+<div class="md:w-1/2">
 
-        <p class="text-xl font-light text-gray-800">
+        <p class="text-xl  text-gray-800 font-bold">
+            Improving research designs, data efficiency and information for decision-making
+
+        </p>
+                <div class="bg-stats4sd-red w-20 mt-5  h-3"></div>
+        </div>
+        <div class="md:w-1/2 ">
+        <p class="text-xl font-light text-gray-800 ">
             Stats4SD is a non-profit organisation committed to supporting sustainable development around the world using
             reliable data and analysis to inform policies and actions.
         </p>
-        <div class="bg-stats4sd-red w-20 mt-10 mb-5 mx-auto  h-3"></div>
+        </div>
+        </div>
+
     </div>
 
     <div class="bg-white pt-8 pb-48 px-6 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl   mx-auto">
