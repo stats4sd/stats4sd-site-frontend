@@ -42,13 +42,13 @@
                     class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
                     <!-- Background Image -->
                     <div class="absolute inset-0 bg-cover bg-center"
-                        style="background-image: url('/images/wedo/rm/qual.png');">
+                        style="background-image: url('/images/qualcard.png');">
                     </div>
 
                     <!-- Bottom Half Overlay -->
                     <div
-                        class="absolute bottom-0 h-3/5 w-full bg-[rgba(0,0,0,0.6)] text-white p-6 flex flex-col justify-around">
-                        <h3 class="text-lg font-semibold ">What we do</h3>
+                        class="absolute bottom-0 h-2/5 w-full bg-[rgba(0,0,0,0.6)] text-white p-6 flex flex-col justify-start">
+                        <h3 class="text-lg font-semibold mb-2 ">What we do</h3>
                         <p class="text-sm mt-1">Read about our expertise and latest projects and see how we can help you.
                         </p>
                     </div>
@@ -61,8 +61,8 @@
 
                     <!-- Bottom Half Overlay -->
                     <div
-                        class="absolute bottom-0 h-3/5 w-full bg-[rgba(0,0,0,0.6)] text-white p-6 flex flex-col justify-around">
-                        <h3 class="text-lg font-semibold ">Our team</h3>
+                        class="absolute bottom-0 h-2/5 w-full bg-[rgba(0,0,0,0.6)] text-white p-6 flex flex-col justify-start">
+                        <h3 class="text-lg font-semibold mb-2 ">Our team</h3>
                         <p class="text-sm mt-1">Meet the Stats4SD team and find the right specialist for your needs.
                         </p>
                     </div>
@@ -70,13 +70,13 @@
                 <a href="/wedo"
                     class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
                     <!-- Background Image -->
-                    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/walk.jpg');">
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/walkcard.jpg');">
                     </div>
 
                     <!-- Bottom Half Overlay -->
                     <div
-                        class="absolute bottom-0 h-3/5 w-full bg-[rgba(0,0,0,0.6)] text-white p-6 flex flex-col justify-around">
-                        <h3 class="text-lg font-semibold ">About us</h3>
+                        class="absolute bottom-0 h-2/5 w-full bg-[rgba(0,0,0,0.6)] text-white p-6 flex flex-col justify-start">
+                        <h3 class="text-lg font-semibold mb-2 ">About us</h3>
                         <p class="text-sm mt-1">Learn more about our philosophy, principles and how to contact us.
 
                             . </p>
@@ -91,13 +91,10 @@
 
                     <!-- Bottom Half Overlay -->
                     <div
-                        class="absolute bottom-0 h-3/5 w-full bg-[rgba(0,0,0,0.6)] text-white p-6 flex flex-col justify-around">
-                        <h3 class="text-lg font-semibold ">Resources library</h3>
-                        <p class="text-sm mt-1">Search our library of resources including methods guidance and e-learning
-                            materials, browse our collections and link to other resource hubs
-                            .
-
-                            . </p>
+                        class="absolute bottom-0 h-2/5 w-full bg-[rgba(0,0,0,0.6)] text-white p-6 flex flex-col justify-start">
+                        <h3 class="text-lg font-semibold mb-2 ">Resources library</h3>
+                        <p class="text-xs mt-1">Search our library of resources including methods guidance and e-learning
+                            materials, browse our collections and link to other resource hubs. </p>
                     </div>
                 </a>
             </div>
