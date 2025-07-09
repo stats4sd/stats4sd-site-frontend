@@ -3,11 +3,11 @@
         <div class="px-8 w-full mx-auto flex justify-between items-center py-8 fixed">
             <!-- Logo -->
             <div class="flex items-center mr-8 space-x-4 min-w-[100px]">
-                @if (!request()->is('/') && !request()->is('home'))
+                {{-- @if (!request()->is('/') && !request()->is('home'))
                     <a href="/home">
                         <img src="/images/Stats4SD_logo.png" alt="Stats4SD logo" class="h-4 w-auto">
                     </a>
-                @endif
+                @endif --}}
             </div>
 
             <!-- Hamburger Menu (visible on small screens) -->

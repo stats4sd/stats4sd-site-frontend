@@ -12,19 +12,24 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'introcol1' => '
-        <blockquote class=" pt-2">
-                “If you are building a hut, you don’t need an architect. But if you are building a complex building you need blueprints and someone who knows how to bring it all together. That’s what we do”. 
-            </blockquote>
-            <p class="pt-4 italic">
-                Carlos Barahona, Stats4SD Managing Director
-            </p>
-           
-        ',
-        'introcol2' => ' <p>We support research processes by advising on efficient research approaches, methods and designs and on what are the most appropriate choices in each case.</p>
             <p>
+                We support research processes by advising on efficient research approaches, methods and designs and on what are the most appropriate choices in each case.
+            </p>
+            <p class="pt-2">
                 We are experts in ‘research architecture’ – the design of complex research processes involving, for example, quantitative data collected through large-scale surveys, agricultural experiments or qualitative data from interviews, focus groups and participatory processes.
             </p>
-            
+            <blockquote class="pt-2 ">
+                “If you are building a hut, you don’t need an architect. But if you are building a complex building you need blueprints and someone who knows how to bring it all together. That’s what we do”. 
+           
+            <p class="pt-2 italic">
+                Carlos Barahona, Stats4SD Managing Director
+            </p>
+             </blockquote>
+       
+           
+        ',
+        'introcol2' => ' 
+             
             <p class="pt-2">
                 Including research methods specialists from the start of a project can save money, particularly when working in challenging environments. Stats4SD’s advice on research design and its support during the research process ensures that our partners and clients obtain the information they need in the most efficient way.
             </p>

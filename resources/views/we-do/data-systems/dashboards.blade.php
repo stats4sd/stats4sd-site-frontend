@@ -12,13 +12,17 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'introcol1' => '
+        <p>
             The dashboards work at Stats4SD involves building two types of dashboard for our clients: one for managing data collection processes and the other for presenting results or indicators.
+
+            </p>
+        <p class="pt-2">
+            An example of the first type of dashboard is where there is a household survey running in multiple locations. As a minimum, the dashboard shows you what is going on in each location and highlights problems, such as consistently missing data, to the survey manager – who can then speak to the field staff. More sophisticated versions allow users to manage the whole survey process from start to finish.
+        </p>
         ',
         'introcol2' => '
             <p>
-                An example of the first type of dashboard is where there is a household survey running in multiple locations. As a minimum, the dashboard shows you what is going on in each location and highlights problems, such as consistently missing data, to the survey manager – who can then speak to the field staff. More sophisticated versions allow users to manage the whole survey process from start to finish.
-            </p>
-            <p class="pt-2">
+
                 The other type of dashboard is designed to present results or to calculate indicators from a range of data sources. Our statisticians create such dashboards using code in R and graphics in R Shiny. An example is the interactive indicator dashboard for assessing land investments (see below). In such cases, the dashboard might be stand-alone, or it might be part of a data platform. When integrated into a data platform, a dashboard may be used to present results from a survey as the data is collected (in real time) to get an idea of how results are shaping up, as well as to produce indicators from the final dataset.
             </p>
         ',

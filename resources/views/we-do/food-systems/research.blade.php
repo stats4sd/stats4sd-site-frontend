@@ -12,17 +12,17 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'introcol1' => '
-            Stats4SD’s research methods experts support traditional agricultural research, such as farm experiments. Such research is usually led by the researcher with a mandate from a government or international organisation, and it focuses on increasing production and productivity by addressing agronomy challenges.
-        ',
-        'introcol2' => '
-            <p>
-                Stats4SD has many years of experience in providing study design advice in this context. Particularly when experiments are unconventional or take place in challenging environments, we can help researchers to improve significantly the efficiency of their study design and avoid poor, inefficient designs. We can also assist with efficient
+        <p>
+            Stats4SD’s research methods experts support traditional agricultural research, such as farm experiments. Such research is usually led by the researcher with a mandate from a government or international organisation, and it focuses on increasing production and productivity by addressing agronomy challenges. Stats4SD has many years of experience in providing study design advice in this context. Particularly when experiments are unconventional or take place in challenging environments, we can help researchers to improve significantly the efficiency of their study design and avoid poor, inefficient designs. We can also assist with efficient
                 <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">data collection and management systems</a>.
             </p>
             <p class="pt-2">
                 We are also very much involved in developing ‘farmer research’ methods, which comes out of our work on agroecology. The overarching objective is to find – though research, practice and participation of people – ways of transforming agriculture and food systems to a high-level equilibrium where we can restore stocks of natural assets such as soil, water, nutrients and oxygen, as well as biodiversity, thereby guaranteeing the future of agriculture and food systems. 
             </p>
-            <p class="pt-2">
+        ',
+        'introcol2' => '
+            
+            <p class="">
                 Stats4SD works on farmer research through its 
                 <a href="' . route('we-do.research-methods.design-support') . '#rms-mcknight-crfs' . '" class="font-bold text-stats4sd-red">research methods support work with the McKnight Foundation’s CRFS</a>. In many cases, this involves work with Farmer Research Networks (FRNs), encouraging farmers to contribute to a joint process known as ‘co-creation’ of knowledge. This type of research involves multiple actors and combines scientific methods with local, culturally validated and relevant approaches. Farmers are not just participants in research designed by others, but are involved in the research process at all stages: from its design through data collection to analysis and interpretation of results.
             </p>

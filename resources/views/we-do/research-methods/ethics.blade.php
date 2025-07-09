@@ -51,7 +51,7 @@
     <div class="w-full  ">
         <!-- Content -->
         <div
-            class=" -mt-40 mx-auto relative z-40 w-[90%] max-w-7xl bg-white px-12 lg:px-16 xl:px-20 pt-12 lg:pt-16 xl:pt-20">
+            class=" -mt-40 mx-auto relative z-30 w-[90%] max-w-7xl bg-white px-12 lg:px-16 xl:px-20 pt-12 lg:pt-16 xl:pt-20">
             <div class="flex flex-col md:flex-row gap-12 2xl:gap-20">
                 <!-- Lead Paragraph -->
                 <div class="md:w-1/2">

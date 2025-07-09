@@ -18,12 +18,13 @@
             <a href="' . route('we-do.data-systems.databases') . '" class="font-bold text-stats4sd-red">databases to manage and access the data</a>, 
             and can also advise you on 
             <a href="' . route('we-do.data-systems.databases') . '" class="font-bold text-stats4sd-red">statistical analysis</a>.
-        ',
-        'introcol2' => '
-            <p>Surveys are a traditional way of collecting (mainly) quantitative data in a structured manner that allows you to reach conclusions about the population of interest – normally 
+             <p class="pt-2">Surveys are a traditional way of collecting (mainly) quantitative data in a structured manner that allows you to reach conclusions about the population of interest – normally 
                 a defined group of people or households (or something that they can provide information about, such as the crops they grow or the livestock they own). If a survey is properly 
                 designed, the results will be both reliable and comparable, for instance between places and over time.
             </p>
+        ',
+        'introcol2' => '
+           
             <p class="pt-2">Although surveys can be expensive, we believe that they remain an important part of our research methods toolbox. Unlike many alternatives, a well-designed survey can provide 
                 estimates that are representative of the population of interest. This is essential if the information is to be used to inform policies and actions.
             </p>

@@ -10,14 +10,18 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'introcol1' => '
+        <p>
             Stats4SD is committed to supporting sustainable development around the world using data and analysis to inform policies and actions.
             We help people collect and organise information to solve real-world problems for the benefit of society and the environment.
-        ',
-        'introcol2' => '
-            <p>We support projects in areas ranging from <a href="' . route('we-do.food-systems.transformation') . '" class="font-bold text-stats4sd-red">food systems transformation</a> and <a href="' . route('we-do.food-systems.agroecology') . '" class="font-bold text-stats4sd-red">agroecology</a> to promoting women’s health, supporting education and understanding the challenges of displaced people. While we are familiar with many of these areas, we are not specialists in any of them. 
+        </p>
+         <p class="pt-2">
+            We support projects in areas ranging from <a href="' . route('we-do.food-systems.transformation') . '" class="font-bold text-stats4sd-red">food systems transformation</a> and <a href="' . route('we-do.food-systems.agroecology') . '" class="font-bold text-stats4sd-red">agroecology</a> to promoting women’s health, supporting education and understanding the challenges of displaced people. While we are familiar with many of these areas, we are not specialists in any of them. 
                 Our role, as experts in data and methods support, is to empower you to <a href="' . route('we-do.research-methods') . '" class="font-bold text-stats4sd-red">answer your research questions efficiently</a>, <a href="' . route('we-do.data-systems') . '" class="font-bold text-stats4sd-red">organise your information</a>, 
                 <a href="' . route('we-do.research-methods.surveys') . '" class="font-bold text-stats4sd-red">produce reliable results</a> and <a href="' . route('we-do.research-methods.indicators') . '" class="font-bold text-stats4sd-red">present them clearly to your audiences</a>.</p>
-            <p class="pt-2">The Stats4SD team understands the constraints of collecting, processing and analysing data in low-resource and politically 
+        ',
+        'introcol2' => '
+           
+            <p class="">The Stats4SD team understands the constraints of collecting, processing and analysing data in low-resource and politically 
             challenging environments. We have a strong track record of helping people to find innovative solutions for their data and information needs.</p>
             <p class="pt-2">Our aim is to support research that feeds into actions and outcomes that promote sustainable development by empowering organisations 
             to achieve their goals. Sometimes this goes beyond answering the original research question.</p>
