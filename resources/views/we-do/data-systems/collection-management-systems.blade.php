@@ -84,7 +84,7 @@
             ],
             [
                 'title' => 'Managing data for a pan-African study of the fall armyworm',
-                'image' => 'images/wedo/de/casestudies/fallarmyworm.png', 
+                'image' => 'images/wedo/de/casestudies/fallarmyworm1.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>

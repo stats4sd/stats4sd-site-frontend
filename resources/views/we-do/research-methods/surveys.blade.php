@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/wedo/rm/surveys.jpg',
+        'headerImage' => 'images/wedo/rm/survey1.jpg',
         'headerAlt' => 'Surveys page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Surveys"),

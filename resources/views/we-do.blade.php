@@ -2,7 +2,7 @@
 @section('content')
     <!-- Header section -->
     <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-10 sm:px-22 md:px-14 2xl:px-3 mt-32 mx-auto">
-        <div class="bg-stats4sd-red h-3 w-28 mb-2"></div>
+        <div class="bg-stats4sd-red h-5 w-28 mb-2"></div>
         <div class="text-6xl font-bold pt-2">
             {{ t('What we do') }}
         </div>
@@ -65,7 +65,7 @@
 
     <section
         class="bg-white pt-8 pb-24 px-6 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-4  mx-auto">
-        <div class=" grid grid-cols-1 lg:grid-cols-12 gap-8  items-start mb-16">
+        <div class=" grid grid-cols-1 lg:grid-cols-12 gap-12  items-start mb-16">
 
             <!-- Left Side: Intro Text (4 columns on md+) -->
             <div
@@ -80,7 +80,7 @@
                                             research methods, complex data analysis and data systems and platforms.") }}
                     </p>
                 </div>
-                <div class="block w-full">
+                <div class="block w-full pt-4">
                     <p
                         class="bg-stats4sd-red rounded-t-4xl rounded-bl-4xl px-10 py-12 my-8 md:my-0 text-white font-semibold uppercase md:float-right w-full md:w-72">
                         {{ t('Follow the links on the right to learn more about the work we do for our clients and partners.') }}

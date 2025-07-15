@@ -3,7 +3,7 @@
 @section('content')
 
     @component('components.level-3-template', [
-        'headerImage' => 'images/wedo/agri/farm1.jpg',
+        'headerImage' => 'images/wedo/agri/farm3.jpg',
         'headerAlt' => 'Agricultural and farmer research page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Agricultural and farmer research"),

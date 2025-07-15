@@ -25,7 +25,7 @@
             [
                 'title' => 'Agricultural and farmer research',
                 'url' => url('/we-do/food-systems/research'),
-                'cover_photo_url' => asset('images/wedo/agri/farmsm.jpg'),
+                'cover_photo_url' => asset('images/wedo/agri/farm3card.jpg'),
                 'description' => 'Our team can advise on traditional agricultural research and is also actively involved in farmer research and knowledge co-creation.',
             ],
         ]
