@@ -6,26 +6,26 @@
 
 
         <!-- Image + Red Text Block -->
-        <div class=" md:h-96  2xl:h-auto overflow-hidden">
+        <div class=" h-96  2xl:min-h-[20vh] overflow-hidden">
 
             <!-- image -->
             <div class=" w-full h-96 2xl:min-h-[20vh] ">
-                <img src="{{ asset('images/test1.jpg
+                <img src="{{ asset('images/test22.jpg
                 ') }}" alt="Home Page"
-                    class="w-full h-full object-cover object-center filter ">
+                    class="w-full h-full object-cover object-center filter brightness-80 ">
             </div>
 
 
             <!-- top -->
-            <div class="w-full relative bottom-32 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto text-left px-12 ">
+            <div class="w-full relative bottom-36 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto text-left px-12 ">
                
-                <h1 class="text-6xl xl:text-7xl font-bold text-white s mt-4 "> Stats4SD </h1>
+                <h1 class="text-6xl xl:text-7xl font-bold text-white  mt-4 "> Stats4SD </h1>
                 
             </div>
         </div>
     </div>
-    <div class="w-full  max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-6 md:gap-12 sm:mt-12 2xl:mt-0 px-12 x mb-12">
-<div class="md:w-1/2">
+    <div class="w-full pt-12 md:pt-20 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-6 md:gap-12 sm:mt-12 2xl:mt-0 px-12 x mb-12">
+<div class="md:w-1/2 ">
 
         <p class="text-xl  text-gray-800 font-bold">
             Improving research designs, data efficiency and information for decision-making
