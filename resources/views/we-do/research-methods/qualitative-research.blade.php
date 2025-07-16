@@ -12,11 +12,8 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'introcol1' => '
-            Although Stats4SD was founded by quantitative data specialists, we recognise the importance of qualitative data in research processes.
-        ',
-        'introcol2' => '
-            <p>
-                Our team includes qualitative methods specialists who:
+        <p>
+            Although Stats4SD was founded by quantitative data specialists, we recognise the importance of qualitative data in research processes. Our team includes qualitative methods specialists who:
             </p>
             <ul class="list-disc pl-6">
                 <li>
@@ -27,7 +24,14 @@
                     Conducting qualitative research and write up the results as reports, for example: 
                     <a href="https://www.slowfood.com/wp-content/uploads/2023/10/Funded-project_Agroecology-in-kenya-e-Uganda_2019-2022.pdf" target="_blank"class="font-bold text-stats4sd-red">An Overview of the Slow Food Programmes: Presidia, Food Gardens and Earth Markets in Kenya and Uganda</a>.
                 </li>
-                <li>
+
+            </ul>
+        ',
+        'introcol2' => '     
+            
+            <ul class="list-disc pl-6 !mt-0">
+
+                <li class="!mt-0">
                     Support CRFS project grantees and students in Africa and South America in writing up their research findings and publishing them in scientific journals, so that they can contribute to global debates.
                 </li>
                 <li>

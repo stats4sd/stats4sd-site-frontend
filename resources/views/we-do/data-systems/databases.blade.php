@@ -19,11 +19,18 @@
                 The aim of this work is to get to the point where there is a clean, organised dataset in a sensible format that is ready for analysis by an analyst in the client’s organisation and that can be easily accessed via the online platform. Some clients may also request built-in data processing and custom scripts (in R) to do automated analysis such as calculating indicators and basic summaries. The front end of the platform may have an integrated 
                 <a href="' . route('we-do.data-systems.dashboards') . '" class="font-bold text-stats4sd-red">dashboard</a>. It may also be set up so that non-technical teams can manage their data collection and management processes – including field staff – effectively.
             </p>
-            <p class="pt-2">
-                Such a system is shown in the graphic below. The departure point is the 
+
+        ',
+         'intropic' => 'images/wedo/de/databases.png',
+        'intropicalt' => 'Diagram showing the connection and flow of data from ODK data collection, the ODK Central server, a data platform, automated analysis and dashboards.',
+        'intropictext' => '
+        
+            <p class="">
+                Such a system is shown in the graphic above. The departure point is the 
                 <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">ODK tools</a> that we use for data collection (left-hand side of graphic). Stats4SD deploys the ODK Central server and co-develops the data collection forms. If you are looking for an end-to-end data management system, we can also design a data platform, automated analysis and dashboards to suit your project’s needs (right-hand side of graphic).
             </p>
         ',
+
         'caseStudies' => [
             [
                 'title' => 'Building an online data platform for an Agroecology TPP project',

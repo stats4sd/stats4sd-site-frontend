@@ -12,13 +12,19 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'introcol1' => '
-            The focus of the data collection and management systems work at Stats4SD is on choosing the right tools and building the systems for digital data collection and management. We support people who want to collect data, for example through household surveys, field experiments or talking to farmers about their practices. 
+           <p>
+            The focus of the data collection and management systems work at Stats4SD is on choosing the right tools and building the systems for digital data collection and management. We support people who want to collect data, for example through household surveys, field experiments or talking to farmers about their practices.  
+        </p>
         ',
         'introcol2' => '
-        <p>
-        Our job is to capture the data, store it sensibly and get it into shape for efficient processing. This includes designing questionnaires and forms for collecting data on a mobile device, as well as building end-to-end systems to manage the data collection (fieldwork) and processing.
-        </p>
-            <p class="font-bold mt-6">
+     <p>Our job is to capture the data, store it sensibly and get it into shape for efficient processing. This includes designing questionnaires and forms for collecting data on a mobile device, as well as building end-to-end systems to manage the data collection (fieldwork) and processing.</p>
+       
+        ',
+        'intropic' => 'images/wedo/de/odk.png',
+        'intropicalt' => 'Diagram of how forms are added to the ODK server, data collection devices download forms and upload data to the server, and collected data can be downloaded from the server.',
+        'intropictext' => '
+        
+            <p class="font-bold ">
                 ODK for data collection
             </p>
             <p class="pt-2">
@@ -31,6 +37,8 @@
                 Stats4SD also has a series of free training materials for ODK in the Introduction to ODK video playlist.
             </p>
         ',
+
+
         'caseStudies' => [
             [
                 'title' => 'Providing end-to-end support for ProSoil survey',
@@ -76,7 +84,7 @@
             ],
             [
                 'title' => 'Managing data for a pan-African study of the fall armyworm',
-                'image' => 'images/wedo/de/casestudies/fallarmyworm.png', 
+                'image' => 'images/wedo/de/casestudies/fallarmyworm1.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>

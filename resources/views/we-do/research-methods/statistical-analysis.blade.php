@@ -15,12 +15,13 @@
             As professional statisticians, we focus on helping to match the needs of your project with appropriate and robust statistical methods. Our analytical approach is based on a solid understanding of 
                 statistical theory and is human-centred, whether using generalised linear modelling, mixed models, multivariate analysis, machine learning approaches (see 
                 <a href="' . route('we-do.research-methods.ai') . '" class="font-bold text-stats4sd-red">AI for analysis</a>) or Bayesian techniques. Our main priority, regardless of methodology we use, is to provide informative and clearly presented results that can improve your understanding and provide actionable insights for your project.
-        ',
-        'introcol2' => '
-            <p>Our preferred tool for statistical analysis is R, but our team has a broad range of experience including Stata, QGIS, SPSS, Python, PowerBI and, of course, Microsoft Excel. Our statistical analysts 
+                            <p class="pt-2">Our preferred tool for statistical analysis is R, but our team has a broad range of experience including Stata, QGIS, SPSS, Python, PowerBI and, of course, Microsoft Excel. Our statistical analysts 
                 and programmers are flexible and can work with your project’s requirements.
             </p>
-            <p class="pt-2">The statisticians at Stats4SD work closely with 
+        ',
+        'introcol2' => '
+
+            <p class="">The statisticians at Stats4SD work closely with 
                 <a href="' . route('we-do.data-systems') . '" class="font-bold text-stats4sd-red">data systems and platforms</a> colleagues. In some cases, clients may ask us to build a platform to handle their data, but they prefer to do 
                 their own analysis. In others, complex statistical analysis may be needed, and we can provide it. We can also support our clients’ in-house analysis processes.
             </p>

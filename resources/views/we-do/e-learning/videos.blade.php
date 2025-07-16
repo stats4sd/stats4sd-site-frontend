@@ -12,13 +12,17 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'introcol1' => '
+        <p>
             Stats4SD creates e-learning materials in a variety of formats: courses,  videos and video playlists, webinars and seminars, and blogs. 
+
+            </p>
+            <p class="mt-2">                            
+            Our educational videos explore topics ranging from data collection and statistical analysis to agroecology and farmer research. We also provide video ‘playlists’, which are a set of videos exploring a topic in greater depth. 
+            </p>
         ',
         'introcol2' => '
             <p>
-                Our educational videos explore topics ranging from data collection and statistical analysis to agroecology and farmer research. We also provide video ‘playlists’, which are a set of videos exploring a topic in greater depth. 
-            </p>
-            <p class="mt-2">
+
                 Some of the videos relating to our work in South America are in Spanish or subtitled in Spanish, and some of the videos for our work in West Africa are in French or subtitled in French. 
             </p>
         ',

@@ -10,14 +10,17 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'introcol1' => '
+        <p>
             Stats4SD provides support for Monitoring and Evaluation (M&E) and impact assessment of international development programmes. 
                 Our support incorporates both quantitative and qualitative aspects.
+            </p>
+            <p class="pt-2">
+                On the quantitative side, it may involve advising on survey methods and efficient sampling design, development of data 
+                collection instruments, in-country and remote training and support for fieldwork teams, and quality assurance and analysis of results. 
+
         ',
         'introcol2' => '
-            <p>On the quantitative side, it may involve advising on survey methods and efficient sampling design, development of data 
-                collection instruments, in-country and remote training and support for fieldwork teams, and quality assurance and analysis of results. 
-            </p>
-            <p class="pt-2">On the qualitative side, participant observations, in-depth interviews, focus groups discussions or workshops may be helpful. Our analysts are 
+            <p>On the qualitative side, participant observations, in-depth interviews, focus groups discussions or workshops may be helpful. Our analysts are 
                 experienced in collecting and analysing qualitative data (text, audio recordings, images etc). We also try to maximise 
                 any positive feedback loops between quantitative and qualitative data in our study designs.
             </p>

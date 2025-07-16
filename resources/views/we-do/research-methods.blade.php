@@ -19,7 +19,7 @@
             [
                 'title' => 'Surveys',
                 'url' => url('/we-do/research-methods/surveys'),
-                'cover_photo_url' => asset('images/wedo/rm/surveys.jpg'),
+                'cover_photo_url' => asset('images/wedo/rm/surveycard.jpg'),
                 'description' => 'Our team advises on running surveys and provides practical support throughout the survey process.',
             ],
             [

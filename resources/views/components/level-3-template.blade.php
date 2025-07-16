@@ -49,13 +49,13 @@
     <!-- Content -->
     <div
         class=" -mt-40 mx-auto relative z-30 w-[90%] max-w-7xl bg-white px-12 lg:px-16 xl:px-20 pt-12 lg:pt-16 xl:pt-20">
-            <div class="bg-stats4sd-red w-20 mb-10   h-3"></div>
+        <div class="bg-stats4sd-red w-20 mb-10   h-3"></div>
         <div class="flex flex-col md:flex-row gap-12 2xl:gap-20">
-        
+
             <!-- Lead Paragraph -->
             <div class="md:w-1/2">
-                    {!! $introcol1 !!}
-                
+                {!! $introcol1 !!}
+
             </div>
 
             <!-- Content -->
@@ -63,8 +63,22 @@
                 {!! $introcol2 !!}
             </div>
         </div>
-    
+
     </div>
+
+    {{-- Extra top content  --}}
+    @if (!empty($intropic))
+        <div class="max-w-7xl bg-white px-12 lg:px-16 xl:px-20 pt-12 flex flex-col mx-auto">
+            <div class="w-full text-center mb-8">
+                <img src="{{ asset($intropic) }}" alt="{{ $intropicalt }}" class=" inline lg:object-contain max-w-[800px]">
+            </div>
+            <div class="w-full ">
+                <div class="">
+                    {!! $intropictext !!}
+                </div>
+            </div>
+        </div>
+    @endif
 </div>
 
 
@@ -105,10 +119,10 @@
                         <div
                             class="w-full flex flex-col lg:flex-row gap-12 lg:justify-center lg:items-end px-12 text-center ">
                             <div class="xl:w-1/2 lg:max-w-[500px]">
-                                
-                                    <img src="{{ asset($caseStudy['image']) }}" alt="{{ $caseStudy['imageAlt'] }}"
-                                        class=" inline w-full  lg:max-w-[500px] ">
-                                
+
+                                <img src="{{ asset($caseStudy['image']) }}" alt="{{ $caseStudy['imageAlt'] }}"
+                                    class=" inline w-full  lg:max-w-[500px] ">
+
                                 <div class="xl:w-full lg:max-w-[500px]">
                                     @if (!empty($caseStudy['imagecaption']))
                                         <figcaption
@@ -123,8 +137,8 @@
                             </div>
                             <div class="xl:w-1/2 lg:max-w-[500px]">
                                 <img src="{{ asset($caseStudy['image2']) }}" alt="{{ $caseStudy['image2Alt'] }}"
-                                        class=" inline w-full lg:object-contain lg:max-w-[500px] ">
-                                
+                                    class=" inline w-full lg:object-contain lg:max-w-[500px] ">
+
                                 <div class="xl:w-full lg:max-w-[500px]">
                                     @if (!empty($caseStudy['image2caption']))
                                         <figcaption
@@ -138,17 +152,16 @@
                                 </div>
                             </div>
                         </div>
-                     
             @endif
 
             <!-- Text -->
             <div
-                class="flex flex-col w-full {{  (empty($caseStudy['image2'])) ? 'lg:w-[50%] xl:w-[60%]' : '' }}  justify-center mt-10 {{ $index % 2 !== 0 ? 'pr-8 sm:pr-10 xl:pr-8' : 'pl-8 sm:pl-10 xl:pl-8' }}">
+                class="flex flex-col w-full {{ empty($caseStudy['image2']) ? 'lg:w-[50%] xl:w-[60%]' : '' }}  justify-center mt-10 {{ $index % 2 !== 0 ? 'pr-8 sm:pr-10 xl:pr-8' : 'pl-8 sm:pl-10 xl:pl-8' }}">
                 <div
                     class="flex flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} items-stretch">
-                     @if (!empty($caseStudy['image2']))
-                      <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
-                     @endif
+                    @if (!empty($caseStudy['image2']))
+                        <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
+                    @endif
                     <div class="w-full max-w-5xl {{ $index % 2 !== 0 ? 'ml-20 ' : 'mr-20' }} ">
 
                         <div class=" w-full  {{ $index % 2 !== 0 ? 'mr-12 ' : 'ml-12 ' }}">
@@ -170,9 +183,9 @@
 
                 <div
                     class="flex mt-4 flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} h-full">
-                                         @if (!empty($caseStudy['image2']))
-                      <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
-                     @endif
+                    @if (!empty($caseStudy['image2']))
+                        <div class="w-4 xl:w-6  bg-none h-auto flex-shrink-0"></div>
+                    @endif
                     <div class="w-full max-w-5xl {{ $index % 2 !== 0 ? 'ml-20 ' : 'mr-20' }} ">
 
                         <div
