@@ -53,6 +53,7 @@ return [
     */
 
     'url' => env('APP_URL', 'http://localhost'),
+    'resources_site_url' => env('RESOURCES_SITE_URL', 'https://resources.stats4sd.org'),
 
     /*
     |--------------------------------------------------------------------------

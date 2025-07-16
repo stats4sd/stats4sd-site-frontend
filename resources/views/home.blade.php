@@ -18,9 +18,9 @@
 
             <!-- top -->
             <div class="w-full relative bottom-36 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto text-left px-12 ">
-               
+
                 <h1 class="text-6xl xl:text-7xl font-bold text-white  mt-4 "> Stats4SD </h1>
-                
+
             </div>
         </div>
     </div>
@@ -91,7 +91,7 @@
                             . </p>
                     </div>
                 </a>
-                <a href="https://stats4sd.org/resources"
+                <a href="{{ config('app.resources_site_url') }}"
                     class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
                     <!-- Background Image -->
                     <div class="absolute inset-0 bg-cover bg-center"
