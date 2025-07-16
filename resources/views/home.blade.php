@@ -91,7 +91,7 @@
                             . </p>
                     </div>
                 </a>
-                <a href="/resources"
+                <a href="https://stats4sd.org/resources"
                     class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
                     <!-- Background Image -->
                     <div class="absolute inset-0 bg-cover bg-center"

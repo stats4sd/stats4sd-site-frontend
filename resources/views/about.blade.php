@@ -19,7 +19,7 @@
                 <li>
                     <span>&gt;</span>
                 </li>
-                <li class="">
+                <li>
                     {{ t('About us') }}
                 </li>
             </ol>

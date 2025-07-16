@@ -31,13 +31,15 @@
 
         <!-- Category & Date -->
         <div class="flex items-center space-x-4 text-sm text-gray-600">
-            <span class="bg-stats4sd-red text-white px-3 py-1 rounded-full">Author name</span>
+            @foreach ($article->authors as $author)
+                <span class="bg-stats4sd-red text-white px-3 py-1 rounded-full">{{ $author->clean_name }}</span>
+            @endforeach
             <span class="post-meta">{{ $article->readable_date ?? $article->created_at->format('F j, Y') }}</span>
         </div>
 
         <!-- Tags -->
         @if($article->tags->count())
-            <ul class="flex flex-wrap gap-2 pt-4 mb-4">
+            <ul class="flex flex-wrap gap-2 pt-4">
                 @foreach($article->tags as $tag)
                     <li class="bg-gray-200 text-sm px-3 py-1 rounded-full">{{ $tag->name }}</li>
                 @endforeach
@@ -45,7 +47,7 @@
         @endif
 
         <!-- Content -->
-        <div class="prose max-w-none">
+        <div class="prose max-w-none mt-4 mb-12">
             {!! $article->content !!}
         </div>
 

@@ -35,11 +35,16 @@
                     <!-- Placeholder Image -->
                     <div class="h-48 bg-cover bg-center" style="background-image: url('{{ asset('images/resources.webp') }}');"></div>
 
-                    <!-- Category & Title -->
+                    <!-- Blog Info -->
                     <div class="bg-white p-6 flex flex-col justify-between">
                         <div class="flex flex-col justify-start">
                             <p class="text-stats4sd-red font-semibold">{{ $blog->category->name }}</p>
                             <h2 class="font-bold text-lg uppercase mb-1">{{ $blog->title }}</h2>
+                            <div class="flex flex-wrap gap-2 mt-2 mb-4">
+                                @foreach ($blog->authors as $author)
+                                    <div class="grey-badge">{{ $author->clean_name }}</div>
+                                @endforeach
+                            </div>
                         </div>
                     </div>
                 </a>
