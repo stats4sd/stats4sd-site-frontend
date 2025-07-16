@@ -57,7 +57,7 @@
                     </a></li> -->
                     <li><a href="/about" class="flex items-center nav-link uppercase">{{ t('About us') }}
                         </a></li>
-                    <li><a href="https://stats4sd.org/resources" class="flex items-center nav-link uppercase">
+                    <li><a href="{{ config('app.resources_site_url') }}" class="flex items-center nav-link uppercase">
                             {{ t('Resources library') }}
                         </a></li>
                     <!-- Language Dropdown
