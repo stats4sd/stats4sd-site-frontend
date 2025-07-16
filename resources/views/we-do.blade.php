@@ -7,7 +7,7 @@
             {{ t('What we do') }}
         </div>
     </div>
- 
+
     <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-4  mx-auto">
 
         <nav class="pt-12 text-sm text-gray-600" aria-label="Breadcrumb">
@@ -24,9 +24,6 @@
             </ol>
         </nav>
     </div>
-
-
-
 
     @php
         $cards = [
@@ -72,17 +69,14 @@
                 class="md:col-span-8 lg:col-span-4 space-y-6 text-gray-800 w-full md:flex md:flex-row md:gap-12 lg:gap-0 lg:flex-col ">
                 <div>
                     <p class="mb-4">
-                        {{ t("Stats4SD was founded in 2016 by a group of applied statisticians, data engineers and research methods experts from the University of
-                                              Reading with a mission to use their skills for the benefit of society and the environment.") }}
+                        {{ t("Stats4SD was founded in 2016 by a group of applied statisticians, data engineers and research methods experts from the University of Reading with a mission to use their skills for the benefit of society and the environment.") }}
                     </p>
                     <!-- Since then, we have led or supported around xx projects across xx countries.  -->
-                    <p>{{ t("Our team now includes specialists in quantitative and qualitative
-                                            research methods, complex data analysis and data systems and platforms.") }}
+                    <p>{{ t("Our team now includes specialists in quantitative and qualitative research methods, complex data analysis and data systems and platforms.") }}
                     </p>
                 </div>
                 <div class="block w-full pt-4">
-                    <p
-                        class="bg-stats4sd-red rounded-t-4xl rounded-bl-4xl px-10 py-12 my-8 md:my-0 text-white font-semibold uppercase md:float-right w-full md:w-72">
+                    <p class="bg-stats4sd-red rounded-t-4xl rounded-bl-4xl px-10 py-12 my-8 md:my-0 text-white font-semibold uppercase md:float-right w-full md:w-72">
                         {{ t('Follow the links on the right to learn more about the work we do for our clients and partners.') }}
                     </p>
                 </div>
@@ -94,7 +88,7 @@
                     <a href="{{ $card['url'] }}" class="relative h-66 w-full overflow-hidden  hover-effect rounded-3xl">
                         <!-- Background Image -->
                         <div class="absolute inset-0 bg-cover bg-center"
-                            style="background-image: url('{{ $card['bg'] }}');">
+                             style="background-image: url('{{ $card['bg'] }}');">
                         </div>
 
                         <!-- Overlay -->

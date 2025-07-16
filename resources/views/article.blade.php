@@ -18,9 +18,13 @@
                 <li class="hidden sm:block">
                     <a href="{{ url('/home') }}" class="hover:underline">{{ t('Home') }}</a>
                 </li>
-                <li class="hidden sm:block"><span>&gt;</span></li>
+                <li class="hidden sm:block">
+                    <span>&gt;</span>
+                </li>
                 <a href="{{ url('/blog') }}" class="hover:underline">{{ t('Blog') }}</a>
-                <li class="hidden sm:block"><span>&gt;</span></li>
+                <li class="hidden sm:block">
+                    <span>&gt;</span>
+                </li>
                 <li class="hidden sm:block">{{ $article->title }}</li>
             </ol>
         </nav>
