@@ -47,7 +47,7 @@
     <div
         class=" -mt-40 mx-auto relative z-30 w-[90%] max-w-7xl bg-white px-12 lg:px-16 xl:px-20 pt-12 lg:pt-16 xl:pt-20">
         <div class="bg-stats4sd-red w-20 mb-10   h-3"></div>
-        <div class="flex flex-col md:flex-row gap-12 2xl:gap-20">
+        <div class="flex flex-col md:flex-row gap-2 md:gap-12 2xl:gap-20">
 
             <!-- Lead Paragraph -->
             <div class="md:w-1/2">
@@ -84,12 +84,12 @@
         @if (!empty($caseStudy['image']))
             @if (empty($caseStudy['image2']))
                 <section
-                    class="w-full flex  flex-col lg:flex-row mt-28 mb-24  {{ mb_strlen($caseStudy['description'], 'UTF-8') > 800 ? 'items-start' : 'items-center' }}  {{ $index % 2 !== 0 ? 'lg:flex-row-reverse' : '' }}"
+                    class="w-full flex  flex-col lg:flex-row lg:mt-12 mb-12  {{ mb_strlen($caseStudy['description'], 'UTF-8') > 800 ? 'items-start' : 'items-center' }}  {{ $index % 2 !== 0 ? 'lg:flex-row-reverse' : '' }}"
                     id="casestudy">
                     <!-- Image -->
 
                     <div
-                        class="w-full lg:w-[50%] xl:w-[40%]  max-h-[800px] px-12 text-center {{ $index % 2 !== 0 ? 'lg:pl-0 lg:text-left' : 'lg:pr-0 lg:text-right' }} ">
+                        class="order-2 lg:order-1 mt-10 lg:mt-0 w-full lg:w-[50%] xl:w-[40%]  max-h-[800px] px-12 text-center {{ $index % 2 !== 0 ? 'lg:pl-0 lg:text-left' : 'lg:pr-0 lg:text-right' }} ">
                         <div>
                             <img src="{{ asset($caseStudy['image']) }}" alt="{{ $caseStudy['imageAlt'] }}"
                                  class=" inline lg:object-contain max-h-[500px] mx-0 {{ mb_strlen($caseStudy['description'], 'UTF-8') > 800 ? 'xl:max-h-full xl:max-w-[500px]' : '' }} ">
@@ -108,10 +108,10 @@
                     </div>
                     {{-- Two image layout --}}
                     @else
-                        <section class="w-full flex  flex-col  mt-28 mb-24   " id="casestudy">
-                            <div
-                                class="w-full flex flex-col lg:flex-row gap-12 lg:justify-center lg:items-end px-12 text-center ">
-                                <div class="xl:w-min max-w-600px">
+                       <section class="w-full flex  flex-col lg:mt-12 mb-12    " id="casestudy">
+                             <div
+                               class="order-3 mt-10 lg:mb-10 w-full flex flex-col lg:flex-row gap-12 lg:justify-center lg:items-end px-12 text-center ">
+                                <div class="xl:w-1/2 lg:max-w-[500px]">
 
                                     <img src="{{ asset($caseStudy['image']) }}" alt="{{ $caseStudy['imageAlt'] }}"
                                          class=" inline lg:object-contain max-h-[300px] mx-0 {{ mb_strlen($caseStudy['description'], 'UTF-8') > 800 ? ' xl:max-w-[500px]' : '' }} ">
@@ -155,7 +155,7 @@
 
                             <!-- Text -->
                             <div
-                                class="flex flex-col w-full {{  (empty($caseStudy['image2'])) ? 'lg:w-[50%] xl:w-[60%]' : '' }}  justify-center mt-8 lg:mt-4 {{ $index % 2 !== 0 ? 'pr-8 sm:pr-10 xl:pr-8' : 'pl-8 sm:pl-10 xl:pl-8' }}">
+                                class="order-1 lg:order-2 flex flex-col w-full {{  (empty($caseStudy['image2'])) ? 'lg:w-[50%] xl:w-[60%]' : '' }}  justify-center  lg:mt-4 {{ $index % 2 !== 0 ? 'pr-6 sm:pr-10 xl:pr-8' : 'pl-6 sm:pl-10 xl:pl-8' }}">
                                 <div
                                     class="flex flex-row justify-between {{ $index % 2 !== 0 ? 'flex-row-reverse' : '' }} items-stretch">
                                     @if (!empty($caseStudy['image2']))
@@ -190,7 +190,7 @@
                                         <div
                                             class="   {{ $index % 2 !== 0 ? 'mr-12 ' : 'ml-12 ' }} md:flex md:flex-row lg:flex-col  xl:flex-row md:gap-x-12">
                                             @if (!empty($caseStudy['secondcolumn']))
-                                                <div class="md:w-1/2 lg:w-full xl:w-1/2 py-2">
+                                                <div class="md:w-1/2 lg:w-full xl:w-1/2 pt-2">
                                                     {{-- Main description column --}}
                                                     <p>
                                                         {!! $caseStudy['description'] !!}
@@ -271,7 +271,7 @@
         @endif
 
         <section class="bg-white
-                    py-20 px-6 md:px-20">
+                    pt-8 pb-16 lg:pb-20 px-6  md:px-20">
             <div
                 class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 {{ empty($additionalContent) ? 'items-center justify-center' : '' }}">
                 @if (!empty($additionalContent))

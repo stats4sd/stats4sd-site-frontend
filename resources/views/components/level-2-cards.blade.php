@@ -51,8 +51,10 @@
 
                         <!-- Bottom Half Overlay -->
                         <div
-                            class="absolute bottom-0 h-3/5 w-full bg-[rgba(0,0,0,0.6)] text-white p-6 flex flex-col justify-around">
+                            class="absolute bottom-0 md:h-3/5 w-full bg-[rgba(0,0,0,0.6)] text-white p-6 flex flex-col justify-start ">
+                            <div class="flex flex-col justify-center md:min-h-20 pb-4">
                             <h3 class="text-lg font-semibold ">{{ $option['title'] }}</h3>
+                            </div>
                             <p class="text-sm mt-1">{{ $option['description'] }}</p>
                         </div>
                     </a>

@@ -38,36 +38,43 @@
                 <li>
                     The <a href="https://agroecologyfund.org/who-we-are/" target="_blank" class="font-bold text-stats4sd-red">Agroecology Fund</a>, which aims to amplify agroecological solutions by providing grant funding to grassroots organisations, encouraging donors to support agroecology projects and providing a learning platform for donors, advisers and grantees.
                 </li>
+                <li>
+                 The team at the UN Food and Agriculture Organisation (FAO) that has developed the <a href="https://www.fao.org/agroecology/tools-tape/en/" target="_blank" class="font-bold text-stats4sd-red">Tool for Agroecology Performance Evaluation (TAPE)</a>. TAPE is designed to measure the multidimensional performance of agroecological systems across the different dimensions of sustainability. 
+                </li>
             </ul>
         ',
         'caseStudies' => [
             [
                 'title' => 'Innovation in research methods for agroecology',
                 'image' => 'images/wedo/agri/casestudies/agroecology.png', 
+                 'imagecaption'=> '10 Elements of Agroecology of the FAO',
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
                         Stats4SD is actively involved in supporting its partners to think about appropriate and innovative research methods for agroecology. Some examples of the work we are doing are:
                     </p>
-                    <ul class="list-disc pl-6">
+                    <ul class="list-disc pl-6 !mb-0 ">
                         <li>
                             Working with the McKnight Foundation’s CRFS and with Farmer Research Networks (FRNs) on 
                             <a href="' . route('we-do.food-systems.research') . '" class="font-bold text-stats4sd-red">co-creation of agroecology research methods with farmers</a>.
                         </li>
-                        <li>
+                        <li class="!mb-0">
                             Creating a database and platform of around 8,000 food and agriculture system ‘metrics’ for the Agroecology TPP, and developing guidelines for integrated system assessments.
                         </li>
 
                     </ul>
                 ',
                 'secondcolumn' => '
-                    <ul class="list-disc pl-6">
-                        <li>
+                    <ul class="list-disc pl-6 !mt-0">
+                        <li class="!mt-0">
                             Creating an <a href="' . route('we-do.research-methods.indicators') . '#agroecology-finance-assessment-tool' . '" class="font-bold text-stats4sd-red">agroecology finance assessment tool</a> for the Agroecology Coalition to enable institutions to evaluate their funding initiatives in terms of how much they support agroecological transformations.
                         </li>
                         <li>
                             Working with the Grassroots Evidence for Agroecology (GEA) Initiative of the Agroecology Fund to support local organisations’ efforts to build and communicate 
                             <a href="' . route('we-do.research-methods.qualitative-research') . '#evidence-for-agroecology' . '" class="font-bold text-stats4sd-red">evidence for agroecology</a> to their target audiences and demonstrate their impact. 
+                        </li>
+                        <li>
+                        Working with the TAPE team of the FAO to support the improvement of the tool and its widespread use, including for nationwide applications.
                         </li>
                     </ul>
                 

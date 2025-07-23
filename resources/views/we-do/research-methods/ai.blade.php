@@ -58,7 +58,7 @@
                         </li>
                     </ul>
                     <p class="pt-2">
-                        All these approaches fall under the category of “using AI to do the analysis”, but they are very different. They use different types of tools, provide different types of output and, crucially, they each require careful thought from the humans involved during the planning and execution of the analysis. For those that involve sending data to ChatGPT or similar AI tools, you need to be aware that the data will be reviewed by OpenAI staff and used for further training of their AI models, which would be inappropriate for data where 
+                        All these approaches fall under the heading “using AI to do the analysis”, but they are very different. They use different types of tools, provide different types of output and, crucially, they each require careful thought from the humans involved during the planning and execution of the analysis. For those that involve sending data to ChatGPT or similar AI tools, you need to be aware that the data will be reviewed by OpenAI staff and used for further training of their AI models, which would be inappropriate for data where 
                         <a href="' . route('we-do.research-methods.ethics') . '" class="font-bold text-stats4sd-red">respondent confidentiality</a> needs to be protected. 
                     </p>
                     <p class="pt-2">

@@ -29,8 +29,7 @@
         </div>
         <div class="md:w-1/2 ">
             <p class="text-xl font-light text-gray-800 ">
-                Stats4SD is a non-profit organisation committed to supporting sustainable development around the world using
-                reliable data and analysis to inform policies and actions.
+               Stats4SD is a non-profit organisation committed to supporting sustainable development around the world using data and analysis to inform policies and actions.
             </p>
         </div>
     </div>

@@ -32,7 +32,7 @@
         'caseStudies' => [
             [
                 'title' => 'Examples of the courses we have created',
-                'image' => 'images/wedo/el/casestudies/courses.png', 
+                'image' => 'images/wedo/el/casestudies/courses1.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <ul class="list-disc pl-6">

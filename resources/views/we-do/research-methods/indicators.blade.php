@@ -48,16 +48,15 @@
                         Stats4SD created an agroecology finance assessment tool for the Agroecology Coalition to answer the questions “how agroecological is my funding portfolio?” and “how do I compare with others?” 
                     </p>
                     <p class="pt-2">
-                        The tool comprises a set of indicators and data visualisations that institutions can use to evaluate their own initiatives against those of others (aggregated to protect confidentiality). To determine how ‘agroecological’ a recipient of a funding initiative is, we used the Agroecology Coalition’s 
-                        <a href="https://agroecology-coalition.org/wp-content/uploads/2024/04/Tracking-tool-manual-EN-2024.pdf" target="_blank" class="font-bold text-stats4sd-red">Agroecology Assessment Framework</a> which is based on the 13 agroecology principles of 
-                        <a href="https://openknowledge.fao.org/server/api/core/bitstreams/ff385e60-0693-40fe-9a6b-79bbef05202c/content" target="_blank" class="font-bold text-stats4sd-red">High Level Panel of Experts (HLPE)</a> on Food Security and Nutrition of the United Nations Committee on World Food Security. 
+                    The tool comprises a set of indicators and data visualisations that institutions can use to evaluate their own initiatives against those of others (aggregated to protect confidentiality). To determine how agroecological a recipient of a funding initiative is, we used the Agroecology Coalition’s <a href="https://agroecology-coalition.org/wp-content/uploads/2024/04/Tracking-tool-manual-EN-2024.pdf" target="_blank" class="font-bold text-stats4sd-red">Agroecology Assessment Framework</a> which is based on the 13 agroecology principles of <a href="https://openknowledge.fao.org/server/api/core/bitstreams/ff385e60-0693-40fe-9a6b-79bbef05202c/content" target="_blank" class="font-bold text-stats4sd-red">High Level Panel of Experts (HLPE)</a> on Food Security and Nutrition of the United Nations Committee on World Food Security.
+                        
                     </p>
 
 
                 ',
                 'secondcolumn' => '
                     <p>
-                        The agroecology finance assessment tool shows the indicators for all initiatives and all agroecology principles together (below). It also provides detailed performance indicators for each initiative in relation to each agroecological principle.
+                        The agroecology finance assessment tool shows the indicators for all initiatives and all agroecology principles together. It also provides detailed performance indicators for each initiative in relation to each agroecological principle.
                     </p>
                                     <p class="pt-2">
                         You can find information about the agroecology finance assessment tool and methods 

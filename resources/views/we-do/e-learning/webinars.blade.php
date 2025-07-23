@@ -25,7 +25,7 @@
         ',
         'caseStudies' => [
             [
-                'title' => 'Examples of the presentations we have created',
+                'title' => 'Examples of webinar presentations',
                 'image' => 'images/wedo/el/casestudies/webinars.png', 
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
@@ -42,7 +42,7 @@
         ],
         'additionalContent' => '
             <p>
-                Stats4SD webinars and seminars can be found on the <a href="https://www.youtube.com/@Stats4SD" target="_blank"class="font-bold text-stats4sd-red">Stats4SD YouTube channel</a>.
+                Stats4SD webinars can be found on the <a href="https://www.youtube.com/@Stats4SD" target="_blank"class="font-bold text-stats4sd-red">Stats4SD YouTube channel</a>.
             </p>
             <p>
                 You can find other e-learning materials in the <a href="https://stats4sd.org/resources" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
