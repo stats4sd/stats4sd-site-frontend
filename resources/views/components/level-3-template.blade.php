@@ -72,15 +72,16 @@
 
     {{-- Extra top content  --}}
     @if (!empty($intropic))
-        <div class="max-w-7xl bg-white px-12 lg:px-16 xl:px-20 pt-12 flex flex-col mx-auto">
-            <div class="w-full text-center mb-8">
-                <img src="{{ asset($intropic) }}" alt="{{ $intropicalt }}" class=" inline lg:object-contain max-w-[800px]">
-            </div>
-            <div class="w-full ">
-                <div class="">
+        <div class="">
+         <div class= "">
+                <div class="mx-auto w-[90%] max-w-7xl bg-white px-12 lg:px-16 xl:px-20 pt-12 lg:pt-16 xl:pt-20">
                     {!! $intropictext !!}
                 </div>
             </div>
+            <div class="text-center mb-8">
+                <img src="{{ asset($intropic) }}" alt="{{ $intropicalt }}" class=" inline lg:object-contain max-w-[80vw] lg:max-w-[800px]">
+            </div>
+           
         </div>
     @endif
 </div>
