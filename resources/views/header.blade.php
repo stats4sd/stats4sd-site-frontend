@@ -88,7 +88,7 @@
         </div>
 
         <!-- Nav Items (visible on small screens) -->
-        <div class="lg:hidden absolute top-full w-full bg-white z-50" x-show="open" x-on:click.outside="open = false">
+        <div class="lg:hidden absolute top-full w-full  z-50" x-show="open" x-on:click.outside="open = false">
             <nav class="text-right small-nav -mt-2">
                 <ul class="flex flex-col space-y-2 px-8 pb-4">
                     <li>
