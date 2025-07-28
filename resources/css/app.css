@@ -36,7 +36,7 @@ body {
 }
 
 .we-do-dropdown-item {
-    @apply text-black flex items-center px-6 w-full first-of-type:rounded-t-2xl first-of-type:pt-4 last-of-type:rounded-b-2xl last-of-type:pb-4  py-2  hover:text-stats4sd-red disabled:text-gray-500;
+    @apply text-black flex items-center px-6 w-full  first-of-type:rounded-t-2xl first-of-type:pt-4 last-of-type:rounded-b-2xl last-of-type:pb-4  py-2  hover:text-stats4sd-red disabled:text-gray-500;
 }
 
 .nav-link {
