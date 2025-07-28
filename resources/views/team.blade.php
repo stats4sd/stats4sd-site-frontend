@@ -39,11 +39,11 @@
             @foreach ($teamData as $teamMember)
                 <div class="relative" x-data="{ open: false }">
                     <!-- Card -->
-                    <div class="cursor-pointer rounded-3xl overflow-hidden hover-effect" @click="open = true">
-                        <img 
-                            src="{{ asset($teamMember['avatar']) }}" 
+                    <div class="cursor-pointer rounded-3xl overflow-hidden hover-effect h-80 sm:h-70" @click="open = true">
+                        <img
+                            src="{{ asset($teamMember['avatar']) }}"
                             alt="Photo of {{ $teamMember['name'] }}"
-                            class="h-80 sm:h-70 w-full object-cover"
+                            class="h-auto w-full"
                         >
                     </div>
                     <div class="mt-2 px-2">
