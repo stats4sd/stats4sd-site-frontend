@@ -1,4 +1,4 @@
-<header class="absolute top-0 left-0 w-full z-40" x-data="{ open: false } fixed">
+<header class="absolute top-0 left-0 w-full z-40" x-data="{ open: false }">
     <div class="w-full bg-white flex h-22 fixed">
         <div class="px-8 w-full mx-auto flex justify-between items-center py-8 fixed">
             <!-- Logo -->
@@ -88,10 +88,12 @@
         </div>
 
         <!-- Nav Items (visible on small screens) -->
-        <div class="lg:hidden sm:w-1/2 sm:float-right" x-show="open" x-on:click.outside="open = false"
-             style="display: none;">
-            <nav class="text-left small-nav -mt-2">
+        <div class="lg:hidden absolute top-full w-full bg-white z-50" x-show="open" x-on:click.outside="open = false">
+            <nav class="text-right small-nav -mt-2">
                 <ul class="flex flex-col space-y-2 px-8 pb-4">
+                    <li>
+                        <a href="/home" class="uppercase">{{ t('Home') }}</a>
+                    </li>
                     <li class="relative nav-item" x-data="{ weDoOpen: false }">
                         <div class="uppercase" x-on:click="weDoOpen = !weDoOpen">
                             {{ t('What we do') }}
