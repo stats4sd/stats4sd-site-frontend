@@ -40,8 +40,11 @@
                 <div class="relative" x-data="{ open: false }">
                     <!-- Card -->
                     <div class="cursor-pointer rounded-3xl overflow-hidden hover-effect" @click="open = true">
-                        <div class="h-80 sm:h-70 bg-cover bg-center transition duration-300"
-                             style="background-image: url('{{ asset($teamMember['avatar']) }}')"></div>
+                        <img 
+                            src="{{ asset($teamMember['avatar']) }}" 
+                            alt="Photo of {{ $teamMember['name'] }}"
+                            class="h-80 sm:h-70 w-full object-cover"
+                        >
                     </div>
                     <div class="mt-2 px-2">
                         <h4 class="text-gray-900 text-lg font-semibold">{{ $teamMember['name'] }}</h4>
@@ -60,8 +63,8 @@
                                 <!-- Photo -->
                                 <div
                                     class="md:flex-shrink-0 md:min-h-full h-[50vh] md:h-auto overflow-hidden  w-full md:w-90">
-                                    <img src="{{ asset($teamMember['avatar']) }}" alt="{{ $teamMember['name'] }}"
-                                         class="object-cover min-h-full  rounded-none">
+                                    <img src="{{ asset($teamMember['avatar']) }}" alt="Photo of {{ $teamMember['name'] }}"
+                                         class="object-cover min-h-full rounded-none">
                                 </div>
 
                                 <!-- Name, Title, Description & contact -->
