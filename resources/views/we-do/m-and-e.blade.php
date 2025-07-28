@@ -31,7 +31,7 @@
         'caseStudies' => [
             [
                 'title' => 'Innovative methods for evaluating programmes for migrants returning to the Horn of Africa',
-                'image' => 'images/wedo/me-cs/impact.png',
+                'image' => 'images/wedo/me-cs/impact.jpg',
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                 <p>
@@ -82,7 +82,7 @@
                 'description' => '
                 <p>
                     Stats4SD was part of the evaluation of 
-                    <a href="https://www.afd.fr/en/projects/promoting-private-sector-investment-menstrual-health-and-hygiene-ethiopia" target="_blank"class="font-bold text-stats4sd-red">a three-year project in Ethiopia</a> promoting private sector investment in the provision of Menstrual Health and Hygiene products. The project started in January 2022 and was sponsored by the French Ministry of Europe and Foreign Affairs and the Agence Française de Développement (French Development Agency). It was implemented by an NGO consortium led by CARE France, with pre-financing from the French bank BNP Paribas.
+                    <a href="https://www.afd.fr/en/projects/promoting-private-sector-investment-menstrual-health-and-hygiene-ethiopia" target="_blank"class="font-bold text-stats4sd-red">a three-year project in Ethiopia</a> promoting private sector investment in the provision of menstrual health and hygiene products. The project started in January 2022 and was sponsored by the French Ministry of Europe and Foreign Affairs and the Agence Française de Développement (French Development Agency). It was implemented by an NGO consortium led by CARE France, with pre-financing from the French bank BNP Paribas.
                 </p>
                 <p class="pt-2">
                     For the evaluation, Stats4SD worked with an advisor from the Burnet Institute in Australia, which has developed measurement tools for menstrual health research including the 
@@ -110,7 +110,7 @@
                     </p>',
                 'secondcolumn' => '
                     <p>
-                        Stats4SD is supporting the AKF country teams in Afghanistan, Kyrgyzstan, Pakistan, and Tajikistan with study design and sampling; creating analysis plans to define how indicators will be produced; finalising the data collection tools (some on paper and some digital); preparing data collection guidelines; providing virtual training; creating a platform to capture and store the data; data quality assurance; conducting some statistical analysis; contributing to data interpretation workshops; and writing the endline report.                
+                        Stats4SD is supporting the AKF country teams in Afghanistan, Kyrgyzstan, Pakistan, and Tajikistan with study design and sampling; finalising the data collection tools (some on paper and some digital); preparing data collection guidelines; providing virtual training; creating a platform to capture and store the data; data quality assurance; analysing data to measure selected outcome indicators; contributing to data interpretation workshops; and writing the endline report.               
                     </p>',
             ]
         ],

@@ -48,15 +48,14 @@
                     Local organisations in Africa and South America apply for grants to undertake projects designed to contribute to this goal, and each project has a research component.
                 </p>
                 <p class="pt-2">
-                    Stats4SD and CRFS share the same goals and values, and we have been working closely together since 2009. The McKnight Foundation recognised early on that its grantees would need research methods support. While some grantees’ projects involve traditional research, others are less conventional—incorporating farmer knowledge, qualitative methods, or new approaches.
+                    Stats4SD and CRFS share the same goals and values, and we have been working closely together since 2009. The McKnight Foundation recognised early on that its grantees would need research methods support. While some grantees’ projects involve traditional research, others are less conventional, incorporating farmer knowledge, qualitative methods, or new approaches.
                 </p>
 
 
             ',
             'secondcolumn' => '
                 <p>
-                    Stats4SD provides the research support, accompanying the grantees through the entire research cycle—starting with conceptualisation, then formulation of research questions and hypotheses, followed by selection of methods and then data collection, management, and analysis.
-                </p>
+                    Stats4SD provides the research support, accompanying the grantees through the entire research cycle – starting with conceptualisation, then formulation of research questions and hypotheses, followed by selection of methods and then data collection, management, and analysis.                </p>
                             <p class="pt-2">See also:</p>
                 <ul list-disc pl-6>
                     <li><a href="' . route('we-do.food-systems.transformation') . '" class="font-bold text-stats4sd-red">Food systems transformation</a></li>
@@ -81,7 +80,7 @@
             ',
             'secondcolumn' => '
                 <p>
-                    This approach avoids collecting data that is not needed, which is inefficient. More importantly, it helps ensure you don’t get to the end of the research process only to discover that you’re missing critical data required to answer your research questions.
+                    This approach avoids collecting data that is not needed, which is inefficient. More importantly, it helps ensure that you don’t get to the end of the research process only to discover that you are missing some data that you need to answer your research questions.
                 </p>
                                            <p class="pt-2">
                     For more details, watch the video: <a href="https://www.youtube.com/watch?v=Xo861guv04Y" target="_blank" class="font-bold text-stats4sd-red">Thinking in Reverse Order</a>.

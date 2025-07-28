@@ -43,10 +43,10 @@
             [
                 'title' => 'FRNs and knowledge co-creation in Malawi',
                 'image' => 'images/wedo/agri/casestudies/cocreation.png', 
-                'imagecaption' => 'Shortfalls of the top-down technology transfer model.',
+                'imagecaption' => 'Shortfalls of the top-down technology transfer model',
                 'imageAlt' => 'Case Study Image', 
                 'image2' => 'images/wedo/agri/casestudies/cocreation2.png', 
-                'image2caption'=> 'Farmers are engaged in all stages of the learning process.',
+                'image2caption'=> 'Farmers are engaged in all stages of the learning process',
                 'image2Alt' => 'Case Study Image', 
                 'description' => '
                     <p>
@@ -73,14 +73,14 @@
                 'imageAlt' => 'Case Study Image', 
                 'description' => '
                     <p>
-                        In February 2020, Stats4SD facilitated a workshop in Soroti, Uganda, to discuss tools for assessment of famers’ agroecology initiatives and to pilot test the 
+                        In February 2020, Stats4SD facilitated a workshop in Soroti, Uganda, to discuss tools for assessment of farmers’ agroecology initiatives and to pilot test the 
                         <a href="https://www.fao.org/agroecology/tools-tape/en/#:~:text=TAPE%20can%20also%20be%20used,at%20farm%20and%20territorial%20levels." target="_blank"class="font-bold text-stats4sd-red">Tool for Agroecology Performance Evaluation (TAPE)</a> of the UN Food and Agriculture Organisation (FAO). TAPE sets out to be a multidimensional approach to collecting evidence at farm and community levels using harmonised indicators that produce globally comparable data.
                     </p>
 
                 ',
                 'secondcolumn' => '
                      <p>
-                        The aim of the Soroti workshop was to co-develop research methods for agroecological assessment with farmers and to conduct a pilot study of Step 1 of the TAPE, which aims to produce a characterization of ‘how agroecological’ a food and agricultural system is. 
+                        The aim of the Soroti workshop was to co-develop research methods for agroecological assessment with farmers and to conduct a pilot study of Step 1 of the TAPE, which aims to produce a characterization of how agroecological a food and agricultural system is. 
                     </p>
                     <p class="pt-2">
                         For more details, see: 

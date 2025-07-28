@@ -31,10 +31,10 @@
                 Stats4SD uses <a href="https://getodk.org/" target="_blank"class="font-bold text-stats4sd-red">ODK</a> as its starting point in most cases. This open-source software allows people to collect data on mobile devices and upload results to a server. ODK forms (questionnaires) can be created from scratch or customised from existing forms. Photos, GPS locations, different languages and other elements can be included. 
             </p>
             <p class="pt-2">
-                At Stats4SD, we are experts in using ODK to help our clients collect the data they need. We assist our clients in designing the ODK forms, and for those who need support for building end-to-end data management systems, we add on tailor-made platforms, automated analysis programmes and dashboards. 
+                At Stats4SD, we are experts in using ODK to help our clients collect the data they need. We assist our clients in designing the ODK forms, and for those who need support for building end-to-end data management systems, we add on tailor-made <a href="' . route('we-do.data-systems.databases') . '" class="font-bold text-stats4sd-red">platforms</a>, automated analysis programmes and <a href="' . route('we-do.data-systems.dashboards') . '" class="font-bold text-stats4sd-red">dashboards</a>. 
             </p>
             <p class="pt-2">
-                Stats4SD also has a series of free training materials for ODK in the Introduction to ODK video playlist.
+                Stats4SD also has a series of free training materials for ODK in the <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmM2UYcm_1ZZW_ZhKTBQzpGI" target="_blank"class="font-bold text-stats4sd-red"> Introduction to ODK</a> video playlist.
             </p>
         ',
 
@@ -55,9 +55,7 @@
                     </p>
 
 
-                    <p class="pt-2">
-                        Stats4SD also carried out the statistical analysis for the survey.
-                    </p>
+                  
                 ',
                   'secondcolumn' => '
                     <p>

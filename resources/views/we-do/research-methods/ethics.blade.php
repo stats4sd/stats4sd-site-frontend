@@ -52,26 +52,46 @@
         <!-- Content -->
         <div
             class=" -mt-40 mx-auto relative z-30 w-[90%] max-w-7xl bg-white px-12 lg:px-16 xl:px-20 pt-12 lg:pt-16 xl:pt-20">
-            <div class="flex flex-col md:flex-row gap-12 2xl:gap-20">
+            <div class="flex flex-col md:flex-row gap-2 md:gap-12 2xl:gap-20">
                 <!-- Lead Paragraph -->
                 <div class="md:w-1/2">
-                    <p class="text-xl md:text-xl font-semibold">
-                        At Stats4SD, we are committed to upholding high ethical standards and managing data responsibly in
-                        all our research projects
+                 <div class="bg-stats4sd-red w-20 mb-10 h-3"></div>
+                    <p class="">
+                        At Stats4SD, we are committed to high ethical standards in research and responsible data management.
                     </p>
-                    <div class="bg-stats4sd-red w-20 mt-16  h-3"></div>
+                    <p class="pt-2">
+                    An ethical approach is essential when doing research with human beings. In some countries and organisations, research ethics are strictly defined - in others, less so. At Stats4SD we are committed to upholding high ethical standards everywhere. This includes ethical research principles such as prior informed consent and security of personal data.
+                    </p>
+                   
                 </div>
 
                 <!-- Content -->
-                <div class="md:w-1/2 ">
+                <div class="md:w-1/2 md:pt-12 ">
                     <p>
-                        Through informed consent, confidentiality protection, and robust data security measures, we ensure
-                        that the rights and privacy of participants are respected throughout the research process.
+                        Responsible data management is all about treating the data that we collect with respect and managing the rights of people who provide information (respondents). We scrutinise the entire project lifecycle to check that we are handling data responsibly and as carefully as we can be. This includes: 
 
                     </p>
+
+                                    <ul class="list-disc pl-6 pt-2">
+                    <li class="">
+                        Clearly defining the purpose of the project and the data we will be collecting.
+                    </li>
+                    <li class="pt-1">
+                        Assessing risk and taking any actions that may be needed on data security and to protect confidentiality of respondents.
+                    </li>
+                    <li class="pt-1">
+                         Ensuring that field staff (enumerators) fully understand the process of obtaining informed consent from interviewees.
+                    </li>
+                    <li class="pt-1">
+                        Ensuring that the necessary steps are taken to safely and securely store, access and share data, e.g. through the use of encrypted files and passwords.
+                    </li>
+                    <li class="pt-1">
+                        Retaining only necessary data, and for the appropriate time; otherwise, it is safely deleted and disposed of.
+                    </li>
+                </ul>
                 </div>
             </div>
-            <div class="w-full  bg-white py-10 ">
+            {{-- <div class="w-full  bg-white py-10 ">
                 <h2 class="text-stats4sd-red text-2xl font-bold uppercase mb-4">
                     Research ethics
                 </h2>
@@ -119,7 +139,7 @@
                         disposed of.
                     </li>
                 </ul>
-            </div>
+            </div> --}}
 
         </div>
     </div>
@@ -145,7 +165,7 @@
                     </div>
                     <div class="mt-2 text-left">
                         <h4 class="text-gray-900 text-lg font-semibold">Jane Poole</h4>
-                        <p class="text-gray-700 text-sm">Research Methods Specialist</p>
+                        <p class="text-gray-700 text-sm">Senior Research Methods Specialist</p>
                     </div>
 
                     <!-- Modal  -->
@@ -172,7 +192,7 @@
                                         <div class="flex-1 flex flex-col  border-r-12 border-stats4sd-red ml-8 pr-8">
                                             <h2 class="text-3xl font-bold">Jane Poole</h2>
                                             <p class="text-stats4sd-red uppercase text-xl font-semibold mt-1">
-                                                Research Methods Specialist
+                                                Senior Research Methods Specialist
                                             </p>
                                         </div>
                                     </div>
@@ -258,7 +278,7 @@
 
                 <div class=" w-50 cursor-pointer mx-auto sm:mx-0" x-data="{ open: false }">
                     <div @click="open = true" class="overflow-hidden rounded-3xl hover-effect">
-                        <img src="{{ url('images/team/Dave.jpg') }}" alt="Jane Poole"
+                        <img src="{{ url('images/team/Dave.jpg') }}" alt="Dave Mills"
                             class="w-full h-60 object-cover rounded-xl">
                     </div>
                     <div class="mt-2 text-left">

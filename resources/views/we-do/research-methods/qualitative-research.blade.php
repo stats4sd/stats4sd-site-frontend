@@ -21,7 +21,7 @@
                     <a href="' . route('we-do.m-and-e') . '#aga-khan-foundation' . '" class="font-bold text-stats4sd-red">endline assessment for the Aga Khan Foundation Canada</a>.
                 </li>
                 <li>
-                    Conducting qualitative research and write up the results as reports, for example: 
+                    Conduct qualitative research and write up the results as reports, for example: 
                     <a href="https://www.slowfood.com/wp-content/uploads/2023/10/Funded-project_Agroecology-in-kenya-e-Uganda_2019-2022.pdf" target="_blank"class="font-bold text-stats4sd-red">An Overview of the Slow Food Programmes: Presidia, Food Gardens and Earth Markets in Kenya and Uganda</a>.
                 </li>
 

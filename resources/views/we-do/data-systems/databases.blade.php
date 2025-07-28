@@ -12,11 +12,16 @@
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'introcol1' => '
+        <p>
             Stats4SD builds databases that are designed specifically for our clients’ projects, with structures that make it easy to extract analysis-ready data, accessible via online platforms with user-friendly front ends.
+            </p>
+            <p class="pt-2">
+            The aim of this work is to get to the point where there is a clean, organised dataset in a sensible format that is ready for analysis by an analyst in the client’s organisation and that can be easily accessed via the online platform.
+            </p>
         ',
         'introcol2' => '
             <p>
-                The aim of this work is to get to the point where there is a clean, organised dataset in a sensible format that is ready for analysis by an analyst in the client’s organisation and that can be easily accessed via the online platform. Some clients may also request built-in data processing and custom scripts (in R) to do automated analysis such as calculating indicators and basic summaries. The front end of the platform may have an integrated 
+                 Some clients may also request built-in data processing and custom scripts (in R) to do automated analysis such as calculating indicators and basic summaries. The front end of the platform may have an integrated 
                 <a href="' . route('we-do.data-systems.dashboards') . '" class="font-bold text-stats4sd-red">dashboard</a>. It may also be set up so that non-technical teams can manage their data collection and management processes – including field staff – effectively.
             </p>
 
@@ -44,7 +49,7 @@
                         <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">data platforms support</a> for one of the first big initiatives of the Agroecology TPP: a study of the socio-economic viability of agroecology practices across Africa. This was launched in 2022 and involved 12 teams working in 9 African countries. 
                     </p>    
                     <p class="pt-2">
-                        We provided a data platform to enable all teams to bring their data collected across different research activities (Key Informant Interviews, Farm Surveys, Focus Group Discussions) into a central location.
+                       We provided a data platform to enable all teams to bring the data they collected across different research activities (Key Informant Interviews, Farm Surveys, Focus Group Discussions) into a central location.
                     </p>
                 ',
                 'secondcolumn' => '

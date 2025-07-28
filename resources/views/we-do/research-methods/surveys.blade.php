@@ -45,10 +45,7 @@
                 ',
                 'secondcolumn' => '
                     <p>
-                        The survey team in Ukraine faced extreme challenges. First the Covid-19 pandemic, which delayed the start of fieldwork and meant that face-to-face interviews were no longer 
-                        possible and had to be replaced by phone calls. Then the Russian invasion in March 2022, which meant that the laboratory analysis of urine and salt samples was suspended 
-                        for two months. However, the team in Ukraine was determined to complete the work. We provided support throughout, finding solutions when the original survey 
-                        methods were longer viable.
+                        The survey team in Ukraine faced extreme challenges. First the Covid-19 pandemic, which delayed the start of fieldwork and meant that face-to-face interviews were no longer possible and had to be replaced by phone calls. Then the Russian invasion in March 2022, which meant that the laboratory analysis of urine and salt samples was suspended for two months. However, the team in Ukraine was determined to complete the work. Stats4SD provided support throughout, finding solutions when the original survey methods were no longer viable.
                     </p>
                 ',
             ]

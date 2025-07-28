@@ -44,7 +44,9 @@
                 ',
                  'secondcolumn' => '
                     <p>
-                        For the analysis, the data from the four countries was treated as a single dataset. The examples below show some of the analysis for TAPE Step 1. Full results can be found in 
+                    For the analysis, the data from the four countries was treated as a single dataset. In the example shown here, Characterization of Agroecological Transition (CAET) scores – which evaluate the level of agroecological transition – were plotted using a combination of boxplots and violin plots for ProSoil and comparison group. These were accompanied by tables of results from multiple t-tests to assess whether the difference in means between the ProSoil and comparison group was statistically significant.
+                        </p>
+                        <p class="mt-2">Full results can be found in 
                         the <a href="https://cifor-icraf.org/publications/pdf_files/WPapers/TPP-WP-8.pdf" target="_blank" class="font-bold text-stats4sd-red">cross-country report</a>.
                     </p>
                     ',
@@ -55,8 +57,9 @@
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>
-                        In 2022, the 
-                        <a href="https://www.agroecologytpp.org/about/" target="_blank" class="font-bold text-stats4sd-red">Agroecology TPP</a> launched a study to document and evaluate the socio-economic viability of agroecology practices across Africa. The study involved 12 teams working in 9 African countries and included a farm survey. To support the survey, Stats4SD programmed a set of data processing scripts in R to generate sets of descriptive indicators and run a Multiple Component Analysis (MCA).
+                    In 2022, the <a href="https://www.agroecologytpp.org/about/" target="_blank" class="font-bold text-stats4sd-red">Agroecology TPP</a> launched a study to document and evaluate the socio-economic viability of agroecology practices across Africa. The study involved 12 teams working in 9 African countries and included a farm survey. To support the survey, Stats4SD programmed data processing scripts in R to generate sets of descriptive indicators and run a Multiple Component Analysis (MCA).
+
+                  
                     </p>
 
                 ',
@@ -95,7 +98,7 @@
             [
                 'id' => 'jane_poole',
                 'name' => 'Jane Poole',
-                'title' => 'Research Methods Specialist',
+                'title' => 'Senior Research Methods Specialist',
                 'email' => 'j.poole@stats4sd.org',
                 'linkedin' => '',
                 'github' => '',

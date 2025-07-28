@@ -32,9 +32,9 @@
                 'redtitle' => '',
                 'description' => 'The <a href="https://uk.fsc.org/" target="_blank" class="font-bold text-stats4sd-red">Forest Stewardship Council (FSC)</a> is a world leader in sustainable forestry.
                     It recently asked Stats4SD to assess two complex statistical models it was using – a Machine Learning model and a hierarchical Bayesian regression – 
-                    to find out which of the two models worked better. After completing the initial piece of work, we found that neither model worked well. ',
+                    to find out which of the two models worked better. ',
                 'secondcolumn' => '
-                    As we wanted to help the FSC in its work on sustainable forestry, we not only answered the original question but decided to develop a new model 
+                    After completing the initial piece of work, we found that neither model worked well. As we wanted to help the FSC in its work on sustainable forestry, we not only answered the original question but decided to develop a new model 
                     that was better suited to their needs.',
                 'image' => 'images/wedo/fsc.jpg',
                 'imageAlt' => 'Case Study Image',

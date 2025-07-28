@@ -26,7 +26,7 @@
                 'title' => 'Statistical analysis',
                 'url' => url('/we-do/research-methods/statistical-analysis'),
                 'cover_photo_url' => asset('images/wedo/rm/statan.jpg'),
-                'description' => 'Our experiences statisticians are familiar with the statistical techniques and programs you need for your data analysis.',
+                'description' => 'Our experienced statisticians are familiar with the statistical techniques and programs you need for your data analysis.',
             ],
             [
                 'title' => 'Indicators and data visualisation',
@@ -50,7 +50,7 @@
                 'title' => 'Research ethics and responsible data handling',
                 'url' => url('/we-do/research-methods/ethics'),
                 'cover_photo_url' => asset('images/wedo/rm/ethics.jpg'),
-                'description' => 'Learn about our commitment to ethical approaches to research and about ow we handle data.',
+                'description' => 'Learn about our commitment to ethical approaches to research and about how we handle data.',
             ],
             ]
         ])
