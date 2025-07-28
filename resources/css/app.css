@@ -36,7 +36,7 @@ body {
 }
 
 .we-do-dropdown-item {
-    @apply text-black flex items-center px-6 w-full first-of-type:rounded-t-2xl first-of-type:pt-4 last-of-type:rounded-b-2xl last-of-type:pb-4  py-2  hover:text-stats4sd-red disabled:text-gray-500;
+    @apply text-black flex items-center px-6 w-full  first-of-type:rounded-t-2xl first-of-type:pt-4 last-of-type:rounded-b-2xl last-of-type:pb-4  py-2  hover:text-stats4sd-red disabled:text-gray-500;
 }
 
 .nav-link {
@@ -44,7 +44,8 @@ body {
 }
 
 .small-nav {
-    @apply text-black mx-4;
+    @apply text-black rounded-2xl shadow-xl;
+    background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
         li { 
             @apply first-of-type:rounded-t-2xl first-of-type:pt-4 last-of-type:rounded-b-2xl last-of-type:pb-4  py-1  hover:text-stats4sd-red disabled:text-gray-500;

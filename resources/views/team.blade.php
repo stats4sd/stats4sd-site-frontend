@@ -34,16 +34,19 @@
     </div>
 
     <!-- Team Cards -->
-    <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-20 mx-auto pb-16">
+    <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-20 md:px-12 2xl:px-20 mx-auto pb-16">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 3xl:gap-12" id="team-container">
             @foreach ($teamData as $teamMember)
                 <div class="relative" x-data="{ open: false }">
                     <!-- Card -->
-                    <div class="cursor-pointer rounded-3xl overflow-hidden hover-effect" @click="open = true">
-                        <div class="h-80 sm:h-70 bg-cover bg-center transition duration-300"
-                             style="background-image: url('{{ asset($teamMember['avatar']) }}')"></div>
+                    <div class="cursor-pointer rounded-3xl overflow-hidden hover-effect max-w-[65vw] sm:max-w-none mx-auto sm:mx-0 sm:h-70" @click="open = true">
+                        <img
+                            src="{{ asset($teamMember['avatar']) }}"
+                            alt="Photo of {{ $teamMember['name'] }}"
+                            class="h-auto w-full "
+                        >
                     </div>
-                    <div class="mt-2 px-2">
+                    <div class="mt-2 px-2 max-w-[65vw] sm:max-w-none mx-auto">
                         <h4 class="text-gray-900 text-lg font-semibold">{{ $teamMember['name'] }}</h4>
                         <p class="text-gray-700 text-sm">{{ $teamMember['title'] }}</p>
                     </div>
@@ -60,8 +63,8 @@
                                 <!-- Photo -->
                                 <div
                                     class="md:flex-shrink-0 md:min-h-full h-[50vh] md:h-auto overflow-hidden  w-full md:w-90">
-                                    <img src="{{ asset($teamMember['avatar']) }}" alt="{{ $teamMember['name'] }}"
-                                         class="object-cover min-h-full  rounded-none">
+                                    <img src="{{ asset($teamMember['avatar']) }}" alt="Photo of {{ $teamMember['name'] }}"
+                                         class="object-cover min-h-full rounded-none">
                                 </div>
 
                                 <!-- Name, Title, Description & contact -->
