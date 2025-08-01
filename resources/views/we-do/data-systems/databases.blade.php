@@ -31,7 +31,7 @@
         'intropictext' => '
         
             <p class="">
-                Such a system is shown in the graphic above. The departure point is the 
+                Such a system is shown in the graphic below. The departure point is the 
                 <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">ODK tools</a> that we use for data collection (left-hand side of graphic). Stats4SD deploys the ODK Central server and co-develops the data collection forms. If you are looking for an end-to-end data management system, we can also design a data platform, automated analysis and dashboards to suit your project’s needs (right-hand side of graphic).
             </p>
         ',
