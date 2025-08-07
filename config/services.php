@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'google_analytics' => [
+        'gtag' => env('GOOGLE_ANALYTICS_GTAG'),
+    ],
+
 ];
