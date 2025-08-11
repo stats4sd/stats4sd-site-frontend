@@ -70,3 +70,6 @@ Route::prefix('we-do')->name('we-do.')->group(function () {
         Route::view('/webinars', 'we-do.e-learning.webinars')->name('webinars');
     });
 });
+
+
+Route::view('/privacy-policy', 'privacy-policy')->name('privacy-policy');

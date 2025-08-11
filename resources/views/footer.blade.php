@@ -2,9 +2,15 @@
 <footer class="bg-stats4sd-grey py-12">
     <div class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-12 sm:px-24 md:px-16 2xl:px-24  mx-auto ">
         <div class="grid grid-cols-1 md:grid-cols-6 gap-12 text-white text-sm">
+
             <div class="md:col-span-4">
                 <p class="font-bold">© Statistics for Sustainable Development {{ date("Y") }}</p>
-                <p class="pt-4">9 Castle Street, Reading, RG1 7SB</p>
+                <ul class="my-2">
+                    <li>
+                        <a href="{{ route('privacy-policy') }}" class="hover:underline">{{ t("Privacy policy") }}</a>
+                    </li>
+                </ul>
+                <p class="pt-2">9 Castle Street, Reading, RG1 7SB</p>
                 <p>{{ t("Company Registered in England & Wales Number") }} - 10168747</p>
 
             </div>
