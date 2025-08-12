@@ -23,7 +23,7 @@
     <div class="w-full pt-12 md:pt-20 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-6 md:gap-12 sm:mt-12 2xl:mt-0 px-12 x mb-12">
         <div class="md:w-1/2 ">
             <p class="text-xl  text-gray-800 font-bold">
-                Improving research designs, data efficiency and information for decision-making
+                Improving research designs, data efficiency and information for decision making
             </p>
             <div class="bg-stats4sd-red w-20 mt-5  h-3"></div>
         </div>

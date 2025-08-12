@@ -14,7 +14,7 @@
                 'title' => 'Designing and supporting research',
                 'url' => url('/we-do/research-methods/design-support'),
                 'cover_photo_url' => asset('images/wedo/rm/design.jpg'),
-                'description' => 'We advise on efficient research desgin and the best methods to use for each research process.',
+                'description' => 'We advise on efficient research design and the best methods to use for each research process.',
             ],
             [
                 'title' => 'Surveys',
