@@ -73,3 +73,7 @@ Route::prefix('we-do')->name('we-do.')->group(function () {
 
 
 Route::view('/privacy-policy', 'privacy-policy')->name('privacy-policy');
+
+Route::get('/frn/{any?}', function () {
+    return redirect(env('RESOURCES_SITE_URL') . '/frn', 301);
+})->where('any', '.*');
