@@ -74,6 +74,7 @@ Route::prefix('we-do')->name('we-do.')->group(function () {
 
 Route::view('/privacy-policy', 'privacy-policy')->name('privacy-policy');
 
-Route::get('/frn', function () {
-    return redirect(env('RESOURCES_SITE_URL') . '/frn-hub', 301);
-});
+Route::get('/frn/{any?}', function ($any = null) {
+    return redirect(config('app.resources_site_url') . '/frn-hub', 301);
+})->where('any', '.*');
+
