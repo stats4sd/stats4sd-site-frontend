@@ -39,8 +39,8 @@
                 </li>
                 <li>
                     Create training materials for qualitative data collection and analysis such as Stats4SD’s videos on 
-                    <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmN1ife2PcM3B17r6jFmE5NX" target="_blank"class="font-bold text-stats4sd-red">Qualitative Data Management</a> and Qualitative Data Analysis, and practical guidance for practitioners on 
-                    <a href="https://stats4sd.org/resources/participant-observation-parctical-guide-for-practitioners_2023-09-05_13:50:27" target="_blank"class="font-bold text-stats4sd-red">Participant Observation</a>.
+                    <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmN1ife2PcM3B17r6jFmE5NX" target="_blank" class="font-bold text-stats4sd-red">Qualitative Data Management</a> and Qualitative Data Analysis, and practical guidance for practitioners on 
+                    <a href="' . config('app.resources_site_url') . '/resources/participant-observation-parctical-guide-for-practitioners_2023-09-05_13:50:27" target="_blank" class="font-bold text-stats4sd-red">Participant Observation</a>.
                 </li>
             </ul>
         ',

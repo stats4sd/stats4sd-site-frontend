@@ -56,7 +56,7 @@
             ]
         ],
         'additionalContent' => '
-            You can find courses and other e-learning materials in the <a href="https://stats4sd.org/resources" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
+            You can find courses and other e-learning materials in the <a href="' . config('app.resources_site_url') . '" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
         ',
         'teamData' => [
             [

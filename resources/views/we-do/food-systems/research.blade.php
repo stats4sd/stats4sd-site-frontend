@@ -63,7 +63,7 @@
                     </p>
                     <p class="pt-2">
                         See full presentation at: 
-                        <a href="https://stats4sd.org/resources/farmer-research-networks-in-malawi-as-a-socially-just-model-of-inclusive-knowledge-co-creation_2024-01-15_16:38:47" target="_blank"class="font-bold text-stats4sd-red">Farmer Research Networks in Malawi as a socially just model of inclusive knowledge co-creation</a>.
+                        <a href="' . config('app.resources_site_url') . '/resources/farmer-research-networks-in-malawi-as-a-socially-just-model-of-inclusive-knowledge-co-creation_2024-01-15_16:38:47" target="_blank"class="font-bold text-stats4sd-red">Farmer Research Networks in Malawi as a socially just model of inclusive knowledge co-creation</a>.
                     </p>
                     ',
             ],
