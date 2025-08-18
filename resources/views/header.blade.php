@@ -137,7 +137,7 @@
                         <a href="/about" class="uppercase">{{ t('About us') }}</a>
                     </li>
                     <li>
-                        <a href="/resources-library" class="uppercase">{{ t('Resources library') }}</a>
+                        <a href="{{ config('app.resources_site_url') }}" class="uppercase">{{ t('Resources library') }}</a>
                     </li>
                     <!-- <li class="relative nav-item " x-data="{ langOpen: false }">
                         <a class="nav-link uppercase" role="button" x-on:click="langOpen = !langOpen">
