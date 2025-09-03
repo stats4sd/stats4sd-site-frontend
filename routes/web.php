@@ -81,3 +81,12 @@ Route::get('/frn', function () {
 Route::get('/frn/{any?}', function ($any = null) {
     return redirect(config('app.resources_site_url') . '/frn', 301);
 })->where('any', '.*');
+
+Route::get('/resources', function () {
+    return redirect(config('app.resources_site_url'), 301);
+});
+
+Route::get('/resources/{slug}', function ($slug) {
+    return redirect(
+        config('app.resources_site_url') . '/resources/' . $slug, 301);
+});
