@@ -32,8 +32,12 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 py-4">
             @foreach($blogs as $blog)
                 <a href="{{ url('/blog/' . $blog->slug) }}" class="shadow-xl overflow-hidden flex flex-col hover-effect">
-                    <!-- Placeholder Image -->
-                    <div class="h-48 bg-cover bg-center" style="background-image: url('{{ asset('images/resources.webp') }}');"></div>
+                    <!-- Cover Image -->
+                    <div class="h-48 bg-cover bg-center"
+                         style="background-image: url('{{ ($blog->cover_image && Storage::disk('public')->exists($blog->cover_image))  
+                        ? Storage::url($blog->cover_image) 
+                        : asset('images/resources.webp') }}');">
+                    </div>
 
                     <!-- Blog Info -->
                     <div class="bg-white p-6 flex flex-col justify-between">
