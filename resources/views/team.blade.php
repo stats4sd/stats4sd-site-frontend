@@ -1,8 +1,21 @@
 @extends('layouts.app')
 @section('content')
+
+    <!-- Temporary Hiring Banner -->
+    <!-- Updated header section mt-36 to be mt-24 while the hiring banner is in place-->
+    <div class="w-full bg-stats4sd-red text-white text-center py-4 px-6 mt-28">
+        <p class="text-lg font-semibold">
+            We're hiring a Business Administrator!
+            <a href="https://www.linkedin.com/jobs/view/4309634879/" target="_blank" 
+            class="font-bold hover:underline mr-1">
+                View role & apply →
+            </a>
+        </p>
+    </div>
+
     <!-- Header section -->
     <div
-        class=" w-full mt-36  max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-20   mx-auto">
+        class=" w-full mt-24 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-8 sm:px-20 md:px-12 2xl:px-20   mx-auto">
         <div class="bg-stats4sd-red h-5 w-28 mb-2"></div>
         <div class="text-6xl font-bold pt-2">
             {{ t('Our team') }}
