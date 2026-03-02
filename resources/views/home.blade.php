@@ -11,16 +11,18 @@
             <!-- image -->
             <div class=" w-full h-96 2xl:min-h-[20vh] ">
                 <img src="{{ asset('images/test22.jpg') }}" alt="Home Page"
-                     class="w-full h-full object-cover object-center filter brightness-80 ">
+                    class="w-full h-full object-cover object-center filter brightness-80 ">
             </div>
 
             <!-- top -->
-            <div class="w-full relative bottom-36 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto text-left px-12 ">
+            <div
+                class="w-full relative bottom-36 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto text-left px-12 ">
                 <h1 class="text-6xl xl:text-7xl font-bold text-white  mt-4 "> Stats4SD </h1>
             </div>
         </div>
     </div>
-    <div class="w-full pt-12 md:pt-20 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-6 md:gap-12 sm:mt-12 2xl:mt-0 px-12 x mb-12">
+    <div
+        class="w-full pt-12 md:pt-20 max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-6 md:gap-12 sm:mt-12 2xl:mt-0 px-12 x mb-12">
         <div class="md:w-1/2 ">
             <p class="text-xl  text-gray-800 font-bold">
                 Improving research designs, data efficiency and information for decision making
@@ -29,7 +31,8 @@
         </div>
         <div class="md:w-1/2 ">
             <p class="text-xl font-light text-gray-800 ">
-               Stats4SD is a non-profit organisation committed to supporting sustainable development around the world using data and analysis to inform policies and actions.
+                Stats4SD is a non-profit organisation committed to supporting sustainable development around the world using
+                data and analysis to inform policies and actions.
             </p>
         </div>
     </div>
@@ -39,10 +42,9 @@
             <div class="flex flex-wrap justify-center 2xl:justify-start gap-6">
 
                 <a href="/we-do"
-                   class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
+                    class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
                     <!-- Background Image -->
-                    <div class="absolute inset-0 bg-cover bg-center"
-                         style="background-image: url('/images/qualcard.png');">
+                    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/qualcard.png');">
                     </div>
 
                     <!-- Bottom Half Overlay -->
@@ -54,7 +56,7 @@
                     </div>
                 </a>
                 <a href="/team"
-                   class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
+                    class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
                     <!-- Background Image -->
                     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/uscard.jpg');">
                     </div>
@@ -68,7 +70,7 @@
                     </div>
                 </a>
                 <a href="/about"
-                   class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
+                    class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
                     <!-- Background Image -->
                     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/walkcard.jpg');">
                     </div>
@@ -83,10 +85,10 @@
                     </div>
                 </a>
                 <a href="{{ config('app.resources_site_url') }}"
-                   class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
+                    class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
                     <!-- Background Image -->
                     <div class="absolute inset-0 bg-cover bg-center"
-                         style="background-image: url('/images/resources.webp');">
+                        style="background-image: url('/images/resources.webp');">
                     </div>
 
                     <!-- Bottom Half Overlay -->
@@ -99,16 +101,18 @@
                 </a>
 
                 <!-- Temporary Hiring Card -->
-                <!-- <a href="https://www.linkedin.com/jobs/view/4309634879/" target="_blank"
+                <a href="https://www.linkedin.com/jobs/view/4309634879/" target="_blank"
                     class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
-                    <div class="absolute inset-0 bg-stats4sd-red flex items-center justify-center text-white text-center p-6">
+                    <div
+                        class="absolute inset-0 bg-stats4sd-red flex items-center justify-center text-white text-center p-6">
                         <div>
                             <h3 class="text-xl font-bold mb-3">We're hiring!</h3>
-                            <p class="text-base mb-4">Join the team as as our new <strong>Business Administrator</strong></p>
+                            <p class="text-base mb-4">Join the team as as our new <strong>Food Systems Research Methods
+                                    Lead</strong></p>
                             <span class="font-semibold">View role & apply →</span>
                         </div>
                     </div>
-                 </a> -->
+                </a>
             </div>
         </div>
     </div>
