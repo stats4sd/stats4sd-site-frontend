@@ -101,7 +101,8 @@
                 </a>
 
                 <!-- Temporary Hiring Card -->
-                <a href="https://www.linkedin.com/jobs/view/4309634879/" target="_blank"
+                <a href="{{ Storage::disk('public')->url('Food Systems Research Methods Lead - Job Advert.pdf') }}"
+                    target="_blank"
                     class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
                     <div
                         class="absolute inset-0 bg-stats4sd-red flex items-center justify-center text-white text-center p-6">

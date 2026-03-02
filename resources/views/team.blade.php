@@ -5,7 +5,8 @@
     <div class="w-full bg-stats4sd-red text-white text-center py-4 px-6 mt-28">
         <p class="text-lg font-semibold">
             We're hiring a Food Systems Research Methods Specialist!
-            <a href="https://www.linkedin.com/jobs/view/4309634879/" target="_blank" class="font-bold hover:underline mr-1">
+            <a href="{{ Storage::disk('public')->url('Food Systems Research Methods Lead - Job Advert.pdf') }}"
+                target="_blank" class="font-bold hover:underline mr-1">
                 View role & apply →
             </a>
         </p>
