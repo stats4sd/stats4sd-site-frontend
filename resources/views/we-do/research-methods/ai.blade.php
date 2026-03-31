@@ -95,7 +95,7 @@
             [
                 'id' => 'carlos_barahona',
                 'name' => 'Carlos Barahona',
-                'title' => 'Founder and Strategic Advisor',
+                'title' => 'Strategic Advisor',
                 'email' => 'carlos@stats4sd.org',
                 'linkedin' => '',
                 'github' => '',
