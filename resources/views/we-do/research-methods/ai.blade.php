@@ -106,7 +106,7 @@
             [
                 'id' => 'dave_mills',
                 'name' => 'Dave Mills',
-                'title' => 'Senior Data Engineer',
+                'title' => 'Managing Director and Senior Data Engineer',
                 'email' => 'd.e.mills@stats4sd.org',
                 'linkedin' => 'https://www.linkedin.com/in/dave-mills-ssd',
                 'github' => 'https://github.com/dave-mills',
@@ -117,7 +117,7 @@
             [
                 'id' => 'sam_dumble',
                 'name' => 'Sam Dumble',
-                'title' => 'Senior Statistician',
+                'title' => 'Director and Senior Statistician',
                 'email' => 's.dumble@stats4sd.org',
                 'linkedin' => '',
                 'github' => 'https://github.com/sdumble1',
