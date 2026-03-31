@@ -72,18 +72,6 @@
     "order": 6
     },
     {
-    "id": "emily_nevitt",
-    "name": "Emily Nevitt",
-    "title": "Instructional & Graphic Designer",
-    "email": "emily@stats4sd.org",
-    "linkedin": "",
-    "github": "",
-    "google_scholar": "",
-    "avatar": "images/team/Emily.jpg",
-    "long_description": "Emily’s role focuses on creating effective communication and learning products, as well as providing graphic design and multimedia support for projects. With experience in both education and design, Emily is interested in combining these skills to create products that are attractive, engaging and easy to understand. This involves developing interactive e-learning courses, contributing to the planning of seminars, workshops and other capacity-building events, creating and editing videos, designing websites, graphics and documents and helping maintain and organise the Stats4SD Resources Library.",
-    "order": 7
-    },
-    {
     "id": "ciara_mchugh",
     "name": "Ciara McHugh",
     "title": "Data Engineer",
@@ -93,7 +81,7 @@
     "google_scholar": "",
     "avatar": "images/team/Ciara.jpeg",
     "long_description": "Ciara is experienced in developing data systems to support research, monitoring and evaluation (M&E) and decision making. She is passionate about usability and intuitive design. She enjoys creating clear, accessible tools that make data easier to collect, manage and understand for a wide range of users, from farmers and field teams to researchers and decision makers. Ciara works in both English and Spanish, supporting collaboration across diverse teams and regions. Before joining Stats4SD, she studied Actuarial Mathematics at Dublin City University and volunteered with a health and development NGO in Honduras.",
-    "order": 8
+    "order": 7
     },
     {
     "id": "alex_thomson",
@@ -105,7 +93,7 @@
     "google_scholar": "https://scholar.google.co.uk/citations?user=M9KJp0gAAAAJ&hl=en",
     "avatar": "images/team/AlexT.jpg",
     "long_description": "Alex provides support for statistical analysis across a wide range of topics. He is interested in creating informative and effective data visualisations, with particular pride in seeing them published in reports and other publications. He is proficient in using R for a range of applications including analysis and data manipulation, and is gaining experience in building Shiny applications and spatial analysis. He is also skilled in creating survey forms with ODK and managing their use for data collection. Alex has a BSc in Population and Geography and an MSc in Social Research Methods from the University of Southampton.",
-    "order": 9
+    "order": 8
     },
     {
     "id": "dan_tang",
@@ -117,7 +105,7 @@
     "google_scholar": "",
     "avatar": "images/team/Dan.jpg",
     "long_description": "Dan builds platforms and online tools for Stats4SD’s clients and partners. He specialises in designing and implementing scalable web applications which allow platforms to grow and handle many users. He is skilled in technologies for both the front end (the part that users see and interact with) and the back end (the part behind the scenes that makes things work). Dan is keen to create user friendly, intuitive and robust web-based applications. His aim is to make data collection more effective and to facilitate the process for transforming data into information. Dan has a degree in Computing and Information Systems from Oxford Brookes University. Before joining Stats4SD, he worked as a systems analyst helping regional support teams fix technical problems.",
-    "order": 10
+    "order": 9
     },
     {
     "id": "romina_de_angelis",
@@ -129,7 +117,7 @@
     "google_scholar": "https://scholar.google.com/citations?user=_3X8Hg8AAAAJ&hl=en",
     "avatar": "images/team/Romina.jpg",
     "long_description": "Romina leads Stats4SD’s social and qualitative research work. She provides research methods support to projects of the McKnight Foundation’s Global Collaboration for Resilient Food Systems, works with Farmer Research Networks, and contributes to impact assessments. Her expertise includes qualitative data collection and analysis and using AI for text analysis. She is keen on supporting grassroots organisations to build and communicate evidence on agroecology to their target audiences, and on empowering communities through co-creation and co-learning processes. Romina has a PhD in Education for Sustainable Development, a Postgraduate Diploma in Educational and Social Research from the Institute of Education, University College London, and an MA in Development Studies from the Tata Institute of Social Sciences in India. Before joining Stats4SD, she worked on sustainable development initiatives in India and Jamaica.",
-    "order": 11
+    "order": 10
     },
     {
     "id": "grace_gilbert",
@@ -141,7 +129,7 @@
     "google_scholar": "",
     "avatar": "images/team/Grace.jpeg",
     "long_description": "Grace manages Stats4SD’s YouTube channel and provides support with video and media projects. She is keen to develop the accessibility and cohesiveness of our YouTube channel and enable Stats4SD’s resources and research to reach a wide audience. She also assists with the creation of learning resources through video editing and translating and supports the team with proof reading of reports. In addition to her work at Stats4SD, Grace works as an editorial assistant at a publishing company.",
-    "order": 12
+    "order": 11
     },
     {
     "id": "lesley_chambers",
@@ -153,6 +141,6 @@
     "google_scholar": "",
     "avatar": "images/team/Lesley.JPG",
     "long_description": "Lesley is responsible for keeping financial records up to date, both electronically and on paper.  Her work involves external finance operations as well as administration relating to the payment of salaries within the company, and she also helps with general administration for the team.  Lesley has a broad spectrum of professional experience: she gained a Postgraduate Certificate of Education from the University of Warwick, which was followed by teaching in secondary schools in the UK and then teaching in Mozambique as a VSO volunteer.  In addition to her role as a Business Administrator, Lesley is a self-employed magazine editor and enjoys volunteering within the community in a variety of roles.",
-    "order": 13
+    "order": 12
     }
 ]
