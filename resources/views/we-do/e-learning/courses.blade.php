@@ -60,16 +60,16 @@
         ',
         'teamData' => [
             [
-                'id' => 'emily_nevitt',
-                'name' => 'Emily Nevitt',
-                'title' => 'Instructional & Graphic Designer',
-                'email' => 'emily@stats4sd.org',
-                'linkedin' => '',
+                'id' => 'alex_riba',
+                'name' => 'Alex Riba',
+                'title' => 'Operations Director and Senior Statistician',
+                'email' => 'alexriba@stats4sd.org',
+                'linkedin' => 'https://linkedin.com/in/alex-riba-11401292',
                 'github' => '',
-                'google_scholar' => '',
-                'avatar' => 'images/team/Emily.jpg',
-                'long_description' => 'Emily’s role focuses on creating effective communication and learning products, as well as providing graphic design and multimedia support for projects. With experience in both education and design, Emily is interested in combining these skills to create products that are attractive, engaging and easy to understand. This involves developing interactive e-learning courses, contributing to the planning of seminars, workshops and other capacity-building events, creating and editing videos, designing websites, graphics and documents and helping maintain and organise the Stats4SD Resources Library.',
-            ]
+                'google_scholar' => 'https://scholar.google.com/citations?view_op=new_articles&hl=ca&imq=Alex+Riba#',
+                'avatar' => 'images/team/AlexR.jpg',
+                'long_description' => 'Alex leads our work on Monitoring and Evaluation (M&E), impact assessment and the development of indices. He is also an expert in surveys and statistical analysis. He has over 25 years of experience in research, research methods and teaching statistics. At Stats4SD, Alex has worked with projects in areas such as food and agriculture, international development, health and nutrition, education, and climate change. For quantitative studies, his expertise guides the process from the design stage to the reporting of results, as he supports areas such as survey design, sampling, digital data collection, creation of analysis plans and complex statistical analysis. Alex has a PhD in Statistics and an MSc in Humanities. Before joining Stats4SD, he worked for the Universitat Politecnica de Catalunya, Barcelona Tech, and for the University of Reading.',
+            ],
         ],
 
     ])

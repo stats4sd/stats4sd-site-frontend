@@ -49,15 +49,15 @@
             </p>',
         'teamData' => [
             [
-                'id' => 'emily_nevitt',
-                'name' => 'Emily Nevitt',
-                'title' => 'Instructional & Graphic Designer',
-                'email' => 'emily@stats4sd.org',
-                'linkedin' => '',
+                'id' => 'shiphar_mulumba',
+                'name' => 'Shiphar Mulumba',
+                'title' => 'Research Methods Specialist',
+                'email' => 'm.shiphar@stats4sd.org',
+                'linkedin' => 'https://www.linkedin.com/in/shiphar-mulumba-06956b23/',
                 'github' => '',
                 'google_scholar' => '',
-                'avatar' => 'images/team/Emily.jpg',
-                'long_description' => 'Emily’s role focuses on creating effective communication and learning products, as well as providing graphic design and multimedia support for projects. With experience in both education and design, Emily is interested in combining these skills to create products that are attractive, engaging and easy to understand. This involves developing interactive e-learning courses, contributing to the planning of seminars, workshops and other capacity-building events, creating and editing videos, designing websites, graphics and documents and helping maintain and organise the Stats4SD Resources Library.',
+                'avatar' => 'images/team/Shiphar.jpg',
+                'long_description' => 'Shiphar provides research methods support for the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS) in East Africa, working with CRFS grantees, students, scientists and other stakeholders. She is an expert in quantitative, qualitative and mixed research methods, with over 12 years of experience supporting project teams. Shiphar is keen to make research for development more effective through inclusive and context-relevant research methods. She also contributes to capacity building by facilitating short courses and workshops on research methods, including research design, data management and analysis. Shiphar has a degree in Agriculture from Makerere University in Uganda and an MSc in Research Methodology from Jomo Kenyatta University in Kenya. She has previous work experience with the Uganda National Agricultural Research Organisation and the International Potato Centre.'
             ]
         ],
     ])

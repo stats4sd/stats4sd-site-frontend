@@ -37,15 +37,15 @@
         'additionalContent' => '',
         'teamData' => [
             [
-                'id' => 'emily_nevitt',
-                'name' => 'Emily Nevitt',
-                'title' => 'Instructional & Graphic Designer',
-                'email' => 'emily@stats4sd.org',
-                'linkedin' => '',
+                'id' => 'ciara_mchugh',
+                'name' => 'Ciara McHugh',
+                'title' => 'Data Engineer',
+                'email' => 'ciara@stats4sd.org',
+                'linkedin' => 'www.linkedin.com/in/ciara-mchugh',
                 'github' => '',
                 'google_scholar' => '',
-                'avatar' => 'images/team/Emily.jpg',
-                'long_description' => 'Emily’s role focuses on creating effective communication and learning products, as well as providing graphic design and multimedia support for projects. With experience in both education and design, Emily is interested in combining these skills to create products that are attractive, engaging and easy to understand. This involves developing interactive e-learning courses, contributing to the planning of seminars, workshops and other capacity-building events, creating and editing videos, designing websites, graphics and documents and helping maintain and organise the Stats4SD Resources Library.',
+                'avatar' => 'images/team/Ciara.jpeg',
+                'long_description' => 'Ciara is experienced in developing data systems to support research, monitoring and evaluation (M&E) and decision making. She is passionate about usability and intuitive design. She enjoys creating clear, accessible tools that make data easier to collect, manage and understand for a wide range of users, from farmers and field teams to researchers and decision makers. Ciara works in both English and Spanish, supporting collaboration across diverse teams and regions. Before joining Stats4SD, she studied Actuarial Mathematics at Dublin City University and volunteered with a health and development NGO in Honduras.',
             ]
         ],
     ])
