@@ -98,14 +98,14 @@
             [
                 'id' => 'carlos_barahona',
                 'name' => 'Carlos Barahona',
-                'title' => 'Managing Director',
+                'title' => 'Founder and Strategic Advisor',
                 'email' => 'carlos@stats4sd.org',
                 'linkedin' => '',
                 'github' => '',
                 'google_scholar' => 'https://scholar.google.com/citations?user=tH_rckIAAAAJ&hl=en',
                 'avatar' => 'images/team/Carlos.jpg',
-                'long_description' => 'Carlos leads Stats4SD and advises partners and clients on complex research design and robust methodologies in the context of sustainable development. With over 30 years’ experience, Carlos specialises in quantitative methods, participatory action research and mixed methods. He is passionate about transdisciplinary research that combines scientific rigour with local knowledge. He works on empowering communities to produce and use evidence to guide change, with a focus on knowledge co-creation to support agroecology, farmer research and food systems transformation. He is part of the leadership team of the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS). Before founding Stats4SD in 2016, he worked for 21 years at the Statistical Services Centre, University of Reading.',
-            ],
+                'long_description' => 'Carlos is Founder and Strategic Advisor at Stats4SD. He works with partners and clients on complex research design and robust methodologies in the context of sustainable development. With over 30 years’ experience, he specialises in quantitative methods, participatory action research and mixed methods. He is passionate about transdisciplinary research that combines scientific rigour with local knowledge. His work focuses on enabling communities, researchers and organisations to produce and use evidence to guide change, with a strong emphasis on knowledge co-creation in support of agroecology, farmer-led research and food systems transformation. Carlos contributes to strategic thinking and external engagement, including as part of the leadership team of the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS). Before founding Stats4SD in 2016, he worked for 21 years at the Statistical Services Centre, University of Reading.',
+                ],
         ],
     ])
     @endcomponent
