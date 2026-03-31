@@ -12,8 +12,7 @@ Route::view('/home', 'home')->name('home');
 Route::view('/we-do', 'we-do')->name('we-do');
 Route::get('/team', function () {
     $teamData = json_decode(file_get_contents(base_path('resources/data/team.json')), true);
-    $founderData = json_decode(file_get_contents(base_path('resources/data/founders.json')), true);
-    return view('team', ['teamData' => $teamData, 'founderData' => $founderData]);
+    return view('team', ['teamData' => $teamData]);
 });
 Route::view('/where-we-work', 'where-we-work')->name('where-we-work');
 Route::view('/about', 'about')->name('about');
