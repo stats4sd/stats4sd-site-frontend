@@ -324,7 +324,7 @@
     </div>
 
     <!-- Organisational Diagram Section -->
-    <div class="bg-gray-100 pt-12 pb-28 mt-12">
+    <!-- <div class="bg-gray-100 pt-12 pb-28 mt-12">
         <div
             class="max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2x px-8 sm:px-20 md:px-12 2xl:px-20  mx-auto text-left">
             <div class="h-3 w-16 bg-stats4sd-red mb-3"></div>
@@ -340,5 +340,5 @@
             </a>
 
         </div>
-    </div>
+    </div> -->
 @endsection
