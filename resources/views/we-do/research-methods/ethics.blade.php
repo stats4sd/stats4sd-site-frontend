@@ -165,7 +165,7 @@
                     </div>
                     <div class="mt-2 text-left">
                         <h4 class="text-gray-900 text-lg font-semibold">Jane Poole</h4>
-                        <p class="text-gray-700 text-sm">Senior Research Methods Specialist</p>
+                        <p class="text-gray-700 text-sm">Director and Senior Research Methods Specialist</p>
                     </div>
 
                     <!-- Modal  -->
@@ -192,7 +192,7 @@
                                         <div class="flex-1 flex flex-col  border-r-12 border-stats4sd-red ml-8 pr-8">
                                             <h2 class="text-3xl font-bold">Jane Poole</h2>
                                             <p class="text-stats4sd-red uppercase text-xl font-semibold mt-1">
-                                                Senior Research Methods Specialist
+                                                Director and Senior Research Methods Specialist
                                             </p>
                                         </div>
                                     </div>
@@ -283,7 +283,7 @@
                     </div>
                     <div class="mt-2 text-left">
                         <h4 class="text-gray-900 text-lg font-semibold">Dave Mills</h4>
-                        <p class="text-gray-700 text-sm">Senior Data Engineer</p>
+                        <p class="text-gray-700 text-sm">Managing Director and Senior Data Engineer</p>
                     </div>
 
                     <!-- Modal  -->
@@ -310,7 +310,7 @@
                                         <div class="flex-1 flex flex-col  border-r-12 border-stats4sd-red ml-8 pr-8">
                                             <h2 class="text-3xl font-bold">Dave Mills</h2>
                                             <p class="text-stats4sd-red uppercase text-xl font-semibold mt-1">
-                                                Senior Data Engineer
+                                                Managing Director and Senior Data Engineer
                                             </p>
                                         </div>
                                     </div>

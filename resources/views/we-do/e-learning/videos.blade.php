@@ -65,16 +65,16 @@
         ',
         'teamData' => [
             [
-                'id' => 'emily_nevitt',
-                'name' => 'Emily Nevitt',
-                'title' => 'Instructional & Graphic Designer',
-                'email' => 'emily@stats4sd.org',
+                'id' => 'sam_dumble',
+                'name' => 'Sam Dumble',
+                'title' => 'Director and Senior Statistician',
+                'email' => 's.dumble@stats4sd.org',
                 'linkedin' => '',
-                'github' => '',
+                'github' => 'https://github.com/sdumble1',
                 'google_scholar' => '',
-                'avatar' => 'images/team/Emily.jpg',
-                'long_description' => 'Emily’s role focuses on creating effective communication and learning products, as well as providing graphic design and multimedia support for projects. With experience in both education and design, Emily is interested in combining these skills to create products that are attractive, engaging and easy to understand. This involves developing interactive e-learning courses, contributing to the planning of seminars, workshops and other capacity-building events, creating and editing videos, designing websites, graphics and documents and helping maintain and organise the Stats4SD Resources Library.',
-                ]
+                'avatar' => 'images/team/Sam.jpg',
+                'long_description' => 'Sam has over 15 years’ experience in supporting the design, implementation and analysis of quantitative research including surveys and Monitoring and Evaluation (M&E) programmes. His role is to ensure that designs address the research questions, methodological choices are robust and results are communicated clearly – for example using indicators, data visualisations and dashboards. He is also involved in developing courses and other e-learning materials for those trying to improve their skills with statistics and data handling, and is particularly interested in the use of R to ensure reproducible and robust analysis of data. Sam has an MSc in Statistics with Applications in Medicine from the University of Southampton. Before joining Stats4SD, he worked in the medical industry and at the University of Reading.',
+            ],
         ],
     ])
     @endcomponent

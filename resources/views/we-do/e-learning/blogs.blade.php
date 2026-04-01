@@ -18,8 +18,8 @@
         'caseStudies' => [
             [
                 'title' => 'Examples of our blog posts',
-                'image' => 'images/wedo/el/casestudies/blogs.png', 
-                'imageAlt' => 'Case Study Image', 
+                'image' => 'images/wedo/el/casestudies/blogs.png',
+                'imageAlt' => 'Case Study Image',
                 'description' => '
                 <ul class="list-disc pl-6">
                     <li>
@@ -51,7 +51,7 @@
         ],
         'additionalContent' => '
             <p>
-                The full collection of Stats4SD blog posts can be found 
+                The full collection of Stats4SD blog posts can be found
                 <a href="' . route('blog') . '" class="font-bold text-stats4sd-red">here</a>.
             </p>
             <p class="pt-2">
@@ -59,15 +59,15 @@
             </p>',
         'teamData' => [
             [
-                'id' => 'emily_nevitt',
-                'name' => 'Emily Nevitt',
-                'title' => 'Instructional & Graphic Designer',
-                'email' => 'emily@stats4sd.org',
-                'linkedin' => '',
-                'github' => '',
+                'id' => 'dave_mills',
+                'name' => 'Dave Mills',
+                'title' => 'Managing Director and Senior Data Engineer',
+                'email' => 'd.e.mills@stats4sd.org',
+                'linkedin' => 'https://www.linkedin.com/in/dave-mills-ssd',
+                'github' => 'https://github.com/dave-mills',
                 'google_scholar' => '',
-                'avatar' => 'images/team/Emily.jpg',
-                'long_description' => 'Emily’s role focuses on creating effective communication and learning products, as well as providing graphic design and multimedia support for projects. With experience in both education and design, Emily is interested in combining these skills to create products that are attractive, engaging and easy to understand. This involves developing interactive e-learning courses, contributing to the planning of seminars, workshops and other capacity-building events, creating and editing videos, designing websites, graphics and documents and helping maintain and organise the Stats4SD Resources Library.',
+                'avatar' => 'images/team/Dave.jpg',
+                'long_description' => 'Dave is Managing Director of Stats4SD and leads the organisation\'s data systems and platforms team, providing robust technical solutions to support complex data management challenges. He specialises in database management, web design, and building data collection tools with ODK to support large-scale data collection efforts. He has over a decade of experience working with large and small projects. In his work, Dave is keen on promoting the careful and considered use of technology to support the work of our partners and provides both technical expertise and an understanding of when and how technology can be brought in to improve efficiency and quality.',
             ]
         ],
     ])

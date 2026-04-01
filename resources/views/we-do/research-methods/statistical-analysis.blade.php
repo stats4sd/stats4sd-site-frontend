@@ -76,7 +76,7 @@
             [
                 'id' => 'sam_dumble',
                 'name' => 'Sam Dumble',
-                'title' => 'Senior Statistician',
+                'title' => 'Director and Senior Statistician',
                 'email' => 's.dumble@stats4sd.org',
                 'linkedin' => '',
                 'github' => 'https://github.com/sdumble1',
@@ -87,7 +87,7 @@
             [
                 'id' => 'alex_riba',
                 'name' => 'Alex Riba',
-                'title' => 'Senior Statistician',
+                'title' => 'Operations Director and Senior Statistician',
                 'email' => 'alexriba@stats4sd.org',
                 'linkedin' => 'linkedin.com/in/alex-riba-11401292',
                 'github' => '',
@@ -98,7 +98,7 @@
             [
                 'id' => 'jane_poole',
                 'name' => 'Jane Poole',
-                'title' => 'Senior Research Methods Specialist',
+                'title' => 'Director and Senior Research Methods Specialist',
                 'email' => 'j.poole@stats4sd.org',
                 'linkedin' => '',
                 'github' => '',
