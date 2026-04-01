@@ -119,7 +119,7 @@
             [
                 'id' => 'alex_riba',
                 'name' => 'Alex Riba',
-                'title' => 'Senior Statistician',
+                'title' => 'Operations Director and Senior Statistician',
                 'email' => 'alexriba@stats4sd.org',
                 'linkedin' => 'https://linkedin.com/in/alex-riba-11401292',
                 'github' => '',
@@ -130,7 +130,7 @@
             [
                 'id' => 'sam_dumble',
                 'name' => 'Sam Dumble',
-                'title' => 'Senior Statistician',
+                'title' => 'Director and Senior Statistician',
                 'email' => 's.dumble@stats4sd.org',
                 'linkedin' => '',
                 'github' => 'https://github.com/sdumble1',
