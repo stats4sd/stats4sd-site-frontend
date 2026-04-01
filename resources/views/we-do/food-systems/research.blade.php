@@ -94,7 +94,7 @@
             [
                 'id' => 'ric_coe',
                 'name' => 'Richard (Ric) Coe',
-                'title' => 'Adviser - Research Methods',
+                'title' => 'Advisor - Research Methods',
                 'email' => 'r.coe@stats4sd.org',
                 'linkedin' => '',
                 'github' => '',
