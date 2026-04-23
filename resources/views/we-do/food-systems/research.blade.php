@@ -74,7 +74,7 @@
                 'description' => '
                     <p>
                         In February 2020, Stats4SD facilitated a workshop in Soroti, Uganda, to discuss tools for assessment of farmers’ agroecology initiatives and to pilot test the 
-                        <a href="https://www.fao.org/agroecology/tools-tape/en/#:~:text=TAPE%20can%20also%20be%20used,at%20farm%20and%20territorial%20levels." target="_blank"class="font-bold text-stats4sd-red">Tool for Agroecology Performance Evaluation (TAPE)</a> of the UN Food and Agriculture Organisation (FAO). TAPE sets out to be a multidimensional approach to collecting evidence at farm and community levels using harmonised indicators that produce globally comparable data.
+                        <a href="https://www.fao.org/agroecology/Database/tools-tape/en" target="_blank"class="font-bold text-stats4sd-red">Tool for Agroecology Performance Evaluation (TAPE)</a> of the UN Food and Agriculture Organisation (FAO). TAPE sets out to be a multidimensional approach to collecting evidence at farm and community levels using harmonised indicators that produce globally comparable data.
                     </p>
 
                 ',
