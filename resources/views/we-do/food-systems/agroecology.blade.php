@@ -39,7 +39,7 @@
                     The <a href="https://agroecologyfund.org/who-we-are/" target="_blank" class="font-bold text-stats4sd-red">Agroecology Fund</a>, which aims to amplify agroecological solutions by providing grant funding to grassroots organisations, encouraging donors to support agroecology projects and providing a learning platform for donors, advisers and grantees.
                 </li>
                 <li>
-                 The team at the UN Food and Agriculture Organisation (FAO) that has developed the <a href="https://www.fao.org/agroecology/tools-tape/en/" target="_blank" class="font-bold text-stats4sd-red">Tool for Agroecology Performance Evaluation (TAPE)</a>. TAPE is designed to measure the multidimensional performance of agroecological systems across the different dimensions of sustainability. 
+                 The team at the UN Food and Agriculture Organisation (FAO) that has developed the <a href="https://www.fao.org/agroecology/Database/tools-tape/en" target="_blank" class="font-bold text-stats4sd-red">Tool for Agroecology Performance Evaluation (TAPE)</a>. TAPE is designed to measure the multidimensional performance of agroecological systems across the different dimensions of sustainability. 
                 </li>
             </ul>
         ',

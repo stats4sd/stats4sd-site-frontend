@@ -36,7 +36,7 @@
                 'imageAlt' => 'Case Study Image',
                 'description' => '
                     <p>Stats4SD did the statistical analysis for a ProSoil survey of 800 farm households in Kenya, Ethiopia, Benin and Madagascar, which used the 
-                        <a href="https://www.fao.org/agroecology/tools-tape/en" target="_blank" class="font-bold text-stats4sd-red">Tool for Agroecology Performance Evaluation (TAPE)</a> of the UN Food and Agriculture Organisation (FAO). The survey aimed to understand if ProSoil’s activities had had a significant impact on farmers’ adoption of agroecology 
+                        <a href="https://www.fao.org/agroecology/Database/tools-tape/en" target="_blank" class="font-bold text-stats4sd-red">Tool for Agroecology Performance Evaluation (TAPE)</a> of the UN Food and Agriculture Organisation (FAO). The survey aimed to understand if ProSoil’s activities had had a significant impact on farmers’ adoption of agroecology 
                         practices and overall system performance (see 
                         <a href="' . route('we-do.data-systems.collection-management-systems') . '#prosoil-survey" class="font-bold text-stats4sd-red">Providing end-to-end support for ProSoil survey</a>).
                     </p>
