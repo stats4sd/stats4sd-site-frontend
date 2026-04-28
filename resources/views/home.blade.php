@@ -101,19 +101,19 @@
                 </a>
 
                 <!-- Temporary Hiring Card -->
-                <a href="{{ Storage::disk('public')->url('Food Systems Research Methods Lead - Job Advert.pdf') }}"
-                    target="_blank"
-                    class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">
-                    <div
-                        class="absolute inset-0 bg-stats4sd-red flex items-center justify-center text-white text-center p-6">
-                        <div>
-                            <h3 class="text-xl font-bold mb-3">We're hiring!</h3>
-                            <p class="text-base mb-4">Join the team as as our new <strong>Food Systems Research Methods
-                                    Lead</strong></p>
-                            <span class="font-semibold">View role & apply →</span>
-                        </div>
-                    </div>
-                </a>
+{{--                <a href="{{ Storage::disk('public')->url('Food Systems Research Methods Lead - Job Advert.pdf') }}"--}}
+{{--                    target="_blank"--}}
+{{--                    class="relative h-96 w-full md:w-[calc(25%-1.5rem)] min-w-[260px] md:max-w-sm overflow-hidden hover-effect rounded-3xl">--}}
+{{--                    <div--}}
+{{--                        class="absolute inset-0 bg-stats4sd-red flex items-center justify-center text-white text-center p-6">--}}
+{{--                        <div>--}}
+{{--                            <h3 class="text-xl font-bold mb-3">We're hiring!</h3>--}}
+{{--                            <p class="text-base mb-4">Join the team as as our new <strong>Food Systems Research Methods--}}
+{{--                                    Lead</strong></p>--}}
+{{--                            <span class="font-semibold">View role & apply →</span>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </a>--}}
             </div>
         </div>
     </div>
