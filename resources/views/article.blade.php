@@ -1,4 +1,8 @@
 @extends('layouts.app')
+
+@section('title', $article->title)
+@section('meta_description', \Illuminate\Support\Str::of(strip_tags($article->content))->squish()->limit(155)->toString())
+
 @section('content')
 
     <div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">

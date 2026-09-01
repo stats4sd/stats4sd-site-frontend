@@ -1,4 +1,8 @@
 @extends('layouts.app')
+
+@section('title', t('Our team'))
+@section('meta_description', 'Meet the Stats4SD team: statisticians, research methods specialists, data engineers and developers supporting sustainable development around the world.')
+
 @section('content')
     <!-- Temporary Hiring Banner -->
     <!-- Updated header section mt-36 to be mt-24 while the hiring banner is in place-->

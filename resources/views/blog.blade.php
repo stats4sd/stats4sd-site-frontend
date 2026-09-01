@@ -1,4 +1,8 @@
 @extends('layouts.app')
+
+@section('title', t('Blog'))
+@section('meta_description', 'News and articles from the Stats4SD team on statistics, research methods, data systems and sustainable development.')
+
 @section('content')
     <!-- Header section -->
 
