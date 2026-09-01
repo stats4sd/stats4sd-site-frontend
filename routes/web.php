@@ -29,7 +29,7 @@ Route::get('/blog/{slug}', function ($slug) {
 
 // Level 2: we-do
 Route::prefix('we-do')->name('we-do.')->group(function () {
-    Route::view('/sustainable-devlopment', 'we-do.sustainable-devlopment')->name('sustainable-devlopment');
+    Route::view('/sustainable-development', 'we-do.sustainable-development')->name('sustainable-development');
     Route::view('/research-methods', 'we-do.research-methods')->name('research-methods');
     Route::view('/food-systems', 'we-do.food-systems')->name('food-systems');
     Route::view('/data-systems', 'we-do.data-systems')->name('data-systems');

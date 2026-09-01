@@ -29,7 +29,7 @@
         $cards = [
             [
                 'title' => t('Sustainable development'),
-                'url' => url('/we-do/sustainable-devlopment'),
+                'url' => url('/we-do/sustainable-development'),
                 'bg' => asset('images/wedo/sustain.JPG'),
             ],
             [
