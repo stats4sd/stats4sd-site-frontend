@@ -11,9 +11,8 @@ Route::get('/', static function () {
 Route::view('/home', 'home')->name('home');
 Route::view('/we-do', 'we-do')->name('we-do');
 Route::get('/team', function () {
-    $teamData = json_decode(file_get_contents(base_path('resources/data/team.json')), true);
-    return view('team', ['teamData' => $teamData]);
-});
+    return view('team', ['teamData' => array_values(\App\Support\Team::all())]);
+})->name('team');
 Route::view('/where-we-work', 'where-we-work')->name('where-we-work');
 Route::view('/about', 'about')->name('about');
 

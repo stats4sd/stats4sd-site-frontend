@@ -57,19 +57,7 @@
             <p class="pt-2">
                 You can find other e-learning materials in the <a href="' . config('app.resources_site_url') . '" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
             </p>',
-        'teamData' => [
-            [
-                'id' => 'dave_mills',
-                'name' => 'Dave Mills',
-                'title' => 'Managing Director and Senior Data Engineer',
-                'email' => 'd.e.mills@stats4sd.org',
-                'linkedin' => 'https://www.linkedin.com/in/dave-mills-ssd',
-                'github' => 'https://github.com/dave-mills',
-                'google_scholar' => '',
-                'avatar' => 'images/team/Dave.jpg',
-                'long_description' => 'Dave is Managing Director of Stats4SD and leads the organisation\'s data systems and platforms team, providing robust technical solutions to support complex data management challenges. He specialises in database management, web design, and building data collection tools with ODK to support large-scale data collection efforts. He has over a decade of experience working with large and small projects. In his work, Dave is keen on promoting the careful and considered use of technology to support the work of our partners and provides both technical expertise and an understanding of when and how technology can be brought in to improve efficiency and quality.',
-            ]
-        ],
+        'teamData' => \App\Support\Team::members(['dave_mills']),
     ])
     @endcomponent
 

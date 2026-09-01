@@ -115,41 +115,7 @@
             ]
         ],
         'additionalContent' => [],
-        'teamData' => [
-            [
-                'id' => 'alex_riba',
-                'name' => 'Alex Riba',
-                'title' => 'Operations Director and Senior Statistician',
-                'email' => 'alexriba@stats4sd.org',
-                'linkedin' => 'https://linkedin.com/in/alex-riba-11401292',
-                'github' => '',
-                'google_scholar' => 'https://scholar.google.com/citations?view_op=new_articles&hl=ca&imq=Alex+Riba#',
-                'avatar' => 'images/team/AlexR.jpg',
-                'long_description' => 'Alex leads our work on Monitoring and Evaluation (M&E), impact assessment and the development of indices. He is also an expert in surveys and statistical analysis. He has over 25 years of experience in research, research methods and teaching statistics. At Stats4SD, Alex has worked with projects in areas such as food and agriculture, international development, health and nutrition, education, and climate change. For quantitative studies, his expertise guides the process from the design stage to the reporting of results, as he supports areas such as survey design, sampling, digital data collection, creation of analysis plans and complex statistical analysis. Alex has a PhD in Statistics and an MSc in Humanities. Before joining Stats4SD, he worked for the Universitat Politecnica de Catalunya, Barcelona Tech, and for the University of Reading.',
-            ],
-            [
-                'id' => 'sam_dumble',
-                'name' => 'Sam Dumble',
-                'title' => 'Director and Senior Statistician',
-                'email' => 's.dumble@stats4sd.org',
-                'linkedin' => '',
-                'github' => 'https://github.com/sdumble1',
-                'google_scholar' => '',
-                'avatar' => 'images/team/Sam.jpg',
-                'long_description' => 'Sam has over 15 years’ experience in supporting the design, implementation and analysis of quantitative research including surveys and Monitoring and Evaluation (M&E) programmes. His role is to ensure that designs address the research questions, methodological choices are robust and results are communicated clearly – for example using indicators, data visualisations and dashboards. He is also involved in developing courses and other e-learning materials for those trying to improve their skills with statistics and data handling, and is particularly interested in the use of R to ensure reproducible and robust analysis of data. Sam has an MSc in Statistics with Applications in Medicine from the University of Southampton. Before joining Stats4SD, he worked in the medical industry and at the University of Reading.',
-            ],
-            [
-                'id' => 'romina_de_angelis',
-                'name' => 'Romina De Angelis',
-                'title' => 'Social & Qualitative Research Methods Specialist',
-                'email' => 'romina@stats4sd.org',
-                'linkedin' => '',
-                'github' => '',
-                'google_scholar' => 'https://scholar.google.com/citations?user=_3X8Hg8AAAAJ&hl=en',
-                'avatar' => 'images/team/Romina.jpg',
-                'long_description' => 'Romina leads Stats4SD’s social and qualitative research work. She provides research methods support to projects of the McKnight Foundation’s Global Collaboration for Resilient Food Systems, works with Farmer Research Networks, and contributes to impact assessments. Her expertise includes qualitative data collection and analysis and using AI for text analysis. She is keen on supporting grassroots organisations to build and communicate evidence on agroecology to their target audiences, and on empowering communities through co-creation and co-learning processes. Romina has a PhD in Education for Sustainable Development, a Postgraduate Diploma in Educational and Social Research from the Institute of Education, University College London, and an MA in Development Studies from the Tata Institute of Social Sciences in India. Before joining Stats4SD, she worked on sustainable development initiatives in India and Jamaica.',
-            ],
-        ],
+        'teamData' => \App\Support\Team::members(['alex_riba', 'sam_dumble', 'romina_de_angelis']),
     ])
     @endcomponent
 

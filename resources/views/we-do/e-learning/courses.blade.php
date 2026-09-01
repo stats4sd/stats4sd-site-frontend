@@ -58,19 +58,7 @@
         'additionalContent' => '
             You can find courses and other e-learning materials in the <a href="' . config('app.resources_site_url') . '" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
         ',
-        'teamData' => [
-            [
-                'id' => 'alex_riba',
-                'name' => 'Alex Riba',
-                'title' => 'Operations Director and Senior Statistician',
-                'email' => 'alexriba@stats4sd.org',
-                'linkedin' => 'https://linkedin.com/in/alex-riba-11401292',
-                'github' => '',
-                'google_scholar' => 'https://scholar.google.com/citations?view_op=new_articles&hl=ca&imq=Alex+Riba#',
-                'avatar' => 'images/team/AlexR.jpg',
-                'long_description' => 'Alex leads our work on Monitoring and Evaluation (M&E), impact assessment and the development of indices. He is also an expert in surveys and statistical analysis. He has over 25 years of experience in research, research methods and teaching statistics. At Stats4SD, Alex has worked with projects in areas such as food and agriculture, international development, health and nutrition, education, and climate change. For quantitative studies, his expertise guides the process from the design stage to the reporting of results, as he supports areas such as survey design, sampling, digital data collection, creation of analysis plans and complex statistical analysis. Alex has a PhD in Statistics and an MSc in Humanities. Before joining Stats4SD, he worked for the Universitat Politecnica de Catalunya, Barcelona Tech, and for the University of Reading.',
-            ],
-        ],
+        'teamData' => \App\Support\Team::members(['alex_riba']),
 
     ])
     @endcomponent

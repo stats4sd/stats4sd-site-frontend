@@ -80,19 +80,7 @@
             ],
         ],
         'additionalContent' => '',
-        'teamData' => [
-            [
-                'id' => 'romina_de_angelis',
-                'name' => 'Romina De Angelis',
-                'title' => 'Social & Qualitative Research Methods Specialist',
-                'email' => 'romina@stats4sd.org',
-                'linkedin' => '',
-                'github' => '',
-                'google_scholar' => 'https://scholar.google.com/citations?user=_3X8Hg8AAAAJ&hl=en',
-                'avatar' => 'images/team/Romina.jpg',
-                'long_description' => 'Romina leads Stats4SD’s social and qualitative research work. She provides research methods support to projects of the McKnight Foundation’s Global Collaboration for Resilient Food Systems, works with Farmer Research Networks, and contributes to impact assessments. Her expertise includes qualitative data collection and analysis and using AI for text analysis. She is keen on supporting grassroots organisations to build and communicate evidence on agroecology to their target audiences, and on empowering communities through co-creation and co-learning processes. Romina has a PhD in Education for Sustainable Development, a Postgraduate Diploma in Educational and Social Research from the Institute of Education, University College London, and an MA in Development Studies from the Tata Institute of Social Sciences in India. Before joining Stats4SD, she worked on sustainable development initiatives in India and Jamaica.',
-            ]
-        ]
+        'teamData' => \App\Support\Team::members(['romina_de_angelis']),
     ])
     @endcomponent
 

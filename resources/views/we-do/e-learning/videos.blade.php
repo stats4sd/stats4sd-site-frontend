@@ -63,19 +63,7 @@
                 You can find other e-learning materials in the <a href="' . config('app.resources_site_url') . '" target="_blank" class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
             </p>
         ',
-        'teamData' => [
-            [
-                'id' => 'sam_dumble',
-                'name' => 'Sam Dumble',
-                'title' => 'Director and Senior Statistician',
-                'email' => 's.dumble@stats4sd.org',
-                'linkedin' => '',
-                'github' => 'https://github.com/sdumble1',
-                'google_scholar' => '',
-                'avatar' => 'images/team/Sam.jpg',
-                'long_description' => 'Sam has over 15 years’ experience in supporting the design, implementation and analysis of quantitative research including surveys and Monitoring and Evaluation (M&E) programmes. His role is to ensure that designs address the research questions, methodological choices are robust and results are communicated clearly – for example using indicators, data visualisations and dashboards. He is also involved in developing courses and other e-learning materials for those trying to improve their skills with statistics and data handling, and is particularly interested in the use of R to ensure reproducible and robust analysis of data. Sam has an MSc in Statistics with Applications in Medicine from the University of Southampton. Before joining Stats4SD, he worked in the medical industry and at the University of Reading.',
-            ],
-        ],
+        'teamData' => \App\Support\Team::members(['sam_dumble']),
     ])
     @endcomponent
 

@@ -90,41 +90,7 @@
             ],
         ],
         'additionalContent' => '',
-        'teamData' => [
-            [
-                'id' => 'ric_coe',
-                'name' => 'Richard (Ric) Coe',
-                'title' => 'Advisor - Research Methods',
-                'email' => 'r.coe@stats4sd.org',
-                'linkedin' => '',
-                'github' => '',
-                'google_scholar' => 'https://scholar.google.com/citations?user=KunP2l0AAAAJ',
-                'avatar' => 'images/team/Ric.png',
-                'long_description' => 'Ric advises our project teams, partners and clients on designing and planning research, mainly in sub-Saharan Africa. He has many years of experience in supporting research relating to food, agriculture and the natural environment, with a focus on agroforestry and agroecology. He is an expert in experimental design, farmer-centred research, systems approaches and assessment. Ric has been part of the research methods support programme for the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS) since 2009, and is a member of the CRFS leadership team. Before working with Stats4SD, Ric was a lecturer in applied statistics at the University of Reading. He also works with CIFOR-ICRAF (World Agroforestry Centre), supporting research teams with methods.',
-            ],
-            [
-                'id' => 'carlos_barahona',
-                'name' => 'Carlos Barahona',
-                'title' => 'Strategic Advisor',
-                'email' => 'carlos@stats4sd.org',
-                'linkedin' => '',
-                'github' => '',
-                'google_scholar' => 'https://scholar.google.com/citations?user=tH_rckIAAAAJ&hl=en',
-                'avatar' => 'images/team/Carlos.jpg',
-                'long_description' => 'Carlos is Founder and Strategic Advisor at Stats4SD. He works with partners and clients on complex research design and robust methodologies in the context of sustainable development. With over 30 years’ experience, he specialises in quantitative methods, participatory action research and mixed methods. He is passionate about transdisciplinary research that combines scientific rigour with local knowledge. His work focuses on enabling communities, researchers and organisations to produce and use evidence to guide change, with a strong emphasis on knowledge co-creation in support of agroecology, farmer-led research and food systems transformation. Carlos contributes to strategic thinking and external engagement, including as part of the leadership team of the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS). Before founding Stats4SD in 2016, he worked for 21 years at the Statistical Services Centre, University of Reading.',
-                ],
-            [
-                'id' => 'romina_de_angelis',
-                'name' => 'Romina De Angelis',
-                'title' => 'Social & Qualitative Research Methods Specialist',
-                'email' => 'romina@stats4sd.org',
-                'linkedin' => '',
-                'github' => '',
-                'google_scholar' => 'https://scholar.google.com/citations?user=_3X8Hg8AAAAJ&hl=en',
-                'avatar' => 'images/team/Romina.jpg',
-                'long_description' => 'Romina leads Stats4SD’s social and qualitative research work. She provides research methods support to projects of the McKnight Foundation’s Global Collaboration for Resilient Food Systems, works with Farmer Research Networks, and contributes to impact assessments. Her expertise includes qualitative data collection and analysis and using AI for text analysis. She is keen on supporting grassroots organisations to build and communicate evidence on agroecology to their target audiences, and on empowering communities through co-creation and co-learning processes. Romina has a PhD in Education for Sustainable Development, a Postgraduate Diploma in Educational and Social Research from the Institute of Education, University College London, and an MA in Development Studies from the Tata Institute of Social Sciences in India. Before joining Stats4SD, she worked on sustainable development initiatives in India and Jamaica.',
-            ],
-        ],
+        'teamData' => \App\Support\Team::members(['ric_coe', 'carlos_barahona', 'romina_de_angelis']),
     ])
     @endcomponent
 
