@@ -1,4 +1,8 @@
 @extends('layouts.app')
+
+@section('title', t('Data systems and platforms'))
+@section('meta_description', 'Stats4SD data engineers and platform developers build cost-effective data collection and management systems, dashboards and databases using open-source tools.')
+
 @section('content')
     <div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">
         <div class=" max-w-screen-lg 2xl:max-w-screen-2xl  px-8 sm:px-20 md:px-12 2xl:px-26  mx-auto">

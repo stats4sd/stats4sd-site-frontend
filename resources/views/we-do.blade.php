@@ -1,4 +1,8 @@
 @extends('layouts.app')
+
+@section('title', t('What we do'))
+@section('meta_description', 'Stats4SD provides research methods support, statistical analysis, data systems and platforms, M&E and impact assessment, and e-learning for sustainable development.')
+
 @section('content')
     <!-- Header section -->
     <div class=" max-w-screen-lg 2xl:max-w-screen-xl 3xl:max-w-screen-2xl px-10 sm:px-22 md:px-14 2xl:px-3 mt-32 mx-auto">
@@ -29,7 +33,7 @@
         $cards = [
             [
                 'title' => t('Sustainable development'),
-                'url' => url('/we-do/sustainable-devlopment'),
+                'url' => url('/we-do/sustainable-development'),
                 'bg' => asset('images/wedo/sustain.JPG'),
             ],
             [

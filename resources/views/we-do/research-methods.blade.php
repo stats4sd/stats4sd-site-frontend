@@ -7,6 +7,7 @@
         'headerAlt' => 'Research methods and analysis page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Research methods and analysis"),
+        'metaDescription' => 'Research methods and analysis support from Stats4SD: research design, surveys, statistical analysis, indicators and data visualisation, AI for analysis, qualitative research, and research ethics.',
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'options' => [

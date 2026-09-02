@@ -11,9 +11,8 @@ Route::get('/', static function () {
 Route::view('/home', 'home')->name('home');
 Route::view('/we-do', 'we-do')->name('we-do');
 Route::get('/team', function () {
-    $teamData = json_decode(file_get_contents(base_path('resources/data/team.json')), true);
-    return view('team', ['teamData' => $teamData]);
-});
+    return view('team', ['teamData' => array_values(\App\Support\Team::all())]);
+})->name('team');
 Route::view('/where-we-work', 'where-we-work')->name('where-we-work');
 Route::view('/about', 'about')->name('about');
 
@@ -29,7 +28,7 @@ Route::get('/blog/{slug}', function ($slug) {
 
 // Level 2: we-do
 Route::prefix('we-do')->name('we-do.')->group(function () {
-    Route::view('/sustainable-devlopment', 'we-do.sustainable-devlopment')->name('sustainable-devlopment');
+    Route::view('/sustainable-development', 'we-do.sustainable-development')->name('sustainable-development');
     Route::view('/research-methods', 'we-do.research-methods')->name('research-methods');
     Route::view('/food-systems', 'we-do.food-systems')->name('food-systems');
     Route::view('/data-systems', 'we-do.data-systems')->name('data-systems');

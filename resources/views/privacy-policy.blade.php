@@ -1,4 +1,8 @@
 @extends('layouts.app')
+
+@section('title', t('Privacy Policy'))
+@section('meta_description', 'How Stats4SD collects, uses and protects personal data on our website.')
+
 @section('content')
     {{--    Privacy policy including Google Analytics --}}
 

@@ -7,6 +7,7 @@
         'headerAlt' => 'Agriculture and food systems page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("Agriculture and food systems"),
+        'metaDescription' => 'Stats4SD supports agriculture and food systems work around the world: food systems transformation, agroecology, and agricultural and farmer research.',
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'options' => [

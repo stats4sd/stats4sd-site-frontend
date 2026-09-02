@@ -1,3 +1,8 @@
+@section('title', $headerTitle)
+@if (!empty($metaDescription))
+    @section('meta_description', $metaDescription)
+@endif
+
 <!-- Header section -->
 
 <div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">
