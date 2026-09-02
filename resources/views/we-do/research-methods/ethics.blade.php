@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', t('Research ethics and responsible data handling'))
+@section('meta_description', 'Stats4SD is committed to ethical approaches to research and responsible data handling, including informed consent, data protection and research ethics support.')
+
 @section('content')
     <!-- Header section -->
 

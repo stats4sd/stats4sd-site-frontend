@@ -1,4 +1,8 @@
 @extends('layouts.app')
+
+@section('title', t('About us'))
+@section('meta_description', 'Stats4SD is a not-for-profit social enterprise promoting better use of statistical methods for decision-making to benefit society and the environment.')
+
 @section('content')
     <!-- Header section -->
 

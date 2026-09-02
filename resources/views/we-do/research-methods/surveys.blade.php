@@ -51,41 +51,7 @@
             ]
         ],
         'additionalContent' => '',
-        'teamData' => [
-            [
-                'id' => 'alex_riba',
-                'name' => 'Alex Riba',
-                'title' => 'Operations Director and Senior Statistician',
-                'email' => 'alexriba@stats4sd.org',
-                'linkedin' => 'linkedin.com/in/alex-riba-11401292',
-                'github' => '',
-                'google_scholar' => 'https://scholar.google.com/citations?view_op=new_articles&hl=ca&imq=Alex+Riba#',
-                'avatar' => 'images/team/AlexR.jpg',
-                'long_description' => 'Alex leads our work on Monitoring and Evaluation (M&E), impact assessment and the development of indices. He is also an expert in surveys and statistical analysis. He has over 25 years of experience in research, research methods and teaching statistics. At Stats4SD, Alex has worked with projects in areas such as food and agriculture, international development, health and nutrition, education, and climate change. For quantitative studies, his expertise guides the process from the design stage to the reporting of results, as he supports areas such as survey design, sampling, digital data collection, creation of analysis plans and complex statistical analysis. Alex has a PhD in Statistics and an MSc in Humanities. Before joining Stats4SD, he worked for the Universitat Politecnica de Catalunya, Barcelona Tech, and for the University of Reading.',
-            ],
-            [
-                'id' => 'dave_mills',
-                'name' => 'Dave Mills',
-                'title' => 'Managing Director and Senior Data Engineer',
-                'email' => 'd.e.mills@stats4sd.org',
-                'linkedin' => 'https://www.linkedin.com/in/dave-mills-ssd',
-                'github' => 'https://github.com/dave-mills',
-                'google_scholar' => '',
-                'avatar' => 'images/team/Dave.jpg',
-                'long_description' => 'Dave is Managing Director of Stats4SD and leads the organisation’s data systems and platforms team, providing robust technical solutions to support complex data management challenges. He specialises in database management, web design, and building data collection tools with ODK to support large-scale data collection efforts. He has over a decade of experience working with large and small projects. In his work, Dave is keen on promoting the careful and considered use of technology to support the work of our partners and provides both technical expertise and an understanding of when and how technology can be brought in to improve efficiency and quality.',
-            ],
-            [
-                'id' => 'sam_dumble',
-                'name' => 'Sam Dumble',
-                'title' => 'Director and Senior Statistician',
-                'email' => 's.dumble@stats4sd.org',
-                'linkedin' => '',
-                'github' => 'https://github.com/sdumble1',
-                'google_scholar' => '',
-                'avatar' => 'images/team/Sam.jpg',
-                'long_description' => 'Sam has over 15 years’ experience in supporting the design, implementation and analysis of quantitative research including surveys and Monitoring and Evaluation (M&E) programmes. His role is to ensure that designs address the research questions, methodological choices are robust and results are communicated clearly – for example using indicators, data visualisations and dashboards. He is also involved in developing courses and other e-learning materials for those trying to improve their skills with statistics and data handling, and is particularly interested in the use of R to ensure reproducible and robust analysis of data. Sam has an MSc in Statistics with Applications in Medicine from the University of Southampton. Before joining Stats4SD, he worked in the medical industry and at the University of Reading.',
-            ],
-        ],
+        'teamData' => \App\Support\Team::members(['alex_riba', 'dave_mills', 'sam_dumble']),
     ])
     @endcomponent
 

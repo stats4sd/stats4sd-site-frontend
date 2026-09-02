@@ -13,16 +13,19 @@
         'level1BreadcrumbUrl' => route('we-do'),
         'introcol1' => '
         <p>
-            Stats4SD builds databases that are designed specifically for our clients’ projects, with structures that make it easy to extract analysis-ready data, accessible via online platforms with user-friendly front ends.
+            Stats4SD builds databases designed specifically for our clients’ projects, with structures that make it easy to extract analysis-ready data, accessible via online platforms with user-friendly front ends.
             </p>
             <p class="pt-2">
-            The aim of this work is to get to the point where there is a clean, organised dataset in a sensible format that is ready for analysis by an analyst in the client’s organisation and that can be easily accessed via the online platform.
+            The aim of this work is to get to the point where there is a clean, organised dataset in a sensible format that is ready for analysis and that can be easily accessed via the online platform.
             </p>
         ',
         'introcol2' => '
             <p>
-                 Some clients may also request built-in data processing and custom scripts (in R) to do automated analysis such as calculating indicators and basic summaries. The front end of the platform may have an integrated 
-                <a href="' . route('we-do.data-systems.dashboards') . '" class="font-bold text-stats4sd-red">dashboard</a>. It may also be set up so that non-technical teams can manage their data collection and management processes – including field staff – effectively.
+                 Some clients may also request built-in data processing, with automated analysis such as calculating indicators and basic summaries. The front end of the platform may have an integrated 
+                <a href="' . route('we-do.data-systems.dashboards') . '" class="font-bold text-stats4sd-red">dashboard</a> to present results in real-time. 
+            </p>
+            <p class="pt-2">    
+                We use a human-centred design approach to build intuitive and clear tools so that even non-technical teams can manage their data collection and management processes effectively.
             </p>
 
         ',
@@ -31,8 +34,7 @@
         'intropictext' => '
         
             <p class="">
-                Such a system is shown in the graphic below. The departure point is the 
-                <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">ODK tools</a> that we use for data collection (left-hand side of graphic). Stats4SD deploys the ODK Central server and co-develops the data collection forms. If you are looking for an end-to-end data management system, we can also design a data platform, automated analysis and dashboards to suit your project’s needs (right-hand side of graphic).
+                An example of the complete package is shown in the graphic below. We use and recommend the Open Data Kit (ODK) for surveys and field experiments, and we can deploy a fully customised and isolated ODK server for your project to ensure your data remains secure and private. We can also co-develop the data collection forms with you, advising on survey content as well as providing technical expertise. Our custom web platform then imports the data from ODK, combines it with data from other sources if required, and provides a fully automated data cleaning and analysis service. What you get is a web-based interface to monitor the data collection, a set of cleaned data exports and a dashboard showing initial results, all fully tailored to your needs.
             </p>
         ',
 
@@ -72,36 +74,24 @@
                         The Holistic Localized Performance Assessment for Agroecology (HOLPA) tool collects evidence of the holistic impact of agroecology. It was developed as part of the Transformative Agroecology Initiative of the Consortium of International Agricultural Research Centers (CGIAR).
                     </p>
                     <p class="pt-2">
-                        Stats4SD is developing a web-based platform to guide survey teams through the process of setting up and implementing a HOLPA survey, including adapting it to local requirements and languages. This is web-based platform is known as the 
+                        Stats4SD designed a web-based platform to guide survey teams through the process of setting up and implementing a HOLPA survey, including adapting it to local requirements and languages. This is web-based platform is known as the 
                         <a href="https://holpa.org/" target="_blank"class="font-bold text-stats4sd-red">HOLPA Online Tool</a>.
                     </p>
 
                 ',
                 'secondcolumn' => '
                     <p>
-                        The HOLPA Online Tool uses ODK software as its starting point. It enables survey teams to prepare for data collection, collect and aggregate data in real time; to manage survey processes; to access the survey data and other relevant information such as secondary data and qualitative research findings; and to quality assure, store and analyse the data, with the help of an R server which runs automated R scripts to check for errors and calculate indicators. 
+                        The HOLPA Online Tool uses ODK as its starting point. It enables survey teams to prepare for data collection, collect and aggregate data in real time; to manage survey processes; and to quality assure, store and analyse the data, with the help of an R server which runs automated R scripts to check for errors and calculate indicators. 
                     </p>
                     <p class="pt-2">
-                        The platform provides a secure environment in which harmonised results from multiple data collection initiatives can be compared and shared. It also enables the maintenance and sharing of the HOLPA tool.
+                        The platform provides a secure environment in which harmonised results from multiple data collection initiatives can be compared and shared. It also enables the maintenance and sharing of the HOLPA tool by a central research team.
                     </p>
                 ',
             ],
 
         ],
         'additionalContent' => '',
-        'teamData' => [
-            [
-                'id' => 'dave_mills',
-                'name' => 'Dave Mills',
-                'title' => 'Managing Director and Senior Data Engineer',
-                'email' => 'd.e.mills@stats4sd.org',
-                'linkedin' => 'https://www.linkedin.com/in/dave-mills-ssd',
-                'github' => 'https://github.com/dave-mills',
-                'google_scholar' => '',
-                'avatar' => 'images/team/Dave.jpg',
-                'long_description' => 'Dave is Managing Director of Stats4SD and leads the organisation’s data systems and platforms team, providing robust technical solutions to support complex data management challenges. He specialises in database management, web design, and building data collection tools with ODK to support large-scale data collection efforts. He has over a decade of experience working with large and small projects. In his work, Dave is keen on promoting the careful and considered use of technology to support the work of our partners and provides both technical expertise and an understanding of when and how technology can be brought in to improve efficiency and quality.',
-            ]
-        ],
+        'teamData' => \App\Support\Team::members(['dave_mills']),
     ])
     @endcomponent
 

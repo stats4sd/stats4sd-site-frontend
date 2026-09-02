@@ -7,6 +7,7 @@
         'headerAlt' => 'E-learning page',
         'headerSubtitle' => t("What we do"),
         'headerTitle' => t("E-learning"),
+        'metaDescription' => 'E-learning from Stats4SD: online courses, educational videos, webinars, blogs and a resources library covering statistics, research methods and data skills.',
         'level1Breadcrumb' => t("What we do"),
         'level1BreadcrumbUrl' => route('we-do'),
         'options' => [

@@ -47,19 +47,7 @@
             <p>
                 You can find other e-learning materials in the <a href="' . config('app.resources_site_url') . '" target="_blank"class="font-bold text-stats4sd-red">Stats4SD Resources Library</a>.
             </p>',
-        'teamData' => [
-            [
-                'id' => 'shiphar_mulumba',
-                'name' => 'Shiphar Mulumba',
-                'title' => 'Research Methods Specialist',
-                'email' => 'm.shiphar@stats4sd.org',
-                'linkedin' => 'https://www.linkedin.com/in/shiphar-mulumba-06956b23/',
-                'github' => '',
-                'google_scholar' => '',
-                'avatar' => 'images/team/Shiphar.jpg',
-                'long_description' => 'Shiphar provides research methods support for the McKnight Foundation’s Global Collaboration for Resilient Food Systems (CRFS) in East Africa, working with CRFS grantees, students, scientists and other stakeholders. She is an expert in quantitative, qualitative and mixed research methods, with over 12 years of experience supporting project teams. Shiphar is keen to make research for development more effective through inclusive and context-relevant research methods. She also contributes to capacity building by facilitating short courses and workshops on research methods, including research design, data management and analysis. Shiphar has a degree in Agriculture from Makerere University in Uganda and an MSc in Research Methodology from Jomo Kenyatta University in Kenya. She has previous work experience with the Uganda National Agricultural Research Organisation and the International Potato Centre.'
-            ]
-        ],
+        'teamData' => \App\Support\Team::members(['shiphar_mulumba']),
     ])
     @endcomponent
 

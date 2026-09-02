@@ -38,7 +38,7 @@
                         </a>
                         <div class="we-do-dropdown-menu">
                             <a class="we-do-dropdown-item"
-                               href="/we-do/sustainable-devlopment">{{ t('Sustainable development') }}</a>
+                               href="/we-do/sustainable-development">{{ t('Sustainable development') }}</a>
                             <a class="we-do-dropdown-item"
                                href="/we-do/research-methods">{{ t('Research methods and analysis') }}</a>
                             <a class="we-do-dropdown-item"
@@ -104,7 +104,7 @@
                                    class="text-gray-800  hover:text-stats4sd-red py-2">{{ t('Overview') }}</a>
                             </li>
                             <li>
-                                <a href="/we-do/sustainable-devlopment"
+                                <a href="/we-do/sustainable-development"
                                    class="text-gray-800  hover:text-stats4sd-red py-2">{{ t('Sustainable development') }}</a>
                             </li>
                             <li>

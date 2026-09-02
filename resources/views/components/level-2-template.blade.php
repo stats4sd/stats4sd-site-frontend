@@ -1,3 +1,6 @@
+@section('title', $headerTitle)
+@section('meta_description', \Illuminate\Support\Str::of(strip_tags($metaDescription ?? $introcol1))->squish()->limit(155)->toString())
+
 <!-- Header section -->
 
 <div class="w-full border-l-24 border-stats4sd-red h-min mt-36 mb-12">
