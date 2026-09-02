@@ -31,7 +31,7 @@
                 Stats4SD uses <a href="https://getodk.org/" target="_blank" class="font-bold text-stats4sd-red">ODK</a> as its starting point in most cases. This open-source software allows people to collect data on mobile devices and upload results to a server. ODK forms (questionnaires) can be created from scratch or customised from existing forms. Photos, GPS locations, different languages and other elements can be included.
             </p>
             <p class="pt-2">
-                At Stats4SD, we are experts in using ODK to help our clients collect the data they need. We assist our clients in designing the ODK forms, and for those who need support for building end-to-end data management systems, we add on tailor-made <a href="' . route('we-do.data-systems.databases') . '" class="font-bold text-stats4sd-red">platforms</a>, automated analysis programmes and <a href="' . route('we-do.data-systems.dashboards') . '" class="font-bold text-stats4sd-red">dashboards</a>.
+                At Stats4SD, we are experts in using ODK to help our clients collect the data they need. We assist our clients in designing the ODK forms, and for those who need support for building end-to-end data management systems, we add on tailor-made <a href="' . route('we-do.data-systems.databases') . '" class="font-bold text-stats4sd-red">platforms</a>, automated data cleaning and analysis tools and can present results on <a href="' . route('we-do.data-systems.dashboards') . '" class="font-bold text-stats4sd-red">dashboards</a>.
             </p>
             <p class="pt-2">
                 Stats4SD also has a series of free training materials for ODK in the <a href="https://www.youtube.com/playlist?list=PLK5PktXR1tmM2UYcm_1ZZW_ZhKTBQzpGI" target="_blank"class="font-bold text-stats4sd-red"> Introduction to ODK</a> video playlist.
@@ -78,23 +78,6 @@
                     <p class="pt-2">
                         Stats4SD also carried out the <a href="' . route('we-do.research-methods.statistical-analysis') . '" class="font-bold text-stats4sd-red">statistical analysis</a> for the survey.
                     </p>
-                ',
-            ],
-            [
-                'title' => 'Managing data for a pan-African study of the fall armyworm',
-                'image' => 'images/wedo/de/casestudies/fallarmyworm1.png',
-                'imageAlt' => 'Case Study Image',
-                'description' => '
-                    <p>
-                        The fall armyworm (Spodoptera frugiperda) is a pest that destroys maize crops. In 2016, it arrived in West Africa and spread rapidly, posing a serious threat to livelihoods.
-                    </p>
-                    <p class="pt-2">
-                        World Agroforestry (ICRAF) set up a programme of research involving a series of on-farm trials across Africa, including standard treatments and specific local adaptations. ICRAF needed to help each local team design the trial, build a list of treatments, collect the data and send it to the ICRAF team doing the pan-Africa analysis. For this, they needed a data collection system that would allow them to manage the trials in different locations and languages, collect the data and metadata in real time and bring everything together without losing the IDs for each data point.
-                    </p>
-                    <p class="pt-2">
-                        Stats4SD designed and built a data collection and management system for ICRAF that enabled them to carry out this important work effectively.
-                    </p>
-
                 ',
             ],
         ],
