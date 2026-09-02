@@ -17,7 +17,7 @@
                 <a href="' . route('we-do.data-systems.collection-management-systems') . '" class="font-bold text-stats4sd-red">data collection and management systems</a>.
             </p>
             <p class="pt-2">
-                We are also very much involved in developing ‘farmer research’ methods, which comes out of our work on agroecology. The overarching objective is to find – though research, practice and participation of people – ways of transforming agriculture and food systems to a high-level equilibrium where we can restore stocks of natural assets such as soil, water, nutrients and oxygen, as well as biodiversity, thereby guaranteeing the future of agriculture and food systems. 
+                We are also very much involved in developing ‘farmer research’ methods, which comes out of our work on agroecology. The overarching objective is to find – through research, practice and participation of people – ways of transforming agriculture and food systems to a high-level equilibrium where we can restore stocks of natural assets such as soil, water, nutrients and oxygen, as well as biodiversity, thereby guaranteeing the future of agriculture and food systems. 
             </p>
         ',
         'introcol2' => '

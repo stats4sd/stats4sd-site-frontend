@@ -35,7 +35,7 @@
                     Support CRFS project grantees and students in Africa and South America in writing up their research findings and publishing them in scientific journals, so that they can contribute to global debates.
                 </li>
                 <li>
-                    Support the Agroecology Fund’s work with grassroots organisations on building evidence-based cases for agroecology (see below).
+                    Support the Agroecology Fund’s work with grassroots organisations on building evidence-based cases for agroecology (see below), including reviewing and assessing the policy analysis and participatory action research across the IPA-Global programme.
                 </li>
                 <li>
                     Create training materials for qualitative data collection and analysis such as Stats4SD’s videos on 
