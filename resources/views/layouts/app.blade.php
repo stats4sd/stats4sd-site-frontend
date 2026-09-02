@@ -12,8 +12,7 @@
         <meta name="description" content="@yield('meta_description', 'Statistics for Sustainable Development (Stats4SD) is a not-for-profit, social enterprise. We promote better use of statistical methods for decision-making to benefit society and the environment.')">
         <meta name="author" content="Statistics for Sustainable Development">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-        @vite(['resources/css/app.css'])
-        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
         @include('header')
