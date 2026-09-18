@@ -46,7 +46,7 @@
             ],
         ],
         'additionalContent' => '',
-        'teamData' => \App\Support\Team::members(['ric_coe', 'carlos_barahona']),
+        'teamData' => \App\Support\Team::members(['ric_coe', 'carlos_barahona', 'matthias_geck']),
     ])
     @endcomponent
 
