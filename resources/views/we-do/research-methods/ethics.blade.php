@@ -65,13 +65,13 @@
                     <p class="pt-2">
                     An ethical approach is essential when doing research with human beings. In some countries and organisations, research ethics are strictly defined - in others, less so. At Stats4SD we are committed to upholding high ethical standards everywhere. This includes ethical research principles such as prior informed consent and security of personal data.
                     </p>
-                   
+
                 </div>
 
                 <!-- Content -->
                 <div class="md:w-1/2 md:pt-12 ">
                     <p>
-                        Responsible data management is all about treating the data that we collect with respect and managing the rights of people who provide information (respondents). We scrutinise the entire project lifecycle to check that we are handling data responsibly and as carefully as we can be. This includes: 
+                        Responsible data management is all about treating the data that we collect with respect and managing the rights of people who provide information (respondents). We scrutinise the entire project lifecycle to check that we are handling data responsibly and as carefully as we can be. This includes:
 
                     </p>
 
@@ -195,7 +195,7 @@
                                         <div class="flex-1 flex flex-col  border-r-12 border-stats4sd-red ml-8 pr-8">
                                             <h2 class="text-3xl font-bold">Jane Poole</h2>
                                             <p class="text-stats4sd-red uppercase text-xl font-semibold mt-1">
-                                                Director and Senior Research Methods Specialist
+                                                Strategic Advisor to the Board - Senior Research Methods Specialist
                                             </p>
                                         </div>
                                     </div>
@@ -204,7 +204,7 @@
                                         <!-- description -->
                                         <div class="flex-initial xl:w-7/12">
                                             <p class="text-sm ">
-                                                Jane heads Stats4SD's research methods team in East Africa, which aims
+                                                Jane heads Stats4SD's East and Southern Africa research methods team, which aims
                                                 to
                                                 embed high-quality methods into research and development programmes in
                                                 the
