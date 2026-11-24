@@ -24,16 +24,16 @@
     "order": 2
     },
     {
-    "id": "jane_poole",
-    "name": "Jane Poole",
-    "title": "Strategic Advisor to the Board - Senior Research Methods Specialist",
-    "email": "j.poole@stats4sd.org",
-    "linkedin": "",
-    "github": "",
-    "google_scholar": "https://scholar.google.com/citations?user=d67lv4MAAAAJ",
-    "avatar": "images/team/Jane.jpg",
-    "long_description": "Jane heads Stats4SD’s research methods team in East Africa, which aims to embed high-quality methods into research and development programmes in the region. She specializes in integrating into projects robust research methods - from study design and sampling to development of data collection tools, analysis and presentation - to enhance their rigour and results. She has over 25 years of experience supporting multi-disciplinary research and development initiatives in areas such as forestry and agroforestry, plant health, livestock (breeding, nutrition, and health), and livelihoods. Her expertise also covers key thematic areas including gender equity, monitoring and evaluation (M&E) and impact assessment. She has significant experience and interest in all aspects of research ethics including prior informed consent and data protection.",
-    "order": 3
+        "id": "jane_poole",
+        "name": "Jane Poole",
+        "title": "Strategic Advisor to the Board - Senior Research Methods Specialist",
+        "email": "j.poole@stats4sd.org",
+        "linkedin": "",
+        "github": "",
+        "google_scholar": "https://scholar.google.com/citations?user=d67lv4MAAAAJ",
+        "avatar": "images/team/Jane.jpg",
+        "long_description": "Jane heads Stats4SD’s East and Southern African research methods team, which aims to embed high-quality methods into research and development programmes in the region. She specializes in integrating robust research methods into projects - from study design and sampling to development of data collection tools, analysis and presentation - to enhance their rigour and results. She has over 25 years of experience supporting multi-disciplinary research and development initiatives in areas such as forestry and agroforestry, plant health, livestock (breeding, nutrition, and health), and livelihoods. Her expertise also covers key thematic areas including gender equity, monitoring and evaluation (M&E) and impact assessment. She has significant experience and interest in all aspects of research ethics including prior informed consent and data protection.",
+        "order": 3
     },
     {
     "id": "sam_dumble",
